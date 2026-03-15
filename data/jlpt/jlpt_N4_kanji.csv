@@ -1,0 +1,296 @@
+rank,kanji,onyomi,kunyomi,meaning,labels,example_1,example_2
+1,会,kai カイ,a(u) あ(う),meeting; meet,jlpt_n4,"会社は明日まで休みです。
+kaisha wa ashita made yasumi desu.
+The company is closed until tomorrow.","先週はおばあちゃんに会いに行った。
+senshuu wa obaachan ni ai ni itta.
+I went to visit my grandmother last week."
+2,同,dou ドウ,onaji おな(じ),"same, agree, equal",jlpt_n4,"私も同じです！
+watashi mo onaji desu!
+Me too!","私も同じカバンをもっています。
+watashi mo onaji kaban o motteimasu.
+I have the same bag!"
+3,事,ji ジ,koto こと,"matter, thing, fact, business, reason, possibly",jlpt_n4,"あなたの仕事は何ですか？
+anata no shigoto wa nan desu ka?
+What is your job?","昨日、事故がありました。
+kinou, jiko ga arimashita.
+There was an accident yesterday."
+4,自,"ji, shi ジ、 シ",mizuka(ra) みずか(ら),oneself,jlpt_n4,,
+5,社,sha シャ,yashiro やしろ,"company, firm, office, association, shrine",jlpt_n4,,
+6,発,"hatsu, hotsu ハツ、 ホツ",,"departure, discharge, emit, start from",jlpt_n4,"ある日、私はそれを発見しました。
+aru hi, watashi wa sore o hakken shimashita.
+I discovered that one day.","新しい作品を発表したいと思います。
+atarashii sakuhin o happyou shitai to omoimasu.
+I would like to announce the new product."
+7,者,sha シャ,mono もの,"someone, person",jlpt_n4,"あなたのお父さんは歯医者でしたよね？
+anata no otousan wa ha'isha deshita yone.
+Your father was a dentist right?","その小説の作者は誰ですか。
+sono shousetsu no sakusha wa dare desu ka.
+Who is the author of that novel?"
+8,地,"chi, ji チ、 ジ",,"ground, earth",jlpt_n4,"この地図は分かりにくい。
+kono chizu wa wakarinikui.
+This map is difficult to understand.","毎日、地下鉄を乗ります。
+mainichi, chikatetsu o norimasu.
+I ride the subway everyday."
+9,業,gyou ギョウ,waza わざ,"business, vocation, arts, performance",jlpt_n4,,
+10,方,hou ホウ,kata かた,"direction, person, alternative",jlpt_n4,"あなたの考え方は正しいです。
+anata no kangaekata wa tadashii desu.
+Your way of thinking is correct.","もっと簡単な方法を教えてあげる。
+motto kantan na houhou o oshiete ageru.
+I'l teach you a simpler way to do do that."
+11,新,shin シン,"atara(shii), ara(ta) あたら(しい)、 あら(た)",new,jlpt_n4,"新しい車を買いました！
+atarashii kuruma o kaimashita.
+I bought a new car!","それは新車ですか？
+sore wa shinsha desu ka?
+Is that a new car?"
+12,場,jou ジョウ,ba ば,"location, place",jlpt_n4,,
+13,員,in イン,,"employee, member, number, the one in charge",jlpt_n4,,
+14,立,ritsu リツ,ta(tsu) た(つ),"stand up, rise",jlpt_n4,"母は医者です。彼女は国立病院で働いています。
+haha wa isha desu. kanojo wa kokuritsu byouin de hataraiteimasu.
+My mother is a doctor. She works in a national hospital.",
+15,開,kai カイ,"hira(ku), a(keru) ひら(く)、 あ(ける)","open, unfold, unseal",jlpt_n4,"これを開けていいですか？
+kore o akete ii desu ka?
+Is it OK if I open this?","まどを開けてください。
+mado o akete kudasai.
+Please open up the window."
+16,手,shu シュ,te て,hand,jlpt_n4,"右手が痛い。
+migite ga itai.
+My right hand hurts.","今度あなたに手紙を書きます。
+kondo anata ni tegami o kakimasu.
+I will write you a letter next time."
+17,力,"ryoku, riki リョク、 リキ",chikara ちから,"power, strength, strong, strain, bear up, exert",jlpt_n4,,
+18,問,mon モン,to(u) と(う),"question, ask, problem",jlpt_n4,,
+19,代,dai ダイ,ka(wari) か(わり),"substitute, change, convert, replace, period",jlpt_n4,,
+20,明,"mei, myou メイ、 ミョウ",aka(rui) あか(るい),"bright, light",jlpt_n4,,
+21,動,dou ドウ,ugo(ku) うご(く),"move, motion, change",jlpt_n4,"動物が好きですか？
+doubutsu ga suki desu ka?
+Do you like animals?","ここは暑いからあそこに移動しましょう。
+koko wa atsui kara asoko ni idou shimashou.
+It's hot here, so let's move over there."
+22,京,"kyou, kei, kin キョウ、 ケイ、 キン",miyako みやこ,capital,jlpt_n4,"京都には神社や寺のような古い建物がたくさんあります。
+kyouto ni wa jinja ya otera no you na furui tatemono ga takusan arimasu.
+There are many old buildings in Kyoto like shrines and temples.","彼氏に会うために、東京に行きます。
+Kareshi ni au tame ni, Tokyo ni ikimasu."
+23,目,"moku, boku モク、 ボク",me め,"eye, class, look, insight, experience",jlpt_n4,"何の科目が一番好きですか？
+nanno kamoku ga ichiban suki desu ka?
+What is your favorite subject?",
+24,通,tsuu ツウ,"too(ru), kayo(u) とお(る)、かよ(う)","traffic, pass through, avenue, commute",jlpt_n4,"私は毎日電車で通学する。
+watashi wa mainichi densha de tsuugaku suru.
+I go to school by train everyday.",
+25,言,"gen, gon ゲン、 ゴン","i(u), koto い（う）、 こと","say, word",jlpt_n4,,
+26,理,ri リ,,"logic, arrangement, reason, justice, truth",jlpt_n4,"それは無理だ！
+sore wa muri da!
+That's impossible!","あなたのお母さんは料理をするのが上手ですね。
+anata no okaasan wa ryouri o suru no ga jouzu desune.
+Your mother is very good at cooking."
+27,体,tai タイ,karada からだ,"body, substance, object, reality",jlpt_n4,"体中が痛い。
+karadajuu ga itai.
+My body aches all over.","彼は強い体の持ち主だ。
+kare wa tsuyoi karada no mochinushi da.
+He has a strong body."
+28,田,den デン,ta た,"rice field, rice paddy",jlpt_n4,"チームの中で山田さんが一番強い。
+Chiimu no naka de yamada san ga ichiban tsuyoi.","彼は田舎に土地を持っている。
+kare wa inaka ni tochi o motte iru.
+He has property in the countryside."
+29,主,shu シュ,"nushi, omo ぬし、 おも","lord, chief, master, main thing, principal",jlpt_n4,"ただの主婦にはなりたくありません。
+tada no shufu ni wa naritaku arimasen.
+I don't want to become just another housewife.","私の主人は本当に歌が上手いです。
+watashi no shujin wa hontouni uta ga umai desu.
+My husband is really good at singing."
+30,題,dai ダイ,,"topic, subject",jlpt_n4,"それに何か問題がありますか？
+sore ni nanika mondai ga arimasu ka?
+Is that a problem?","今週、宿題がたくさんあります。
+konshuu, shukudai ga takusan arimasu.
+I have a lot of homework this week."
+31,意,i イ,,"idea, mind, heart, taste, thought",jlpt_n4,"どういう意味ですか？
+douiu imi desu ka?
+What do you mean?","意見を聞かせてください。
+iken o kikasete kudasai.
+Please tell me your opinion."
+32,不,"fu, bu フ、 ブ",,"negative, non-, bad",jlpt_n4,,
+33,作,"saku, sa サク、 サ",tsuku(ru) つく(る),"make, production, prepare, build",jlpt_n4,"私はたくさんの友達を作りたい。
+watashi wa takusan no tomodachi o tsukuritai.
+I want to make a lot of friends.","あなたの作る料理を食べてみたい。
+anata no tsukuru ryouri o tabete mitai.
+I want to try the food that you make."
+34,用,you ヨウ,mochi(iru) もち(いる),"utilize, business, service, use, employ",jlpt_n4,"この電話は使用できない。
+kono denwa wa shiyou dekinai.
+This phone cannot be used.","その日は用事がある。
+sono hi wa youji ga aru.
+I have plans on that day."
+35,度,"do, taku ド、 タク","tabi, ta(i) たび、 た(い)","degrees, occurrence, time, counter for occurrences",jlpt_n4,"今日はとても暑いだ。40度と近い。
+kyou wa totemo atsui da. yonjuu do to chikai.
+Today is really hot, it's about 40 degrees Celsius.","その部屋の温度はどう？
+sono heya no ondo wa dou?
+How is the temperature in that room?"
+36,強,"kyou, gou キョウ、 ゴウ",tsuyo(i) つよ(い),strong,jlpt_n4,,
+37,公,kou コウ,,"public, prince, official, governmental",jlpt_n4,"この近くに公園はありますか。
+kono chikaku ni kouen wa arimasu ka.
+Are there any parks nearby here?","その大学は公立大学だ。
+sono daigaku wa kouritsu daigaku da.
+That university is a public university."
+38,持,ji ジ,mo(tsu) も(つ),"hold, have",jlpt_n4,,
+39,野,ya ヤ,no の,"plains, field, rustic, civilian life",jlpt_n4,,
+40,以,i イ,mo(tte) もっ(て),"by means of, because, in view of, compared with",jlpt_n4,,
+41,思,shi シ,omo(u) おも(う),think,jlpt_n4,,
+42,家,ka カ,"ie, ya, uchi いえ、 や、 うち","house, home, family, professional, expert",jlpt_n4,,
+43,世,"sei, se セイ、 セ",yo よ,"generation, world, society, public",jlpt_n4,,
+44,多,ta タ,oo(i) おお(い),"many, frequent, much",jlpt_n4,,
+45,正,"sei, shou セイ、 ショウ","tada(shii), masa(ni) ただ(しい)、 まさ(に)","correct, justice, righteous",jlpt_n4,,
+46,安,an アン,yasu(i) やす(い),"safe, peaceful, cheap",jlpt_n4,,
+47,院,in イン,,"institution, temple, mansion, school",jlpt_n4,,
+48,心,shin シン,kokoro こころ,"heart, mind, spirit",jlpt_n4,"私の心は泣いています。
+watashi no kokoro wa naiteimasu.
+My heart is crying.","あなたがいてくれて心強い。
+anata ga ite kurete kokoro dzuyoi.
+I'm reassured with you here."
+49,界,kai カイ,,"world, boundary",jlpt_n4,"その本は世界中で読まれている。
+kono hon wa sekaijuu de yomareteiru.
+This book is read all over the world.","英語は世界中で話されている。
+eigo wa sekaijuu de hanasareteiru.
+English is spoken all over the world."
+50,教,kyou キョウ,"oshi(eru), oso(waru) おし(える)、 おそ(わる)","teach, faith, doctrine",jlpt_n4,"日本語を教えてください。
+nihongo o oshiete kudasai.
+Please teach me Japanese.","誰に英語を教わったか?
+dare ni eigo o osowatta ka?
+Who taught you English?"
+51,文,"bun, mon ブン、 モン",fumi ふみ,"sentence, literature, style, art",jlpt_n4,,
+52,元,"gen, gan ゲン、 ガン",moto もと,"beginning, former time, origin",jlpt_n4,,
+53,重,"juu, chou ジュウ、 チョウ","omo(i), kasa(neru) おも(い)、 かさ(ねる)","heavy, important, esteem, respect",jlpt_n4,,
+54,近,kin キン,chika(i) ちか(い),"near, early, akin, tantamount",jlpt_n4,"もう10時近い。
+mou juuji chikai.
+It's already close to 10 o'clock.","この色は赤に近い。
+kono iro wa aka ni chikai.
+This color is close to red."
+55,考,kou コウ,kanga(eru) かんが(える),"consider, think over",jlpt_n4,,
+56,画,"ga, kaku ガ、 カク",kaku(suru) かく(する),"brush-stroke, picture",jlpt_n4,,
+57,海,kai カイ,umi うみ,"sea, ocean",jlpt_n4,"土曜日に海に行きませんか？
+doyoubi ni umi ni ikimasen ka?
+Do you want to go to the beach/ocean on Saturday?","私は一日中海辺で過ごした。
+watashi wa ichinichi chuu de umibe de sugoshita.
+I spent an entire day at the beach."
+58,売,bai バイ,u(ru) う(る),sell,jlpt_n4,"それはいくらで売っていますか？
+sore wa ikura de utteimasu ka?
+How much are you selling that for?","自分の家を売りたい。
+jibun no ie o uritai.
+I want to sell my house."
+59,知,chi チ,shi(ru) し(る),"know, wisdom",jlpt_n4,,
+60,道,dou ドウ,michi みち,"road-way, street, district, journey, course",jlpt_n4,"小道を歩いて行った。
+komichi o aruite itta.
+I walked along the footpath.","道路を渡る時は気をつけなさい。
+michi o wataru toki wa ki o tsuke nasai.
+Be careful when crossing the street."
+61,集,shuu シュウ,atsu(meru) あつ(める),"gather, meet",jlpt_n4,"集合場所はどこがいいですか？
+shuugou basho wa doko ga ii desu ka?
+Where's a good place to meet?","あなたはマグネットを集めているのですか？
+anata wa magunetto o atsumete iru no desuka?
+Are you collecting magnets?"
+62,別,betsu ベツ,"waka(reru), wa(keru) わか(れる)、 わ(ける)","separate, branch off, diverge",jlpt_n4,,
+63,物,"butsu, motsu ブツ、 モツ",mono もの,"thing, object, matter",jlpt_n4,"動物が好きですか？
+doubutsu ga suki desu ka?
+Do you like animals?","飲み物は何がいいですか？
+nomimono wa nani ga ii desu ka?
+What would you like to drink?"
+64,使,shi シ,tsuka(u) つか(う),"use, order, messenger, ambassador",jlpt_n4,"これを使っていいですか。
+kore o tsukatte ii desu ka.
+Can I use this?","いつでも私の辞書を使っていい。
+itsudemo watashi no jisho o tsukatte ii.
+You can use my dictionary any time."
+65,品,hin ヒン,shina しな,"goods, refinement, dignity, article",jlpt_n4,"その商品は日本でとても人気があります。
+sono shouhin wa nihon de totemo ninki ga arimasu.
+Those products are a big hit in Japan.","その賞品はぜひ手に入れたい。
+sono shouhin wa zehi te ni iretai.
+I really want to get that prize!"
+66,計,kei ケイ,haka(ru) はか(る),"plot, plan, scheme, measure",jlpt_n4,,
+67,死,shi シ,shi(nu) し(ぬ),"death, die",jlpt_n4,,
+68,特,toku トク,,special,jlpt_n4,,
+69,私,shi シ,"watakushi, watashi わたくし、 わたし","private, I, me",jlpt_n4,"私は来年社会人になる。
+watashi wa rainen shakaijin ni naru.
+I will become a working adult next year.","理科は私にとって難しいです。
+rika wa watashi ni totte muzukashii desu.
+Science is very difficult for me."
+70,始,shi シ,haji(meru) はじ(める),"commence, begin",jlpt_n4,,
+71,朝,chou チョウ,asa あさ,morning,jlpt_n4,"朝ご飯を食べましたか？
+asa gohan o tabemashita ka?
+Have you eaten breakfast?","朝食を食べました？
+choushoku o tabemashita?
+Have you eaten breakfast?"
+72,運,un ウン,hako(bu) はこ(ぶ),"carry, luck, destiny, fate, transport",jlpt_n4,,
+73,終,shuu シュウ,o(waru) お(わる),"end, finish",jlpt_n4,,
+74,台,"dai, tai ダイ、 タイ",utena うてな,"pedestal, a stand, counter for machines and vehicles",jlpt_n4,,
+75,広,kou コウ,hiro(i) ひろ(い),"wide, broad, spacious",jlpt_n4,,
+76,住,"juu, chuu ジュウ、 チュウ",su(mu) す(む),"dwell, reside, live, inhabit",jlpt_n4,"私は日本に住んでいます。
+watashi wa nihon ni sundeimasu.
+I live in Japan.","海外に住んだことがありますか？
+kaigai ni sunda koto ga arimasu ka?
+Have you ever lived abroad?"
+77,無,"mu, bu ム、 ブ",na(i) な(い),"nothingness, none, ain't, nothing, nil, not",jlpt_n4,,
+78,真,shin シン,"ma, makoto ま、 まこと","true, reality, Buddhist sect",jlpt_n4,,
+79,有,"yuu, u ユウ、 ウ",a(ru) あ(る),"possess, have, exist, happen",jlpt_n4,"私の学校は東京に有ります。
+watashi no gakkou wa toukyou ni arimasu.
+My school is in Tokyo.","私は有名になりたい。
+watashi wa yuumei ni naritai.
+I want to become famous."
+80,口,kou コウ,kuchi くち,mouth,jlpt_n4,,
+81,少,shou ショウ,"suku(nai), suko(shi) すく(ない)、 すこ(し)","few, little",jlpt_n4,"私が昨日会った少年は、とても優しかった。
+watashi ga kinou atta shounen wa, totemo yasashikatta.
+The boy I met yesterday was very nice.","となりに住んでいる少女は、とてもきれいだ。
+tonari ni sundeiru shoujo wa, totemo kirei da.
+The girl who lives next door is very beautiful."
+82,町,chou チョウ,machi まち,"town, village, block, street",jlpt_n4,,
+83,料,ryou リョウ,,"fee, materials",jlpt_n4,,
+84,工,"kou, ku, gu コウ、 ク、 グ",,"craft, construction",jlpt_n4,,
+85,建,"ken, kon ケン、 コン",ta(teru) た(てる),build,jlpt_n4,,
+86,空,kuu クウ,"sora, kara, a(ku), su(ku), muna(shii) そら、 から、 あ(く)、 す(く)、 むな(しい)","empty, sky, void, vacant, vacuum",jlpt_n4,,
+87,急,kyuu キュウ,iso(gu) いそ(ぐ),"hurry, emergency, sudden, steep",jlpt_n4,"急に雨が降り始めました。
+kyuu ni ame ga furi hajimemashita.
+It suddenly started raining.","雨は急にやんだ。
+ame wa kyuu ni yanda.
+The rain suddenly stopped."
+88,止,shi シ,"to(maru), todo(maru), ya(meru), yo(su) と(まる)、 とど(まる)、 や(める)、 よ(す)","stop, halt",jlpt_n4,"ここに車を止めては行けない。
+koko ni kuruma o tomete wa ikenai.
+You can't stop (park) your car here.","バスが止まるまで降りるな。
+basu ga tomaru made oriruna.
+Don't get off the bus until it stops."
+89,送,sou ソウ,oku(ru) おく(る),"escort, send",jlpt_n4,"家まで車で送るよ。
+ie made kuruma de okuru yo.
+I'll drive you home.","私は母を見送りに駅へ行きました。
+watashi wa haha o miokuri ni eki he ikimashita.
+I went to see my mother off at the station."
+90,切,"setsu, sai セツ、 サイ",ki(ru) き(る),"cut, cutoff, be sharp",jlpt_n4,"髪の毛を切ってもらった方がいい。
+kami no ke o kitte moratta hou ga ii.
+You had best get your hair cut.","ナイフでケーキを切ってください。
+naifu de keeki o kitte kudasai.
+Please cut the cake with a knife."
+91,転,ten テン,koro(garu) ころ(がる),"revolve, turn around, change",jlpt_n4,,
+92,研,ken ケン,to(gu) と(ぐ),"polish, study of, sharpen",jlpt_n4,,
+93,足,soku ソク,"ashi, ta(riru) あし、 た(りる)","leg, foot, be sufficient",jlpt_n4,"疲れて足が一歩も先へ出なかった。
+tsukarete ashi ga ippo mo saki he denakatta.
+I was so tired that I couldn't take another step.","私は昨年右足を骨折しました。
+watashi wa kyonen migiashi o kossetsu shimashita.
+Last year I broke my right leg."
+94,究,kyuu キュウ,,"research, study",jlpt_n4,"研究のレポートを一日で書き上げた。
+kenkyuu no repooto o ichinichi de kaki ageta.
+I wrote my research report in one day.","大学では国際ビジネスについて研究したいと思っています。
+daigaku de wa kokusai bijinesu ni tsuite kenkyuu shitai to omotteimasu.
+I am thinking about studying international business in university."
+95,楽,"gaku, raku ガク、 ラク",tano(shii) たの(しい),"music, comfort, ease",jlpt_n4,,
+96,起,ki キ,"o(kiru), oko(su) お(きる)、 おこ(す)","wake up, get up; rouse",jlpt_n4,,
+97,着,chaku チャク,"ki(ru), tsu(ku) き(る)、つ(く)","arrive, wear, counter for suits of clothing",jlpt_n4,"駅に着いたら電話をください。
+eki ni tsuitara denwa o kudasai.
+Please give me a call when you arrive at the station.","息子が一人で服を着られるようになった。
+musuko ga hitori de fuku o kirareru youni natta.
+My son has learned to get dressed all by himself."
+98,店,ten テン,mise みせ,"store, shop",jlpt_n4,"その店は閉店する。
+sono mise wa heiten suru.
+That shop will close down.","いつか自分の店を作りたい。
+itsuka jibun no mise o tsukuritai.
+I would like to make my own shop one day."
+99,病,byou ビョウ,ya(mu) や(む),"ill, sick",jlpt_n4,"私は先週から病気です。
+watashi wa senshuu kara byouki desu.
+I've been sick since last week.","病院はここから近い。
+byouin wa koko kara chikai.
+The hospital is near here."
+100,質,"shitsu, shichi シツ、 シチ","tachi, tada(su) たち、 ただ(す)","substance, quality, matter, temperament",jlpt_n4,"一つ質問してもいいですか？
+hitotsu shitsumon shitemo ii desuka?
+Can I ask you a question?","授業のあとに先生に質問をします。
+Jugyou no atoni sensei ni shitsumon o shimasu."

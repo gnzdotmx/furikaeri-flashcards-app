@@ -1,0 +1,636 @@
+rank,word,reading_kana,reading_romaji,part_of_speech,meaning,labels,example_1,example_2,example_3
+1,明け方,あけがた,akegata,"Noun, Adverbial Noun",dawn,jlpt_n2,"明け方に寒かったので毛布をもう枚掛けた
+
+It was cold at dawn, so I put on another blanket.","いた。
+
+The snow continued to fall steadily from midnight to dawn, and when I woke up in the morning, the snow in the yard was one meter high.","僕らは明け方に起きるために早く寝た
+
+We hit the hay early in order to get up at dawn."
+2,青白い,あおじろい,aojiroi,"Adjective, い-adjective",pale; bluish-white,jlpt_n2,"青白くて暗い顔をした人物だった
+
+He was a dark figure with a pale face.","いた。
+
+When I went to the hospital for the first time in ages to visit my sick younger brother, he was lying in bed, looking thin and pale.","人々が夕方工場から出てきたときその顔は青白く病気みたいでした
+
+When people came out of the factory in the evening, their faces looked white and ill."
+3,足跡,あしあと,ashiato,Noun,footprints,jlpt_n2,"足跡は川まで続いていた
+
+The footprints continued down to the river.","足跡が床に残っていた
+
+Footprints were left on the floor.","私達は犯人の足跡をたどっていった
+
+We followed the tracks of the criminal."
+4,売買,ばいばい,baibai,"Noun, Verb, Suru verb",trade; buying and selling,jlpt_n2,"要因であろう。
+
+In recent years, it has become possible to buy and sell goods between individuals via smartphone-based flea market and auction applications. The main reason for the spread of this service probably arises from the measures taken to prevent problems related to the receipt of payment.","土地評価額5種類売買用税額算出用異なる
+
+There are five different types of land appraisal values. and the values vary depending on the intended use, such as for sales or tax calculation purposes.","彼は彼らと家具の売買契約をした
+
+He made a bargain with them about the furniture."
+5,売店,ばいてん,baiten,Noun,stand; stall; booth; kiosk; store,jlpt_n2,"と考えるところも出てきた。
+
+Some local retailers have begun to think about the way to coexist and prosper with the giant, mass merchandisers, rather than just blindly competing with them.","であった。それに
+
+In 2016, Tokyo ranked fifth in the nation for the number of large retail stores per 100,000 people. In comparison, the number of department stores per 100,000 population there was ranked lower, at 40th in Japan.","零細小売店などは新年度には利益を上げるでしょう
+
+Mom-and-pop stores will turn a profit in the new fiscal year."
+6,募集,ぼしゅう,boshuu,"Noun, Verb, Suru verb",recruitment; invitation; taking applications; solicitation,jlpt_n2,"で応募する人は誰もいないようだ。
+
+Applications for exchange students will open on campus next month, but no one around me seems to be applying.","で教育活動を支援するボランティアの募集を始めた。
+
+The city has begun recruiting volunteers with teaching experience or teaching licenses to assist with educational activities at elementary and junior high schools in the city.","行う事前希望者多数抽選行う
+
+When a studio recording of a TV program is open to the public, applicants for the audience are invited in advance, and if there are too many applicants, a lottery will be held."
+7,長男,ちょうなん,chounan,Noun,eldest son; first-born son,jlpt_n2,"カメラを購入することにした。
+
+With the birth of our first son, my wife and I decided to purchase a state-of-the-art single lens reflex camera.","に合格した。
+
+My eldest son was accepted to his first-choice national university last year.","ばかり言っている。
+
+My eldest son is funny and cheerful, but he gets easily carried away when he is given the slightest encouragement. He is always joking and making irresponsible comments. In a nutshell, he is a “goofball.”"
+8,楕円,だえん,daen,Noun,ellipse,jlpt_n2,"シリウスを回る軌道は楕円形である
+
+The orbit around Sirius is elliptical.",,
+9,大学院,だいがくいん,daigakuin,Noun,graduate school,jlpt_n2,"がおろそかになりがちだ。
+
+When graduate students are encouraged to disseminate research results to society and to collaborate with companies, the more inexperienced students tend to get carried away and neglect the basics.","の大学院生が集まり、日本近代文学研究会を作った。会員は現在
+
+Graduate students from nearby areas got together to establish the Society for the Study of Modern Japanese Literature. The group currently has 20 members and holds monthly study sessions.","ながら、いくつかの大学の研究室と協同して、共同研究開発プロジェクトを推進している。
+
+While working for a company after finishing graduate school, my older brother, has been collaborating with several university laboratories to promote joint academic-industrial collaborative R&D projects."
+10,出入口,でいりぐち,deiriguchi,Noun,exit and entrance,jlpt_n2,,,
+11,宴会,えんかい,enkai,Noun,party; banquet; reception; feast; dinner,jlpt_n2,"彼らはその著名な科学者に敬意を表して宴会を催した
+
+They held a party in honor of the famous scientist.","彼は宴会の事について触れた
+
+He mentioned the matter of the banquet.","客のうちの何人かが宴会場を出て行くのが見えた
+
+I saw some of the guests leave the banquet room."
+12,円周,えんしゅう,enshuu,Noun,circumference,jlpt_n2,,,
+13,遠足,えんそく,ensoku,"Noun, Verb, Suru verb",excursion; outing; trip,jlpt_n2,"の天気で残念だった。
+
+I was so looking forward to the school trip, but the weather was not so good, it was cloudy all day, so it was disappointing.","明日雨が降れば遠足はありません
+
+If it rains tomorrow, there will be no excursion.","全体として遠足は楽しかった
+
+All in all, the excursion was pleasant."
+14,父母,ふぼ,fubo,Noun,father and mother; parents,jlpt_n2,"をする。
+
+This March 3 is the first Girls’ Festival since my daughter was born, so I will invite grandparents from both sides of the family to celebrate her first Girls’ Festival.","だった。
+
+I went back home to the countryside during the consecutive holidays and helped my grandparents pick tea; picking fresh tea leaves by hand turned out to be more arduous than I had expected.","がいる。
+
+I have an acquaintance who spends the summer using only an electric fan. I wonder how he manages to survive without having the air conditioner on when the temperature is 35 degrees Celsius, and the humidity is consistently over 80%."
+15,学科,がっか,gakka,Noun,study subject; course of study​; department,jlpt_n2,"物理は私の苦手な学科です
+
+Physics is my weak subject.","哲学はあなたが想像するほど難しい学科ではない
+
+Philosophy is not so difficult a subject as you imagine.","哲学はあなたがたが考えているほど難しい学科ではない
+
+Philosophy is not so difficult a subject as you imagine it is."
+16,学会,がっかい,gakkai,Noun,scientific society; academic meeting; academic conference,jlpt_n2,"後質疑応答質問者質問主旨返答困った
+
+During the question-and-answer session after the conference presentation, I had trouble answering questions from a member of the audience because I did not understand the purpose and intent of the questions.","となった。
+
+The Association for Japanese Language Education holds two conferences each year, one in the spring and one in the fall. Like many other academic societies, both the spring and fall conferences were held entirely online in the 2021 academic year due to concern over the spread of the infectious disease.","教授は化学学会で司会を務めた
+
+Professor Morita presided at a meeting of the Chemical Society."
+17,学力,がくりょく,gakuryoku,Noun,scholarly ability; scholarship; knowledge; literary ability,jlpt_n2,"寮部屋後日捨て方生じた
+
+A problem arose in the dormitory regarding noise in a room; it was resolved through discussion, but before we knew it, another problem had arisen over the disposal of garbage.","諦めた
+
+I had planned to study abroad when I enrolled in university, but I gave up the plan because I did not have adequate language skills.","されている。
+
+As schools remain closed due to the novel coronavirus (SARS-CoV-2), there is concern that adequate instruction will not be provided, and a disparity in academic attainment among the children will develop."
+18,外科,げか,geka,Noun,surgery; department of surgery,jlpt_n2,"ができないようになっている。
+
+The lights used in an operating room are called shadowless lamps, which means that no shadows are cast when a hand or medical instrument is held up under the light.","ならない。
+
+On the day of surgery the patient must refrain from drinking alcohol in order to prevent alcohol-induced inflammation and internal bleeding.","父は熟練した外科医です
+
+My father is an expert surgeon."
+19,花火,はなび,hanabi,Noun,fireworks,jlpt_n2,"花火大会数えきれない花火夏夜空彩った
+
+One of the largest fireworks festivals in Japan was held, and countless fireworks beautifully lit up the summer night sky.","いる。
+
+Fireworks launched into the night sky are reflecting off the surface of the river with glittering sparkles.","だ。
+
+Pistol-shaped handheld fireworks are especially popular among boys because of their design, with sparks shooting out of the muzzle."
+20,半径,はんけい,hankei,Noun,radius,jlpt_n2,"が届きにくくなっていく。
+
+As children grow up, their world expands, making it harder for their parents to oversee their activities.","になる。
+
+If we double the radius of the circle, the area of the circle becomes quadrupled.","とした。
+
+Police prohibited the entrance into the area within a one-kilometer radius from the chemical plant where the fire broke out."
+21,半島,はんとう,hantou,Noun,peninsula,jlpt_n2,"に位置していることがわかる。
+
+If you look at the map, you will see that this town is located just around the entrance to the peninsula.","と呼ばれる国はいつの時代にもある。
+
+Throughout history, there have always been countries referred to as powerful countries.  Before the Common Era, for example, the Roman Empire was one such example. At its peak, its territory extended over Asia Minor, the Iberian Peninsula, the Mediterranean coast of Africa, and even Britain.","僕はこの夏休みに数人の友達と半島を歩いて一周するのを楽しみにしています
+
+I am looking forward to walking around the Izu Peninsula with some of my friends during summer vacation."
+22,発売,はつばい,hatsubai,"Noun, Verb, Suru verb",sale; release (for sale); launch (product),jlpt_n2,"にかけて急増した。
+
+The first smartphone was introduced in the U.S. in 2007. The number of smartphone users in Japan surged between 2010 and 2015.","のことだ。
+
+Our family moved into a condominium in front of the station about two months ago.","までには時間がかかる。
+
+It takes time for a new product to sell and become established. Even Windows, which is now used by consumers all over the world, did not sell at all when it was first released."
+23,早口,はやぐち,hayaguchi,Noun,fast-talking; rapid talking,jlpt_n2,"彼女は早口で話す傾向が多い
+
+She tends to speak rapidly.","彼女は早口でまくしたてて人をまるめこみます
+
+She talks a very fast game.","彼女は比較的早口だ
+
+She speaks relatively fast."
+24,外れる,はずれる,hazureru,"Verb, Ichidan verb, Intransitive verb",to be disconnected; to be off; to miss the mark,jlpt_n2,"しまったので修理に出した。
+
+I hit the diamond ring my mother gave me so hard that the diamond fell out, so I sent it in for repair.","窓は壊されてよろいどははずれてななめに下がっていました
+
+Her windows were broken and her shutters hung crookedly.","車はコースをはずれた
+
+The car veered from its course."
+25,閉会,へいかい,heikai,"Verb, Suru verb","closure (of a ceremony, event, meeting, etc.)",jlpt_n2,"誰もそれ以上言わなかったので閉会した
+
+Nobody having any more to say, the meeting was closed.","閉会した
+
+The meeting was closed.","国会は閉会して夏休みに入った
+
+The Diet rose for summer recess."
+26,昼寝,ひるね,hirune,"Noun, Verb, Suru verb","nap, siesta",jlpt_n2,"が取れて、そのあとの仕事がはかどる。
+
+After lunch, closing my eyes and taking a nap, even for just five minutes, helps remove the cobwebs from my eyes and get more work done afterwards.","私はよく日曜日に昼寝をしたものだった
+
+I would often take naps on Sundays.","すぐに諦めて昼寝をするかも知れない
+
+I may give up soon and just nap instead."
+27,意地悪,いじわる,ijiwaru,"Noun, Verb, Adjective, な-adjective, Suru verb",malicious; ill-tempered; unkind,jlpt_n2,"全くもう本当にいじわるなんだから
+
+Really, you are so mean!","全くもう本当にいじわるだ
+
+Really, you are so mean.","女房が映画に行きたがっていることがよくわかったのでいじわるな亭主は一計を案じくるあてもない来客を家で待つことにした
+
+Knowing very well that his wife wanted to go to a movie, the husband, who was a dog in the manger, cooked up a scheme whereby they had to stay at home waiting for a certain visitor who was not expected to come."
+28,移転,いてん,iten,"Noun, Verb, Suru verb",moving; relocation; change of address,jlpt_n2,"の名前を覚えた。スリランカの
+
+In geography class, we memorized capital city names from countries around the world. The capital of Sri Lanka had a long name and was difficult to remember.","の活気がなくなるという反対意見がある。
+
+There are competing views on the issue of relocating capital functions from Tokyo. One view, in favor of the idea, is that relocation would solve housing and transportation problems. The contrary view is that relocation would cost a great deal of money and would detract from Tokyo’s vitality.","新しいビルへの移転にわくわくしてます
+
+We are excited about the move to the new building."
+29,一旦,いったん,ittan,Adverb,once; for a short time; briefly; temporarily,jlpt_n2,"いったん着地した怪物は瞬間ふたたび跳躍して私の頭上にいた
+
+Having once landed the monster immediately jumped again and was over my head.","彼女はいったん話し始めると止めどがない
+
+Once she starts talking, she is hard to stop.","彼女はあまりしゃべらないがいったん口を開くと弁が立つ
+
+She doesn't talk much, but once she does speak she is eloquent."
+30,寺院,じいん,ji'in,Noun,Buddhist temple; religious building,jlpt_n2,"に指定されている。
+
+This area, with streets lined up with many old temples, is designated as an environmental preservation area of the city.","が受容されていった。
+
+In Japan, many Buddhist temples were built from the time of the Asuka period, and Buddhist events started to be held as Buddhism was increasingly accepted.","祖母の遺灰は寺院に置かれた骨壷に入っている
+
+Grandmother's ashes are in an urn at the temple."
+31,人文科学,じんぶんかがく,jinbunkagaku,Noun,humanities; social sciences; liberal arts,jlpt_n2,"歴史学は人文科学の一部門である
+
+History is a branch of the humanities.","哲学研究は人文科学の１つだ
+
+The study of philosophy belongs to the humanities.",
+32,自習,じしゅう,jishuu,"Noun, Verb, Suru verb",self-study; teaching oneself,jlpt_n2,,,
+33,時速,じそく,jisoku,Noun,speed (per hour),jlpt_n2,"車は時速マイルで走った
+
+The car ran at 40 miles an hour.","私は時速マイルで走ることが出来ます
+
+I can run at the rate of fifty miles an hour.","彼は時速キロで車を運転した
+
+He drove the car at eighty kilometers an hour."
+34,実習,じっしゅう,jisshuu,"Noun, Verb, Suru verb",practice; training; practical exercise; drill,jlpt_n2,"アイディアを実践してみたい。
+
+We have concentrated on theories during the lecture, but I would like to put those ideas into practice during the practical training that starts next month.","に必ず受講しておかなければならない講義や演習があるので、注意が必要だ。
+
+Before obtaining a teaching license, there are prerequisite lectures and seminars that must be completed prior to embarking on practice-teaching at a partner school.","普通科目の他に機械についての基礎的な事柄を学習し各種の機械の使用法や技術を身につける実習などを行います
+
+In addition to the general curriculum there are tutorials in the essentials of machinery, training is also carried out for skills in and learning how to use the various types of machinery."
+35,過半数,かはんすう,kahansuu,Noun,majority,jlpt_n2,"を占めていたとしても、国会で強行採決を繰り返すことは難しい。
+
+Even if the ruling party has a majority, it will be difficult to repeatedly force bills through the Diet.","選挙ではそれが誰であれ過半数を得た候補者が当選とされる
+
+In most elections, whichever candidate gets the majority of the votes, wins the election.","社会党の猛烈な反対にもかかわらずその議案は過半数で可決された
+
+The bill was passed by a majority, although the Socialist Party was strongly opposed to it."
+36,開会,かいかい,kaikai,"Noun, Verb, Suru verb","opening of a meeting; starting (an event, etc)",jlpt_n2,"試合にさきだち競技場で開会式が行われた
+
+Before the match, an opening ceremony was held in the Yoyogi stadium.","揺れた。
+
+This year’s Olympic Games were held under the slogan of global harmony and development. However, ironically, immediately after the opening ceremony, the games were shaken by scandals of doping among athletes and international political issues.","彼は開会式にはたくさんの客を招待することを計画するでしょう
+
+He will figure on inviting a lot of guests to the opening ceremony."
+37,会館,かいかん,kaikan,Noun,meeting hall; assembly hall,jlpt_n2,"私は少年に会ったが彼はこの会館への道を教えてくれた
+
+I met a boy, who showed me the way to this hall.","だ。
+
+The Ward Civic Center is temporarily closed for maintenance inspections of elevators and other equipment.","学生会館は学生のためにある
+
+The student hall is for benefit of the students."
+38,回転,かいてん,kaiten,"Noun, Verb, Suru verb",rotation; revolution; turning,jlpt_n2,"のデータを高速で送信・受信することができる。
+
+File transfer services allow large amounts of data to be sent and received at high speed.","のことである。
+
+Centrifugal force is the force exerted outwardly on a rotating object.","に回転する。
+
+Typhoons rotate clockwise in the Southern Hemisphere and counterclockwise in the Northern Hemisphere."
+39,加速,かそく,kasoku,"Noun, Verb, Suru verb",acceleration; speeding up,jlpt_n2,"を鳴らす。
+
+Experts warn that the digitalization of our society will accelerate, which could have a negative impact on people’s lives and work.","である。
+
+Gravitational acceleration on the moon is about one-sixth of that on the earth.","列車は加速した
+
+The train gathered speed."
+40,加速度,かそくど,kasokudo,Noun,acceleration,jlpt_n2,"である。
+
+Gravitational acceleration on the moon is about one-sixth of that on the earth.",,
+41,見学,けんがく,kengaku,"Noun, Verb, Suru verb",study by observation; field trip; tour; review; inspection,jlpt_n2,"ツアーに参加し、ビール工場でビールの製造工程を見学した。
+
+We took a tour of the beer production process at a brewery. After the tour, we were offered free beer; I tasted one glass of beer and my husband tasted two glasses. On our way home, we boarded the bus feeling tipsy but relaxed.","について、集合時間や見どころ、食事や見学時の注意なども含めて、詳しく説明してくれた。
+
+The tour guide gave a detailed description of the itinerary of the day’s journey, including meeting times, highlights, and notes on meals and visits.","を選んだ。
+
+My older sister toured more than a dozen wedding venues and finally chose a ceremonial hall at a romantic hotel with a view of the ocean."
+42,国王,こくおう,kokuou,Noun,king; queen; monarch; sovereign,jlpt_n2,"には誰もいなかった。
+
+Anti-government armed forces overran the capital, but the king had already fled the capital and the palace was empty.","いった。
+
+As the king’s power increased, so did the public’s dissatisfaction with the royal family.","民衆は国王に対して反乱を起こした
+
+People rose in revolt against the king."
+43,国立,こくりつ,kokuritsu,Noun,national,jlpt_n2,"に合格した。
+
+My eldest son was accepted to his first-choice national university last year.","である。
+
+Hokkaido is the largest prefecture in Japan in terms of area, with six vast national parks, including the Shiretoko National Park.","の地震があっても大丈夫だそうだ。
+
+The New National Theatre Tokyo, completed in 1997, is said to have sufficient earthquake resistance, capable of withstanding earthquakes with a seismic intensity of 7 on the Japanese scale."
+44,国籍,こくせき,kokuseki,Noun,nationality; citizenship,jlpt_n2,"実現されることを強く望んでいる。
+
+As an immigrant and a sexual minority group member, it is my fervent wish that a fair society in which people are not discriminated against on the basis of their nationality or gender, will be realized as soon as possible.","ものではない。
+
+Hate speech refers to the public use of derogatory language and actions that exclude people of a certain ethnic group, nationality, or religion; hate speech should never be tolerated.","を選んだ。
+
+Because of my parents’ international marriage, I was granted two nationalities when I was a child: Japanese and American. Since dual nationality is not allowed in Japan, I chose American citizenship when I turned 20 years old."
+45,転がる,ころがる,korogaru,"Verb, Godan verb, Intransitive verb",to roll; to fall over; to lie down,jlpt_n2,"机の上に寝かせて置くと転がって落ちることがあるので試験管立てに立てておく
+
+If you leave them lying on the desk they may roll off, so stand them in the test-tube rack.","・・・。
+
+Just look! The potatoes are all rolling out! You're a real dullard aren't you?","彼はベッドから転がり落ちた
+
+He rolled off the bed."
+46,転がす,ころがす,korogasu,"Verb, Godan verb, Transitive verb",to roll; to turn over,jlpt_n2,"彼の演説は最初のところが少し理解できたが残りはちんぷんかんぷんだった
+
+I could understand the first few sentences, but the rest of his speech was all Greek to me.","子供たちが大きな雪の玉を転がしていた
+
+The children were rolling a big snowball.","そのボールを僕の方に転がしてください
+
+Roll the ball to me."
+47,校舎,こうしゃ,kousha,Noun,school building; schoolhouse,jlpt_n2,"卒業式の日、卒業生全員で校舎の前に集まり、記念撮影をした。
+
+On graduation day all the graduates gathered in front of the school building for a commemorative photo.","いる。
+
+At lunch break, the schoolyard is filled with students who have run out of the school building to play dodgeball, soccer, etc. to their heart’s content.","を誘う。
+
+The wooden school building surrounded by a mountain village evokes nostalgia in visitors."
+48,校庭,こうてい,koutei,Noun,schoolyard; playground; school grounds; campus,jlpt_n2,"にいた子どもたちに早く教室に入るようにと注意した。
+
+The bell rang indicating the start of class, and the teacher reminded the children in the schoolyard to come quickly back to their classrooms.","いる。
+
+At lunch break, the schoolyard is filled with students who have run out of the school building to play dodgeball, soccer, etc. to their heart’s content.","彼らは校庭でしゃべっていた
+
+They were chatting on the campus."
+49,待合室,まちあいしつ,machiaishitsu,Noun,waiting room,jlpt_n2,"でお待ちください。
+
+Each patient will be examined in turn, so please wait in the waiting room until your name is called.","をもてあそんでいた。
+
+The boy was sitting in a chair in the waiting room, looking absentminded and fiddling with a hat on his lap.","彼女は心配で心配で待合室の中を行ったり来たりしていた
+
+She was so nervous she paced to and fro in the waiting room."
+50,待ち合わせる,まちあわせる,machiawaseru,"Verb, Ichidan verb, Transitive verb",to rendezvous; to meet at a prearranged place and time; to arrange to meet,jlpt_n2,"私は駅の近くにある喫茶店で彼女と待ち合わせた
+
+I met her in a coffee shop near the station.","私たちはいつも学校へ行く途中で待ち合わせた
+
+We used to meet on our way to school.","どこで待ち合わせしましょうか
+
+Where should we meet?"
+51,窓口,まどぐち,madoguchi,Noun,ticket window; teller window; counter,jlpt_n2,"いかず、眠れないという悩みの相談が多く寄せられる。
+
+The insomnia telephone counseling service, which provides advice on sleep disorders over the phone, receives many calls from people who are having trouble falling asleep because they have concern that their jobs are not going well.","いる。
+
+During the lunch break from 12:00 hrs to 13:00 hrs at city hall, staff members take turns tending the counter on a daily basis.","な顔で私を見た。
+
+When I talked to a stranger to ask for directions, he (she) gave me a puzzled look."
+52,毎度,まいど,maido,"Noun, Adverbial Noun",each time; always; often; thank you for your continued patronage​,jlpt_n2,"のように妄想している。
+
+Every time I think about winning 100 million yen in the lottery, I fantasize about buying a car and house, and taking an around the world trip on a cruise ship.","ご注文はオレンジジュースアイス付きでそうまいど
+
+""Your order?"" ""Orange juice."" ""With ice?"" ""Yes."" ""Thanks for your business.""","毎度またいらっしゃい
+
+Thanks, please come again."
+53,真っ青,まっさお,massao,"Noun, Adjective, な-adjective",deep blue; bright blue​; ghastly pale; white as a sheet,jlpt_n2,"は真っ青になった
+
+All the colour went from Shoichi's face.","彼女を見たとたんに彼は真っ青になった
+
+He turned pale the instant he saw her.","彼女はその知らせを聞いて真っ青になった
+
+She turned pale at the news."
+54,真っ白,まっしろ,masshiro,"Noun, Adjective, な-adjective",pure white; blank,jlpt_n2,"山真っ白霧中入って車前後左右何も怖かった
+
+I was driving in the mountains and suddenly found myself in a thick white fog. I was frightened because I couldn’t see anything in front of or behind the car, or to the left or right.","になった。
+
+She got angry and slapped me hard on the cheek with a whack, and everything in front of my eyes blanked out.","目に見える限り野原は真っ白だった
+
+The field was white as far as the eye could see."
+55,名刺,めいし,meishi,Noun,business card,jlpt_n2,"彼は名刺を出した
+
+He presented his card.","これが私の名刺です
+
+Here's my card.","私の名刺です追加情報があったらいつでも連絡下さいと記者は言った
+
+""Here is my business card. Please call me anytime with more information,"" said the reporter."
+56,店屋,みせや,miseya,Noun,store; shop,jlpt_n2,,,
+57,木材,もくざい,mokuzai,Noun,lumber; timber; wood,jlpt_n2,"木材はアフリカの大半において消えゆく資源でありこれらのストーブは現在使われているものよりずっと木材の消費量が少ない
+
+Wood is a disappearing resource in much of Africa, and these stoves burn far less wood than the stoves currently in much use.","紙は木材からできている
+
+Paper is made from wood.","私たちは像を木材で作った
+
+We made statues out of wood."
+58,元々,もともと,motomoto,Adverb,"originally, by nature, from the start",jlpt_n2,"服汚れるでしょそれはノープロブレムもともとあんまり綺麗じゃないし
+
+""You'll get your clothes dirty."" ""No worries. They weren't very clean in the first place.""","彼らは西洋人がやってくる以前からもともと住んでいたニュージランド人なのです
+
+They were the native New Zealanders before the Western people came.","彼らは元々あった文明を破壊した
+
+They destroyed the native civilization."
+59,内科,ないか,naika,Noun,internal medicine,jlpt_n2,"と言われた。
+
+When I went to see a physician because my fever would not subside, I was told that I had a summer cold.","が深い。
+
+My doctor is an internist, but he is also well versed in Eastern medicine. After treating patients with chronic diseases for many years, he felt the limitations of Western medicine and started conducting research on Eastern medicine.","ひんぱんに吐血する場合は救急車を呼ぶか近くの内科医に往診してもらう
+
+If you frequently spit-up blood you should call an ambulance or have a nearby physician make a house call."
+60,並木,なみき,namiki,Noun,roadside tree; row of trees,jlpt_n2,"のイチョウの木が並んでいる。
+
+The ginkgo trees lining the outer garden of Meiji Shrine are famous, with 146 ginkgo trees in a row.","目前菜の花畑沿道桜並木織りなす黄色見事一言尽きる
+
+The contrast of yellow and pink, spread out before me, created by the fields of rapeseed in flower and the rows of cherry blossoms along the road is nothing short of spectacular.","我々は背の高いポプラ並木を歩いた
+
+We walked along an avenue of tall poplars."
+61,入社,にゅうしゃ,nyuusha,"Noun, Verb, Suru verb",joining a company,jlpt_n2,"新入社員山田君面頼りない
+
+Mr. Yamada, a new employee, is young and energetic, but still a bit unreliable in terms of work.","のいない仕事を押しつけられてしまうことも多い。
+
+My colleague has the kind of personality that makes it hard for him to say “no.” So, he is often forced to take on work which no one wants to do.","存在へと成長してくるものだ。
+
+After a year with the company, the new employees’ initial refreshing naivety will be gone, and instead they will have grown into strong and reliable team members."
+62,押さえる,おさえる,osaeru,"Verb, Ichidan verb, Transitive verb",to pin down; to hold down; to press down,jlpt_n2,"の影響についても考えていかねばならない。
+
+While it is essential to refrain from human contact and travel in order to control the spread of coronavirus, we must also consider the negative impact that such a restricted lifestyle may have on the mental state of individuals.","を積極的に消費していくことが必要だ。家庭でも、地域で
+
+In order to promote domestic agriculture, it is necessary to actively consume domestically produced crops. Even at home, by purchasing “local vegetables” harvested in the area, costs can be reduced since there are no transportation expenses, and it also saves energy.","彼は回までシャットアウトに抑えた
+
+He had a shutout until the ninth inning."
+63,理科,りか,rika,Noun,science (department; course),jlpt_n2,"の性質について学習する。
+
+In elementary school, students learn about the nature of magnetic polarity in science.","に就職している。
+
+Looking at the employment destinations of our university’s graduates by major, the majority of students who majored in science have found employment at IT-related companies.","彼は理科を科目とらなければならない
+
+He has to take two science classes."
+64,領収,りょうしゅう,ryoushuu,"Noun, Verb, Suru verb",receipt (of money); receiving,jlpt_n2,"領収書をいただけますか
+
+May I have a receipt?","領収書は必ず保管してください
+
+Make sure you save the receipt.","領収書がほしいのですが
+
+I'd like a receipt, please."
+65,再三,さいさん,saisan,Adverb,again and again; repeatedly,jlpt_n2,"の注意にもかかわらず、祖父は飲酒をやめようとしなかった。
+
+Despite repeated warnings from his doctor, my grandfather refused to stop drinking.","し、会社をやめるまでに追い込まれてしまった。
+
+My friend developed depression following repeated harassment by his supervisor at work; this drove him to leave the company.","申し上げてきましたように、今は格差解消が最優先するべき課題ではないのでしょうか。これについて総理のお考えをはっきりとお聞かせ願いたい。」と述べた。
+
+An opposition Diet member said, “As I said repeatedly, I believe that eliminating the disparity is an issue of the highest priority now. I would like you to clearly state your views on this, Prime Minister.”"
+66,刺さる,ささる,sasaru,"Verb, Godan verb, Intransitive verb",to stick into (with a sharp point); to prick; to get stuck (in);,jlpt_n2,"矢はぐさりと刺さった
+
+The arrow went home.","骨が喉にささった
+
+The bone caught in my throat.","タイヤに釘が刺さっていた
+
+We found a nail stuck in the tire."
+67,刺身,さしみ,sashimi,Noun,"sashimi (raw sliced fish, shellfish or crustaceans)",jlpt_n2,"のおつまみを作った。
+
+When I made scallops into sashimi, the mantles were left over, so I sautéed them in butter and seasoned them with soy sauce, making a snack to go with sake.","がいい。
+
+I can handle a whole range of alcoholic drinks, including beer and wine, but sake is definitely the way to go when eating sashimi (sliced raw fish).","黒鯛の料理方法刺し身黒鯛は何といっても刺身が一番おいしいです
+
+How to prepare black porgy: Sashimi, Whatever anybody says sashimi is the tastiest."
+68,早速,さっそく,sassoku,Adverb,at once; immediately; without delay; promptly,jlpt_n2,"と思っている。
+
+I received a message that my letter of recommendation for the scholarship was ready, so I am planning to visit my academic advisor without delay tomorrow.","でごみの削減を実践し始めた。
+
+After learning about the SDGs (Sustainable Development Goals), elementary school students immediately began practicing waste reduction in their schools under the slogan “Reuse, Reduce, Recycle.”","作ってみたところ、なかなかおいしかった。
+
+A dish using spring vegetables was shown on TV, so I tried it right away and the result was quite delicious."
+69,刺す,さす,sasu,"Verb, Godan verb, Transitive verb",to pierce; to stab; to prick; to stick; to thrust; to sting,jlpt_n2,"しまった。
+
+I was stung by a bee and my hand became red and swollen.","かゆい。
+
+The itch of the mosquito bite mark subsides, but the itchiness returns repeatedly.","海足海上がった
+
+When I was swimming in the sea, I felt a tingling sensation of pain in my leg and thought I might have been stung by a jellyfish, so I got out of the water."
+70,青少年,せいしょうねん,seishounen,Noun,youth; young person,jlpt_n2,"彼は青少年向きの本をたくさん持っている
+
+He has a lot of books for the young.","青少年の非行が急速に増加している
+
+Juvenile delinquency is on the increase at a rapid pace.","私には青少年の心理がわからない
+
+I can not understand the psychology of adolescents."
+71,赤道,せきどう,sekidou,Noun,equator,jlpt_n2,"にはない。しかし、ギニアに比べると
+
+Equatorial Guinea, a country with “equatorial” in its name, is not located directly on the equator. However, the country is found in a location closer to the equator than Guinea.","ほぼ赤道直下にあるシンガポールでは雨季乾季があまり明瞭ではない
+
+In Singapore, practically right on the equator, the rainy and dry seasons aren't very clear cut.","赤道における経度1度当たりの長さ
+
+Distance per degree of longitude at equator."
+72,社会科学,しゃかいかがく,shakaikagaku,Noun,social science,jlpt_n2,"その大学の課程は自然科学と社会科学から成り立っている
+
+That university's curriculum covers natural science and social science.",,
+73,社説,しゃせつ,shasetsu,Noun,editorial; leading article; leader,jlpt_n2,"中学校の国語の授業で、生徒たちはいくつかの新聞社の社説を読み比べ、その主張を比較した。
+
+In a junior high school Japanese class students read, compared, and contrasted various arguments from different editorials of several newspapers.","今日の社説でそれを読んだ
+
+I read it in today's edition.","今朝の新聞の社説を読みましたか
+
+Have you read the leading article in today's paper?"
+74,司会,しかい,shikai,"Noun, Verb, Suru verb",master of ceremonies; leading a meeting; presenter; host,jlpt_n2,"。問題の読み上げもゲスト出演者との
+
+My favorite female celebrity was appointed the host of a popular quiz show. She was so good at reading out the questions and talking wittily with the contestants that I soon became an even bigger fan of hers.","エジソンが言いました。""
+
+On a quiz show, the host told the audience, “Edison, the inventor, said, ‘Genius is 1% inspiration and blah-blah-blah’.” Then, he stopped and posed the question: ""Now, what words go into where I said blah-blah-blah?”","務めた各チーム取り扱えなかった
+
+I chaired today’s meeting, but I was unable to handle all the scheduled items on the agenda because the progress reports from each team in the project were slow."
+75,新幹線,しんかんせん,shinkansen,Noun,Japanese bullet train,jlpt_n2,"くらいで行ける。
+
+The distance between Tokyo and Osaka is about 550 kilometers, but if you take the bullet train, the Shinkansen Nozomi, it only takes about two and a half hours.","を見て確認する。
+
+Check the timetable for the arrival time of the next Shinkansen (bullet train) bound for Tokyo.","きたことも無視できない。
+
+Japan’s period of rapid economic growth from the 1960s to the 1970s was a time of great events such as the Tokyo Olympics and the Osaka Expo. It was also a time characterized by vitality with the opening of the  Tōkaidō Shinkansen bullet train and the spread of ownership of television sets and automobiles. Despite all the positives, one negative aspect cannot be ignored: pollution became a serious problem."
+76,白髪,しらが,shiraga,Noun,white hair; grey hair,jlpt_n2,"父は白髪が混じってきた
+
+My father is becoming gray.","父の髪は白髪交じりになった
+
+My father's hair has become streaked with gray.","彼女の髪は白髪まじりだ
+
+Her hair is streaked with gray."
+77,自然科学,しぜんかがく,shizenkagaku,Noun,natural science,jlpt_n2,"娘は言語や芸術よりも自然科学が好きです
+
+My daughter prefers science to languages or art.","物理学は基本的な自然科学である
+
+Physics is a fundamental natural science.","物理学は基礎的な自然科学である
+
+Physics is a fundamental natural science."
+78,書店,しょてん,shoten,Noun,bookshop; bookstore,jlpt_n2,"を運ぶ必要はなくなる。
+
+If you like a particular magazine, you can have it delivered to you by subscription, which enables you to avoid visiting a bookstore..","の経営を圧迫することになりかねない。
+
+For retail stores that do not generate a large volume of sales, such as a privately owned bookstore or a stationery store, shoplifting and other forms of loss can severely impact the businesses’ viability. As such, it is worth remembering that shoplifting is a crime.","がある。
+
+Go straight north from the station, turn right at the first crossroads, go a little farther, and the bookstore will be on your left."
+79,商社,しょうしゃ,shousha,Noun,trading company; firm,jlpt_n2,"があると言っていた。
+
+A friend of mine who jot a job with a general trading company said that, after working in Japan for a few years, he would surely then be transferred to the overseas office.","と比べると高いといえる。
+
+The annual income of a trading company’s employees varies by department, but it is generally higher than the average income of people within the same age group.","商社はアジアの新しい市場に目をつけています
+
+Trade companies aim at a new market in Asia."
+80,商店,しょうてん,shouten,Noun,shop; small store; business; firm,jlpt_n2,"を変えた。
+
+Redevelopment in front of the station has transformed the old shopping area into a large shopping mall.","いない。
+
+Although the concept of redeveloping the area in front of the station has been in the planning stage for 10 years; it has not been realized due to the challenge of gaining the approval of the local shopping district.","は反対している。
+
+The construction of a large new shopping mall could be the death knell for the local shopping district, and the shopkeepers are opposed to the development."
+81,集合,しゅうごう,shuugou,"Noun, Verb, Suru verb",gathering; assembly; meeting,jlpt_n2,"について、集合時間や見どころ、食事や見学時の注意なども含めて、詳しく説明してくれた。
+
+The tour guide gave a detailed description of the itinerary of the day’s journey, including meeting times, highlights, and notes on meals and visits.","の予定だ。
+
+For the bus trip tomorrow, we are scheduled to meet at Shinjuku Station at 9:00 a.m. and depart at 9:15 a.m.","した。
+
+The pandemic prevented the opportunity to study abroad, which was disheartening."
+82,習字,しゅうじ,shuuji,Noun,calligraphy; penmanship,jlpt_n2,"いた。
+
+When I was a child, I wanted to learn to write beautifully, so I attended a Japanese calligraphy class.",,
+83,集会,しゅうかい,shuukai,"Noun, Verb, Suru verb",meeting; assembly; gathering; convention; rally,jlpt_n2,"魔女集会で悪魔を召喚する
+
+Her coven conjures the demons.","彼は集会で演説しなければならなかった
+
+He had to address the meeting.","集会は時に解散した
+
+The meeting broke up at seven."
+84,速力,そくりょく,sokuryoku,Noun,speed,jlpt_n2,"彼は全速力で走った
+
+He ran as fast as his legs could carry him.","彼は全速力でドアの方へ向かった
+
+He headed for the door at full speed.","待ちくたびれているか全速力で飛び出すかだ
+
+Bored waiting or rushing off at full speed."
+85,速達,そくたつ,sokutatsu,"Noun, Verb, Suru verb",express; special delivery,jlpt_n2,"速達便でお願いします
+
+Please send it by special delivery.","速達にしてくれませんか
+
+Can you make it special delivery?","速達で送ってください
+
+Please send it by express mail."
+86,足袋,たび,tabi,Noun,Japanese socks (with split toe),jlpt_n2,,,
+87,足る,たる,taru,"Verb, Godan verb, Intransitive verb",to be sufficient; to be enough​; to be worth doing; to be worthy of; to deserve​,jlpt_n2,"」など、うがったことを言っているのを読んで感心した。
+
+I was impressed when I read in the newspaper’s letters to the editor section one by a junior high school student making insightful comments about the way people live, mentioning concepts like “being satisfied with one’s lot in life.”","と自分を比較してばかりいては幸せになれない。「
+
+You cannot be happy if you are constantly comparing yourself to others. As the saying goes, “Be satisfied with your lot in life,” it is important to cherish what you have in the present moment and be thankful for it every day.","この校閲力の弱さは人手が足らないとしか考えられませんね
+
+I can only put this poor checking down to lack of people at work."
+88,特売,とくばい,tokubai,"Noun, Verb, Suru verb",special sale,jlpt_n2,"毛皮のコートが特売中です
+
+Fur coats are on sale.","今日はりんごが特売だった
+
+Apples were on sale today.","きのうは和牛が特売だった
+
+Japanese beef was on sale yesterday."
+89,透明,とうめい,toumei,"Noun, Adjective, な-adjective",transparent; clear,jlpt_n2,"に、浅い眠りと深い眠りを交互に繰り返している。
+
+During a night’s sleep, a person alternates between shallow and deep sleep.","の上にビニールをかけてくれる。
+
+When you shop at a department store on a rainy day, they put a plastic cover over the paper bags to keep the items you buy dry.","の高い海に分布している。
+
+Coral reefs are distributed in shallow, clear waters in the tropics and subtropics."
+90,東洋,とうよう,touyou,Noun,Orient,jlpt_n2,"仏教に関するその記事は私に再び東洋の宗教に関する興味を呼び起こした
+
+The article on Buddhism revived my interest in oriental religions.","が深い。
+
+My doctor is an internist, but he is also well versed in Eastern medicine. After treating patients with chronic diseases for many years, he felt the limitations of Western medicine and started conducting research on Eastern medicine.","仏教に関するその記事が私の東洋の宗教への情熱を呼び戻した
+
+The article on Buddhism revived my passion for Oriental religions."
+91,売れ行き,うれゆき,ureyuki,Noun,sales; demand,jlpt_n2,"季節限定のメニューだったが、好評につき、販売を継続することにした。
+
+The menu was seasonal and available for only a limited time during the season, but due to its popularity the company decided to continue offering it.","がいい。
+
+New bread products made with walnuts have been well received by customers, and they are selling fast every day.","への暴言は許されるものではない。
+
+Regardless of whether you are drunk or not, verbal abuse of subordinates is not acceptable."
+92,売上,うりあげ,uriage,Noun,amount sold; sales; proceeds; turnover,jlpt_n2,"と、好調な伸びを示している。
+
+Our new product was featured on a TV program, and we were inundated with enquiries, resulting in a 150% increase in sales this fiscal year compared to last year.","の経営を圧迫することになりかねない。
+
+For retail stores that do not generate a large volume of sales, such as a privately owned bookstore or a stationery store, shoplifting and other forms of loss can severely impact the businesses’ viability. As such, it is worth remembering that shoplifting is a crime.","の目標について話し始めた。
+
+The division manager opened the meeting by pointing out the details of last month’s sales slump, took a breath, and then began talking about the new goal for this month that we should aim for."
+93,売り切れ,うりきれ,urikire,Noun,sold out,jlpt_n2,"でがっかりした。
+
+I had come a long way to buy the sweets that were featured on TV, but I was disappointed that they were already sold out.","切符はたちまち売り切れた
+
+The tickets were sold out in a moment.","切符はすべて売り切れです
+
+All the tickets are sold out."
+94,売り切れる,うりきれる,urikireru,"Verb, Ichidan verb, Intransitive verb",to be sold out,jlpt_n2,"切符はたちまち売り切れた
+
+The tickets were sold out in a moment.","もう売り切れてしまったのですが次回有効券をお渡しいたします
+
+It's out of stock, but I can give you a rain check.","それはすべて売り切れた
+
+They were all sold out."
+95,我が,わが,waga,Pre-noun adjectival,my; our; one's own,jlpt_n2,"で夕食を作っている。
+
+In our family, we have a meal rota: my husband and I take turns cooking dinner each day.","だろう。
+
+By repeating consecutive losses, it is impossible for our team to be promoted to the higher-ranking league this year.","ため、社員や関係者に話を聞いてまわっているらしい。
+
+I heard that a rival company is going around talking to employees and other concerned parties in order to figure out the inner workings of our company."
+96,洋品店,ようひんてん,youhinten,Noun,shop that handles Western-style apparel and accessories,jlpt_n2,,,
+97,輸血,ゆけつ,yuketsu,"Noun, Verb, Suru verb",blood transfusion,jlpt_n2,"輸血が必要です
+
+A blood transfusion is necessary.",,
+98,輸送,ゆそう,yusou,"Noun, Verb, Suru verb",transport; transportation,jlpt_n2,"によって輸送する事業を海運業と言う。
+
+The business of transporting passengers and cargo by ship is called shipping.","海運は長い歴史を持つ産業である。いつの時代でも、海外との貿易では、重い貨物は
+
+Shipping is an industry with a long history. It has always been the case that heavy cargoes are always transported by ship when trading with foreign countries.","している。
+
+In an effort to build a recycling-oriented society, the Tokyo Metropolitan Government encourages recycling."
+99,材木,ざいもく,zaimoku,Noun,lumber; timber,jlpt_n2,"が積まれている。
+
+Lots of lumber is piled up at a housing construction site.","彼らは私達に材木を送ってくれるだろう
+
+They will send us lumber.","彼は本箱を作るために材木を少し買っている
+
+He is buying some wood so that he can make a bookcase."

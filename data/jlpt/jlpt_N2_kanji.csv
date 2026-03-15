@@ -1,0 +1,178 @@
+rank,kanji,onyomi,kunyomi,meaning,labels,example_1,example_2
+1,党,tou トウ,"nakama, mura なかま、 むら","party, faction, clique",jlpt_n2,"僕は政党には関係しない。
+boku wa seitou ni wa kankei shinai.
+I'm not affiliated with any political party.","その党議は東京で行います。
+sono tougi wa toukyou de okonaimasu.
+The party meeting will be held in Tokyo."
+2,協,kyou キョウ,,"co-, cooperation",jlpt_n2,,
+3,総,sou ソウ,"sube(te), fusa すべ(て)、 ふさ","general, whole, all",jlpt_n2,"彼は総選挙で落選した。
+kare wa sousenkyo de rakusen shita.
+He lost the general election.","彼女は総理大臣の秘書官をしている。
+kanojo wa souri daijin no hishokan o shite iru.
+She is a secretary to the prime minister."
+4,区,ku ク,,"ward, district",jlpt_n2,,
+5,領,ryou リョウ,eri えり,"jurisdiction, dominion",jlpt_n2,,
+6,県,ken ケン,ka(keru) か(ける),prefecture,jlpt_n2,"私の主人は県警です。
+watashi no shujin wa kenkei desu.
+My husband is the prefectural police.","僕は長野県に住んでいます。
+boku wa Nagano ken ni sunde imasu."
+7,設,setsu セツ,mou(keru) もう(ける),"establishment, provision",jlpt_n2,"この設備は使いやすいですか。
+kono setsubi wa tsukai yasui desuka?
+Is this equipment easy to use?","その会社は空港を建設しました。
+sono kaisha wa kuukou o kensetsu shimashita.
+That company built an airport."
+8,保,"ho, hou ホ、ホウ",tamo(tsu) たも(つ),"protect, guarantee, keep",jlpt_n2,,
+9,改,kai カイ,arata(meru) あらた(める),"reformation, change, modify",jlpt_n2,,
+10,第,dai ダイ,,"No., number",jlpt_n2,,
+11,結,ketsu ケツ,"musu(bu), yu(u) むす(ぶ)、ゆ(う)","tie, bind, contract",jlpt_n2,,
+12,派,ha ハ,,"faction, group, party",jlpt_n2,,
+13,府,fu フ,,"borough, urban prefecture, govt office",jlpt_n2,"彼は京都府警です。
+kare wa Kyouto fukei desu.","彼らは新政府を樹立した。
+karera wa shinseifu o juritsu shita.
+They set up a new government."
+14,査,sa サ,,investigate,jlpt_n2,,
+15,委,i イ,yuda(neru) ゆだ(ねる),"committee, entrust to",jlpt_n2,,
+16,軍,gun グン,ikusa いくさ,"army, force, troops",jlpt_n2,,
+17,案,an アン,tsukue つくえ,"plan, suggestion, draft",jlpt_n2,,
+18,策,saku サク,,"scheme, plan, policy",jlpt_n2,,
+19,団,"dan, ton ダン、トン","katamari, maru(i) かたまり、 まる(い)","group, association",jlpt_n2,,
+20,各,kaku カク,onoono おのおの,each; every; either,jlpt_n2,,
+21,島,tou トウ,shima しま,island,jlpt_n2,,
+22,革,kaku カク,kawa かわ,leather; skin; reform; become serious,jlpt_n2,,
+23,村,son ソン,mura むら,village; town,jlpt_n2,,
+24,勢,sei セイ,ikio(i) いきお(い),forces; energy; military strength,jlpt_n2,"我々は敵の攻勢に後退した。
+wareware wa teki no kousei ni koutai shita.
+We retreated to the enemy's offensive.","彼の勢力は国中に及んでいる。
+kare no seiryoku wa kunijuu ni oyonde iru.
+His power stretches across the country."
+25,減,gen ゲン,he(ru) へ(る),dwindle; decrease; reduce,jlpt_n2,"この村の人口は減少した。
+kono mura no jinkou wa genshou shita.
+The population of this village has decreased.","私たちはそのコストを半減する。
+watashitachi wa sono kosuto o hangen suru.
+We are going to reduce that cost by half."
+26,再,"sai, sa サイ、 サ",futata(bi) ふたた(び),"again, twice, second time",jlpt_n2,,
+27,税,zei ゼイ,,tax; duty,jlpt_n2,,
+28,営,ei エイ,itona(mu) いとな(む),occupation; camp; perform; build; conduct (business),jlpt_n2,"私は営業部で働いています。
+watashi wa eigyoubu de hataraite imasu.
+I work in the sales department.","彼には営業の経験がありません。
+kare ni wa eigyou no keiken ga arimasen.
+He has no sales experience."
+29,比,hi ヒ,kura(beru) くら(べる),compare; race; ratio,jlpt_n2,,
+30,防,bou ボウ,fuse(gu) ふせ(ぐ),ward off; defend; protect; resist,jlpt_n2,,
+31,補,ho ホ,ogina(u) おぎな(う),supplement; supply; offset; compensate,jlpt_n2,,
+32,境,kyou キョウ,sakai さかい,"boundary, border, region",jlpt_n2,,
+33,導,dou ドウ,michibi(ku) みちび(く),guidance; leading; conduct; usher,jlpt_n2,,
+34,副,fuku フク,,vice-; assistant; aide; duplicate; copy,jlpt_n2,,
+35,算,san サン,soro そろ,calculate; divining; number; probability,jlpt_n2,,
+36,輸,"yu, shu ユ、 シュ",,"transport, send, be inferior",jlpt_n2,,
+37,述,jutsu ジュツ,no(beru) の(べる),mention; state; speak,jlpt_n2,,
+38,線,sen セン,suji すじ,line; track,jlpt_n2,,
+39,農,nou ノウ,,agriculture; farmers,jlpt_n2,,
+40,州,shuu シュウ,su す,state; province,jlpt_n2,,
+41,武,"bu, mu ブ、 ム",take(shi) たけ(し),warrior; military; chivalry; arms,jlpt_n2,,
+42,象,"shou, zou ショウ、 ゾウ",katado(ru) かたど(る),elephant; pattern after; image; shape,jlpt_n2,,
+43,域,iki イキ,,range; region; limits; stage; level,jlpt_n2,"この地域は商店が多いです。
+kono chiiki wa shouten ga ooi desu.
+There are many shops in this area.","あなたの地域はまだ暑いですか。
+anata no chiiki wa mada atsui desuka?
+Is your region still hot?"
+44,額,gaku ガク,hitai ひたい,forehead; tablet; framed picture; sum; amount; volume,jlpt_n2,,
+45,欧,ou オウ,"uta(u), ha(ku) うた(う)、 は(く)",Europe,jlpt_n2,,
+46,担,tan タン,"katsu(gu), nina(u) かつ(ぐ)、 にな(う)",shouldering; carry; raise; bear,jlpt_n2,,
+47,準,jun ジュン,"jun(jiru), nazora(eru) じゅん(じる)、 なぞら(える)",semi-; correspond to; imitate,jlpt_n2,"私は仕事の準備が完了した。
+watashi wa shigoto no junbi ga kanryou shita.
+I finished preparing for my work.","彼らは準決勝に進出する予定だ。
+karera wa junkesshou ni shinshutsu suru yotei da.
+They will advance to the semi-finals."
+48,賞,shou ショウ,ho(meru) ほ(める),prize; reward; praise,jlpt_n2,,
+49,辺,hen ヘン,"ata(ri), hoto(ri) あた(り)、 ほと(り)",environs; boundary; border; vicinity,jlpt_n2,,
+50,造,zou ゾウ,tsuku(ru) つく(る),create; make; structure; physique,jlpt_n2,"彼らの家は改造中です。
+karera no ie wa kaizouchuu desu.
+Their house is being remodeled.","この会社は機械を製造します。
+kono kaisha wa kikai o seizou shimasu.
+This company manufactures machines."
+51,被,hi ヒ,"koumu(ru), kabu(ru) こうむ(る)、 かぶ(る)",incur; cover; shelter; wear; put on,jlpt_n2,,
+52,技,gi ギ,waza わざ,skill; art; craft; ability; vocation; arts,jlpt_n2,,
+53,低,tei テイ,hiku(i) ひく(い),lower; short; humble,jlpt_n2,,
+54,復,fuku フク,mata また,"restore, return to, revert",jlpt_n2,,
+55,移,i イ,utsu(ru) うつ(る),"shift, move, change",jlpt_n2,,
+56,個,ko コ,,individual; counter for articles,jlpt_n2,,
+57,門,mon モン,"kado, to かど、 と",gate,jlpt_n2,,
+58,課,ka カ,,"chapter, lesson, section, department",jlpt_n2,,
+59,脳,nou ノウ,nouzuru のうずる,brain; memory,jlpt_n2,"彼は脳出血を発症した。
+kare wa noushukketsu o hasshou shita.
+He developed a cerebral hemorrhage.","医者は彼の脳死を宣告した。
+isha wa kare no noushi o senkoku shita.
+Doctors declared him brain dead."
+60,極,"kyoku, goku キョク、 ゴク",kiwa(meru) きわ(める),poles; settlement; conclusion; end,jlpt_n2,,
+61,含,gan ガン,fuku(mu) ふく(む),contain; include,jlpt_n2,,
+62,蔵,zou ゾウ,kura くら,storehouse; hide; own; have; possess,jlpt_n2,,
+63,量,ryou リョウ,haka(ru) はか(る),quantity; measure; weight; amount,jlpt_n2,,
+64,型,kei ケイ,kata かた,type; model,jlpt_n2,,
+65,況,kyou キョウ,mashi(te) まし(て),condition; situation,jlpt_n2,,
+66,針,shin シン,hari はり,needle; pin; staple; stinger,jlpt_n2,,
+67,専,sen セン,moppa(ra) もっぱ(ら),specialty; exclusive; mainly; solely,jlpt_n2,,
+68,谷,koku コク,"tani, kiwa(maru) たに、 きわ(まる)",valley,jlpt_n2,,
+69,史,shi シ,,history; chronicle,jlpt_n2,,
+70,階,kai カイ,kizahashi きざはし,stair; counter for building story,jlpt_n2,,
+71,管,kan カン,kuda くだ,pipe; tube; wind instrument; control; jurisdiction,jlpt_n2,"私はそれを保管しています。
+watashi wa sore o hokan shite imasu.
+I am safekeeping that.","この管楽器は父からもらった。
+kono kangakki wa chichi kara moratta.
+I got this wind instrument from my father."
+72,兵,"hei, hyou ヘイ、 ヒョウ",tsuwamono つわもの,soldier; private; troops; army,jlpt_n2,,
+73,接,setsu セツ,tsu(gu) つ(ぐ),touch; contact; adjoin; piece together,jlpt_n2,,
+74,細,sai サイ,"hoso(i), koma(kai) ほそ(い)、 こま(かい)",slender; narrow; detailed; precise,jlpt_n2,,
+75,効,kou コウ,ki(ku) き(く),merit; efficacy; efficiency; benefit,jlpt_n2,,
+76,丸,gan ガン,"maru, maru(i) まる、まる(い)",round; full (month); perfection,jlpt_n2,,
+77,湾,wan ワン,irie いりえ,gulf; bay; inlet,jlpt_n2,"私は台湾に行ったことない。
+watashi wa taiwan ni itta koto nai.
+I have never been to Taiwan.","台湾の料理は美味しかった。
+taiwan no ryouri wa oishikatta.
+Taiwanese food was delicious."
+78,録,roku ロク,to(ru) と(る),record,jlpt_n2,"彼女は世界記録を破った。
+kanojo wa sekai kiroku o yabutta.
+She broke the world record.","彼の記録は4分28秒だった。
+kare no kiroku wa 4 pun 28 byou datta.
+His record was 4:28."
+79,省,"sei, shou セイ、 ショウ","kaeri(miru), habu(ku) かえり(みる)、 はぶ(く)",focus; government ministry; conserve,jlpt_n2,"私は秋田に帰省した。
+watashi wa Akita ni kisei shita.","彼らはその点検を省略する。
+karera wa sono tenken o shouryaku suru.
+They omit that investigation."
+80,旧,kyuu キュウ,"furu(i), moto ふる(い)、 もと",old times; old things; former; ex-,jlpt_n2,"昨夜は旧友と飲みに行った。
+sakuya wa kyuuyuu to nomi ni itta.
+I went drinking with an old friend last night.","今年の旧正月は地元に帰らない。
+kotoshi no kyuushougatsu wa jimoto ni kaeranai.
+I will not be returning to my hometown for the Chinese New Year this year."
+81,橋,kyou キョウ,hashi はし,bridge,jlpt_n2,"この橋は木で造られた。
+kono hashi wa ki de tsukurareta.
+This bridge was made of wood.","ここの吊橋はとても有名です。
+koko no tsuribashi wa totemo yuumei desu.
+The suspension bridge here is very famous."
+82,岸,gan ガン,kishi きし,beach,jlpt_n2,"私は湖岸で写真を撮った。
+watashi wa kogan de shashin o totta.
+I took a picture on the shore of the lake.","私たちはその海岸で泳いだ。
+watashitachi wa sono kaigan de oyoida.
+We swam on that beach."
+83,周,shuu シュウ,mawa(ri) まわ(り),circumference; circuit; lap,jlpt_n2,,
+84,材,zai ザイ,,"lumber, log, timber, wood",jlpt_n2,,
+85,戸,ko コ,to と,door; counter for houses,jlpt_n2,,
+86,央,ou オウ,,center; middle,jlpt_n2,,
+87,券,ken ケン,,ticket,jlpt_n2,"私は航空券を買いました。
+watashi wa koukuuken o kaimashita.
+I bought an airline ticket.","食券はどうやって使うのですか。
+shokken wa dou yatte tsukau no desuka?
+How can I use the meal ticket?"
+88,編,hen ヘン,a(mu) あ(む),compilation; knit; braid; twist; editing,jlpt_n2,,
+89,捜,sou ソウ,saga(su) さが(す),search; look for; locate,jlpt_n2,,
+90,竹,chiku チク,take たけ,bamboo,jlpt_n2,,
+91,超,chou チョウ,ko(eru) こ(える),transcend; super-; ultra-,jlpt_n2,,
+92,並,hei ヘイ,"na(mi), nami, nara(beru) な(み)、なみ、なら(べる)","row, and, besides",jlpt_n2,,
+93,療,ryou リョウ,,heal; cure,jlpt_n2,,
+94,採,sai サイ,to(ru) と(る),pick; take; fetch; take up,jlpt_n2,,
+95,森,shin シン,mori もり,"forest, woods",jlpt_n2,,
+96,競,"kyou, kei キョウ、 ケイ","kiso(u), se(ru) きそ(う)、 せ(る)",compete with; bid; contest; race,jlpt_n2,,
+97,介,kai カイ,,jammed in; shellfish; mediate,jlpt_n2,,
+98,根,kon コン,ne ね,root; radical,jlpt_n2,,
+99,販,han ハン,,"marketing, sell, trade",jlpt_n2,,
+100,歴,reki レキ,,curriculum; continuation; passage of time,jlpt_n2,,

@@ -1,0 +1,33 @@
+# Version control — not needed in image; avoids leaking history
+.git/
+.gitignore
+
+# Environment and secrets — never ship into image (security)
+.env
+.env.*
+
+# Dependencies and caches — image installs its own via npm ci / uv sync
+node_modules/
+**/node_modules/
+.venv/
+__pycache__/
+**/__pycache__/
+*.pyc
+**/*.pyc
+.pytest_cache/
+coverage/
+
+# Local/runtime data — app uses mounted volume at /data in production
+data/
+*.sqlite
+**/*.sqlite
+
+# Documentation and tooling — not required at runtime
+*.md
+!README.md
+.github/
+Makefile
+improvements.md
+
+# Web build artifacts — image runs its own npm run build; avoids stale assets
+web/dist/
