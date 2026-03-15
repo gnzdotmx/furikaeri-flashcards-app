@@ -2,7 +2,7 @@
 
 A JLPT flashcard web app for the community. Import grammar, kanji, and vocabulary from CSV, study with spaced repetition (FSRS-style scheduler), and manage your decks in one place.
 
-![Furikaeri](imgs/furikaeri.gif)
+![Furikaeri](imgs/Furikaeri.gif)
 
 ---
 
