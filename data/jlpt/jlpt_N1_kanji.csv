@@ -1,0 +1,120 @@
+rank,kanji,onyomi,kunyomi,meaning,labels,example_1,example_2
+1,氏,shi シ,uji うじ,"family name, surname, clan",jlpt_n1,"田中氏は医者ですね。
+tanakashi wa isha desu ne!
+Mr Tanaka is a doctor, isn't he?","私は山田氏の部下です。
+watashi wa Yamada shi no buka desu."
+2,統,tou トウ,su(beru) す(べる),"ruling, governing",jlpt_n1,,
+3,基,ki キ,"moto, motoi もと、 もとい","fundamentals, counter for machines, foundation",jlpt_n1,,
+4,価,ka カ,atai あたい,"value, price",jlpt_n1,,
+5,提,tei テイ,sa(geru) さ(げる),"propose, take along, carry in hand",jlpt_n1,,
+6,挙,kyo キョ,"a(geru), kozo(ru) あ(げる)、 こぞ(る)","raise, plan, project, behavior, actions",jlpt_n1,,
+7,応,ou オウ,kota(eru) こた(える),"apply, answer, yes, OK, reply, accept",jlpt_n1,,
+8,企,ki キ,"kuwada(teru), takura(mu) くわだ(てる)、 たくら(む)","undertake, scheme, design, attempt, plan",jlpt_n1,,
+9,検,ken ケン,shira(beru) しら(べる),"examination, investigate",jlpt_n1,,
+10,藤,tou トウ,fuji ふじ,wisteria,jlpt_n1,,
+11,沢,taku タク,sawa さわ,"swamp, marsh, brilliance, grace",jlpt_n1,,
+12,裁,sai サイ,"ta(tsu), saba(ku) た(つ)、 さば(く)","tailor, judge, decision, cut out (pattern)",jlpt_n1,,
+13,証,shou ショウ,akashi あかし,"evidence, proof, certificate",jlpt_n1,,
+14,援,en エン,,"abet, help, save",jlpt_n1,,
+15,可,ka カ,be(ki) べ(き),"can, passable, mustn't, should not",jlpt_n1,,
+16,施,"shi, se シ、 セ",hodoko(su) ほどこ(す),"give, bestow, perform, alms",jlpt_n1,,
+17,井,"sei, shou セイ、 ショウ",i い,"well, well crib, town, community",jlpt_n1,,
+18,護,go ゴ,mamo(ru) まも(る),"safeguard, protect",jlpt_n1,,
+19,展,ten テン,,"unfold, expand",jlpt_n1,,
+20,態,tai タイ,waza(to) わざ(と),"attitude, condition",jlpt_n1,,
+21,鮮,sen セン,aza(yaka) あざ(やか),"fresh, vivid, clear",jlpt_n1,,
+22,視,shi シ,mi(ru) み(る),"inspection, regard as, see, look at",jlpt_n1,,
+23,条,"jou, chou, deki ジョウ、 チョウ、 デキ","eda, suji えだ、 すじ","article, clause, counter for articles",jlpt_n1,,
+24,幹,kan カン,miki みき,"tree trunk, main part, talent, capability",jlpt_n1,,
+25,独,doku ドク,hito(ri) ひと(り),"single, alone, spontaneously",jlpt_n1,,
+26,宮,"kyuu, guu, ku キュウ、 グウ、 ク",miya みや,"Shinto shrine, constellations, palace, princess",jlpt_n1,,
+27,率,"sotsu, ritsu ソツ、 リツ",hiki(iru) ひき(いる),"ratio, rate, proportion, %, factor, lead",jlpt_n1,,
+28,衛,ei エイ,,"defense, protection",jlpt_n1,,
+29,張,chou チョウ,ha(ru) は(る),"lengthen, counter for bows & stringed instruments, stretch, spread, put up (tent)",jlpt_n1,,
+30,監,kan カン,,"oversee, official, govt office, rule, administer",jlpt_n1,,
+31,環,kan カン,wa わ,"ring, circle, link, wheel",jlpt_n1,,
+32,審,shin シン,"tsumabi(raka), tsubusa(ni) つまび(らか)、 つぶさ(に)","hearing, judge, trial",jlpt_n1,,
+33,義,gi ギ,,"righteousness, justice, morality, honor, loyalty, meaning",jlpt_n1,,
+34,訴,so ソ,utta(eru) うった(える),"accusation, sue, complain of pain, appeal to",jlpt_n1,,
+35,株,shu シュ,kabu かぶ,"stocks, stump, shares, stock, counter for small plants",jlpt_n1,,
+36,姿,shi シ,sugata すがた,"figure, form, shape",jlpt_n1,,
+37,閣,kaku カク,,"tower, tall building, palace",jlpt_n1,,
+38,韓,kan カン,"kara, igeta から、 いげた",Korea,jlpt_n1,,
+39,衆,"shuu, shu シュウ、 シュ",oo(i) おお(い),"masses, great numbers, multitude, populace",jlpt_n1,,
+40,評,hyou ヒョウ,,"evaluate, criticism, comment",jlpt_n1,,
+41,岡,kou コウ,oka おか,"mount, hill, knoll",jlpt_n1,,
+42,影,ei エイ,kage かげ,"shadow, silhouette, phantom",jlpt_n1,"壁に映った男の影が見えた。
+kabe ni utsutta otoko no kage ga mieta.
+I saw the shadow of a man reflected on the wall.","彼の影響力は大したことない。
+kare no eikyouryoku wa taishita koto nai.
+His influence is not great."
+43,松,shou ショウ,matsu まつ,pine tree,jlpt_n1,,
+44,撃,geki ゲキ,u(tsu) う(つ),"beat, attack, defeat, conquer",jlpt_n1,,
+45,佐,sa サ,,"assistant, help",jlpt_n1,,
+46,核,kaku カク,,"nucleus, core, kernel",jlpt_n1,,
+47,整,sei セイ,totono(eru) ととの(える),"organize, arranging, tune, tone, meter, key (music)",jlpt_n1,,
+48,融,yuu ユウ,to(keru) と(ける),"dissolve, melt",jlpt_n1,,
+49,製,sei セイ,,"made in..., manufacture",jlpt_n1,,
+50,票,hyou ヒョウ,,"ballot, label, ticket, sign",jlpt_n1,,
+51,渉,shou ショウ,wata(ru) わた(る),"ford, go cross, transit, ferry, import, involve",jlpt_n1,,
+52,響,kyou キョウ,hibi(ku) ひび(く),"echo, sound, resound, ring, vibrate",jlpt_n1,,
+53,推,sui スイ,o(su) お(す),"conjecture, infer, guess, suppose, support, push (for)",jlpt_n1,,
+54,請,"sei, shin, shou セイ、 シン、 ショウ","ko(u), u(keru) こ(う)、 う(ける)","solicit, invite, ask",jlpt_n1,,
+55,器,ki キ,utsuwa うつわ,"utensil, vessel, receptacle, implement, instrument, ability, container, tool, set",jlpt_n1,,
+56,士,shi シ,samurai さむらい,"gentleman, scholar, samurai",jlpt_n1,,
+57,討,tou トウ,u(tsu) う(つ),"chastise, attack, defeat, destroy, conquer",jlpt_n1,,
+58,攻,kou コウ,se(meru) せ(める),"aggression, attack, criticize, polish",jlpt_n1,,
+59,崎,ki キ,"saki, sai, misaki さき、 さい、 みさき","promontory, cape, spit",jlpt_n1,,
+60,督,toku トク,,"coach, command, urge, lead, supervise",jlpt_n1,,
+61,授,ju ジュ,sazu(keru) さず(ける),"impart, instruct, grant, confer",jlpt_n1,"私は大学の助教授です。
+watashi wa daigaku no jokyouju desu.
+I am an assistant professor at a university.","彼女は地球化学の教授だ。
+kanojo wa chikyuu kagaku no kyouju da.
+She is a professor of geochemistry."
+62,催,sai サイ,"moyou(su), moyoo(su) もよう(す)、 もよお(す)","sponsor, hold (a meeting), give (a dinner)",jlpt_n1,,
+63,及,kyuu キュウ,"oyo(bu), oyobi およ(ぶ)、 および","reach out, exert, exercise, cause",jlpt_n1,,
+64,憲,ken ケン,,"constitution, law",jlpt_n1,,
+65,離,ri リ,hana(reru) はな(れる),"detach, separation, disjoin, digress",jlpt_n1,,
+66,激,geki ゲキ,hage(shii) はげ(しい),"violent, get excited, enraged, chafe, incite",jlpt_n1,,
+67,摘,teki テキ,tsu(mu) つ(む),"pinch, pick, pluck, trim, clip, summarize",jlpt_n1,,
+68,系,kei ケイ,,"lineage, system",jlpt_n1,,
+69,批,hi ヒ,,"criticism, strike",jlpt_n1,,
+70,郎,rou ロウ、 リョウ,otoko おとこ,"son, counter for sons",jlpt_n1,,
+71,健,ken ケン,suko(yaka) すこ(やか),"healthy, health, strength, persistence",jlpt_n1,,
+72,従,"juu, shou, ju ジュウ、 ショウ、 ジュ","shitaga(u), yori したが(う)、 より","accompany, obey, submit to, comply, follow, secondary, incidental, subordinate",jlpt_n1,,
+73,修,"shuu, shu シュウ、 シュ",osa(meru) おさ(める),"discipline, conduct oneself well, study, master",jlpt_n1,,
+74,隊,tai タイ,,"regiment, party, company, squad",jlpt_n1,,
+75,織,"shoku, shiki ショク、 シキ","o(ru), ori, -ori, -o(ri) お(る)、 おり、 -おり、 -お(り)","weave, fabric",jlpt_n1,,
+76,拡,"kaku, kou カク、 コウ",hiro(garu) ひろ(がる),"broaden, extend, expand, enlarge",jlpt_n1,,
+77,故,ko コ,"yue, furu(i), moto ゆえ、 ふる(い)、 もと","happenstance, especially, intentionally, reason, cause, circumstances, the late, therefore",jlpt_n1,,
+78,振,shin シン,fu(ru) ふ(る),"shake, wave, wag, swing",jlpt_n1,,
+79,弁,"ben, hen ベン、 ヘン","kanmuri, wakima(eru), wa(keru), hanabira かんむり、 わきま(える)、 わ(ける)、 はなびら","valve, petal, braid, speech, dialect, discrimination, dispose of, distinguish, conical cap",jlpt_n1,,
+80,就,"shuu, ju シュウ、 ジュ",tsu(ku) つ(く),"concerning, settle, take position, depart, study, per",jlpt_n1,,
+81,異,i イ,"koto, koto(naru), ke こと、 こと(なる)、 け","uncommon, different, queerness, strangeness, wonderful, curious, unusual",jlpt_n1,,
+82,献,"ken, kon ケン、 コン",tatematsu(ru) たてまつ(る),"offering, counter for drinks, present, offer",jlpt_n1,"彼は献身的な人です。
+kare wa kenshinteki na hito desu.
+He is a devoted person.","彼らは墓に献花をした。
+karera wa haka ni kenka o shita.
+They laid flowers at the grave."
+83,厳,"gen, gon ゲン、 ゴン","ogoso(ka), kibi(shii), ika(meshii), itsukushi おごそ(か)、 きび(しい)、 いか(めしい)、 いつくし","stern, strictness, severity, rigidity",jlpt_n1,,
+84,維,i イ,,"fiber, tie, rope",jlpt_n1,,
+85,浜,hin ヒン,hama はま,"seacoast, beach, seashore",jlpt_n1,,
+86,遺,"i, yui イ、 ユイ",noko(su) のこ(す),"bequeath, leave behind, reserve",jlpt_n1,,
+87,塁,"rui, rai, sui ルイ、 ライ、 スイ",toride とりで,"bases, fort, rampart, walls, base(ball)",jlpt_n1,,
+88,邦,hou ホウ,kuni くに,"home country, country, Japan",jlpt_n1,,
+89,素,"so, su ソ、 ス",moto もと,"elementary, principle, naked, uncovered",jlpt_n1,,
+90,遣,ken ケン,"tsuka(u), -tsuka(i), -dzuka(i), ya(ru) つか(う)、 -つか(い)、 -づか(い)、 や(る)","dispatch, despatch, send, give, donate, do, undertake",jlpt_n1,,
+91,抗,kou コウ,araga(u) あらが(う),"confront, resist, defy, oppose",jlpt_n1,,
+92,模,"mo, bo モ、 ボ",,"imitation, copy, mock",jlpt_n1,,
+93,雄,yuu ユウ,"o-, osu, on お-、 おす、 おん","masculine, male, hero, leader, superiority, excellence",jlpt_n1,,
+94,益,"eki, yaku エキ、ヤク",ma(su) ま(す),"benefit, gain, profit, advantage",jlpt_n1,"この商売は利益が多いです。
+kono shoubai wa rieki ga ooi desu.
+This business is very profitable.","彼と有益な話しをしました。
+kare to yuuekina hanashi o shimashita.
+I had a useful conversation with him."
+95,緊,kin キン,shi(meru) し(める),"tense, solid, hard, reliable, tight",jlpt_n1,,
+96,標,hyou ヒョウ,"shirube, shirushi しるべ、 しるし","signpost, seal, mark, stamp, imprint, symbol, emblem, trademark, evidence, souvenir",jlpt_n1,,
+97,宣,sen セン,notama(u) のたま(う),"proclaim, say, announce",jlpt_n1,,
+98,昭,shou ショウ,,"shining, bright",jlpt_n1,,
+99,廃,hai ハイ,suta(reru) すた(れる),"abolish, obsolete, cessation, discarding, abandon",jlpt_n1,,
+100,伊,i イ,kare かれ,"Italy, that one",jlpt_n1,,

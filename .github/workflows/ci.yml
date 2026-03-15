@@ -1,0 +1,144 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+env:
+  JWT_SECRET: "ci-jwt-secret-at-least-32-characters-long"
+
+jobs:
+  lint:
+    name: Lint
+    runs-on: ubuntu-22.04
+    steps:
+      - uses: actions/checkout@v4.2.2
+
+      - name: Set up Python
+        uses: actions/setup-python@v5.5.0
+        with:
+          python-version: "3.12"
+
+      - name: Install uv
+        uses: astral-sh/setup-uv@v4.0.0
+        with:
+          version: "0.10.9"
+
+      - name: API lint (Ruff)
+        working-directory: flashcards/app/api
+        run: |
+          uv sync --locked --extra dev
+          uv run ruff check .
+
+      - name: Set up Node
+        uses: actions/setup-node@v4.0.4
+        with:
+          node-version: "20.18.0"
+          cache: "npm"
+          cache-dependency-path: flashcards/app/web/package-lock.json
+
+      - name: Web lint (ESLint)
+        working-directory: flashcards/app/web
+        run: npm ci --silent && npm run lint
+
+  test:
+    name: Test
+    runs-on: ubuntu-22.04
+    steps:
+      - uses: actions/checkout@v4.2.2
+
+      - name: Set up Python
+        uses: actions/setup-python@v5.5.0
+        with:
+          python-version: "3.12"
+
+      - name: Install uv
+        uses: astral-sh/setup-uv@v4.0.0
+        with:
+          version: "0.10.9"
+
+      - name: API tests (pytest + coverage)
+        working-directory: flashcards/app/api
+        env:
+          TESTING: "1"
+          JWT_SECRET: ${{ env.JWT_SECRET }}
+        run: |
+          uv sync --locked --extra dev
+          uv run pytest -q --cov=app --cov-report=term-missing 2>&1 | tee api-report.txt
+
+      - name: Set up Node
+        uses: actions/setup-node@v4.0.4
+        with:
+          node-version: "20.18.0"
+          cache: "npm"
+          cache-dependency-path: flashcards/app/web/package-lock.json
+
+      - name: Web tests (Vitest)
+        working-directory: flashcards/app/web
+        run: npm ci --silent && npm test --silent 2>&1 | tee web-report.txt
+
+      - name: Upload test reports
+        uses: actions/upload-artifact@v4.4.2
+        if: always()
+        with:
+          name: test-reports
+          path: |
+            flashcards/app/api/api-report.txt
+            flashcards/app/web/web-report.txt
+          retention-days: 1
+
+  pr-comment:
+    name: PR comment
+    runs-on: ubuntu-22.04
+    if: github.event_name == 'pull_request' && always() && (needs.lint.result != 'skipped' || needs.test.result != 'skipped')
+    needs: [lint, test]
+    permissions:
+      contents: read
+      pull-requests: write
+    steps:
+      - uses: actions/checkout@v4.2.2
+
+      - name: Download test reports
+        uses: actions/download-artifact@v4.1.8
+        with:
+          name: test-reports
+        continue-on-error: true
+
+      - name: Build comment body
+        run: |
+          LINT="${{ needs.lint.result == 'success' && 'Passed' || 'Failed' }}"
+          TEST="${{ needs.test.result == 'success' && 'Passed' || 'Failed' }}"
+          API_REPORT=$(cat flashcards/app/api/api-report.txt 2>/dev/null || echo "See Actions run for API output.")
+          WEB_REPORT=$(cat flashcards/app/web/web-report.txt 2>/dev/null || echo "See Actions run for Web output.")
+          {
+            echo "## CI"
+            echo "| Job | Result |"
+            echo "|-----|--------|"
+            echo "| Lint | $LINT |"
+            echo "| Test | $TEST |"
+            echo ""
+            echo "<details><summary>Coverage / test output</summary>"
+            echo ""
+            echo "### API"
+            echo '```'
+            echo "$API_REPORT"
+            echo '```'
+            echo ""
+            echo "### Web"
+            echo '```'
+            echo "$WEB_REPORT"
+            echo '```'
+            echo "</details>"
+            echo ""
+            echo "<!-- ci -->"
+          } >> body.md
+
+      - name: Create or update PR comment
+        uses: peter-evans/create-or-update-comment@v5.0.0
+        with:
+          issue-number: ${{ github.event.pull_request.number }}
+          body-path: body.md
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

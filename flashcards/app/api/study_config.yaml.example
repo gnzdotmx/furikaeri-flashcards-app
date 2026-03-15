@@ -1,0 +1,80 @@
+# Study and scheduler adjustment settings.
+# Copy to study_config.yaml (in DATA_DIR or set STUDY_CONFIG_PATH) to customize.
+# All keys are optional; only override what you need.
+
+# ---------------------------------------------------------------------------
+# Scheduler (FSRS-style spacing)
+# ---------------------------------------------------------------------------
+scheduler:
+  # Target retention (0.5–0.99). Higher = shorter intervals, more reviews.
+  target_retention: 0.9
+  # Learning steps in minutes before a new card graduates (e.g. 1 min, then 10 min).
+  learning_steps_minutes: [1, 10]
+  # Number of lapses (rating "Again") before a card is marked as leech.
+  leech_lapses_threshold: 8
+  # Cap response time for scheduling (minutes); longer answers are clamped.
+  response_time_cap_minutes: 10
+  # When a graduated card is rated "Again", show again after this many minutes.
+  again_review_minutes: 10
+  # Stability bounds (days) for interval calculation.
+  stability_min: 0.3
+  stability_max: 3650.0
+  # Minimum interval in days for Hard / Good / Easy (graduated cards).
+  interval_min_hard_days: 0.25
+  interval_min_good_days: 0.5
+  interval_min_easy_days: 1.0
+
+# ---------------------------------------------------------------------------
+# Session and new-card throttling
+# ---------------------------------------------------------------------------
+session:
+  # Default new cards per day when user has not set a preference.
+  new_cards_per_day_default: 10
+  # Used to estimate session length (seconds per review).
+  estimated_seconds_per_review: 25
+  # Maximum allowed daily goal (reviews per day).
+  daily_goal_reviews_max: 500
+  # How many candidates to fetch when choosing next card (random pick from this set).
+  candidate_limit: 30
+  # When due backlog is above these, throttle new cards:
+  due_now_threshold_full_stop: 200   # 0 new cards
+  due_now_threshold_cap_5: 100       # max 5 new
+  due_now_threshold_cap_7: 50        # max 7 new
+  due_now_threshold_cap_10: 30        # max 10 new
+  # When deck has this many leeches, cap new cards:
+  leech_count_no_new: 10             # 0 new cards
+  leech_count_cap_3: 5               # max 3 new
+  # Backlog thresholds for card mix (due-first vs new-first):
+  backlog_threshold: 30
+  backlog_very_high: 50
+  backlog_overwhelming: 100
+  # Probability of choosing due-first order when backlog is high:
+  pool_due_first_prob_very_high: 0.95  # when due_now >= backlog_very_high
+  pool_due_first_prob_high: 0.90       # when due_now >= backlog_threshold
+  # Normal mix (low backlog): again / learning / hard / good (must sum to 1.0)
+  pool_again_prob: 0.50
+  pool_learning_prob: 0.20
+  pool_hard_prob: 0.20
+  pool_good_prob: 0.10
+  # Bandit (e.g. furigana mode): exploration rate and reward time cap.
+  bandit_epsilon: 0.15
+  bandit_min_pulls_explore: 3
+  bandit_reward_time_cap_ms: 60000
+
+# ---------------------------------------------------------------------------
+# API limits
+# ---------------------------------------------------------------------------
+limits:
+  list_cards_limit: 200
+  search_examples_limit: 80
+  search_examples_max: 200
+  metrics_summary_default: 200
+  metrics_summary_min: 20
+  metrics_summary_max: 2000
+
+# ---------------------------------------------------------------------------
+# Import (CSV)
+# ---------------------------------------------------------------------------
+import:
+  max_rows_default: 50000
+  max_cell_chars_default: 20000

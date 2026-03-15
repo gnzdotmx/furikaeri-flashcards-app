@@ -1,0 +1,25 @@
+# Repo root .dockerignore — used if build context is the repo root.
+# The main app image uses context ./flashcards/app (see compose.yml); this file
+# protects against accidentally including secrets or large paths if context changes.
+
+.git/
+.gitignore
+.env
+.env.*
+*.sqlite
+**/*.sqlite
+node_modules/
+**/node_modules/
+.venv/
+**/.venv/
+__pycache__/
+**/__pycache__/
+*.pyc
+**/*.pyc
+.pytest_cache/
+coverage/
+data/
+*.md
+!README.md
+.github/
+improvements.md

@@ -1,0 +1,1860 @@
+/* Skip link: off-screen until focused (WCAG 2.4.1 Bypass Blocks) */
+.skip-link {
+  position: absolute;
+  top: -100px;
+  left: 8px;
+  z-index: 100;
+  padding: 12px 16px;
+  background: var(--bg);
+  color: var(--text);
+  border: 2px solid rgba(var(--accent-rgb), 0.9);
+  border-radius: 10px;
+  font-weight: 700;
+  font-size: 14px;
+  text-decoration: none;
+  transition: top 0.2s ease;
+}
+.skip-link:focus {
+  top: 8px;
+  outline: 3px solid rgba(var(--accent-rgb), 0.95);
+  outline-offset: 2px;
+}
+
+/* Screen-reader only: visible to assistive tech, hidden visually (live regions, etc.) */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+:root {
+  /* Calm base (low distraction) + high contrast text. */
+  color-scheme: dark;
+  --bg: #070b16;
+  --panel: rgba(255, 255, 255, 0.07);
+  --panel-border: rgba(255, 255, 255, 0.12);
+  /* Slightly tinted whites so it doesn't feel “all white”. */
+  --text: #e8eef8;
+  --muted: #8b9ab8;
+
+  /* Semantic colors: progress, effort, risk (learning signals). */
+  --accent-rgb: 96 165 250; /* primary / accent */
+  --success-rgb: 52 211 153; /* Good & Easy — green, accessible contrast */
+  --ok-rgb: var(--success-rgb);
+  --warn-rgb: 251 191 36;   /* Hard — amber */
+  --danger-rgb: 248 113 113; /* Again — red */
+  --accent: rgb(var(--accent-rgb));
+  --ok: rgb(var(--ok-rgb));
+  --warn: rgb(var(--warn-rgb));
+  --danger: rgb(var(--danger-rgb));
+}
+
+html,
+body {
+  height: 100%;
+}
+
+html {
+  background-color: var(--bg);
+}
+
+body {
+  margin: 0;
+  /* Subtle tint only (avoid visual noise / reduce extraneous load). */
+  background: radial-gradient(900px 650px at 18% 10%, rgba(var(--accent-rgb), 0.16) 0%, transparent 62%),
+    radial-gradient(700px 520px at 82% 18%, rgba(var(--ok-rgb), 0.10) 0%, transparent 58%), var(--bg);
+  color: var(--text);
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", "Noto Sans JP",
+    "Hiragino Kaku Gothic ProN", "Yu Gothic", "Meiryo", sans-serif;
+}
+
+.page {
+  position: relative;
+  max-width: 980px;
+  padding: 32px 20px;
+  margin: 0 auto;
+}
+
+.landingPage .landingMain {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding-top: 24px;
+}
+.landingPage .landingPanel {
+  min-width: 320px;
+}
+.landingPage .landingHeader .headerRight {
+  display: none;
+}
+
+.appHeader {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 14px;
+}
+
+.headerRight {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+/* Account dropdown (header) */
+.accountDropdownWrap {
+  position: relative;
+}
+
+.accountDropdownTrigger {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  white-space: nowrap;
+}
+
+.accountDropdownLabel {
+  max-width: 140px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.accountDropdownChevron {
+  font-size: 10px;
+  color: var(--muted);
+}
+
+.accountDropdownMenu {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  margin-top: 6px;
+  min-width: 200px;
+  padding: 12px;
+  border-radius: 10px;
+  border: 1px solid var(--panel-border);
+  background: rgba(7, 11, 22, 0.98);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
+  z-index: 50;
+}
+
+.accountDropdownUser {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid var(--panel-border);
+}
+
+.accountDropdownUserLabel {
+  font-size: 12px;
+  color: var(--muted);
+}
+
+.accountDropdownUser strong {
+  font-size: 14px;
+  color: var(--text);
+}
+
+.accountDropdownEmail {
+  font-size: 12px;
+  color: var(--muted);
+}
+
+.accountDropdownLogout {
+  width: 100%;
+  justify-content: center;
+}
+
+.title {
+  font-size: 28px;
+  font-weight: 700;
+  letter-spacing: 0.2px;
+}
+
+.subtitle {
+  margin-top: 6px;
+  color: var(--muted);
+}
+
+.tabs {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin: 12px 0 16px;
+}
+
+.tab {
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid var(--panel-border);
+  color: var(--muted);
+  border-radius: 999px;
+  padding: 10px 12px;
+  cursor: pointer;
+  transition: transform 80ms ease, background 120ms ease, border-color 120ms ease;
+}
+
+.tab:hover {
+  background: rgba(255, 255, 255, 0.10);
+}
+
+.tabActive {
+  background: rgba(var(--accent-rgb), 0.18);
+  border-color: rgba(var(--accent-rgb), 0.55);
+  color: var(--text);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
+}
+
+/* Tab accents (subtle, consistent signals) */
+.tab-study.tabActive {
+  border-color: rgba(var(--accent-rgb), 0.65);
+}
+.tab-import.tabActive {
+  border-color: rgba(var(--ok-rgb), 0.55);
+}
+.tab-decks.tabActive {
+  border-color: rgba(255, 255, 255, 0.22);
+}
+.tab-metrics.tabActive {
+  border-color: rgba(var(--warn-rgb), 0.55);
+}
+.tab-leeches.tabActive {
+  border-color: rgba(var(--warn-rgb), 0.5);
+}
+.tab-privacy.tabActive {
+  border-color: rgba(255, 255, 255, 0.22);
+}
+.tab-debug.tabActive {
+  border-color: rgba(var(--danger-rgb), 0.55);
+}
+
+.panel {
+  background: var(--panel);
+  border: 1px solid var(--panel-border);
+  border-radius: 14px;
+  padding: 18px;
+  box-shadow: 0 18px 60px rgba(0, 0, 0, 0.25);
+}
+
+.panelHeader {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 12px;
+}
+
+.panelTitle {
+  font-size: 18px;
+  font-weight: 750;
+  color: rgba(var(--accent-rgb), 0.95);
+}
+
+.panelSubtitle {
+  color: var(--muted);
+  margin-top: 4px;
+  font-size: 13px;
+}
+
+.panelSubcard {
+  background: rgba(0, 0, 0, 0.18);
+  border: 1px solid rgba(255, 255, 255, 0.10);
+  border-radius: 14px;
+  padding: 14px;
+}
+
+.panelSubTitle {
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.grid2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+  margin-top: 10px;
+}
+
+@media (max-width: 900px) {
+  .grid2 {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Import tab: single column (Grammar, Vocabulary, Kanji) then Reimport/Sync */
+.importStack {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-top: 10px;
+}
+
+.importStackItem {
+  flex-shrink: 0;
+}
+
+.importRow {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+  margin-top: 8px;
+}
+
+.importRowLabel {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  min-width: 0;
+}
+
+.importRowLabel .muted {
+  flex-shrink: 0;
+}
+
+.importRowLabel .input {
+  min-width: 200px;
+  flex: 1;
+  max-width: 420px;
+}
+
+.importRow .input[type="file"] {
+  flex: 1;
+  min-width: 140px;
+  max-width: 280px;
+}
+
+.card {
+  background: var(--panel);
+  border: 1px solid var(--panel-border);
+  border-radius: 14px;
+  padding: 18px;
+  box-shadow: 0 18px 60px rgba(0, 0, 0, 0.25);
+}
+
+.card + .card {
+  margin-top: 12px;
+}
+
+.row {
+  display: flex;
+  gap: 10px;
+  align-items: flex-end;
+  flex-wrap: wrap;
+  margin: 10px 0;
+}
+
+.label {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  color: var(--muted);
+  font-size: 12px;
+}
+
+.input {
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid var(--panel-border);
+  border-radius: 10px;
+  padding: 10px 12px;
+  color: var(--text);
+  min-width: 240px;
+}
+
+select.input {
+  background-color: rgba(255, 255, 255, 0.06);
+  color: var(--text);
+}
+
+.emptyState {
+  margin-top: 12px;
+  padding: 14px;
+  border-radius: 14px;
+  border: 1px solid rgba(var(--accent-rgb), 0.25);
+  background: rgba(var(--accent-rgb), 0.08);
+}
+
+.emptyTitle {
+  font-weight: 800;
+  letter-spacing: 0.2px;
+}
+
+.emptySubtitle {
+  margin-top: 6px;
+  color: var(--muted);
+}
+.button {
+  background: rgba(255, 255, 255, 0.10);
+  border: 1px solid var(--panel-border);
+  border-radius: 10px;
+  padding: 10px 12px;
+  color: var(--text);
+  cursor: pointer;
+  font-weight: 650;
+  transition: transform 80ms ease, background 120ms ease, border-color 120ms ease;
+}
+
+.button:hover {
+  background: rgba(255, 255, 255, 0.14);
+}
+
+.button:active {
+  transform: translateY(1px);
+}
+
+.button:focus-visible,
+.input:focus-visible,
+.toggle:focus-visible {
+  outline: 3px solid rgba(var(--accent-rgb), 0.95);
+  outline-offset: 2px;
+}
+
+.button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.alert {
+  margin: 10px 0 0;
+  padding: 10px 12px;
+  border-radius: 12px;
+  border: 1px solid rgba(var(--danger-rgb), 0.50);
+  background: rgba(var(--danger-rgb), 0.12);
+  color: rgba(255, 255, 255, 0.92);
+}
+
+.statusPill {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 10px;
+  border-radius: 999px;
+  border: 1px solid var(--panel-border);
+  background: rgba(0, 0, 0, 0.18);
+}
+
+.dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 999px;
+  display: inline-block;
+}
+
+.dotOk {
+  background: var(--ok);
+}
+
+.dotBad {
+  background: var(--danger);
+}
+
+.statusText {
+  font-size: 12px;
+  color: var(--muted);
+}
+
+.statGrid {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 10px;
+  margin-top: 12px;
+}
+
+@media (max-width: 900px) {
+  .statGrid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+.stat {
+  background: rgba(0, 0, 0, 0.18);
+  border: 1px solid rgba(255, 255, 255, 0.10);
+  border-radius: 14px;
+  padding: 12px;
+}
+
+.statLabel {
+  color: var(--muted);
+  font-size: 12px;
+}
+
+.statValue {
+  margin-top: 6px;
+  font-size: 18px;
+  font-weight: 750;
+}
+
+.chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 8px;
+}
+
+.chip {
+  display: inline-flex;
+  padding: 6px 10px;
+  border: 1px solid rgba(255, 255, 255, 0.10);
+  border-radius: 999px;
+  background: rgba(0, 0, 0, 0.18);
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.88);
+}
+
+.details {
+  margin-top: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.10);
+  border-radius: 12px;
+  padding: 10px 12px;
+  background: rgba(0, 0, 0, 0.14);
+}
+
+.toggle {
+  width: 18px;
+  height: 18px;
+  accent-color: var(--accent);
+}
+
+.badge {
+  display: inline-flex;
+  padding: 6px 10px;
+  border: 1px solid var(--panel-border);
+  border-radius: 999px;
+  background: rgba(0, 0, 0, 0.25);
+  color: var(--text);
+  font-size: 12px;
+}
+
+.pill {
+  display: inline-flex;
+  padding: 6px 10px;
+  border-radius: 999px;
+  border: 1px solid var(--panel-border);
+  background: rgba(255, 255, 255, 0.08);
+  font-size: 12px;
+}
+
+.spacer {
+  flex: 1;
+}
+
+.studyShell {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.studyTop {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  align-items: flex-end;
+}
+
+.studyCard {
+  display: grid;
+  grid-template-columns: 1fr 1px 1fr;
+  gap: 0;
+  border: 1px solid var(--panel-border);
+  border-radius: 14px;
+  overflow: visible;
+  background: rgba(0, 0, 0, 0.18);
+}
+
+.side {
+  padding: 16px;
+  overflow: visible;
+}
+
+.divider {
+  background: rgba(255, 255, 255, 0.12);
+}
+
+.sideTitle {
+  font-weight: 700;
+  margin-bottom: 10px;
+  color: rgba(255, 255, 255, 0.85);
+}
+
+.jpText {
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.jpWord {
+  font-size: 26px;
+  font-weight: 700;
+  letter-spacing: 0.2px;
+  margin-bottom: 6px;
+}
+
+.jpKanji {
+  font-size: 64px;
+  font-weight: 800;
+  line-height: 1.05;
+  margin-top: 28px;   /* room for hover furigana above so it doesn’t cover "Front" */
+  margin-bottom: 10px;
+}
+
+/* Keep kanji hover furigana compact so it doesn’t overlap the side title */
+.jpKanji .furigana-js-wrap .furigana-reading {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.romaji {
+  margin-top: 4px;
+  color: var(--muted);
+  font-size: 13px;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+
+.en {
+  margin-top: 2px;
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 13px;
+}
+
+.enStrong {
+  font-size: 16px;
+  font-weight: 650;
+}
+
+.exampleBlock {
+  margin-top: 10px;
+  padding: 10px 12px;
+  border: 1px solid rgba(255, 255, 255, 0.10);
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.04);
+}
+
+.mark {
+  background: rgba(var(--accent-rgb), 0.22);
+  border: 1px solid rgba(var(--accent-rgb), 0.48);
+  color: var(--text);
+  padding: 0 3px;
+  border-radius: 6px;
+}
+
+/* --- Semantic UI accents --- */
+.buttonPrimary {
+  background: rgba(var(--accent-rgb), 0.20);
+  border-color: rgba(var(--accent-rgb), 0.55);
+}
+.buttonPrimary:hover {
+  background: rgba(var(--accent-rgb), 0.26);
+}
+
+.buttonSecondary {
+  background: rgba(255, 255, 255, 0.08);
+  border-color: rgba(255, 255, 255, 0.14);
+}
+.buttonSecondary:hover {
+  background: rgba(255, 255, 255, 0.12);
+}
+
+/* Review ratings (color is a “signal”; text label remains primary). */
+
+/* Rating buttons: same technique as .ratingBarFill / .ratingBarLabel — rgba(var(--*-rgb), α) + color: var(--*) */
+.buttonGood,
+.buttonEasy {
+  background: rgba(var(--ok-rgb), 0.6);
+  border: 1px solid rgba(var(--ok-rgb), 0.6);
+  color: var(--ok);
+}
+.buttonGood:hover,
+.buttonEasy:hover {
+  background: rgba(var(--ok-rgb), 0.75);
+}
+
+.buttonAgain {
+  background: rgba(var(--danger-rgb), 0.6);
+  border: 1px solid rgba(var(--danger-rgb), 0.6);
+  color: var(--danger);
+}
+.buttonAgain:hover {
+  background: rgba(var(--danger-rgb), 0.75);
+}
+
+.buttonHard {
+  background: rgba(var(--warn-rgb), 0.6);
+  border: 1px solid rgba(var(--warn-rgb), 0.6);
+  color: var(--warn);
+}
+.buttonHard:hover {
+  background: rgba(var(--warn-rgb), 0.75);
+}
+
+/* Keyboard-first: rating buttons + 1–4 shortcut hints aligned under each button */
+.ratingButtonsGroup {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 6px 10px;
+  align-items: center;
+  width: max-content;
+}
+.ratingButtonsGroup .ratingShortcutHint {
+  font-size: 0.7rem;
+  color: var(--muted);
+  text-align: center;
+  margin: 0;
+}
+
+/* Pills: encode state with subtle, consistent color. */
+.pill {
+  color: rgba(255, 255, 255, 0.90);
+}
+.pillType {
+  background: rgba(255, 255, 255, 0.06);
+}
+.pill-due {
+  background: rgba(var(--warn-rgb), 0.14);
+  border-color: rgba(var(--warn-rgb), 0.55);
+}
+.pill-new {
+  background: rgba(var(--accent-rgb), 0.14);
+  border-color: rgba(var(--accent-rgb), 0.55);
+}
+.pill-learning {
+  background: rgba(255, 180, 80, 0.18);
+  border-color: rgba(255, 180, 80, 0.6);
+}
+
+.ok {
+  color: var(--ok);
+}
+
+.bad {
+  color: var(--danger);
+}
+
+/* JS-based furigana (works in all browsers): reading above base via position */
+.furigana-js-wrap {
+  display: inline-block;
+  position: relative;
+  vertical-align: top;
+  cursor: default;
+}
+
+.furigana-js-wrap .furigana-base {
+  display: inline-block;
+}
+
+.furigana-js-wrap .furigana-reading {
+  position: absolute;
+  left: 50%;
+  bottom: 100%;
+  transform: translateX(-50%);
+  white-space: nowrap;
+  font-size: 0.5em;
+  line-height: 1.2;
+  color: rgba(255, 255, 255, 0.85);
+  margin-bottom: 1px;
+  pointer-events: none;
+  font-weight: 500;
+}
+
+/* Legacy ruby styles (kept for any remaining uses) */
+.ruby rt {
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.78);
+}
+
+.ruby-off rt {
+  display: none;
+}
+
+/* Hide rt by default in hover mode; show on hover via opacity so ruby layout is preserved */
+.ruby-hover rt {
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.12s ease;
+}
+
+/* Hover target wrapper so hovering the word reliably shows furigana */
+.ruby-hover-wrap {
+  display: inline-block;
+  cursor: default;
+  /* Ensure hover area includes space for rt so it isn’t clipped */
+  vertical-align: top;
+  position: relative;
+}
+
+.ruby-hover-wrap:hover .ruby-hover rt {
+  opacity: 1;
+}
+
+.ruby-on rt {
+  display: block;
+}
+
+.sectionTitle {
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.mono {
+  white-space: pre-wrap;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  font-size: 13px;
+  line-height: 1.4;
+}
+
+.muted {
+  color: var(--muted);
+}
+
+/* ----- Study deck row ----- */
+.studyDeckRow {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  margin: 10px 0;
+}
+
+.studyDeckRow .label {
+  min-width: 80px;
+}
+
+.studyDeckRow .input {
+  min-width: 0;
+}
+
+/* ----- Settings dropdown ----- */
+.studySettingsDropdown {
+  margin: 12px 0;
+  padding: 14px;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.10);
+  background: rgba(0, 0, 0, 0.18);
+}
+
+.settingsSection {
+  margin-bottom: 12px;
+}
+
+.settingsSection:last-child {
+  margin-bottom: 0;
+}
+
+.settingsLabel {
+  display: block;
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--muted);
+  margin-bottom: 8px;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.settingsRow {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-items: center;
+}
+
+.settingsOption {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 13px;
+  color: var(--text);
+  cursor: pointer;
+}
+
+.settingsOption input[type="checkbox"],
+.settingsOption input[type="radio"] {
+  width: 18px;
+  height: 18px;
+  accent-color: var(--accent);
+}
+
+.studySettingsToggle {
+  white-space: nowrap;
+}
+
+/* ----- Session progress (Study tab) ----- */
+.sessionProgress {
+  margin-top: 12px;
+}
+.sessionProgressWrap {
+  margin-bottom: 10px;
+}
+.sessionProgressLabel {
+  font-size: 13px;
+  color: var(--muted);
+  margin-bottom: 6px;
+}
+.sessionProgressLabel strong {
+  color: var(--text);
+  font-weight: 700;
+}
+.sessionProgressNative {
+  display: block;
+  width: 100%;
+  height: 14px;
+  margin: 0;
+  -webkit-appearance: none;
+  appearance: none;
+  border: none;
+  border-radius: 999px;
+  background: #374151;
+  overflow: hidden;
+}
+.sessionProgressNative::-webkit-progress-bar {
+  background: #374151;
+  border-radius: 999px;
+}
+.sessionProgressNative::-webkit-progress-value {
+  background: linear-gradient(90deg, #3b82f6, #22c55e);
+  border-radius: 999px;
+  transition: width 0.3s ease;
+}
+.sessionProgressNative::-moz-progress-bar {
+  background: linear-gradient(90deg, #3b82f6, #22c55e);
+  border-radius: 999px;
+}
+.sessionStatsRow {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  align-items: baseline;
+}
+.sessionStat {
+  display: inline-flex;
+  flex-direction: column;
+  gap: 2px;
+}
+.sessionStatValue {
+  font-size: 18px;
+  font-weight: 750;
+  color: var(--text);
+}
+.sessionStatLabel {
+  font-size: 11px;
+  color: var(--muted);
+  text-transform: lowercase;
+}
+.sessionStatDue .sessionStatValue {
+  color: rgba(var(--warn-rgb), 0.95);
+}
+.sessionStatEst .sessionStatValue {
+  color: var(--muted);
+  font-weight: 600;
+}
+.sessionDailyGoalRow {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px 16px;
+  align-items: center;
+  margin-bottom: 6px;
+}
+.sessionDailyGoal {
+  font-size: 13px;
+  color: var(--muted);
+}
+.sessionDailyGoal strong {
+  color: var(--text);
+}
+.sessionStreak {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--ok);
+}
+.studyFocusHint {
+  margin: 10px 0 0;
+  padding: 8px 12px;
+  border-radius: 10px;
+  background: rgba(var(--accent-rgb), 0.08);
+  border: 1px solid rgba(var(--accent-rgb), 0.2);
+  font-size: 13px;
+  color: var(--muted);
+}
+
+.sessionGoalReachedBanner {
+  margin-top: 12px;
+  padding: 14px 16px;
+  border-radius: 12px;
+  background: rgba(34, 197, 94, 0.12);
+  border: 1px solid rgba(34, 197, 94, 0.35);
+  font-size: 14px;
+  color: var(--text);
+}
+.sessionGoalReachedBanner strong {
+  color: #22c55e;
+}
+.sessionGoalProgress {
+  margin-bottom: 6px;
+}
+
+/* ----- Metrics tab ----- */
+.panelMetrics {
+  max-width: 720px;
+  min-height: 200px;
+}
+.panelMetrics .metricsEmpty {
+  min-height: 100px;
+}
+.metricsTabs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 14px 0 18px;
+}
+.metricsTab {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 14px;
+  border-radius: 10px;
+  border: 1px solid var(--panel-border);
+  background: rgba(255, 255, 255, 0.06);
+  color: var(--muted);
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.15s ease, border-color 0.15s ease, color 0.15s ease;
+}
+.metricsTab:hover {
+  background: rgba(255, 255, 255, 0.10);
+  color: var(--text);
+}
+.metricsTabActive {
+  background: rgba(var(--accent-rgb), 0.15);
+  border-color: rgba(var(--accent-rgb), 0.5);
+  color: var(--text);
+}
+.metricsTabIcon {
+  font-size: 14px;
+  opacity: 0.9;
+}
+
+/* Metric cards (Overview, Focus) */
+.metricsOverview {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+.metricsDailyRow {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 14px;
+}
+.metricsOverviewGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 14px;
+}
+.metricCard {
+  display: flex;
+  gap: 12px;
+  align-items: flex-start;
+  padding: 14px;
+  border-radius: 14px;
+  border: 1px solid rgba(255, 255, 255, 0.10);
+  background: rgba(0, 0, 0, 0.18);
+}
+.metricCardIcon {
+  width: 40px;
+  height: 40px;
+  flex-shrink: 0;
+  color: var(--muted);
+  opacity: 0.9;
+}
+.metricCardIcon svg {
+  width: 100%;
+  height: 100%;
+}
+.metricCardRetention .metricCardIcon {
+  color: var(--ok);
+}
+.metricCardReviews .metricCardIcon {
+  color: var(--accent);
+}
+.metricCardTime .metricCardIcon,
+.metricCardFocus .metricCardIcon {
+  color: rgba(var(--warn-rgb), 0.9);
+}
+.metricCardStreak .metricCardIcon {
+  color: var(--ok);
+}
+.metricCardDailyGoal .metricCardIcon {
+  color: var(--accent);
+}
+.metricCardContent {
+  min-width: 0;
+}
+.metricCardLabel {
+  font-size: 11px;
+  color: var(--muted);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  margin-bottom: 4px;
+}
+.metricCardValue {
+  font-size: 20px;
+  font-weight: 750;
+  color: var(--text);
+  line-height: 1.2;
+}
+.metricCardHint {
+  font-size: 12px;
+  color: var(--muted);
+  margin-top: 6px;
+  line-height: 1.35;
+}
+.metricCardAgainRate {
+  margin-top: 14px;
+  max-width: 280px;
+}
+
+/* Retention ring (Overview): stroke uses circumference 2*pi*10 ≈ 62.83 */
+.metricCardRetention .metricCardIcon circle:last-child {
+  stroke: var(--ok);
+  transition: stroke-dasharray 0.5s ease;
+}
+
+.metricsEmpty {
+  padding: 24px 16px;
+  text-align: center;
+  border-radius: 14px;
+  border: 1px dashed rgba(255, 255, 255, 0.15);
+  background: rgba(0, 0, 0, 0.12);
+}
+.metricsEmptyTitle {
+  font-weight: 700;
+  color: var(--text);
+  margin: 0 0 8px;
+}
+.metricsEmptyText {
+  font-size: 14px;
+  color: var(--muted);
+  margin: 0;
+  max-width: 360px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Ratings (bar chart) */
+.metricsSectionHint {
+  font-size: 13px;
+  color: var(--muted);
+  margin: 0 0 14px;
+  max-width: 480px;
+}
+.metricsRatings .metricsSectionHint {
+  margin-bottom: 16px;
+}
+.ratingBars {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.ratingBarRow {
+  display: grid;
+  grid-template-columns: 64px 1fr 40px;
+  gap: 12px;
+  align-items: center;
+}
+.ratingBarLabel {
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+.ratingBarLabel-again {
+  color: var(--danger);
+}
+.ratingBarLabel-hard {
+  color: var(--warn);
+}
+.ratingBarLabel-good {
+  color: var(--accent);
+}
+.ratingBarLabel-easy {
+  color: var(--ok);
+}
+.ratingBarTrack {
+  height: 20px;
+  border-radius: 8px;
+  background: rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+}
+.ratingBarFill {
+  height: 100%;
+  border-radius: 8px;
+  min-width: 4px;
+  transition: width 0.4s ease;
+}
+.ratingBarFill-again {
+  background: rgba(var(--danger-rgb), 0.6);
+}
+.ratingBarFill-hard {
+  background: rgba(var(--warn-rgb), 0.6);
+}
+.ratingBarFill-good {
+  background: rgba(var(--accent-rgb), 0.6);
+}
+.ratingBarFill-easy {
+  background: rgba(var(--ok-rgb), 0.6);
+}
+.ratingBarCount {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--muted);
+  text-align: right;
+}
+
+/* Focus sub-tab */
+.metricsFocus {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+.metricsFocus .metricCardFocus {
+  max-width: 400px;
+}
+.focusTips {
+  padding: 14px;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  background: rgba(0, 0, 0, 0.15);
+  font-size: 13px;
+  color: var(--muted);
+  line-height: 1.5;
+}
+.focusTips p {
+  margin: 0 0 8px;
+  color: var(--text);
+}
+.focusTips ul {
+  margin: 0;
+  padding-left: 1.2em;
+}
+
+/* Methodology sub-tab */
+.metricsMethodology {
+  max-width: 560px;
+}
+.methodologyCards {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.methodologyCard {
+  padding: 14px 16px;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.10);
+  background: rgba(0, 0, 0, 0.12);
+}
+.methodologyCardTitle {
+  font-weight: 700;
+  font-size: 14px;
+  color: rgba(var(--accent-rgb), 0.95);
+  margin-bottom: 6px;
+}
+.methodologyCard p {
+  margin: 0;
+  font-size: 13px;
+  color: var(--muted);
+  line-height: 1.5;
+}
+
+.error {
+  color: var(--danger);
+  white-space: pre-wrap;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  font-size: 13px;
+}
+
+/* ----- Error Boundary fallback (safe, user-facing; no stack traces) ----- */
+.errorFallback {
+  margin-top: 12px;
+  padding: 20px;
+  border-radius: 14px;
+  border: 1px solid rgba(var(--danger-rgb), 0.35);
+  background: rgba(var(--danger-rgb), 0.08);
+  text-align: center;
+}
+.errorFallbackIcon {
+  font-size: 28px;
+  margin-bottom: 10px;
+  color: rgba(var(--warn-rgb), 0.95);
+}
+.errorFallbackTitle {
+  font-weight: 700;
+  font-size: 16px;
+  color: var(--text);
+  margin: 0 0 8px;
+}
+.errorFallbackMessage {
+  font-size: 14px;
+  color: var(--muted);
+  margin: 0 auto 16px;
+  line-height: 1.45;
+  max-width: 420px;
+}
+.errorFallbackButton {
+  margin-top: 4px;
+}
+
+/* =====================================================
+   MOBILE VIEW
+   Touch-friendly, single-column layout for phones.
+   Breakpoint: 640px (covers most phones in portrait).
+   ===================================================== */
+
+@media (max-width: 640px) {
+  /* --- Page & Header --- */
+  .page {
+    padding: 16px 12px;
+  }
+
+  .appHeader {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .headerRight {
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .title {
+    font-size: 22px;
+  }
+
+  .subtitle {
+    font-size: 13px;
+  }
+
+  /* --- Tabs: horizontal scroll, larger touch targets --- */
+  .tabs {
+    display: flex;
+    gap: 8px;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+    padding-bottom: 4px;
+    margin: 10px -12px 14px;
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+
+  .tabs::-webkit-scrollbar {
+    display: none;
+  }
+
+  .tab {
+    flex-shrink: 0;
+    padding: 12px 16px;
+    font-size: 14px;
+    min-height: 44px;
+  }
+
+  /* --- Panel --- */
+  .panel {
+    padding: 14px 12px;
+    border-radius: 12px;
+  }
+
+  .panelHeader {
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .panelTitle {
+    font-size: 16px;
+  }
+
+  .panelSubtitle {
+    font-size: 12px;
+  }
+
+  .panelSubcard {
+    padding: 12px;
+  }
+
+  /* --- Inputs & Buttons: larger touch targets --- */
+  .input {
+    min-width: 0;
+    width: 100%;
+    padding: 12px 14px;
+    font-size: 16px;
+    min-height: 44px;
+    box-sizing: border-box;
+  }
+
+  .button {
+    padding: 12px 16px;
+    font-size: 14px;
+    min-height: 44px;
+  }
+
+  /* --- Row: stack on mobile --- */
+  .row {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 10px;
+  }
+
+  .row > .label {
+    width: 100%;
+  }
+
+  .row > .button {
+    width: 100%;
+  }
+
+  /* Keep some rows horizontal */
+  .sessionStatsRow,
+  .sessionDailyGoalRow,
+  .metricsDailyRow {
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
+  /* --- Labels --- */
+  .label {
+    font-size: 13px;
+  }
+
+  /* --- Study Card: single column --- */
+  .studyCard {
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+
+  .studyCard .divider {
+    display: none;
+  }
+
+  .studyCard .side {
+    padding: 14px 12px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  }
+
+  .studyCard .side:last-child {
+    border-bottom: none;
+  }
+
+  .side {
+    padding: 14px 12px;
+  }
+
+  .sideTitle {
+    font-size: 13px;
+    margin-bottom: 8px;
+  }
+
+  /* --- Study Top: wrap controls --- */
+  .studyTop {
+    gap: 8px;
+  }
+
+  .studyTop .label {
+    flex: 1 1 100%;
+  }
+
+  .studyTop .spacer {
+    display: none;
+  }
+
+  .studyTop .button {
+    flex: 1;
+    min-width: 80px;
+  }
+
+  /* --- Japanese text sizing for mobile --- */
+  .jpText {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+
+  .jpWord {
+    font-size: 22px;
+  }
+
+  .jpKanji {
+    font-size: 48px;
+    margin-top: 20px;
+  }
+
+  .romaji,
+  .en {
+    font-size: 12px;
+  }
+
+  .enStrong {
+    font-size: 15px;
+  }
+
+  /* --- Rating Buttons: 2x2 grid for easier tapping --- */
+  .ratingButtonsGroup {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 8px;
+    width: 100%;
+  }
+
+  .ratingButtonsGroup .button {
+    padding: 14px 12px;
+    font-size: 15px;
+    min-height: 48px;
+  }
+
+  .ratingButtonsGroup .ratingShortcutHint {
+    display: none;
+  }
+
+  /* --- Reveal button full width --- */
+  .studyShell > .row > .buttonPrimary:first-child {
+    flex: 1 1 100%;
+  }
+
+  /* --- Session Progress --- */
+  .sessionProgress {
+    margin-top: 10px;
+  }
+
+  .sessionProgressLabel {
+    font-size: 12px;
+  }
+
+  .sessionStatsRow {
+    gap: 12px;
+  }
+
+  .sessionStat {
+    min-width: 60px;
+  }
+
+  .sessionStatValue {
+    font-size: 16px;
+  }
+
+  .sessionStatLabel {
+    font-size: 10px;
+  }
+
+  .sessionGoalReachedBanner {
+    padding: 12px;
+    font-size: 13px;
+  }
+
+  /* --- Stat Grid --- */
+  .statGrid {
+    grid-template-columns: 1fr 1fr;
+    gap: 8px;
+  }
+
+  .stat {
+    padding: 10px;
+  }
+
+  .statValue {
+    font-size: 16px;
+  }
+
+  /* --- Chips --- */
+  .chip {
+    font-size: 11px;
+    padding: 5px 8px;
+  }
+
+  /* --- Pills & Badges --- */
+  .pill {
+    font-size: 11px;
+    padding: 5px 8px;
+  }
+
+  .badge {
+    font-size: 11px;
+    padding: 5px 8px;
+  }
+
+  /* --- Example Block --- */
+  .exampleBlock {
+    padding: 10px;
+  }
+
+  /* --- Alert --- */
+  .alert {
+    padding: 10px;
+    font-size: 13px;
+  }
+
+  /* --- Metrics Panel --- */
+  .panelMetrics {
+    max-width: 100%;
+  }
+
+  .metricsTabs {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+    margin-left: -12px;
+    margin-right: -12px;
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+
+  .metricsTabs::-webkit-scrollbar {
+    display: none;
+  }
+
+  .metricsTab {
+    flex-shrink: 0;
+    padding: 10px 14px;
+    min-height: 44px;
+  }
+
+  .metricsOverviewGrid,
+  .metricsDailyRow {
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+
+  .metricCard {
+    padding: 12px;
+    gap: 10px;
+  }
+
+  .metricCardIcon {
+    width: 32px;
+    height: 32px;
+  }
+
+  .metricCardValue {
+    font-size: 18px;
+  }
+
+  .metricCardHint {
+    font-size: 11px;
+  }
+
+  .ratingBars {
+    gap: 10px;
+  }
+
+  .ratingBarRow {
+    grid-template-columns: 50px 1fr 36px;
+    gap: 8px;
+  }
+
+  .ratingBarTrack {
+    height: 16px;
+  }
+
+  /* --- Leeches List --- */
+  .exampleList li {
+    padding: 12px !important;
+  }
+
+  /* --- Details/Summary --- */
+  .details {
+    padding: 10px;
+  }
+
+  .details summary {
+    font-size: 13px;
+    cursor: pointer;
+    padding: 4px 0;
+  }
+
+  .mono {
+    font-size: 11px;
+    overflow-x: auto;
+  }
+
+  /* --- Import Tab Grid --- */
+  .grid2 {
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+
+  /* --- Daily Goal Row --- */
+  .dailyGoalSettingRow {
+    flex-direction: row !important;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
+  .dailyGoalSettingRow .input {
+    width: 60px !important;
+    min-width: 60px;
+    flex: 0 0 auto;
+  }
+
+  /* --- Session Goal Row --- */
+  .sessionGoalRow {
+    flex-direction: column !important;
+    align-items: flex-start !important;
+    gap: 8px !important;
+  }
+
+  .sessionGoalRow .label {
+    width: auto;
+    flex-direction: row;
+  }
+
+  /* --- Furigana --- */
+  .furigana-js-wrap .furigana-reading {
+    font-size: 0.45em;
+  }
+
+  .jpKanji .furigana-js-wrap .furigana-reading {
+    font-size: 12px;
+  }
+
+  /* --- Status Pill --- */
+  .statusPill {
+    padding: 6px 8px;
+  }
+
+  .statusText {
+    font-size: 11px;
+  }
+
+  /* --- Empty State --- */
+  .emptyState {
+    padding: 12px;
+  }
+
+  .emptyTitle {
+    font-size: 15px;
+  }
+
+  .emptySubtitle {
+    font-size: 13px;
+  }
+
+  /* --- Study Deck Row --- */
+  .studyDeckRow {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 10px;
+  }
+
+  .studyDeckRow .label {
+    width: 100%;
+  }
+
+  .studyDeckRow .button {
+    width: 100%;
+  }
+
+  .studySettingsToggle {
+    order: -1;
+  }
+
+  /* --- Settings Dropdown --- */
+  .studySettingsDropdown {
+    padding: 12px;
+  }
+
+  .settingsRow {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .settingsOption {
+    min-height: 44px;
+    padding: 8px 0;
+  }
+
+  /* --- Methodology Cards --- */
+  .methodologyCard {
+    padding: 12px;
+  }
+
+  .methodologyCardTitle {
+    font-size: 13px;
+  }
+
+  .methodologyCard p {
+    font-size: 12px;
+  }
+
+  /* --- Focus Tips --- */
+  .focusTips {
+    padding: 12px;
+    font-size: 12px;
+  }
+
+  .focusTips ul {
+    padding-left: 1em;
+  }
+}
+
+/* =====================================================
+   TOUCH DEVICE ENHANCEMENTS
+   Larger tap targets for touch screens (any size).
+   ===================================================== */
+
+@media (pointer: coarse) {
+  .tab {
+    min-height: 44px;
+  }
+
+  .button {
+    min-height: 44px;
+  }
+
+  .input {
+    min-height: 44px;
+  }
+
+  .toggle {
+    width: 22px;
+    height: 22px;
+  }
+
+  .metricsTab {
+    min-height: 44px;
+  }
+
+  .exampleList li .button {
+    min-height: 48px;
+  }
+}
+
+/* =====================================================
+   SAFE AREA INSETS (iPhone notch, etc.)
+   ===================================================== */
+
+@supports (padding: env(safe-area-inset-bottom)) {
+  .page {
+    padding-left: max(12px, env(safe-area-inset-left));
+    padding-right: max(12px, env(safe-area-inset-right));
+    padding-bottom: max(16px, env(safe-area-inset-bottom));
+  }
+}
+
+/* =====================================================
+   REDUCED MOTION
+   Respect user preference for reduced motion.
+   ===================================================== */
+
+@media (prefers-reduced-motion: reduce) {
+  .tab,
+  .button,
+  .sessionProgressNative::-webkit-progress-value,
+  .ratingBarFill {
+    transition: none;
+  }
+}
+
