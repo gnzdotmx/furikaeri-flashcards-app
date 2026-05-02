@@ -68,8 +68,8 @@ async def import_sync(
         raise HTTPException(status_code=400, detail="deck_id too long")
     if source_type not in ("grammar", "kanji", "vocabulary"):
         raise HTTPException(status_code=400, detail="source_type must be grammar|kanji|vocabulary")
-    if merge_existing not in ("skip", "merge_examples"):
-        raise HTTPException(status_code=400, detail="merge_existing must be skip|merge_examples")
+    if merge_existing not in ("skip", "merge_examples", "replace_existing"):
+        raise HTTPException(status_code=400, detail="merge_existing must be skip|merge_examples|replace_existing")
 
     imp_cfg = get_study_config().import_
     max_rows_val = int(max_rows) if max_rows is not None else imp_cfg.max_rows_default

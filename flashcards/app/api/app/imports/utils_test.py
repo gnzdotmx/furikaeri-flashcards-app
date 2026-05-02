@@ -8,6 +8,7 @@ from app.imports.utils import (
     decode_upload,
     get_max_cell_chars_default,
     get_max_rows_default,
+    normalize_notes_cell,
     norm_text,
     sniff_dialect,
     validate_row_limits,
@@ -41,6 +42,15 @@ def test_norm_text_none_or_empty() -> None:
 def test_norm_text_collapses_whitespace() -> None:
     assert norm_text("  a  b  c  ") == "a b c"
     assert norm_text("a\t\nb") == "a b"
+
+
+def test_normalize_notes_cell_preserves_newlines() -> None:
+    assert normalize_notes_cell("  line1\nline2  ") == "line1\nline2"
+    assert normalize_notes_cell(None) == ""
+
+
+def test_normalize_notes_cell_nfkc() -> None:
+    assert normalize_notes_cell("ｶﾞ") == "ガ"
 
 
 def test_norm_text_nfkc() -> None:

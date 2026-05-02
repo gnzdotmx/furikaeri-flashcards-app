@@ -3,7 +3,7 @@ import type { Deck } from "../api";
 import type { DeckCardsResponse } from "../api";
 import type { HealthResponse } from "../api";
 
-export type TabId = "study" | "import" | "decks" | "examples" | "metrics" | "leeches" | "account" | "debug";
+export type TabId = "study" | "import" | "examples" | "metrics" | "leeches" | "account" | "debug";
 
 export type AppContextValue = {
   tab: TabId;

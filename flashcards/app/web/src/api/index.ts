@@ -16,12 +16,16 @@ export type {
 } from "./decks";
 export {
   fetchDecks,
+  deleteDeck,
   fetchDeckCards,
   fetchDeckLeeches,
   fetchDeckLabels,
   setCardSuspended,
   fetchSearchExamples,
 } from "./decks";
+
+export type { CardStudyNoteResponse } from "./cardStudyNote";
+export { fetchCardStudyNote, putCardStudyNote, deleteCardStudyNote } from "./cardStudyNote";
 
 export type {
   SessionStartResponse,
@@ -35,7 +39,7 @@ export { logEvent } from "./events";
 
 export { fetchTtsKana, tts } from "./tts";
 
-export { downloadDeckCardsCsv } from "./exports";
+export { downloadDeckImportFormatCsv } from "./exports";
 
 export type { UserSettingsResponse } from "./users";
 export { fetchUserSettings, updateUserSettings } from "./users";

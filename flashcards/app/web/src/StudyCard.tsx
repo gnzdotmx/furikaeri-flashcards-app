@@ -1,6 +1,9 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { safeJson } from "./utils";
 import type { StudyCardProps } from "./studyCardUtils";
+
+/** Aligned with API limit (study_config import max cell chars default). */
+const STUDY_NOTE_MAX_CHARS = 20_000;
 
 export type FuriganaMode = "off" | "hover" | "on";
 
@@ -122,8 +125,51 @@ export function StudyCard({
   onFuriganaChange,
   studyFromExamples = false,
   onStudyFromExamplesChange,
+  studyNote,
 }: StudyCardProps) {
   const card = current.card;
+  const [noteComposing, setNoteComposing] = useState(false);
+  const [noteDraft, setNoteDraft] = useState("");
+
+  useEffect(() => {
+    setNoteComposing(false);
+    setNoteDraft("");
+  }, [card.id]);
+
+  function beginAddNote() {
+    setNoteDraft("");
+    setNoteComposing(true);
+  }
+
+  function beginEditNote() {
+    setNoteDraft(studyNote?.body ?? "");
+    setNoteComposing(true);
+  }
+
+  async function submitNote() {
+    if (!studyNote) return;
+    const t = noteDraft.trim();
+    if (!t) return;
+    try {
+      await studyNote.onSave(t);
+      setNoteComposing(false);
+      setNoteDraft("");
+    } catch {
+      /* error shown via studyNote.error */
+    }
+  }
+
+  async function removeNote() {
+    if (!studyNote) return;
+    if (!window.confirm("Delete your note for this card?")) return;
+    try {
+      await studyNote.onDelete();
+      setNoteComposing(false);
+      setNoteDraft("");
+    } catch {
+      /* error shown via studyNote.error */
+    }
+  }
   const front = safeJson<Record<string, unknown>>(card.front_template) ?? {};
   const back = safeJson<Record<string, unknown>>(card.back_template) ?? {};
 
@@ -398,6 +444,13 @@ export function StudyCard({
 
               {back.structure ? <pre className="mono">{String(back.structure)}</pre> : null}
 
+              {back.notes != null && String(back.notes).trim() !== "" ? (
+                <div className="deckCsvNoteBlock">
+                  <div className="sectionTitle">Deck note</div>
+                  <pre className="deckCsvNoteBody">{String(back.notes)}</pre>
+                </div>
+              ) : null}
+
               {back.onyomi || back.kunyomi ? (
                 <div className="row">
                   {back.onyomi ? <span className="badge">On: {String(back.onyomi)}</span> : null}
@@ -464,6 +517,83 @@ export function StudyCard({
         <p className="muted" style={{ marginTop: "0.5rem", fontSize: "0.9rem", color: "var(--color-success, green)" }} role="status">
           Saved{answerSavedTotal != null ? ` (${answerSavedTotal})` : ""}
         </p>
+      ) : null}
+
+      {studyNote ? (
+        <div className="studyCardNote" aria-label="Your note for this card">
+          <div className="studyCardNoteHeader">
+            <span className="studyCardNoteTitle">My note</span>
+            {studyNote.loading ? <span className="muted studyCardNoteStatus">Loading…</span> : null}
+            {!studyNote.loading && studyNote.error ? (
+              <span className="studyCardNoteError" role="alert">
+                {studyNote.error}
+                <button type="button" className="button buttonSecondary studyCardNoteRetry" onClick={() => studyNote.onReload()}>
+                  Retry
+                </button>
+              </span>
+            ) : null}
+          </div>
+
+          {!studyNote.loading && !studyNote.error ? (
+            <>
+              {noteComposing ? (
+                <div className="studyCardNoteCompose">
+                  <textarea
+                    className="input studyCardNoteTextarea"
+                    value={noteDraft}
+                    onChange={(e) => setNoteDraft(e.target.value.slice(0, STUDY_NOTE_MAX_CHARS))}
+                    maxLength={STUDY_NOTE_MAX_CHARS}
+                    placeholder="Write a personal note (mnemonics, context, reminders)…"
+                    aria-label="Note text"
+                    rows={5}
+                  />
+                  <div className="studyCardNoteActions">
+                    <button
+                      type="button"
+                      className="button buttonPrimary"
+                      disabled={studyNote.saving || !noteDraft.trim()}
+                      onClick={() => void submitNote()}
+                    >
+                      {studyNote.saving ? "Saving…" : "Save note"}
+                    </button>
+                    <button
+                      type="button"
+                      className="button buttonSecondary"
+                      disabled={studyNote.saving}
+                      onClick={() => {
+                        setNoteComposing(false);
+                        setNoteDraft("");
+                      }}
+                    >
+                      Cancel
+                    </button>
+                  </div>
+                  <div className="muted studyCardNoteCounter">
+                    {noteDraft.length} / {STUDY_NOTE_MAX_CHARS}
+                  </div>
+                </div>
+              ) : studyNote.body != null && studyNote.body.trim() !== "" ? (
+                <div className="studyCardNoteRead">
+                  <pre className="studyCardNoteBody">{studyNote.body}</pre>
+                  <div className="studyCardNoteActions">
+                    <button type="button" className="button buttonSecondary" disabled={studyNote.saving} onClick={() => beginEditNote()}>
+                      Edit note
+                    </button>
+                    <button type="button" className="button buttonSecondary" disabled={studyNote.saving} onClick={() => void removeNote()}>
+                      Delete note
+                    </button>
+                  </div>
+                </div>
+              ) : (
+                <div className="studyCardNoteEmpty">
+                  <button type="button" className="button buttonSecondary" disabled={studyNote.saving} onClick={() => beginAddNote()}>
+                    Add note
+                  </button>
+                </div>
+              )}
+            </>
+          ) : null}
+        </div>
       ) : null}
     </div>
   );

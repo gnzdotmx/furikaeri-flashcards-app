@@ -9,6 +9,17 @@ export type StudyCardCurrent = {
   card: SessionCard;
 };
 
+/** Optional per-card user note in study (wired from StudyView; omitted in unit tests). */
+export type StudyCardNoteProps = {
+  body: string | null;
+  loading: boolean;
+  error: string | null;
+  saving: boolean;
+  onReload: () => void;
+  onSave: (body: string) => Promise<void>;
+  onDelete: () => Promise<void>;
+};
+
 export type StudyCardProps = {
   current: StudyCardCurrent;
   revealed: boolean;
@@ -26,6 +37,7 @@ export type StudyCardProps = {
   onFuriganaChange: (mode: FuriganaMode) => void;
   studyFromExamples?: boolean;
   onStudyFromExamplesChange?: (v: boolean) => void;
+  studyNote?: StudyCardNoteProps;
 };
 
 /** Filter example entries to those with non-empty first line (same empty handling as kanji/grammar/vocab). */

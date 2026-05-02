@@ -3,7 +3,7 @@ import json
 import re
 from dataclasses import dataclass
 
-from .utils import MAX_CELL_CHARS_DEFAULT, MAX_ROWS_DEFAULT, norm_text, validate_row_limits
+from .utils import MAX_CELL_CHARS_DEFAULT, MAX_ROWS_DEFAULT, normalize_notes_cell, norm_text, validate_row_limits
 
 
 @dataclass(frozen=True)
@@ -39,7 +39,8 @@ def _extract_examples(d: dict) -> list[str]:
 class GrammarCsvAdapter:
     """
     Grammar CSV (header-based):
-      japanese_expression, english_meaning, grammar_structure, example_1, example_2, ...
+      japanese_expression, english_meaning, grammar_structure,
+      optional labels, optional notes, example_1, example_2, ...
     """
 
     REQUIRED = {"japanese_expression", "english_meaning"}
@@ -73,12 +74,14 @@ class GrammarCsvAdapter:
             labels: list[str] = []
             if raw_labels:
                 labels = [norm_text(p) for p in re.split(r"[;,]", raw_labels) if p.strip()]
+            notes = normalize_notes_cell(row.get("notes")) if "notes" in headers else ""
             fields = {
                 "japanese_expression": expr,
                 "english_meaning": meaning,
                 "grammar_structure": (row.get("grammar_structure") or "").strip(),
                 "examples": _extract_examples(row),
                 "labels": labels,
+                "notes": notes,
             }
             yield ImportItem(source_type="grammar", level=level, key=key, fields=fields)
 
@@ -86,7 +89,8 @@ class GrammarCsvAdapter:
 class KanjiCsvAdapter:
     """
     Kanji CSV (header-based):
-      rank, kanji, onyomi, kunyomi, meaning, example_1, example_2, …
+      rank, kanji, onyomi, kunyomi, meaning,
+      optional labels, optional notes, example_1, example_2, …
     source_url is not used; extra columns are collected as examples.
     """
 
@@ -115,12 +119,19 @@ class KanjiCsvAdapter:
             if not kanji or not meaning:
                 continue
 
+            raw_labels = (row.get("labels") or "").strip() if "labels" in headers else ""
+            labels: list[str] = []
+            if raw_labels:
+                labels = [norm_text(p) for p in re.split(r"[;,]", raw_labels) if p.strip()]
+            notes = normalize_notes_cell(row.get("notes")) if "notes" in headers else ""
             fields = {
                 "rank": (row.get("rank") or "").strip(),
                 "kanji": kanji,
                 "onyomi": (row.get("onyomi") or "").strip(),
                 "kunyomi": (row.get("kunyomi") or "").strip(),
                 "meaning": meaning,
+                "labels": labels,
+                "notes": notes,
                 "examples": _extract_examples(row),
             }
             yield ImportItem(source_type="kanji", level=level, key=kanji, fields=fields)
@@ -129,7 +140,8 @@ class KanjiCsvAdapter:
 class VocabularyCsvAdapter:
     """
     Vocabulary CSV (header-based, same example pattern as grammar):
-      rank, word, reading_kana, reading_romaji, part_of_speech, meaning, example_1, example_2, example_3, ...
+      rank, word, reading_kana, reading_romaji, part_of_speech,
+      optional labels, optional notes, meaning, example_1, example_2, ...
     After meaning, all columns are treated as examples: example_1, example_2, example_3, example_4, ...
     (same as grammar). Each example can be "jp\\nromaji\\nen". Extra columns beyond the header
     are also collected as examples.
@@ -177,10 +189,11 @@ class VocabularyCsvAdapter:
             if part_of_speech.isdigit():
                 part_of_speech = ""
             # Optional labels column: sits between part_of_speech and meaning in header
-            raw_labels = (r.get("labels") or "").strip()
+            raw_labels = (r.get("labels") or "").strip() if "labels" in headers else ""
             labels: list[str] = []
             if raw_labels:
                 labels = [norm_text(p) for p in re.split(r"[;,]", raw_labels) if p.strip()]
+            notes = normalize_notes_cell(r.get("notes")) if "notes" in headers else ""
             key = "|".join([word, reading_kana, meaning])
             # Never include "rank" in fields so it never appears on flashcards.
             # Optional example_1, example_2, ... (same as grammar/kanji) so examples display in GUI.
@@ -191,6 +204,7 @@ class VocabularyCsvAdapter:
                 "part_of_speech": part_of_speech,
                 "meaning": meaning,
                 "labels": labels,
+                "notes": notes,
                 "examples": _extract_examples(r),
             }
             yield ImportItem(source_type="vocabulary", level=level, key=key, fields=fields)

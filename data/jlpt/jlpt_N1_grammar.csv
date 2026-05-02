@@ -1,11 +1,11 @@
-japanese_expression,english_meaning,grammar_structure,labels,example_1,example_2,example_3,example_4,example_5
+japanese_expression,english_meaning,grammar_structure,labels,notes,example_1,example_2,example_3,example_4,example_5
 敢えて(aete),dare to; daringly; deliberately; purposely ~,"Meaning 意味 dare to; daringly; deliberately; purposely ~
 example sentences
 vocabulary list
 related grammar
 Level: JLPT N1
 Tags: Japanese adverbs
-How to use 使い方 あえて clause Related Kanji 漢字 N1 Kanji: 敢 (kan, a(ete)) Meaning: daring, brave, bold, sad, tragic, pitiful",jlpt_n1,"彼はあえて一人で行く気ですか。
+How to use 使い方 あえて clause Related Kanji 漢字 N1 Kanji: 敢 (kan, a(ete)) Meaning: daring, brave, bold, sad, tragic, pitiful",jlpt_n1,,"彼はあえて一人で行く気ですか。
 kare wa aete hitori de iku kidesu ka.
 Dare he go alone?","私はあえて彼女に忠告した。
 watashi wa aete kanojo ni chuukoku shita.
@@ -22,7 +22,7 @@ vocabulary list
 related grammar
 Level: JLPT N1
 Tags: Japanese adverbs
-How to use 使い方 あくまでも clause",jlpt_n1,"空はあくまでも青い。
+How to use 使い方 あくまでも clause",jlpt_n1,,"空はあくまでも青い。
 sora wa akumade mo aoi.
 The sky is as blue as blue can be.","私はあくまでも彼女を見つけるつもりです。
 watashi wa akumademo kanojo o mitsukeru tsumori desu.
@@ -39,7 +39,7 @@ vocabulary list
 related grammar
 Level: JLPT N1
 Tags: Japanese adverbs
-How to use 使い方 案の定 phrase Related Kanji 漢字 N2 Kanji: 案 (an) Meaning: plan, suggestion, draft N3 Kanji: 定 (tei, jou, sadameru) Meaning: determine",jlpt_n1,"案の定、結果がよくないだ。
+How to use 使い方 案の定 phrase Related Kanji 漢字 N2 Kanji: 案 (an) Meaning: plan, suggestion, draft N3 Kanji: 定 (tei, jou, sadameru) Meaning: determine",jlpt_n1,,"案の定、結果がよくないだ。
 an no jou, kekka ga yokunai da.
 As might be expected, the results are poor.","案の定、彼は第一位になった。
 an no jou, kare wa daiichii ni natta.
@@ -56,7 +56,7 @@ vocabulary list
 related grammar
 Level: JLPT N1
 Tags: Japanese adverbs
-How to use 使い方 あらかじめ Verb",jlpt_n1,"あらかじめ教科書を読んでください。
+How to use 使い方 あらかじめ Verb",jlpt_n1,,"あらかじめ教科書を読んでください。
 arakajime kyoukasho o yonde kudasai.
 Please read the textbook in advance.","私たちはあらかじめスナックを用意しておきました。
 watashi tachi wa arakajime sunakku o youi shite okimashita.
@@ -72,7 +72,7 @@ example sentences
 vocabulary list
 related grammar
 Level: JLPT N1
-How to use 使い方 Noun-1 あっての Noun-2",jlpt_n1,"健康な体あっての人生です。
+How to use 使い方 Noun-1 あっての Noun-2",jlpt_n1,,"健康な体あっての人生です。
 kenkou na karada atte no jinsei desu.
 Life is dependent on having a healthy body.","お客様あっての仕事だから、言葉遣いに気を付けてください。
 okyaku sama atte no shigoto dakara, kotobadzukai ni ki o tsukete kudasai.
@@ -89,7 +89,7 @@ vocabulary list
 related grammar
 Level: JLPT N1
 Tags: Japanese conjunctions
-How to use 使い方 Verb (conditional) ば / たら それまでだ",jlpt_n1,"いくらお金をためでも、死んでしまえばそれまでだ。
+How to use 使い方 Verb (conditional) ば / たら それまでだ",jlpt_n1,,"いくらお金をためでも、死んでしまえばそれまでだ。
 ikura okane o tame demo, shinde shimaeba sore made da.
 Even if you make a lot of money, it's pointless if you die.","どんなに大変でも諦めたらそれまでだ。
 donnani taihen demo akirametara sore made da.
@@ -106,7 +106,7 @@ vocabulary list
 related grammar
 Level: JLPT N1
 Tags: Japanese conjunctions
-How to use 使い方 Verb (dictionary form) べく Exception: する するべく すべく",jlpt_n1,"JLPT N1に合格すべく、毎日頑張って勉強しています。
+How to use 使い方 Verb (dictionary form) べく Exception: する するべく すべく",jlpt_n1,,"JLPT N1に合格すべく、毎日頑張って勉強しています。
 JLPT N1にごうかくすべく、まいにちがんばってべんきょうしています。
 JLPT N1 ni goukaku subeku, mainichi ganbatte benkyou shite imasu.","親の期待に応えるべく、努力して医者の道に進んだ。
 oya no kitai ni kotaeru beku, doryoku shite isha no michi ni susunda.
@@ -122,7 +122,7 @@ example sentences
 vocabulary list
 related grammar
 Level: JLPT N1
-How to use 使い方 Verb (dictionary form) べくもない Exception: する するべくもない すべくもない",jlpt_n1,"彼は勉強をせずに毎日遊んでばかりいた。N１合格は望むべくもない。
+How to use 使い方 Verb (dictionary form) べくもない Exception: する するべくもない すべくもない",jlpt_n1,,"彼は勉強をせずに毎日遊んでばかりいた。N１合格は望むべくもない。
 kare wa benkyou o sezu ni mainichi asonde bakari ita. N1 goukaku o nozomu beku mo nai.
 He just played every day without studying. There is no hope of passing N1.","祖父の病状は悪くなるばかりだ。回復はもう望むべくもない。
 sofu no byoujou wa waruku naru bakari da. Kaifuku wa mou nozomubeku mo nai.
@@ -139,7 +139,7 @@ vocabulary list
 related grammar
 Level: JLPT N1
 Tags: suffix
-How to use 使い方 Verb (ます stem) + ます ぶり っぷり Noun",jlpt_n1,"先生はその生徒のがんばりぶりを見ていた。
+How to use 使い方 Verb (ます stem) + ます ぶり っぷり Noun",jlpt_n1,,"先生はその生徒のがんばりぶりを見ていた。
 sensei wa sono seito no ganbari buri o mite ita.
 The teacher has been observing how hard that student has been trying.","社長の話しぶり、今年のバーナスはないようだ。
 shachou no hanashi buri dewa, kotoshi no boonasu wa nai you da.
@@ -156,7 +156,7 @@ vocabulary list
 related grammar
 Level: JLPT N1
 Tags: suffix
-How to use 使い方 Noun ぶる ぶって ぶった ぶっちゃって な-adjective い-adjective + い",jlpt_n1,"彼は金持ちぶっているが、本当は借金がたくさんある。
+How to use 使い方 Noun ぶる ぶって ぶった ぶっちゃって な-adjective い-adjective + い",jlpt_n1,,"彼は金持ちぶっているが、本当は借金がたくさんある。
 kare wa kanemochi butte iru ga, hontou wa shakkin ga takusan aru.
 Though he pretends to be rich, in reality he is in serious debt.","親切ぶって近づいてくる人には気を付けてください。
 shinsetsu butte chikadzuite kuru hito ni wa ki o tsukete kudasai.
@@ -173,7 +173,7 @@ vocabulary list
 related grammar
 Level: JLPT N1
 Tags: ～ない , Japanese particles
-How to use 使い方 Verb (dicationary) だに だにしない Noun Exception: 夢 -> 夢に",jlpt_n1,"こんな事故が起きるとは想像だにしなかった。
+How to use 使い方 Verb (dicationary) だに だにしない Noun Exception: 夢 -> 夢に",jlpt_n1,,"こんな事故が起きるとは想像だにしなかった。
 konna jiko ga okiru to wa souzou dani shinakatta.
 I never imagined that such an accident would occur.","この間の彼女の態度は思い出すだに腹が立つ。
 kono aida no kanojo no taido wa omoidasu dani hara ga tatsu.
@@ -190,7 +190,7 @@ vocabulary list
 related grammar
 Level: JLPT N1
 Tags: Japanese conjunctions
-How to use 使い方 Noun であれ であろうと",jlpt_n1,"若い時はどんな仕事であれ、一生懸命取り組みました。
+How to use 使い方 Noun であれ であろうと",jlpt_n1,,"若い時はどんな仕事であれ、一生懸命取り組みました。
 wakai toki wa donna shigoto de are, isshoukenmei torikumimashita.
 When I was young, no matter what the work was I always gave it my best effort.","嘘をつくとは、どんな理由であれ、許されないことだ。
 uso o tsuku to wa, donna riyuu de are, yurusarenai koto da.
@@ -207,7 +207,7 @@ vocabulary list
 related grammar
 Level: JLPT N1
 Tags: Japanese conjunctions
-How to use 使い方 Noun であれ であろうと Noun であれ であろうと",jlpt_n1,"彼がお金持ちであれ貧乏であれ、私の気持ちが変わることはない。
+How to use 使い方 Noun であれ であろうと Noun であれ であろうと",jlpt_n1,,"彼がお金持ちであれ貧乏であれ、私の気持ちが変わることはない。
 kare ga okanemochi de are binbou de are, watashi no kimochi ga kawaru koto wa nai.
 It doesn't matter whether he is rich or poor, my feelings will not change.","先生であれ学生であれ、規則には従わなければなりません。
 sensei de are gakusei de are, kisoku ni wa shitagawa nakereba narimasen.
@@ -223,7 +223,7 @@ example sentences
 vocabulary list
 related grammar
 Level: JLPT N1
-How to use 使い方 Noun + で もあり Noun + で もある な-adj + で な-adj + で い-adj + い く い-adj + い く",jlpt_n1,"明日の試合は興奮でもあり、緊張でもある。
+How to use 使い方 Noun + で もあり Noun + で もある な-adj + で な-adj + で い-adj + い く い-adj + い く",jlpt_n1,,"明日の試合は興奮でもあり、緊張でもある。
 ashita no shiai wa koufun demo ari, kinchou demo aru.
 I'm both excited and nervous for tomorrow's match.","高校に卒業したら喜ばしくもあり悲しくもある。
 koukou ni sotsugyou shitara yorokobashi kumo ari kanashi kumo aru.
@@ -239,7 +239,7 @@ example sentences
 vocabulary list
 related grammar
 Level: JLPT N1
-How to use 使い方 Noun でも何でもない な-adjective い-adjective い くも何ともない Related Kanji 漢字 N5 Kanji: 何 (nani) what",jlpt_n1,"誕生日でもなんでもないのにプレゼントをもらった。
+How to use 使い方 Noun でも何でもない な-adjective い-adjective い くも何ともない Related Kanji 漢字 N5 Kanji: 何 (nani) what",jlpt_n1,,"誕生日でもなんでもないのにプレゼントをもらった。
 tanjoubi demo nan demo nai no ni purezento o moratta.
 I got a present even though it wasn't my birthday or anything like that.","彼の冗談は面白くもなんともない。
 kare no joudan wa omoshiroku mo nantomo nai.
@@ -255,7 +255,7 @@ example sentences
 vocabulary list
 related grammar
 Level: JLPT N1
-How to use 使い方 Noun でなくてなんだろう",jlpt_n1,"彼女に対するこの気持ちは、愛でなくてなんだろう。
+How to use 使い方 Noun でなくてなんだろう",jlpt_n1,,"彼女に対するこの気持ちは、愛でなくてなんだろう。
 kanojo ni taisuru kono kimochi wa, ai denakute nan darou.
 The feeling of mine for her must be love.","子供のために病気になるまで働くとは、親の愛でなくてなんだろう。
 kodomo no tame ni byouki ni naru made hataraku to wa, oya no ai denakute nan darou.
@@ -271,7 +271,7 @@ example sentences
 vocabulary list
 related grammar
 Level: JLPT N1
-How to use 使い方 Verb (casual) + の ではあるまいか Noun + (なの) な-adjective + (なの) い-adjective + の",jlpt_n1,"この調子なら、今年の売り上げ目標を達成できるのではあるまいか。
+How to use 使い方 Verb (casual) + の ではあるまいか Noun + (なの) な-adjective + (なの) い-adjective + の",jlpt_n1,,"この調子なら、今年の売り上げ目標を達成できるのではあるまいか。
 kono choushi nara, kotoshi no uriage mokuhyou o tassei dekiru no dewa arumai ka.
 If this is the case, I wonder if we can reach our sales target this year.","天気予報で今日は天気が悪いと言っていたが、雨は降らないのではあるまいか。
 tenkiyohou de kyou wa tenki ga warui to itte ita ga, ame wa furanai no dewa arumai ka.
@@ -287,7 +287,7 @@ example sentences
 vocabulary list
 related grammar
 Level: JLPT N1
-How to use 使い方 Noun ではあるまいし でもあるまいし じゃあるまいし",jlpt_n1,"子供ではあるまいし、泣くのはやめなさい。
+How to use 使い方 Noun ではあるまいし でもあるまいし じゃあるまいし",jlpt_n1,,"子供ではあるまいし、泣くのはやめなさい。
 kodomo dewa arumai shi, naku nowa yamenasai.
 Stop crying! You are not a child.","新入社員ではあるまいし、基本的なことは説明する必要ないと思います。
 shinnyuu shain dewa arumai shi, kihonteki na koto wa setsumei suru hitsuyou nai to omoimasu.
@@ -303,7 +303,7 @@ example sentences
 vocabulary list
 related grammar
 Level: JLPT N1
-How to use 使い方 Verb (casual) + (の) ではすまない ではすまされない Noun Related Kanji 漢字 N3 Kanji: 済 (sai, sei, sumu) Meaning: settle, relieve, finish",jlpt_n1,"このストーリーはただの笑い話では済まされないと思うところがある。
+How to use 使い方 Verb (casual) + (の) ではすまない ではすまされない Noun Related Kanji 漢字 N3 Kanji: 済 (sai, sei, sumu) Meaning: settle, relieve, finish",jlpt_n1,,"このストーリーはただの笑い話では済まされないと思うところがある。
 kono sutoorii wa tada no waraibanashi dewa sumasarenai to omou tokoro ga aru.
 I don't think this story is just a funny story.","どんな言語を学ぶにしても辞書なしでは済まない。
 donna gengo o manabu ni shite mo jisho nashi dewa sumanai.
@@ -320,7 +320,7 @@ vocabulary list
 related grammar
 Level: JLPT N1
 Tags: ～ない , Japanese adverbs
-How to use 使い方 どうにも Verb (ない form) Noun + がない",jlpt_n1,"こんな蒸し暑い天気は、どうにも我慢できない。
+How to use 使い方 どうにも Verb (ない form) Noun + がない",jlpt_n1,,"こんな蒸し暑い天気は、どうにも我慢できない。
 konna mushiatsui tenki wa, dou nimo gaman dekinai.
 I can't stand this humid weather.","私はこの場所ではどうにも勉強に集中できない。
 watashi wa kono basho de wa dou nimo benkyou ni shuuchuu dekinai
@@ -337,7 +337,7 @@ vocabulary list
 related grammar
 Level: JLPT N1
 Tags: Japanese particles
-How to use 使い方 Verb (dictionary) が早いか",jlpt_n1,"その人は、信号の色が変わるが早いか、走り出した。
+How to use 使い方 Verb (dictionary) が早いか",jlpt_n1,,"その人は、信号の色が変わるが早いか、走り出した。
 sono hito wa, shingou no iro ga kawaru ga hayai ka, hashiri dashita.
 That guy ran off as soon as the crosswalk light changed.","うちの子はいつも学校から帰ってきて、かばんを放り出すが早いか、遊びに行ってしまう。
 uchi no ko wa itsumo gakkou kara kaette kite, kaban o houridasu ga hayai ka, asobi ni itte shimau.
@@ -353,7 +353,7 @@ example sentences
 vocabulary list
 related grammar
 Level: JLPT N1
-How to use 使い方 Noun-1＋が/も＋Noun-1＋なら、 Noun-2＋も＋Noun-2＋だ",jlpt_n1,"先生が先生なら、学生も学生だ。
+How to use 使い方 Noun-1＋が/も＋Noun-1＋なら、 Noun-2＋も＋Noun-2＋だ",jlpt_n1,,"先生が先生なら、学生も学生だ。
 sensei ga sensei nara, gakusei mo gakusei da.
 Like teacher like student. (with a bad teacher like this of course the students are also bad)","味が味なら、サービスもサービスだ。
 aji ga aji nara, saabisu mo saabisu da.
@@ -370,7 +370,7 @@ vocabulary list
 related grammar
 Level: JLPT N1
 Tags: suffix
-How to use 使い方 Noun がましい Related Kanji 漢字 N1 Kanji: 訳 (yaku, wake) Meaning: translate, reason, circumstance, case",jlpt_n1,"差し出がましい男だ。
+How to use 使い方 Noun がましい Related Kanji 漢字 N1 Kanji: 訳 (yaku, wake) Meaning: translate, reason, circumstance, case",jlpt_n1,,"差し出がましい男だ。
 sashide gamashii otoko da.
 He is too forward.","彼女は言い訳がましい事は一切言わなかった。
 kanojo wa iiwake ga mashii koto wa issai iwanakatta.
@@ -386,7 +386,7 @@ example sentences
 vocabulary list
 related grammar
 Level: JLPT N1
-How to use 使い方 Verb ます (sterm form) がてら Noun",jlpt_n1,"散歩がてら、コンビニに行ってくるよ。
+How to use 使い方 Verb ます (sterm form) がてら Noun",jlpt_n1,,"散歩がてら、コンビニに行ってくるよ。
 sanpo gatera, konbini ni itte kuru yo.
 I'm going for a walk and will stop by a convenience store.","友達を駅まで送りがてらDVDを返してきた。
 tomodachi o eki made okuri gatera DVD o kaeshite kita.
@@ -403,7 +403,7 @@ vocabulary list
 related grammar
 Level: JLPT N1
 Tags: Japanese adverbs , suffix
-How to use 使い方 Verb （＋が／かの） (dictionary / た form) ごとき + noun ごとく～（文の途中） ごとし（文の終わり） Noun + の",jlpt_n1,"彼は風のごとく走っています。
+How to use 使い方 Verb （＋が／かの） (dictionary / た form) ごとき + noun ごとく～（文の途中） ごとし（文の終わり） Noun + の",jlpt_n1,,"彼は風のごとく走っています。
 kare wa kaze no gotoku hashitte imasu.
 He is running like the wind.","誰も見ていないかのごとく自由に踊りましょう。
 dare mo mite inai ka no gotoku jiyuu ni odorimashou.
@@ -419,7 +419,7 @@ example sentences
 vocabulary list
 related grammar
 Level: JLPT N1
-How to use 使い方 Verb (dictionary) 羽目になる ハメになる Related Kanji 漢字 N2 Kanji: 羽 (u, ha, wa, hane) Meaning: feathers; counter for birds N4 Kanji: 目 (moku, me) eye",jlpt_n1,"私は歩く時に転んで、入院する羽目になった。
+How to use 使い方 Verb (dictionary) 羽目になる ハメになる Related Kanji 漢字 N2 Kanji: 羽 (u, ha, wa, hane) Meaning: feathers; counter for birds N4 Kanji: 目 (moku, me) eye",jlpt_n1,,"私は歩く時に転んで、入院する羽目になった。
 watashi wa aruku toki ni koronde, nyuuin suru hame ni natta.
 I fell while walking and ended up being hospitalized.","授業をサボりすぎたので、試験前は徹夜する羽目になりそうだ。
 jugyou o sabori sugita node, shiken mae wa tetsuya suru hame ni nari sou da.
@@ -436,7 +436,7 @@ vocabulary list
 related grammar
 Level: JLPT N1
 Tags: こと expressions
-How to use 使い方 Verb (dictionary) ほどのことではない Related Kanji 漢字 N3 Kanji: 程 (tei, hodo) Meaning: extent, degree",jlpt_n1,"それは悲しむほどのことではない。
+How to use 使い方 Verb (dictionary) ほどのことではない Related Kanji 漢字 N3 Kanji: 程 (tei, hodo) Meaning: extent, degree",jlpt_n1,,"それは悲しむほどのことではない。
 sore wa kanashimu hodo no koto dewa nai.
 That isn't anything to be sad over.","もっとも気にする程のことではないが。
 mottomo ki ni suru hodo no koto dewa nai ga.
@@ -452,7 +452,7 @@ example sentences
 vocabulary list
 related grammar
 Level: JLPT N1
-How to use 使い方 Verb (casual form) ほうがましだ Noun + の",jlpt_n1,"あなたと結婚するくらいなら、独身のほうがましだ。
+How to use 使い方 Verb (casual form) ほうがましだ Noun + の",jlpt_n1,,"あなたと結婚するくらいなら、独身のほうがましだ。
 anata to kekkon suru kurai nara, dokushin no hou ga mashida.
 It's better to be single than to marry you.","ギャンブルに金を浪費するなら捨てたほうがましだ。
 gyanburu ni kin o rouhi suru nara suteta hou ga mashida.
@@ -468,7 +468,7 @@ example sentences
 vocabulary list
 related grammar
 Level: JLPT N1
-How to use 使い方 Noun +（の） いかんにかかわらず いかんによらず いかんをとわず",jlpt_n1,"理由のいかんにかかわらず、ここに駐車をしてはいけない。
+How to use 使い方 Noun +（の） いかんにかかわらず いかんによらず いかんをとわず",jlpt_n1,,"理由のいかんにかかわらず、ここに駐車をしてはいけない。
 riyuu no ikan ni kakawarazu, koko ni chuusha o shite wa ikenai.
 Do not park here for any reason.","天気のいかんにかかわらず、開会式は予定通り行います。
 tenki no ikan ni kakawarazu, kaikaishiki wa yotei doori ni okonaimasu.
@@ -485,7 +485,7 @@ vocabulary list
 related grammar
 Level: JLPT N1
 Tags: Japanese adverbs
-How to use 使い方 いかに Verb Noun Adjective",jlpt_n1,"これがいかに難しいかわかり始めている。
+How to use 使い方 いかに Verb Noun Adjective",jlpt_n1,,"これがいかに難しいかわかり始めている。
 kore ga ikani muzukashii ka wakari hajimete iru.
 I'm starting to see how difficult this is.","この会合がいかに重要かを彼は全然わかっていない。
 kono kaigou ga ikani juuyou ka o kare wa zenzen wakatte inai.
@@ -502,7 +502,7 @@ vocabulary list
 related grammar
 Level: JLPT N1
 Tags: Japanese conjunctions
-How to use 使い方 いずれにしても sentence いずれにしろ いずれにせよ",jlpt_n1,"いずれにしてもスケジュールは変更できない。
+How to use 使い方 いずれにしても sentence いずれにしろ いずれにせよ",jlpt_n1,,"いずれにしてもスケジュールは変更できない。
 izure ni shitemo sukejuuru wa henkou dekinai.
 At any rate, we can't change the schedule.","リスクは低いが、いずれにしても気を付けるに越したことはない。
 risuku wa hikui ga, izure ni shitemo ki o tsukeru ni koshita koto wa nai.
@@ -518,7 +518,7 @@ example sentences
 vocabulary list
 related grammar
 Level: JLPT N1
-How to use 使い方 Verb (casual) か否か Noun + である な-adjective + である い-adjective Related Kanji 漢字 N3 Kanji: 否 (hi, ina, iya) Meaning: negate, no, decline",jlpt_n1,"私にはそれが真実か否かが分からない。
+How to use 使い方 Verb (casual) か否か Noun + である な-adjective + である い-adjective Related Kanji 漢字 N3 Kanji: 否 (hi, ina, iya) Meaning: negate, no, decline",jlpt_n1,,"私にはそれが真実か否かが分からない。
 watashi ni wa sore ga shinjitsu ka ina ka ga wakaranai.
 I don't know whether that is true or not.","彼が成功するか否かは、彼の努力次第だ。
 kare ga seikou suru ka ina ka wa, kare no doryoku shidai da.
@@ -535,7 +535,7 @@ vocabulary list
 related grammar
 Level: JLPT N1
 Tags: Japanese conjunctions
-How to use 使い方 Verb (casual form) （か）と思いきや Noun + (だ) な-adjective + (だ) い-adjective + い Related Kanji 漢字 N4 Kanji: 思 (shi, omoi) think",jlpt_n1,"今日は一日中晴れると思いきや、午後からざあざあ降りになった。
+How to use 使い方 Verb (casual form) （か）と思いきや Noun + (だ) な-adjective + (だ) い-adjective + い Related Kanji 漢字 N4 Kanji: 思 (shi, omoi) think",jlpt_n1,,"今日は一日中晴れると思いきや、午後からざあざあ降りになった。
 kyou wa ichinichijuu hareru to omoikiya, gogo kara zaazaa furi ni natta.
 I thought it would be sunny all day today, but it started to rain in the afternoon.","この映画はホラーかと思いきや、実はコメディ映画だった。
 kono eiga wa horaa ka to omoikiya, jitsu wa komedi eiga datta.
@@ -552,7 +552,7 @@ vocabulary list
 related grammar
 Level: JLPT N1
 Tags: Japanese adverbs , Japanese conjunctions
-How to use 使い方 Noun かたがた",jlpt_n1,"本日はお礼かたがたお伺いました。
+How to use 使い方 Noun かたがた",jlpt_n1,,"本日はお礼かたがたお伺いました。
 honjitsu wa orei katagata o ukagaimashita.
 I came today to show my gratitude.","近くまで来ましたので、ご挨拶かたがたお伺いしました。
 chikaku made kimashita node, go aisatsu katagata o ukagai shimashita.
@@ -568,7 +568,7 @@ example sentences
 vocabulary list
 related grammar
 Level: JLPT N1
-How to use 使い方 Verb (casual form) 嫌いがある Noun + の Related Kanji 漢字 N1 Kanji: 嫌 (ken, gen, kira(i), iya) Meaning: dislike, detest, hate",jlpt_n1,"彼は物事を少しすぎる嫌いがある。
+How to use 使い方 Verb (casual form) 嫌いがある Noun + の Related Kanji 漢字 N1 Kanji: 嫌 (ken, gen, kira(i), iya) Meaning: dislike, detest, hate",jlpt_n1,,"彼は物事を少しすぎる嫌いがある。
 kare wa monogoto o sukoshi sugiru kirai ga aru.
 He tends to take things too seriously.","彼女は面接の時に緊張する嫌いがある。
 kanojo wa mensetsu no toki ni kinchou suru kirai ga aru.
@@ -584,7 +584,7 @@ example sentences
 vocabulary list
 related grammar
 Level: JLPT N1
-How to use 使い方 な-adjective + な 極まる な-adjective + (なこと) 極まりない い-adjective + いこと Related Kanji 漢字 N2 Kanji: 極 (kyoku, goku, kiwameru) Meaning: poles; settlement; conclusion; end",jlpt_n1,"彼の態度は失礼極まる。
+How to use 使い方 な-adjective + な 極まる な-adjective + (なこと) 極まりない い-adjective + いこと Related Kanji 漢字 N2 Kanji: 極 (kyoku, goku, kiwameru) Meaning: poles; settlement; conclusion; end",jlpt_n1,,"彼の態度は失礼極まる。
 kare no taido wa shitsurei kiwamaru.
 His attitude is extremely rude.","その景色は美しいこと極まりないものだった。
 sono keshiki wa utsukushii koto kiwamarinai mono datta.
@@ -601,7 +601,7 @@ vocabulary list
 related grammar
 Level: JLPT N1
 Tags: Japanese conjunctions , Japanese particles
-How to use 使い方 Noun こそすれ + Point 2 Verb ます (stem form)",jlpt_n1,"勝ちこそすれ決して負けません。
+How to use 使い方 Noun こそすれ + Point 2 Verb ます (stem form)",jlpt_n1,,"勝ちこそすれ決して負けません。
 kachi koso sure kesshite makemasen.
 I may win, but I shall never lose.","白髪は普通増えこそすれ、減ることはない。
 shiraga wa futsuu fue koso sure, heru koto wa nai.
@@ -618,7 +618,7 @@ vocabulary list
 related grammar
 Level: JLPT N1
 Tags: ～ない , こと expressions
-How to use 使い方 この上ない Noun この上なく な-adjective い-adjective な-adjective + な/である ことこの上ない い-adjective + い",jlpt_n1,"この上なく幸せだ。
+How to use 使い方 この上ない Noun この上なく な-adjective い-adjective な-adjective + な/である ことこの上ない い-adjective + い",jlpt_n1,,"この上なく幸せだ。
 kono ue naku shiawase da.
 I have never been happier.","私はそれがこの上なく好きです。
 watashi wa sore ga kono ue naku suki desu.
@@ -635,7 +635,7 @@ vocabulary list
 related grammar
 Level: JLPT N1
 Tags: こと expressions
-How to use 使い方 Verb (casual) こともあって Noun + という な-adjective い-adjective",jlpt_n1,"今日は天気がいいこともあって、公園にたくさん人が来ている。
+How to use 使い方 Verb (casual) こともあって Noun + という な-adjective い-adjective",jlpt_n1,,"今日は天気がいいこともあって、公園にたくさん人が来ている。
 kyou wa tenki ga ii koto mo atte, kouen ni takusan hito ga kite iru.
 Many people are coming to the park today, partly because of the good weather.","ちょうど受験前ということもあって、息子はピリピリしている。
 choudo juken mae toiu koto mo atte, musuko wa piripiri shite iru.
@@ -652,7 +652,7 @@ vocabulary list
 related grammar
 Level: JLPT N1
 Tags: without , こと expressions
-How to use 使い方 Verb (dictionary form) ことなしに（は）",jlpt_n1,"今日は朝食を食べることなしに学校へ行った 。
+How to use 使い方 Verb (dictionary form) ことなしに（は）",jlpt_n1,,"今日は朝食を食べることなしに学校へ行った 。
 kyou wa choushoku o taberu koto nashi ni gakkou e itta.
 I went to school without eating breakfast.","努力することなしにN１に合格はできない。
 doryoku suru koto nashi ni N1 ni goukaku wa dekinai.
@@ -669,7 +669,7 @@ vocabulary list
 related grammar
 Level: JLPT N1
 Tags: こと expressions , よう expressions
-How to use 使い方 Verb (dictionary form) ことのないよう（に） ことがないよう（に）",jlpt_n1,"道に迷うことのないように、グーグルマップで場所を確かめておいた。
+How to use 使い方 Verb (dictionary form) ことのないよう（に） ことがないよう（に）",jlpt_n1,,"道に迷うことのないように、グーグルマップで場所を確かめておいた。
 michi ni mayou koto no nai you ni, guuguru mappu de basho o tashikamete oita.
 In order to not get lost, I checked the location on Google Maps.","読書で目を使い過ぎることのないようにしなさい。
 dokusho de me o tsukai sugiru koto no nai you ni shinasai.
@@ -685,7 +685,7 @@ example sentences
 vocabulary list
 related grammar
 Level: JLPT N1
-How to use 使い方 Verb (casual) まで（のこと）だ それ までだ これ",jlpt_n1,"ちょっと聞いてみたまでだ。
+How to use 使い方 Verb (casual) まで（のこと）だ それ までだ これ",jlpt_n1,,"ちょっと聞いてみたまでだ。
 chotto kiite mita made da.
 I just wanted to ask (there's nothing else to it)","この値段まで安くしてくれないなら、今回の契約をキャンセルするまでのことだ。
 kono nedan made yasuku shite kurenai nara, konkai no keiyaku o kyanseru suru made no koto da.
@@ -701,7 +701,7 @@ example sentences
 vocabulary list
 related grammar
 Level: JLPT N1
-How to use 使い方 Verb (dictionary form) までもない までもなく",jlpt_n1,"それは問題にするまでもないことだ。
+How to use 使い方 Verb (dictionary form) までもない までもなく",jlpt_n1,,"それは問題にするまでもないことだ。
 sore wa mondai suru made mo nai koto da.
 This is not even a problem worth mentioning.","アメリカが広いということは、言うまでもない。
 amerika ga hiroi to iu koto wa, iu made mo nai.
@@ -717,7 +717,7 @@ example sentences
 vocabulary list
 related grammar
 Level: JLPT N1
-How to use 使い方 Verb (dictionary form) まじき Noun + にある/としてある",jlpt_n1,"生徒に暴力を振るなんて、先生としてあるまじき行為だ。
+How to use 使い方 Verb (dictionary form) まじき Noun + にある/としてある",jlpt_n1,,"生徒に暴力を振るなんて、先生としてあるまじき行為だ。
 seito ni bouryoku o furu nante, sensei to shite aru majiki koui da.
 Violence against students is something a teacher absolutely should not do","他の人の案を盗むなんて許すまじきことだ。
 hoka no hito no an o nusumu nante yurusu majiki koto da.
@@ -733,7 +733,7 @@ example sentences
 vocabulary list
 related grammar
 Level: JLPT N1
-How to use 使い方 Verb (ます stem) ます まくる",jlpt_n1,"彼は日曜日なのに仕事をしまくっていた。
+How to use 使い方 Verb (ます stem) ます まくる",jlpt_n1,,"彼は日曜日なのに仕事をしまくっていた。
 kare wa nichiyoubi na noni shigoto o shi makutte ita.
 Even though it's Sunday, he just keeps working nonstop.","漢字を書きまくって覚える。
 kanji o kaki makutte oboeru.
@@ -749,7 +749,7 @@ example sentences
 vocabulary list
 related grammar
 Level: JLPT N1
-How to use 使い方 Noun まみれ",jlpt_n1,"彼は汗まみれだった。
+How to use 使い方 Noun まみれ",jlpt_n1,,"彼は汗まみれだった。
 kare wa ase mamire datta.
 He was drenched in sweat.","息子が泥まみれになって帰って来た。
 musuko ga doro mamire ni natte kaette kita.
@@ -765,7 +765,7 @@ example sentences
 vocabulary list
 related grammar
 Level: JLPT N1
-How to use 使い方 Noun めく めいて めいた",jlpt_n1,"暑くなって、ずいぶん夏めいてきましたね。
+How to use 使い方 Noun めく めいて めいた",jlpt_n1,,"暑くなって、ずいぶん夏めいてきましたね。
 atsuku natte, zuibun natsu meite kimashita ne.
 The weather is getting hotter, it seems that summer is here.","あの人はもう二十歳なのに、子供めいた行動がよくします。
 ano hito wa mou hatachi na noni, kodomo meita koudou ga yoku shimasu.
@@ -782,7 +782,7 @@ vocabulary list
 related grammar
 Level: JLPT N1
 Tags: Japanese conjunctions , Japanese particles
-How to use 使い方 Verb (casual) もので",jlpt_n1,"朝寝坊したもので、授業に遅刻してしまいました。
+How to use 使い方 Verb (casual) もので",jlpt_n1,,"朝寝坊したもので、授業に遅刻してしまいました。
 asanebou shita mono de, jugyou ni chikoku shite shimai mashita.
 I overslept in the morning and was late for class.","日本語ができないもので、日本での生活は大変でした。
 nihongo ga dekinai mono de, nihon de no seikatsu wa taihen deshita.
@@ -798,7 +798,7 @@ example sentences
 vocabulary list
 related grammar
 Level: JLPT N1
-How to use 使い方 Verb (casual) ものを な-adjective い-adjective + い",jlpt_n1,"お金が無いなら、言ってくれたらよかったものを。
+How to use 使い方 Verb (casual) ものを な-adjective い-adjective + い",jlpt_n1,,"お金が無いなら、言ってくれたらよかったものを。
 okane ga nai nara, itte kuretara yokatta mono o.
 I wish you had told me you didn't have any money.","ちょっと知らせてくれたらいいものを。
 chotto shirasete kuretara ii mono o.
@@ -815,7 +815,7 @@ vocabulary list
 related grammar
 Level: JLPT N1
 Tags: ばかり expressions
-How to use 使い方 Verb (ない root) ない んばかり（に） んばかりの + Noun Exception : しない -> せん",jlpt_n1,"川の水が溢れんばかりになっている。
+How to use 使い方 Verb (ない root) ない んばかり（に） んばかりの + Noun Exception : しない -> せん",jlpt_n1,,"川の水が溢れんばかりになっている。
 kawa no mizu ga afuren bakari ni natte iru.
 The river is about to flood.","彼女は泣き出さんばかりの顔をして、私に助けを求めてきた。
 kanojo wa naki dasan bakari no kao o shite, watashi ni tasuke o motomete kita.
@@ -831,7 +831,7 @@ example sentences
 vocabulary list
 related grammar
 Level: JLPT N1
-How to use 使い方 Verb (ない form) までも",jlpt_n1,"暑いと言わないまでも、暖かい。
+How to use 使い方 Verb (ない form) までも",jlpt_n1,,"暑いと言わないまでも、暖かい。
 atsui to iwanai made mo, atatakai.
 It's not enough to say it's hot, but it is warm.","彼女はけちとは言わないまでも、とてもつましい。
 kanojo wa kechi to wa iwanai made mo, totemo tsumashii.
@@ -847,7 +847,7 @@ example sentences
 vocabulary list
 related grammar
 Level: JLPT N1
-How to use 使い方 Verb (ない form) （もの）でもない",jlpt_n1,"あなたが本気で勉強すれば、半年でN1合格をできないものでもない。
+How to use 使い方 Verb (ない form) （もの）でもない",jlpt_n1,,"あなたが本気で勉強すれば、半年でN1合格をできないものでもない。
 anata ga honki de benkyou sureba, hantoshi de N1 goukaku o dekinai mono demo nai.
 If you study hard, it's not impossible to pass N1 in half a year.","今すぐに家を出れば、コンサートに間に合わないものでもない。
 ima sugu ni ie o dereba, konsaato ni ma ni awanai mono demo nai.
@@ -863,7 +863,7 @@ example sentences
 vocabulary list
 related grammar
 Level: JLPT N1
-How to use 使い方 Verb (ない form) ものか ものだろうか",jlpt_n1,"あなたがもう少し分かりやすく話せないものか。
+How to use 使い方 Verb (ない form) ものか ものだろうか",jlpt_n1,,"あなたがもう少し分かりやすく話せないものか。
 anata ga mousukoshi wakari yasuku hanasenai mono ka.
 Can't you make it a little easier to understand?","この橋は早く完成しないものか。
 kono hashi wa hayaku kansei shinai mono ka.
@@ -879,7 +879,7 @@ example sentences
 vocabulary list
 related grammar
 Level: JLPT N1
-How to use 使い方 Usage 1 Noun + 並み（に） Usage 2 並みの + Noun Related Kanji 漢字 N2 Kanji: 並 (nami, naraberu) Meaning: row, and, besides",jlpt_n1,"君の料理はプロ並みだ。
+How to use 使い方 Usage 1 Noun + 並み（に） Usage 2 並みの + Noun Related Kanji 漢字 N2 Kanji: 並 (nami, naraberu) Meaning: row, and, besides",jlpt_n1,,"君の料理はプロ並みだ。
 kimi no ryouri wa puro nami da.
 Your cooking is like a professional.","彼女の歌はプロ並みに上手だ。
 kanojo no uta wa puro nami ni jouzu da.
@@ -896,7 +896,7 @@ vocabulary list
 related grammar
 Level: JLPT N1
 Tags: Japanese adverbs
-How to use 使い方 なんという Noun だ / か / だろう なのだろう なんだろう な-adj なんと なんて Noun + なん/の だろう な-adj + なん/の い-adj + の Related Kanji 漢字 N5 Kanji: 何 (nani) what",jlpt_n1,"ここからの景色、なんて綺麗なんだろう。
+How to use 使い方 なんという Noun だ / か / だろう なのだろう なんだろう な-adj なんと なんて Noun + なん/の だろう な-adj + なん/の い-adj + の Related Kanji 漢字 N5 Kanji: 何 (nani) what",jlpt_n1,,"ここからの景色、なんて綺麗なんだろう。
 koko kara no keshiki, nante kirei nan darou.
 What a beautiful view from here!","彼女は軽く触られても大きく叫んだ。なんという敏感な人だ。
 kanojo wa karuku sawararete mo ookiku sakenda. nan to iu binkan na hito da.
@@ -912,7 +912,7 @@ example sentences
 vocabulary list
 related grammar
 Level: JLPT N1
-How to use 使い方 Noun ならでは",jlpt_n1,"納豆は日本ならではの食べ物だ。
+How to use 使い方 Noun ならでは",jlpt_n1,,"納豆は日本ならではの食べ物だ。
 nattou wa nihon nara dewa no tabemono da.
 Natto is a food distinctive of Japan.","それはあなたならではの発想です。
 sore wa anata nara dewa no hassou desu.
@@ -929,7 +929,7 @@ vocabulary list
 related grammar
 Level: JLPT N1
 Tags: Japanese conjunctions
-How to use 使い方 Noun ならいざしらず はいざしらず",jlpt_n1,"10年前ならいざ知らず、今時、テレビを持っていない人は珍しい
+How to use 使い方 Noun ならいざしらず はいざしらず",jlpt_n1,,"10年前ならいざ知らず、今時、テレビを持っていない人は珍しい
 10ねんまえならいざしらず、いまどき、テレビをもっていないひとはめずらしい
 10 nen mae nara iza shirazu, imadoki, terebi o motteinai hito wa mezurashii.","他の人ならいざ知らず、私はそんなことができない。
 hoka no hito nara iza shirazu, watashi wa sonna koto ga dekinai.
@@ -946,7 +946,7 @@ vocabulary list
 related grammar
 Level: JLPT N1
 Tags: Japanese particles
-How to use 使い方 Verb (dictionary form) なり",jlpt_n1,"家を出るなり、雨が降りだした。
+How to use 使い方 Verb (dictionary form) なり",jlpt_n1,,"家を出るなり、雨が降りだした。
 ie o deru nari, ame ga furidashita.
 It started raining as soon as I left the house.","窓を開けるなり、変な虫が入ってきた。
 mado o akeru nari, henna mushi ga haittekita.
@@ -963,7 +963,7 @@ vocabulary list
 related grammar
 Level: JLPT N1
 Tags: Japanese adverbs
-How to use 使い方 Verb なりに なりの + Noun Noun な-adjective い-adjective",jlpt_n1,"初心者なりによくやった。
+How to use 使い方 Verb なりに なりの + Noun Noun な-adjective い-adjective",jlpt_n1,,"初心者なりによくやった。
 shoshinsha nari ni yoku yatta.
 He did well for a beginner.","私なりに頑張ったつもりだったが、結果はダメだった。
 watashi nari ni ganbatta tsumori datta ga, kekka wa dame datta.
@@ -980,7 +980,7 @@ vocabulary list
 related grammar
 Level: JLPT N1
 Tags: Japanese adverbs , Japanese particles
-How to use 使い方 Noun Adverb なりとも",jlpt_n1,"誰なりとも連れて来い。
+How to use 使い方 Noun Adverb なりとも",jlpt_n1,,"誰なりとも連れて来い。
 dare nari tomo tsurete koi.
 Bring anyone you'd like.","ちょっとなりとも会いたい。
 chotto nari tomo aitai.
@@ -997,7 +997,7 @@ vocabulary list
 related grammar
 Level: JLPT N1
 Tags: Japanese particles
-How to use 使い方 Noun-1 なり Noun-2 なり Verb-1 (dictionary form) Verb-2 (dictionary form)",jlpt_n1,"どうせ暇なら、掃除なり洗濯なりしてくれない？
+How to use 使い方 Noun-1 なり Noun-2 なり Verb-1 (dictionary form) Verb-2 (dictionary form)",jlpt_n1,,"どうせ暇なら、掃除なり洗濯なりしてくれない？
 douse hima nara, souji nari sentaku nari shite kurenai?
 Since you have nothing to do, could you please help with the cleaning or laundry?","メールなり電話なりで、彼女に連絡してください。
 meeru nari denwa nari de, kanojo ni renraku shite kudasai.
@@ -1014,7 +1014,7 @@ vocabulary list
 related grammar
 Level: JLPT N1
 Tags: without
-How to use 使い方 Verb (dictionary form) + こと なしに（は） なしで（は） Noun",jlpt_n1,"あなたなしでは生きていけない。
+How to use 使い方 Verb (dictionary form) + こと なしに（は） なしで（は） Noun",jlpt_n1,,"あなたなしでは生きていけない。
 anata nashi de wa ikite ikenai.
 I cannot go on living without you..","この映画は涙なしに観ることができない。
 kono eiga wa namida nashi ni miru koto ga dekinai.
@@ -1031,7 +1031,7 @@ vocabulary list
 related grammar
 Level: JLPT N1
 Tags: Japanese conjunctions
-How to use 使い方 Noun にあって（は / も）",jlpt_n1,"彼は事故にあって足を折った。
+How to use 使い方 Noun にあって（は / も）",jlpt_n1,,"彼は事故にあって足を折った。
 kare wa jiko ni atte ashi o otta.
 He had an accident and broke his leg.","彼は危険にあって勇敢だった。
 kare wa kiken ni atte yuukan datta.
@@ -1047,7 +1047,7 @@ example sentences
 vocabulary list
 related grammar
 Level: JLPT N1
-How to use 使い方 Verb (dictionary) + の にひきかえ にひきかえて Noun + （である） な-adjective + な/である い-adjective Related Kanji 漢字 N3 Kanji: 引 (in, hiku) Meaning: pull, tug, jerk N2 Kanji: 換 (kan, kaeru) Meaning: interchange; period; change",jlpt_n1,"去年のJLPTにひきかえ、今年のはとても難しかった。
+How to use 使い方 Verb (dictionary) + の にひきかえ にひきかえて Noun + （である） な-adjective + な/である い-adjective Related Kanji 漢字 N3 Kanji: 引 (in, hiku) Meaning: pull, tug, jerk N2 Kanji: 換 (kan, kaeru) Meaning: interchange; period; change",jlpt_n1,,"去年のJLPTにひきかえ、今年のはとても難しかった。
 kyonen no JLPT ni hikikae, kotoshi no wa totemo muzukashikatta.
 This year was very difficult, as opposed to last year's JLPT.","隣の立派な家にひきかえ、うちの家は古くてみすぼらしい。
 tonari no rippana ie ni hikikae, uchi no ie wa furukute misuborashii.
@@ -1063,7 +1063,7 @@ example sentences
 vocabulary list
 related grammar
 Level: JLPT N1
-How to use 使い方 Verb (dictionary form) に至る 至った に至らず Noun Related Kanji 漢字 N1 Kanji: 至 (shi, ita(ru)) Meaning: climax, arrive, proceed, reach, attain, result in",jlpt_n1,"この道は公園に至る。
+How to use 使い方 Verb (dictionary form) に至る 至った に至らず Noun Related Kanji 漢字 N1 Kanji: 至 (shi, ita(ru)) Meaning: climax, arrive, proceed, reach, attain, result in",jlpt_n1,,"この道は公園に至る。
 kono michi wa kouen ni itaru.
 This road leads to the park.","この病気は手術に至らず、薬だけで治った。
 kono byouki wa shujutsu ni itarazu, kusuri dake de naotta.
@@ -1079,7 +1079,7 @@ example sentences
 vocabulary list
 related grammar
 Level: JLPT N1
-How to use 使い方 Noun に至るまで Related Kanji 漢字 N1 Kanji: 至 (shi, ita(ru)) Meaning: climax, arrive, proceed, reach, attain, result in",jlpt_n1,"会社の面接で、貯金の額に至るまで、いろいろ聞かれた。
+How to use 使い方 Noun に至るまで Related Kanji 漢字 N1 Kanji: 至 (shi, ita(ru)) Meaning: climax, arrive, proceed, reach, attain, result in",jlpt_n1,,"会社の面接で、貯金の額に至るまで、いろいろ聞かれた。
 kaisha no mensetsu de, chokin no gaku ni itaru made, iroiro kikareta.
 At the job interview, I was asked about many things, even the amount of my savings.","このアニメは子供から大人に至るまで幅広い層で人気があります。
 kono anime wa kodomo kara otona ni itaru made habahiroi sou de ninki ga arimasu.
@@ -1095,7 +1095,7 @@ example sentences
 vocabulary list
 related grammar
 Level: JLPT N1
-How to use 使い方 Noun に至っては Related Kanji 漢字 N1 Kanji: 至 (shi, ita(ru)) Meaning: climax, arrive, proceed, reach, attain, result in",jlpt_n1,"いつも賛成するの母に至っては今度、僕の計画に反対した。
+How to use 使い方 Noun に至っては Related Kanji 漢字 N1 Kanji: 至 (shi, ita(ru)) Meaning: climax, arrive, proceed, reach, attain, result in",jlpt_n1,,"いつも賛成するの母に至っては今度、僕の計画に反対した。
 itsumo sansei suru no haha ni itatte wa kondo, boku no keikaku ni hantai shita.
 Even my mother, who always agrees with me, is opposing my plan this time.","これは特に学校の重要な問題です。校長先生に至っては勝手に決められない。
 kore wa tokuni gakkou no juuyou na mondai desu. kouchou sensei ni itatte wa katte ni kimerarenai.
@@ -1111,7 +1111,7 @@ example sentences
 vocabulary list
 related grammar
 Level: JLPT N1
-How to use 使い方 Noun にかかっている Phrase",jlpt_n1,"合格できるかどうかは、これから１ヶ月のがんばりにかかっている。
+How to use 使い方 Noun にかかっている Phrase",jlpt_n1,,"合格できるかどうかは、これから１ヶ月のがんばりにかかっている。
 goukaku dekiru ka douka wa, korekara ikkagetsu no ganbari ni kakatteiru.
 Whether or not you can pass depends on your hard work for the next month.","俺たちのチームが勝つかどうかは、君にかかっているよ。
 oretachi no chiimu ga katsu ka douka wa, kimi ni kakatteiru yo.
@@ -1128,7 +1128,7 @@ vocabulary list
 related grammar
 Level: JLPT N1
 Tags: Japanese conjunctions , ところ expressions
-How to use 使い方 Verb (dictionary) にしたところで としたところで にしたって としたって Noun な-adjective い-adjective + い",jlpt_n1,"いくらおいしいにしたって、その見た目じゃ食べる気にならない。
+How to use 使い方 Verb (dictionary) にしたところで としたところで にしたって としたって Noun な-adjective い-adjective + い",jlpt_n1,,"いくらおいしいにしたって、その見た目じゃ食べる気にならない。
 ikura oishii ni shitatte, sono mitame ja taberu ki ni naranai.
 No matter how delicious it may be, with that appearance I don't feel like eating it.","走ったとしたって間に合わないだろうから、次の電車にしよう。
 hashitta to shitatte maniawanai darou kara, tsugi no densha ni shiyou.
@@ -1144,7 +1144,7 @@ example sentences
 vocabulary list
 related grammar
 Level: JLPT N1
-How to use 使い方 Noun にして",jlpt_n1,"３回目にして、やっとN１に合格することができた。
+How to use 使い方 Noun にして",jlpt_n1,,"３回目にして、やっとN１に合格することができた。
 3 kai me ni shite, yatto N1 ni goukaku suru koto ga dekimashita.
 I finally passed the JLPT N1 on my 3rd try!","田中さんは18歳にして、社長になった。
 tanaka san wa 18 sai ni shite, shachou ni natta.
@@ -1160,7 +1160,7 @@ example sentences
 vocabulary list
 related grammar
 Level: JLPT N1
-How to use 使い方 Verb (dictionary form) に耐える / に堪える に堪える / に堪えない にたえる / にたえない Noun Related Kanji 漢字 N1 Kanji: 耐 (tai, ta(eru)) Meaning: -proof, enduring",jlpt_n1,"この展示は鑑賞に耐える作品が少ない。
+How to use 使い方 Verb (dictionary form) に耐える / に堪える に堪える / に堪えない にたえる / にたえない Noun Related Kanji 漢字 N1 Kanji: 耐 (tai, ta(eru)) Meaning: -proof, enduring",jlpt_n1,,"この展示は鑑賞に耐える作品が少ない。
 kono tenji wa kanshou ni taeru sakuhin ga sukunai.
 There are not many works of art which are worth looking at in this exhibition.","今年は鑑賞に堪える日本の映画が多くて、とてもよかった。
 kotoshi wa kanshou ni taeru nihon no eiga ga ookute, totemo yokatta.
@@ -1176,7 +1176,7 @@ example sentences
 vocabulary list
 related grammar
 Level: JLPT N1
-How to use 使い方 Verb (dictionary form) に足らない に足りない Noun ※ must be suru verb.",jlpt_n1,"それは取るに足らない話だ。
+How to use 使い方 Verb (dictionary form) に足らない に足りない Noun ※ must be suru verb.",jlpt_n1,,"それは取るに足らない話だ。
 sore wa toru ni taranai hanashi da.
 That's not a story worth mentioning.","彼は頼むに足りない人だ。
 kare wa tonomu ni tarinai hito da.
@@ -1192,7 +1192,7 @@ example sentences
 vocabulary list
 related grammar
 Level: JLPT N1
-How to use 使い方 Noun に照らして Related Kanji 漢字 N2 Kanji: 照 (shou, teru) Meaning: illuminate; shine; compare",jlpt_n1,"彼は社則に照らして処分された。
+How to use 使い方 Noun に照らして Related Kanji 漢字 N2 Kanji: 照 (shou, teru) Meaning: illuminate; shine; compare",jlpt_n1,,"彼は社則に照らして処分された。
 kare wa shasoku ni terashite shobun sareta.
 He was punished according to company rules.","犯罪は全て法に照らして裁かれる。
 hanzai wa subete hou ni terashite sabaka reru.
@@ -1208,7 +1208,7 @@ example sentences
 vocabulary list
 related grammar
 Level: JLPT N1
-How to use 使い方 Verb (dictionary form) にとどまらず（～も） Noun +（である） な-adjective + である い-adjective + だけ",jlpt_n1,"母のケーキ作りは単なる趣味にとどまらず、自分の店を開くまでになった。
+How to use 使い方 Verb (dictionary form) にとどまらず（～も） Noun +（である） な-adjective + である い-adjective + だけ",jlpt_n1,,"母のケーキ作りは単なる趣味にとどまらず、自分の店を開くまでになった。
 haha no keeki tsukuri wa tan naru shumi ni todomarazu, jibun no mise o hiraku made ni natta.
 Making cakes for my mother was more than just a hobby, I even opened my own shop.","アニメや漫画は日本にとどまらず、海外でも多くのファンを増やしている。
 anime ya manga wa nihon ni todomarazu, kaigai demo ooku no fan o fuyashite iru.
@@ -1224,7 +1224,7 @@ example sentences
 vocabulary list
 related grammar
 Level: JLPT N1
-How to use 使い方 Noun によらず",jlpt_n1,"性別、年齢によらず、条件に当てはまる方であれば誰でもいいです。
+How to use 使い方 Noun によらず",jlpt_n1,,"性別、年齢によらず、条件に当てはまる方であれば誰でもいいです。
 seibetsu, nenrei ni yorazu, jouken ni ate wa maru kata de areba dare demo ii desu.
 Anyone who meets the conditions is welcome, regardless of gender or age.","この学習書はレベルによらず役に立つので買ったほうがいいでしょう。
 kono gakushuusho wa reberu ni yorazu yaku ni tatsu node katta hou ga ii deshou.
@@ -1240,7 +1240,7 @@ example sentences
 vocabulary list
 related grammar
 Level: JLPT N1
-How to use 使い方 Noun にもまして Related Kanji 漢字 N3 Kanji: 増 (zou, masu, fueru) Meaning: increase, add",jlpt_n1,"昨日のテストはいつにも増して難しかった気がする。
+How to use 使い方 Noun にもまして Related Kanji 漢字 N3 Kanji: 増 (zou, masu, fueru) Meaning: increase, add",jlpt_n1,,"昨日のテストはいつにも増して難しかった気がする。
 kinou no tesuto wa itsu nimo mashite muzukashikatta ki ga suru.
 I felt that yesterday's test was more difficult than usual.","今年の文化祭りは、去年にも増して、たくさんの人に来てもらえた。
 kotoshi no bunka matsuri wa, kyonen nimo mashite, takusan no hito ni kite moraeta.
@@ -1257,7 +1257,7 @@ vocabulary list
 related grammar
 Level: JLPT N1
 Tags: Japanese adverbs
-How to use 使い方 Verb (casual) のなんの（って） Adjective",jlpt_n1,"このカレーは辛いのなんのって、全然食べられなかった。
+How to use 使い方 Verb (casual) のなんの（って） Adjective",jlpt_n1,,"このカレーは辛いのなんのって、全然食べられなかった。
 kono karee wa karai no nan notte, zenzen taberarenakatta.
 The curry was incredibly spicy, I couldn't eat it all.","この映画は怖いのなんのって。昨夜私は眠れなくなったほどだ。
 kono eiga wa kowai no nan notte. sakuya watashi wa nemurenaku natta hodo da.
@@ -1274,7 +1274,7 @@ vocabulary list
 related grammar
 Level: JLPT N1
 Tags: こと expressions
-How to use 使い方 Verb (casual form) のやら ものやら ことやら Noun + な な-adjective + な い-adjective",jlpt_n1,"今の不景気はいつまで続くのやら？
+How to use 使い方 Verb (casual form) のやら ものやら ことやら Noun + な な-adjective + な い-adjective",jlpt_n1,,"今の不景気はいつまで続くのやら？
 ima no fukeiki wa itsumade tudzuku no yara?
 I wonder how long this current economic slump will continue.","息子は大学を卒業したのに、仕事もせずに何をやっているのやら。
 musuko wa daigaku o sotsugyou shita no ni, shigoto mo sezu ni nani o yatteiru no yara.
@@ -1290,7 +1290,7 @@ example sentences
 vocabulary list
 related grammar
 Level: JLPT N1
-How to use 使い方 Noun を踏まえて",jlpt_n1,"集めたデータを踏まえてレポートを作成します。
+How to use 使い方 Noun を踏まえて",jlpt_n1,,"集めたデータを踏まえてレポートを作成します。
 atsumeta deeta o fumaete repooto o sakusei shimasu.
 I will create a report based on the collected data.","あなたはそれを踏まえて何か良い提案がありますか。
 anata wa sore o fumaete nani ka yoi teian ga arimasu ka.
@@ -1306,7 +1306,7 @@ example sentences
 vocabulary list
 related grammar
 Level: JLPT N1
-How to use 使い方 Verb (casual, non-past) + の をいいことに Noun + (であるの) な-adjective + なの い-adjective + の",jlpt_n1,"私は夏休みであるのをいいことに外国を旅行する。
+How to use 使い方 Verb (casual, non-past) + の をいいことに Noun + (であるの) な-adjective + なの い-adjective + の",jlpt_n1,,"私は夏休みであるのをいいことに外国を旅行する。
 watashi wa natsuyasumi dearu no o ii koto ni gaikoku o ryokou suru.
 I took advantage of summer vacation to travel abroad.","先生がいないのをいいことに朝の授業をサボった。
 sensei ga inai no o ii koto ni asa no jugyou o sabotta.
@@ -1322,7 +1322,7 @@ example sentences
 vocabulary list
 related grammar
 Level: JLPT N1
-How to use 使い方 Noun を限りに 限りで Related Kanji 漢字 N3 Kanji: 限 (gen, kagiru) Meaning: limit, restrict",jlpt_n1,"今日を限りに酒をやめることにした。
+How to use 使い方 Noun を限りに 限りで Related Kanji 漢字 N3 Kanji: 限 (gen, kagiru) Meaning: limit, restrict",jlpt_n1,,"今日を限りに酒をやめることにした。
 kyou o kagiri ni sake o yameru koto ni shita.
 From today, I've decided to quit alcohol.","今学期を限りに、私はこの学校を辞めます。
 kongakki o kagiri ni, watashi wa kono gakkou o yamemasu.
@@ -1338,7 +1338,7 @@ example sentences
 vocabulary list
 related grammar
 Level: JLPT N1
-How to use 使い方 Noun を禁じ得ない Related Kanji 漢字 N2 Kanji: 禁 (kin) Meaning: prohibition; ban; forbid N3 Kanji: 得 (toku, eru) gain",jlpt_n1,"彼の不幸な人生には、同情を禁じえない。
+How to use 使い方 Noun を禁じ得ない Related Kanji 漢字 N2 Kanji: 禁 (kin) Meaning: prohibition; ban; forbid N3 Kanji: 得 (toku, eru) gain",jlpt_n1,,"彼の不幸な人生には、同情を禁じえない。
 kare no fukou na jinsei ni wa, doujou o kinji enai.
 I can't help but feel sympathy for his unfortunate circumstances.","彼女の身の上話を聞いて、涙を禁じえない。
 kanojo no mi no uebanashi o kiite, namida o kinji enai.
@@ -1354,7 +1354,7 @@ example sentences
 vocabulary list
 related grammar
 Level: JLPT N1
-How to use 使い方 Noun をもって をもちまして",jlpt_n1,"彼女の実力をもってすれば、成功するだろう。
+How to use 使い方 Noun をもって をもちまして",jlpt_n1,,"彼女の実力をもってすれば、成功するだろう。
 kanojo no jitsuryoku o motte sureba, seikou suru darou.
 With her abilities, she will likely succeed.","最新技術をもってすればその開発も難しくないだろう。
 saishin gijutsu o motte sureba sono kaihatsu mo muzukashikunai darou.
@@ -1370,7 +1370,7 @@ example sentences
 vocabulary list
 related grammar
 Level: JLPT N1
-How to use 使い方 Noun を余儀なくされる を余儀なくされた を余儀なくされている Related Kanji 漢字 N3 Kanji: 余 (yo, amaru) Meaning: too much, surplus N1 Kanji: 儀 (gi, ) Meaning: ceremony, rule, affair, case, a matter",jlpt_n1,"その試合は雨のため、延期を余儀なくされた。
+How to use 使い方 Noun を余儀なくされる を余儀なくされた を余儀なくされている Related Kanji 漢字 N3 Kanji: 余 (yo, amaru) Meaning: too much, surplus N1 Kanji: 儀 (gi, ) Meaning: ceremony, rule, affair, case, a matter",jlpt_n1,,"その試合は雨のため、延期を余儀なくされた。
 sono shiai wa ame no tame, enki o yoginaku sareta.
 Due to the rain, the game had to be postponed.","大きなミスをしたため、彼は辞職を余儀なくされた。
 ookina misu o shita tame, kare wa jishoku o yoginaku sareta.
@@ -1386,7 +1386,7 @@ example sentences
 vocabulary list
 related grammar
 Level: JLPT N1
-How to use 使い方 Noun を前提として を前提に（して） 前提で Related Kanji 漢字 N5 Kanji: 前 (zen, mae) in front, before N1 Kanji: 提 (tei, sageru) Meaning: propose, take along, carry in hand",jlpt_n1,"私たちは結婚を前提として交際しています。
+How to use 使い方 Noun を前提として を前提に（して） 前提で Related Kanji 漢字 N5 Kanji: 前 (zen, mae) in front, before N1 Kanji: 提 (tei, sageru) Meaning: propose, take along, carry in hand",jlpt_n1,,"私たちは結婚を前提として交際しています。
 watashi tachi wa kekkon o zentei toshite kousai shite imasu.
 We are dating with intent of marriage.","私の企画は君の協力を前提としている。
 watashi no kikaku wa kimi no kyouryoku o zentei to shiteiru.
@@ -1403,7 +1403,7 @@ vocabulary list
 related grammar
 Level: JLPT N1
 Tags: Japanese particles
-How to use 使い方 phrase + さ",jlpt_n1,"やってみるさ！
+How to use 使い方 phrase + さ",jlpt_n1,,"やってみるさ！
 yatte miru sa!
 Give it a try!","よくあることさ。
 yoku aru koto sa.
@@ -1420,7 +1420,7 @@ vocabulary list
 related grammar
 Level: JLPT N1
 Tags: Japanese adverbs
-How to use 使い方 さも sentence + (そうに/そうな) sentence + (ように/ような)",jlpt_n1,"彼はさもおいしそうにビールを飲みほした。
+How to use 使い方 さも sentence + (そうに/そうな) sentence + (ように/ような)",jlpt_n1,,"彼はさもおいしそうにビールを飲みほした。
 kare wa samo oishisou ni biiru o nomihoshita.
 He drank up beer deliciously.","子供はさも眠そうな様子で、大きなあくびをした。
 kodomo wa samo nemu souna yousu de, ookina akubi o shita.
@@ -1436,7 +1436,7 @@ example sentences
 vocabulary list
 related grammar
 Level: JLPT N1
-How to use 使い方 Verb (dictionary form) Verb (た form) そばから",jlpt_n1,"名前を聞いたそばから忘れてしまう。
+How to use 使い方 Verb (dictionary form) Verb (た form) そばから",jlpt_n1,,"名前を聞いたそばから忘れてしまう。
 namae o kiita sobakara wasurete shimau.
 I forget names almost instantly after I hear them.","田中さん、注意したそばから間違えてるよ。
 tanaka san, chuui shita soba kara machigaeteru yo.
@@ -1452,7 +1452,7 @@ example sentences
 vocabulary list
 related grammar
 Level: JLPT N1
-How to use 使い方 Verb (stem form) ます そびれる",jlpt_n1,"遅刻して飛行機に乗りそびれた。
+How to use 使い方 Verb (stem form) ます そびれる",jlpt_n1,,"遅刻して飛行機に乗りそびれた。
 chikoku shite hikouki ni nori sobireta.
 I was late and missed the plane.","今朝は忙しくて、朝食を食べそびれてしまった。
 kesa wa isogashikute, choushoku o tabe sobirete shimatta.
@@ -1469,7 +1469,7 @@ vocabulary list
 related grammar
 Level: JLPT N1
 Tags: Japanese particles
-How to use 使い方 Noun （で）すら （に）すら",jlpt_n1,"こんな問題、小学生すらわかるよ。
+How to use 使い方 Noun （で）すら （に）すら",jlpt_n1,,"こんな問題、小学生すらわかるよ。
 konna mondai, shougakusei sura wakaru yo.
 Even an elementary school kid would know this kind of problem.","喉が痛くて、水すら飲めない。
 nodo ga itakute, mizu sura nomenai.
@@ -1486,7 +1486,7 @@ vocabulary list
 related grammar
 Level: JLPT N1
 Tags: こと expressions
-How to use 使い方 Verb (た form) （という）ことにする （という）ことになる Noun +（だ） な-adjective +（だ） い-adjective (た form)",jlpt_n1,"それは無かったことにして下さい。
+How to use 使い方 Verb (た form) （という）ことにする （という）ことになる Noun +（だ） な-adjective +（だ） い-adjective (た form)",jlpt_n1,,"それは無かったことにして下さい。
 sore wa nakatta koto ni shite kudasai.
 Please just pretend that didn't happen.","この話は聞かなかったことにしてください。
 kono hanashi wa kikanakatta koto ni shite kudasai.
@@ -1502,7 +1502,7 @@ example sentences
 vocabulary list
 related grammar
 Level: JLPT N1
-How to use 使い方 Verb (た form) つもりはない つもりではない つもりはなかった",jlpt_n1,"私はそんなことを言ったつもりはない。
+How to use 使い方 Verb (た form) つもりはない つもりではない つもりはなかった",jlpt_n1,,"私はそんなことを言ったつもりはない。
 watashi wa sonna koto o itta tsumori wa nai.
 I don't mean to say such things.","あなたを許したつもりはありません。
 anata o yurushita tsumori wa arimasen.
@@ -1519,7 +1519,7 @@ vocabulary list
 related grammar
 Level: JLPT N1
 Tags: Japanese adverbs , Japanese particles
-How to use 使い方 （ただ） Verb (dictionary) のみだ のみです Noun な-adj + である い-adj + い",jlpt_n1,"今はただみんなの無事を祈るのみです。
+How to use 使い方 （ただ） Verb (dictionary) のみだ のみです Noun な-adj + である い-adj + い",jlpt_n1,,"今はただみんなの無事を祈るのみです。
 ima wa tada minna no buji o inoru nomi desu.
 Now I can only pray for everyone's safety.","うまくなりたいなら、ただ練習あるのみだ。
 umaku naritai nara, tada renshuu aru nomi da.
@@ -1536,7 +1536,7 @@ vocabulary list
 related grammar
 Level: JLPT N1
 Tags: Japanese conjunctions , Japanese particles
-How to use 使い方 Verb (た) + ら Verb (た) + で Noun + なら Noun + で な-adj + なら な-adj + で い-adj + い かったら い-adj + い かったで",jlpt_n1,"失敗したらしたで、もう一度チャレンジすればいい。
+How to use 使い方 Verb (た) + ら Verb (た) + で Noun + なら Noun + で な-adj + なら な-adj + で い-adj + い かったら い-adj + い かったで",jlpt_n1,,"失敗したらしたで、もう一度チャレンジすればいい。
 shippai shitara shita de, mouichido charenji sureba ii.
 If you make a mistake, you can try again.","試験に落ちたら落ちたで、また来年受けるだけだ。
 shiken ni ochitara ochita de, mata rainen ukeru dakeda.
@@ -1552,7 +1552,7 @@ example sentences
 vocabulary list
 related grammar
 Level: JLPT N1
-How to use 使い方 Noun たるもの たる",jlpt_n1,"医者たるもの、患者の命を優先に考えるべきだ。
+How to use 使い方 Noun たるもの たる",jlpt_n1,,"医者たるもの、患者の命を優先に考えるべきだ。
 isha taru mono, kanja no inochi o yuusen ni kangaeru beki da.
 As a doctor, you should give priority to the life of the patient.","教師たるもの、学生の見本となるような行動すべきだ。
 kyoushi taru mono, gakusei no mihon to naru youna koudou subeki da.
@@ -1568,7 +1568,7 @@ example sentences
 vocabulary list
 related grammar
 Level: JLPT N1
-How to use 使い方 Verb (て form) （は）かなわない な-adjective + で い-adjective + い + くて Related Kanji 漢字 N1 Kanji: 敵 (teki, kataki, ada, kana(u)) Meaning: enemy, foe, opponent",jlpt_n1,"隣の工事がうるさくて敵わない。
+How to use 使い方 Verb (て form) （は）かなわない な-adjective + で い-adjective + い + くて Related Kanji 漢字 N1 Kanji: 敵 (teki, kataki, ada, kana(u)) Meaning: enemy, foe, opponent",jlpt_n1,,"隣の工事がうるさくて敵わない。
 tonari no kouji ga urusakute kanawanai.
 I can't stand the noise of the construction site next door.","N1の問題は難しくて敵わない。でも、勉強するしかない。
 N1のもんだいはむずかしくてかなわない。でも、べんきょうするしかない。
@@ -1584,7 +1584,7 @@ example sentences
 vocabulary list
 related grammar
 Level: JLPT N1
-How to use 使い方 Verb (て form) しかるべきだ Related Kanji 漢字 N3 Kanji: 然 (zen, nen, shika, sa) Meaning: sort of thing, if so",jlpt_n1,"後輩なら先輩に敬語を使ってしかるべきだ。
+How to use 使い方 Verb (て form) しかるべきだ Related Kanji 漢字 N3 Kanji: 然 (zen, nen, shika, sa) Meaning: sort of thing, if so",jlpt_n1,,"後輩なら先輩に敬語を使ってしかるべきだ。
 kouhai nara senpai ni keigo o tsukatte shikaru beki da.
 If you are a junior, you should use honorifics towards your seniors.","退学する前に、親と相談してしかるべきだ。
 taigaku suru mae ni, oya to soudan shite shikaru beki da.
@@ -1600,7 +1600,7 @@ example sentences
 vocabulary list
 related grammar
 Level: JLPT N1
-How to use 使い方 Verb (casual) 手前 Noun + の Related Kanji 漢字 N4 Kanji: 手 (shu, te) hand N5 Kanji: 前 (zen, mae) in front, before",jlpt_n1,"自分が一番若い手前、皆のお茶を入れるのは当然だ。
+How to use 使い方 Verb (casual) 手前 Noun + の Related Kanji 漢字 N4 Kanji: 手 (shu, te) hand N5 Kanji: 前 (zen, mae) in front, before",jlpt_n1,,"自分が一番若い手前、皆のお茶を入れるのは当然だ。
 jibun ga ichiban wakai temae, mina no ocha o ireru no wa touzen da.
 Since I am the youngest, it is only natural that I am the one who prepare's everyone's tea.","熱があるから学校を休むと言ってしまった手前、外に出て誰かに見られてはまずい。
 netsu ga aru kara gakkou o yasumu to itte shimatta temae, soto ni dete dare ka ni mirarete wa mazui.
@@ -1616,7 +1616,7 @@ example sentences
 vocabulary list
 related grammar
 Level: JLPT N1
-How to use 使い方 Verb (て form) + も どうにもならない どうなるものでもない Noun + でも な-adjective + でも い-adjective + い + くても",jlpt_n1,"今さら反対してもどうなるものでもない。
+How to use 使い方 Verb (て form) + も どうにもならない どうなるものでもない Noun + でも な-adjective + でも い-adjective + い + くても",jlpt_n1,,"今さら反対してもどうなるものでもない。
 imasara hantai shite mo dou naru mono de mo nai.
 It's too late to oppose things now.","過ぎたことを後悔してもどうにもならない。
 sugita koto o koukai shite mo dou ni mo naranai.
@@ -1633,7 +1633,7 @@ vocabulary list
 related grammar
 Level: JLPT N1
 Tags: Japanese conjunctions
-How to use 使い方 Verb (casual) とあって Noun +（だ） な-adjective +（だ） い-adjective + い",jlpt_n1,"夏休みとあって、平日なのに学生がたくさんいる。
+How to use 使い方 Verb (casual) とあって Noun +（だ） な-adjective +（だ） い-adjective + い",jlpt_n1,,"夏休みとあって、平日なのに学生がたくさんいる。
 natsuyasumi to atte, heijitsu nanoni gakusei ga takusan iru.
 Due to it being summer break, even though it's a weekday, there are lots of students here.","ゴールデンウィークとあって、どこに行っても混んでいる。
 gooruden wiiku to atte, doko ni itte mo kondeiru.
@@ -1649,7 +1649,7 @@ example sentences
 vocabulary list
 related grammar
 Level: JLPT N1
-How to use 使い方 Noun といい Noun といい",jlpt_n1,"このレストランは、料理の味といい値段といい、文句のつけようがない。
+How to use 使い方 Noun といい Noun といい",jlpt_n1,,"このレストランは、料理の味といい値段といい、文句のつけようがない。
 kono resutoran wa, ryouri no aji to ii nedan to ii, monku no tsuke you ga nai.
 This restaurant has good food taste and good price, so I can't complain.","あの映画はストーリーといい、キャラクターといい、素晴らしかった。
 ano eiga wa sutoorii to ii, kyarakutaa to ii, subarashikatta.
@@ -1665,7 +1665,7 @@ example sentences
 vocabulary list
 related grammar
 Level: JLPT N1
-How to use 使い方 Noun という (same) noun",jlpt_n1,"津波によって家という家が全て流されてしまった。
+How to use 使い方 Noun という (same) noun",jlpt_n1,,"津波によって家という家が全て流されてしまった。
 tsunami ni yotte ie to iu ie ga subete nagasarete shimatta.
 The tsunami washed away all the houses (leaving none behind).","大雪で東京に行くの電車という電車が中止されている。
 taisetsu de toukyou ni iku no densha to iu densha ga chuushi sarete iru.
@@ -1682,7 +1682,7 @@ vocabulary list
 related grammar
 Level: JLPT N1
 Tags: Japanese conjunctions
-How to use 使い方 Verb (casual) というか Verb (casual) というか Noun Noun な-adj な-adj い-adj い-adj",jlpt_n1,"気温が低すぎて、寒いというか痛い。
+How to use 使い方 Verb (casual) というか Verb (casual) というか Noun Noun な-adj な-adj い-adj い-adj",jlpt_n1,,"気温が低すぎて、寒いというか痛い。
 kion ga hiku sugite, samui to iu ka itai.
 The temperature is too low. It's more painful than cold.","あんこが好きというか、ないと生きていけない。
 anko ga suki to iu ka, nai to ikite ikenai.
@@ -1698,7 +1698,7 @@ example sentences
 vocabulary list
 related grammar
 Level: JLPT N1
-How to use 使い方 Noun (time unit) というもの",jlpt_n1,"この一週間というもの、そればっかりです。
+How to use 使い方 Noun (time unit) というもの",jlpt_n1,,"この一週間というもの、そればっかりです。
 kono isshuukan to iu mono, sore bakkari desu.
 We've had nothing else this past week","引っ越ししてからのこの１週間というもの、ずっと荷物の整理をしている。
 hikkoshi shite kara no kono isshuukan to iu mono, zutto nimotsu no seiri o shiteiru.
@@ -1715,7 +1715,7 @@ vocabulary list
 related grammar
 Level: JLPT N1
 Tags: ところ expressions
-How to use 使い方 Noun というところだ といったところだ ってところだ",jlpt_n1,"彼女は多く見ても２０歳というところだ。
+How to use 使い方 Noun というところだ といったところだ ってところだ",jlpt_n1,,"彼女は多く見ても２０歳というところだ。
 kanojo wa ooku mitemo hatachi to iu tokoro da.
 She is 20 years old at most.","ジムに行くのは週2、3回というところだ。
 jimu ni iku no wa shuu 2, 3 kai to iu tokoro da.
@@ -1731,7 +1731,7 @@ example sentences
 vocabulary list
 related grammar
 Level: JLPT N1
-How to use 使い方 Phrase というわけだ というわけです",jlpt_n1,"それが私たちの目的というわけです。
+How to use 使い方 Phrase というわけだ というわけです",jlpt_n1,,"それが私たちの目的というわけです。
 sore ga watashitachi no mokuteki to iu wake da.
 That is our goal.","じゃあ、あと１時間ぐらいはいられるというわけですね。
 jaa, ato 1 jikan gurai wa irareru to iu wake desu ne.
@@ -1747,7 +1747,7 @@ example sentences
 vocabulary list
 related grammar
 Level: JLPT N1
-How to use 使い方 Noun-1 といわず Noun-2 といわず",jlpt_n1,"顔といわず、手といわず泥まみれだ。
+How to use 使い方 Noun-1 といわず Noun-2 といわず",jlpt_n1,,"顔といわず、手といわず泥まみれだ。
 kao to iwazu, te to iwazu doro mamire da.
 Their face and hands and everything are covered in mud.","晴れといわず雨といわずジョギングをしている。
 hare to iwazu ame to iwazu jogingu o shite iru.
@@ -1763,7 +1763,7 @@ example sentences
 vocabulary list
 related grammar
 Level: JLPT N1
-How to use 使い方 Verb (casual) とみると Noun +（だ） な-adjective い-adjective + い",jlpt_n1,"彼女は、店員が中国人だとみると、中国語で話しかける。
+How to use 使い方 Verb (casual) とみると Noun +（だ） な-adjective い-adjective + い",jlpt_n1,,"彼女は、店員が中国人だとみると、中国語で話しかける。
 kanojo wa, tenin ga chuugokujin da to miru to, chuugokugo de hanashi kakeru.
 After realizing the shop staff is Chinese, she speaks to them in Chinese.","本格的なイタリア料理屋ではないとみると、彼女はガッカリしていて、少ししか食べなかった。
 honkaku tekina itaria ryouriya dewa nai to miru to, kanojo wa gakkari shite ite, sukoshi shika tabenakatta.
@@ -1780,7 +1780,7 @@ vocabulary list
 related grammar
 Level: JLPT N1
 Tags: Japanese conjunctions
-How to use 使い方 Verb (casual) と（も）なると と（も）なれば となったら Noun な-adjective い-adjective",jlpt_n1,"いざ出発となると、不安になってきた。
+How to use 使い方 Verb (casual) と（も）なると と（も）なれば となったら Noun な-adjective い-adjective",jlpt_n1,,"いざ出発となると、不安になってきた。
 iza shuppatsu to naru to, fuan ni natte kita.
 When it came time to leave, I became anxious.","彼はとてもいいひとですが結婚となると、ちょっと頼りない気がする。
 kare wa totemo ii hito desuga kekkon to naru to, chotto tayorinai ki ga suru.
@@ -1796,7 +1796,7 @@ example sentences
 vocabulary list
 related grammar
 Level: JLPT N1
-How to use 使い方 Sentence とされる とされている Noun",jlpt_n1,"彼のやったことは法律違反とされる。
+How to use 使い方 Sentence とされる とされている Noun",jlpt_n1,,"彼のやったことは法律違反とされる。
 kare no yatta koto wa houritsu ihan to sareru.
 What he did is considered a violation of the law.","息子は社会人として必要とされている知識に欠ける。
 musuko wa shakaijin toshite hitsuyou to sareteiru chishiki ni kakeru.
@@ -1813,7 +1813,7 @@ vocabulary list
 related grammar
 Level: JLPT N1
 Tags: Japanese conjunctions , Japanese particles , ところ expressions
-How to use 使い方 Verb (casual) ところを Noun + の な-adjective + な い-adjective",jlpt_n1,"お忙しいところをお集まりいただき、ありがとうございます。
+How to use 使い方 Verb (casual) ところを Noun + の な-adjective + な い-adjective",jlpt_n1,,"お忙しいところをお集まりいただき、ありがとうございます。
 oisogashii tokoro o o atsumari itadaki, arigatou gozaimasu.
 Thank you for taking time out of your busy schedules to gather here.","先生、お忙しいところをすみません。ちょっとこれを教えていただけませんか。
 sensei, o isogashii tokoro o sumimasen. chotto kore o oshiete itadakemasen ka.
@@ -1829,7 +1829,7 @@ example sentences
 vocabulary list
 related grammar
 Level: JLPT N1
-How to use 使い方 1) Verb (dictionary) ともなく ともなしに 2) interrogative word + (particle) 疑問詞 ＋ (助詞)",jlpt_n1,"休みの日にはどこへ行くともなしにドライブすることが多い。
+How to use 使い方 1) Verb (dictionary) ともなく ともなしに 2) interrogative word + (particle) 疑問詞 ＋ (助詞)",jlpt_n1,,"休みの日にはどこへ行くともなしにドライブすることが多い。
 yasumi no hi ni wa doko e iku tomo nashi ni doraibu suru koto ga ooi.
 On my days off, I often drive without any destination in mind.","チラシを見るともなく見ていたら、友達が映っていた。
 chirashi o miru tomo naku miteitara, tomodachi ga utsutteita.
@@ -1846,7 +1846,7 @@ vocabulary list
 related grammar
 Level: JLPT N1
 Tags: Japanese particles
-How to use 使い方 Verb (casual) とは Noun +（だ/だった） な-adjective +（だ/だった） い-adjective + い",jlpt_n1,"彼が犯人だったとは…
+How to use 使い方 Verb (casual) とは Noun +（だ/だった） な-adjective +（だ/だった） い-adjective + い",jlpt_n1,,"彼が犯人だったとは…
 kare ga han'nin datta to wa…
 I didn't think he was the culprit...","才能のある彼女が急に亡くなるとは、とても残念です。
 sainou no aru kanojo ga kyuu ni naku naru towa, totemo zannen desu.
@@ -1862,7 +1862,7 @@ example sentences
 vocabulary list
 related grammar
 Level: JLPT N1
-How to use 使い方 Noun とは比べものにならない Related Kanji 漢字 N2 Kanji: 比 (hi, kuraberu) Meaning: compare; race; ratio",jlpt_n1,"彼女は美人で英語もぺらぺらだし、とても私とは比べものにならないです。
+How to use 使い方 Noun とは比べものにならない Related Kanji 漢字 N2 Kanji: 比 (hi, kuraberu) Meaning: compare; race; ratio",jlpt_n1,,"彼女は美人で英語もぺらぺらだし、とても私とは比べものにならないです。
 kanojo wa bijin de eigo mo perapera dashi, totemo watashi towa kurabemono ni naranai desu.
 She is beautiful and fluent in English, so I can't even compare to her.","私の料理はお母さんとは比べものにならない。
 watashi no ryouri wa okaasan towa kurabemono ni naranai.
@@ -1879,7 +1879,7 @@ vocabulary list
 related grammar
 Level: JLPT N1
 Tags: Japanese conjunctions
-How to use 使い方 Verb (stem) ます つ Verb (stem) ます つ",jlpt_n1,"たくさんの亀が池の中を浮きつ沈みつしている。
+How to use 使い方 Verb (stem) ます つ Verb (stem) ます つ",jlpt_n1,,"たくさんの亀が池の中を浮きつ沈みつしている。
 takusan no kame ga ike no naka o uki tsu shizumi tsu shite iru.
 Many turtles are floating and sinking in the pond.","どうしても欲しいゲームがあって、店の前を行きつ戻りつした。
 doushitemo hoshii geemu ga atte, mise no mae o iki tsu modori tsu shita.
@@ -1896,7 +1896,7 @@ vocabulary list
 related grammar
 Level: JLPT N1
 Tags: Japanese particles
-How to use 使い方 Phrase わ わね わよ わよね",jlpt_n1,"知ってるわ。
+How to use 使い方 Phrase わ わね わよ わよね",jlpt_n1,,"知ってるわ。
 shitteiru wa.
 Yes, I know.","ちゃんとやるわ！
 chanto yaru wa!
@@ -1912,7 +1912,7 @@ example sentences
 vocabulary list
 related grammar
 Level: JLPT N1
-How to use 使い方 Verb (dict.) + の/こと はおろか （も まで すら さえ） Noun",jlpt_n1,"僕の地元はモールはおろかコンビニすらない。
+How to use 使い方 Verb (dict.) + の/こと はおろか （も まで すら さえ） Noun",jlpt_n1,,"僕の地元はモールはおろかコンビニすらない。
 boku no jimoto wa mooru wa oro ka konbini sura nai.
 My hometown doesn't even have a convenience store, let alone a mall.","納豆は嫌いなので、食べることはおろか、匂いを嗅ぐこともしたくない。
 nattou wa kirai na node, taberu koto wa oro ka, nioi o kagu koto mo shitakunai.
@@ -1928,7 +1928,7 @@ example sentences
 vocabulary list
 related grammar
 Level: JLPT N1
-How to use 使い方 Verb (volitional) が と（も） Noun + だろう/であろう な-adjective + だろう/であろう い-adjective い + かろう",jlpt_n1,"君が何歳であろうが関係ない。仕事が出来ればいい。
+How to use 使い方 Verb (volitional) が と（も） Noun + だろう/であろう な-adjective + だろう/であろう い-adjective い + かろう",jlpt_n1,,"君が何歳であろうが関係ない。仕事が出来ればいい。
 kimi ga nansai de arou ga kankei nai. shigoto ga dekireba ii.
 As long as you can do the job, it doesn't matter how old you are.","誰と結婚しようが、私の勝手でしょ。
 dare to kekkon shiyou ga, watashi no katte desho.
@@ -1944,7 +1944,7 @@ example sentences
 vocabulary list
 related grammar
 Level: JLPT N1
-How to use 使い方 Verb (volitional) が と（も） Noun + だろう/であろう な-adjective + だろう/であろう い-adjective い + かろう",jlpt_n1,"俺は魚だろうが肉だろうが、何でも食べる。
+How to use 使い方 Verb (volitional) が と（も） Noun + だろう/であろう な-adjective + だろう/であろう い-adjective い + かろう",jlpt_n1,,"俺は魚だろうが肉だろうが、何でも食べる。
 ore wa sakana darou ga niku darou ga, nandemo taberu.
 Whether it be fish or meat, I'll eat anything.","雨が降ろうと雪が降ろうと明日のイベントには必ず行くよ。
 ame ga furou to yuki ga furou to ashita no ibento ni wa kanarazu iku yo.
@@ -1960,7 +1960,7 @@ example sentences
 vocabulary list
 related grammar
 Level: JLPT N1
-How to use 使い方 Verb (volitional / dictionary) にも Verb (ない potential) or (ない form)",jlpt_n1,"風が強すぎて走ろうにも走れない。
+How to use 使い方 Verb (volitional / dictionary) にも Verb (ない potential) or (ない form)",jlpt_n1,,"風が強すぎて走ろうにも走れない。
 kaze ga tsuyo sugite hashirou nimo hashirenai.
 The wind was so strong that even if I tried to run, I couldn't.","結婚しようにも相手がいない。
 kekkon shiyou nimo aite ga ainai.
@@ -1977,7 +1977,7 @@ vocabulary list
 related grammar
 Level: JLPT N1
 Tags: よう expressions
-How to use 使い方 V (volitional) と + Verb + まいと が + Verb + まいが How to use まい るV -> Vるまい / V ます まい うV -> Vるまい くる -> こまい / くるまい する -> しまい / すまい / するまい",jlpt_n1,"彼が来ようが来まいが、私とは関係ない。
+How to use 使い方 V (volitional) と + Verb + まいと が + Verb + まいが How to use まい るV -> Vるまい / V ます まい うV -> Vるまい くる -> こまい / くるまい する -> しまい / すまい / するまい",jlpt_n1,,"彼が来ようが来まいが、私とは関係ない。
 kare ga koyou ga komai ga, watashi to wa kankei nai.
 It doesn't matter to me whether he comes or not.","雨が降ろうと降るまいと試合は行われる。
 ame ga furou to furu mai to shiai ga okonawareru.
@@ -1994,7 +1994,7 @@ vocabulary list
 related grammar
 Level: JLPT N1
 Tags: Japanese particles
-How to use 使い方 Phrase ぞ / ぜ",jlpt_n1,"がんばるぞ！
+How to use 使い方 Phrase ぞ / ぜ",jlpt_n1,,"がんばるぞ！
 ganbaru zo!
 I will do my best!","さあ, 始めるぞ！
 saa, hajimeru zo!
@@ -2011,7 +2011,7 @@ vocabulary list
 related grammar
 Level: JLPT N1
 Tags: double negative , ない stem grammar
-How to use 使い方 Verb (ない form) + で はおかない Verb ない (ない stem) + ずに ※ する -> せずに",jlpt_n1,"やられたらやり返せずにはおかない。
+How to use 使い方 Verb (ない form) + で はおかない Verb ない (ない stem) + ずに ※ する -> せずに",jlpt_n1,,"やられたらやり返せずにはおかない。
 yararetara yarikae sezu niwa okanai.
 You must fight back if you are defeated.","帰りが遅くなってしまった。父に叱られないではおかない。
 kaeri ga osoku natte shimatta. chichi ni shikararenai dewa okanai.

@@ -21,7 +21,6 @@ import { useAuth } from "./context/AuthContext";
 import { LandingView } from "./views/LandingView";
 import { SEARCH_RESULTS_LIMIT } from "./constants";
 import {
-  DecksTab,
   ImportTab,
   LeechesTab,
   MetricsTab,
@@ -250,8 +249,7 @@ function TabbedApp() {
         {(
           [
             ["study", "Study"],
-            ["import", "Import"],
-            ["decks", "Decks"],
+            ["import", "Decks"],
             ["examples", "Search"],
             ["metrics", "Metrics"],
             ["leeches", "Leeches"],
@@ -290,7 +288,7 @@ function TabbedApp() {
       ) : null}
 
       {tab === "import" ? (
-        <ErrorBoundary key="import" name="Import">
+        <ErrorBoundary key="import" name="Decks">
         <ImportTab
           level={level}
           setLevel={setLevel}
@@ -333,12 +331,6 @@ function TabbedApp() {
           setSelectedExampleCard={setSelectedExampleCard}
           onSearchExamples={onSearchExamples}
         />
-        </ErrorBoundary>
-      ) : null}
-
-      {tab === "decks" ? (
-        <ErrorBoundary key="decks" name="Decks">
-          <DecksTab />
         </ErrorBoundary>
       ) : null}
 

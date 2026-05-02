@@ -410,4 +410,87 @@ describe("StudyCard", () => {
     expect(screen.getByText("Back")).toBeInTheDocument();
     expect(screen.getByText("only back")).toBeInTheDocument();
   });
+
+  it("renders My note panel with Add note when studyNote is provided and empty", () => {
+    const current = makeCard("grammar_meaning_recognition", { expression: "x" }, { meaning: "y" });
+    const studyNote = {
+      body: null,
+      loading: false,
+      error: null,
+      saving: false,
+      onReload: vi.fn(),
+      onSave: vi.fn().mockResolvedValue(undefined),
+      onDelete: vi.fn().mockResolvedValue(undefined),
+    };
+    render(
+      <StudyCard
+        current={current}
+        revealed={true}
+        furiganaMode="off"
+        busy={false}
+        hintsUsed={0}
+        answerSavedFlash={false}
+        answerSavedTotal={null}
+        audioError={null}
+        studyNote={studyNote}
+        {...defaultHandlers}
+      />
+    );
+    expect(screen.getByText("My note")).toBeInTheDocument();
+    expect(screen.getByRole("button", { name: /add note/i })).toBeInTheDocument();
+  });
+
+  it("shows deck CSV note on back when revealed", () => {
+    const current = makeCard(
+      "vocab_meaning_recall",
+      { word: "試す", reading_kana: "ためす" },
+      { word: "試す", reading_kana: "ためす", meaning: "to try", notes: "Line1\nLine2" }
+    );
+    render(
+      <StudyCard
+        current={current}
+        revealed={true}
+        furiganaMode="off"
+        busy={false}
+        hintsUsed={0}
+        answerSavedFlash={false}
+        answerSavedTotal={null}
+        audioError={null}
+        {...defaultHandlers}
+      />
+    );
+    expect(screen.getByText("Deck note")).toBeInTheDocument();
+    expect(screen.getByText(/Line1/)).toBeInTheDocument();
+    expect(screen.getByText(/Line2/)).toBeInTheDocument();
+  });
+
+  it("shows saved note with edit and delete when studyNote has body", () => {
+    const current = makeCard("grammar_meaning_recognition", { expression: "x" }, { meaning: "y" });
+    const studyNote = {
+      body: "Recall: 〜ことにする",
+      loading: false,
+      error: null,
+      saving: false,
+      onReload: vi.fn(),
+      onSave: vi.fn().mockResolvedValue(undefined),
+      onDelete: vi.fn().mockResolvedValue(undefined),
+    };
+    render(
+      <StudyCard
+        current={current}
+        revealed={true}
+        furiganaMode="off"
+        busy={false}
+        hintsUsed={0}
+        answerSavedFlash={false}
+        answerSavedTotal={null}
+        audioError={null}
+        studyNote={studyNote}
+        {...defaultHandlers}
+      />
+    );
+    expect(screen.getByText("Recall: 〜ことにする")).toBeInTheDocument();
+    expect(screen.getByRole("button", { name: /edit note/i })).toBeInTheDocument();
+    expect(screen.getByRole("button", { name: /delete note/i })).toBeInTheDocument();
+  });
 });

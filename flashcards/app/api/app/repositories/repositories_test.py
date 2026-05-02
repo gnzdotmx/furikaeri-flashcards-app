@@ -2,6 +2,7 @@ import os
 import tempfile
 
 from app.db import ensure_db, run_migrations, connection
+from app.repositories.card_study_notes import CardStudyNoteRepository
 from app.repositories.cards import CardRepository
 from app.repositories.decks import DeckRepository
 from app.repositories.events import EventRepository
@@ -71,6 +72,32 @@ def test_repositories_basic_flow():
             assert row is not None
         finally:
             conn.execute("ROLLBACK;")
+
+
+def test_card_study_notes_upsert_get_delete():
+    path = _new_db_path()
+    ensure_db(path)
+    run_migrations(path)
+    with connection(path) as conn:
+        users = UserRepository(conn)
+        decks = DeckRepository(conn)
+        notes = NoteRepository(conn)
+        cards = CardRepository(conn)
+        study_notes = CardStudyNoteRepository(conn)
+        user_id = users.ensure_single_user()
+        deck_id = decks.create_deck(name="D", description="")
+        note_id = notes.upsert_note(source_type="grammar", level="N5", key="x", fields_json="{}")
+        card_id = cards.upsert_card(note_id=note_id, deck_id=deck_id, card_type="grammar_meaning_recognition")
+        assert study_notes.get_for_user(user_id=user_id, card_id=card_id) is None
+        row = study_notes.upsert(user_id=user_id, card_id=card_id, body="first")
+        assert row["body"] == "first"
+        row2 = study_notes.upsert(user_id=user_id, card_id=card_id, body="second")
+        assert row2["body"] == "second"
+        assert study_notes.get_for_user(user_id=user_id, card_id=card_id)["body"] == "second"
+        assert study_notes.delete_for_user(user_id=user_id, card_id=card_id) is True
+        assert study_notes.get_for_user(user_id=user_id, card_id=card_id) is None
+        assert study_notes.delete_for_user(user_id=user_id, card_id=card_id) is False
+    os.remove(path)
 
 
 def test_notes_list_notes_and_get_note_by_key():

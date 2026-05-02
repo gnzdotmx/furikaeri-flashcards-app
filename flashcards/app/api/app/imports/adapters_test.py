@@ -119,6 +119,20 @@ def test_grammar_adapter_labels_column_parsed_and_normalized() -> None:
     assert len(items) == 1
     labels = items[0].fields["labels"]
     assert labels == ["formal", "polite"]
+    assert items[0].fields.get("notes") == ""
+
+
+def test_grammar_adapter_notes_column_preserves_newlines() -> None:
+    data = (
+        "japanese_expression,english_meaning,grammar_structure,labels,notes,example_1\n"
+        'だ,to be,N+だ,formal,"Line one\nLine two",これは本だ。\n'
+    )
+    reader = _grammar_reader(data)
+    items = list(GrammarCsvAdapter().iter_items(level="N5", reader=reader))
+    assert len(items) == 1
+    assert items[0].fields["labels"] == ["formal"]
+    assert items[0].fields["notes"] == "Line one\nLine two"
+    assert items[0].fields["examples"] == ["これは本だ。"]
 
 
 def test_grammar_adapter_norm_text_applied() -> None:
@@ -216,7 +230,19 @@ def test_kanji_adapter_one_valid_row() -> None:
     assert items[0].fields["meaning"] == "day sun"
     assert items[0].fields["onyomi"] == "ニチ"
     assert items[0].fields["kunyomi"] == "ひ"
+    assert items[0].fields["labels"] == []
+    assert items[0].fields.get("notes") == ""
     assert items[0].source_url is None
+
+
+def test_kanji_adapter_labels_and_notes_columns() -> None:
+    data = "rank,kanji,onyomi,kunyomi,meaning,labels,notes,example_1\n1,雨,ウ,あめ,rain,weather; nouns,Often with 降る,あめがふる\n"
+    reader = _kanji_reader(data)
+    items = list(KanjiCsvAdapter().iter_items(level="N5", reader=reader))
+    assert len(items) == 1
+    assert items[0].fields["labels"] == ["weather", "nouns"]
+    assert items[0].fields["notes"] == "Often with 降る"
+    assert items[0].fields["examples"] == ["あめがふる"]
 
 
 def test_kanji_adapter_empty_kanji_skipped() -> None:
@@ -400,6 +426,20 @@ def test_vocab_adapter_labels_column_parsed_and_normalized() -> None:
     assert len(items) == 1
     labels = items[0].fields["labels"]
     assert labels == ["food", "verb"]
+    assert items[0].fields.get("notes") == ""
+
+
+def test_vocab_adapter_notes_column_multiline_cell() -> None:
+    data = (
+        "rank,word,reading_kana,reading_romaji,part_of_speech,labels,notes,meaning\n"
+        '1,木,き,ki,Noun,plants,"Remember: 木 vs 本",tree\n'
+    )
+    reader = _vocab_reader(data)
+    items = list(VocabularyCsvAdapter().iter_items(level="N5", reader=reader))
+    assert len(items) == 1
+    assert items[0].fields["labels"] == ["plants"]
+    assert items[0].fields["notes"] == "Remember: 木 vs 本"
+    assert items[0].fields["meaning"] == "tree"
 
 
 # --- GenericKanjiCsvAdapter ---

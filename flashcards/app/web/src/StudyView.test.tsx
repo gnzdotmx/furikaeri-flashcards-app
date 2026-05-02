@@ -2,6 +2,20 @@ import { describe, expect, it, vi } from "vitest";
 import { fireEvent, render, screen } from "@testing-library/react";
 import React from "react";
 import { StudyView } from "./StudyView";
+
+vi.mock("./api", async (importOriginal) => {
+  const actual = await importOriginal<typeof import("./api")>();
+  return {
+    ...actual,
+    fetchCardStudyNote: vi.fn().mockResolvedValue({ card_id: "", body: null, updated_at: null }),
+    putCardStudyNote: vi.fn().mockResolvedValue({
+      card_id: "",
+      body: "saved",
+      updated_at: "2020-01-01T00:00:00Z",
+    }),
+    deleteCardStudyNote: vi.fn().mockResolvedValue(undefined),
+  };
+});
 import {
   StudyContext,
   StudyProvider,
@@ -124,7 +138,7 @@ describe("StudyView", () => {
     renderWithProvider({ decks: [], selectedDeckId: "" });
     await screen.findByText("Study");
     expect(screen.getByText(/Import a CSV to get started/)).toBeInTheDocument();
-    const importBtn = screen.getByRole("button", { name: /^import$/i });
+    const importBtn = screen.getByRole("button", { name: /^decks$/i });
     expect(importBtn).toBeInTheDocument();
     fireEvent.click(importBtn);
     expect(defaultProviderProps.setTab).toHaveBeenCalledWith("import");

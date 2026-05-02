@@ -99,8 +99,33 @@ flashcards/app/
 
 ### Study by label
 
-- Cards can have **label tags** (e.g. `label:foo`) in `tags_json`. Grammar and Vocabulary CSV imports support an optional `labels` column (semicolon-separated).
+- Cards can have **label tags** (e.g. `label:foo`) in `tags_json`. Grammar, Kanji, and Vocabulary CSV imports support an optional **`labels`** column (values split on `;` or `,`, then normalized). Kanji and Grammar cards get the same `label:*` tags when `labels` is present.
 - **Study by label:** In the Study tab, pick a deck, optionally a label, then “Start label session”. Backend: `nextCard` accepts `?label=label:...`; labels at `GET /api/decks/{deck_id}/labels`. Frontend: `StudyContext` keeps `studyLabel` and `activeLabelFilter`.
+
+### CSV import and deck export formats
+
+Imports are implemented in `app/imports/adapters.py` (`GrammarCsvAdapter`, `KanjiCsvAdapter`, `VocabularyCsvAdapter`). Rows are validated with per-cell length limits from `study_config` (`import.max_cell_chars_default`, default 20_000). UTF-8 (with BOM allowed); use `csv` quoting for cells that contain commas or newlines.
+
+**Optional columns (all types that support them):**
+
+| Column | Purpose |
+|--------|--------|
+| `labels` | Short tags; split on `;` or `,`; stored in note `fields_json` and emitted as `label:*` card tags. |
+| `notes` | Longer free text; stored in note `fields_json`; copied into card `back_template` as `notes` when non-empty; shown in the UI as “Deck note”. Normalized with NFKC; internal newlines preserved (unlike `norm_text` on other fields). Only read if a `notes` header exists. When exporting a deck, this `notes` cell may also include your per-card **My note** text (from `card_study_notes`) merged for the authenticated account. |
+
+**Recommended header order** (matches **deck export** in `app/exports/deck_export.py` for round-trip):
+
+- **Grammar:** `japanese_expression`, `english_meaning`, `grammar_structure`, `labels`, `notes`, `example_1` … `example_5` (more `example_*` columns are still collected as examples).
+- **Kanji:** `rank`, `kanji`, `onyomi`, `kunyomi`, `meaning`, `labels`, `notes`, `example_1` …
+- **Vocabulary:** `rank`, `word`, `reading_kana`, `reading_romaji`, `part_of_speech`, `labels`, `notes`, `meaning`, `example_1` …
+
+**Vocabulary column order:** `meaning` may appear before or after `labels`/`notes` in the file; `DictReader` matches by name. Repo JLPT vocab CSVs under `data/jlpt/` use `…, part_of_speech, meaning, labels, notes, example_1, …`.
+
+**Export:** `export_deck_csv` writes one row per content note using the same field names; cells are passed through `sanitize_csv_cell` in `app/exports/csv_export.py` to reduce spreadsheet formula injection when opened in Excel/Sheets.
+For authenticated exports, deck CSV `notes` is composed of the deck note plus distinct per-card **My note** bodies for cards that share the same note (merged into a single CSV cell). Re-import stores that merged text back into the deck CSV `notes` field (shown as **Deck note**), not as separate per-card `card_study_notes` rows.
+
+### Sync / merge behavior
+When syncing/importing with **Merge examples into existing**, examples are merged/deduped while deck `notes` are preserved unless the incoming CSV row has a non-empty `notes` cell.
 
 ---
 
@@ -130,7 +155,7 @@ See **`flashcards/app/api/AUTH.md`** for full details. Summary:
 |--------|---------|
 | **auth** | register, login, logout, me |
 | **sessions** | start session, submit rating, end session, session state |
-| **cards** | decks list, deck detail, cards list, notes, leeches, suspend/unsuspend, export CSV |
+| **cards** | decks list, deck detail, cards list, notes, leeches, suspend/unsuspend, export CSV, delete deck |
 | **imports** | import CSV (grammar/kanji/vocab), merge/skip options |
 | **metrics** | retention proxy, streak, daily goal, rating distribution, time per card |
 | **tts** | generate/cache audio for text |
@@ -150,9 +175,8 @@ Routes use repositories for DB access; auth dependency injects current user. See
 ## Testing and lint
 
 - **Run:** From project root, `make run`. App at http://localhost:8000.
-- **API tests:** From `flashcards/app/api/`, `pytest` (or `make test` in container). Conftest sets a test `JWT_SECRET` if missing.
-- **Web tests:** From `flashcards/app/web/`, `npm test` (Vitest). Use **`npm ci`** for reproducible installs.
-- **Lint:** API: Ruff (`make lint` or `ruff check .` / `ruff format .`). Web: ESLint, Prettier (`npm run lint`, `npm run fmt`).
+- **Tests (recommended):** From the **project root**, `make test` — runs API pytest and web Vitest **in Docker** (same as CI).
+- **Lint:** API: Ruff (`make lint`). Web: ESLint, Prettier (`npm run lint`, `npm run fmt` in `flashcards/app/web/` or via `make lint` / `make fmt`).
 
 ---
 
@@ -172,7 +196,7 @@ From the **project root** unless noted.
 | `make logs` | Follow container logs (tail 200 lines) |
 | `docker compose build --no-cache` | Rebuild API image from scratch (after Dockerfile or dependency changes) |
 
-**Local tests:** From `flashcards/app/api/`: `pytest`. From `flashcards/app/web/`: `npm test`.
+For reproducible web installs in CI/Docker, use **`npm ci`** (see `flashcards/app/web/package.json` and lockfile).
 
 ---
 
