@@ -38,3 +38,7 @@ class DeckRepository(BaseRepository):
         ).fetchone()
         return dict(row) if row else None
 
+    def delete_deck(self, deck_id: str) -> bool:
+        cur = self._conn.execute("DELETE FROM decks WHERE id = ?;", (deck_id,))
+        return int(cur.rowcount or 0) > 0
+

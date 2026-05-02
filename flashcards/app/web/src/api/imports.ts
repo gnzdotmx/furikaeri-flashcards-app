@@ -16,7 +16,7 @@ export type SyncImportResult = ImportResult & { skipped: number };
 
 export type SyncSourceType = "grammar" | "kanji" | "vocabulary";
 
-export type SyncMergeExisting = "skip" | "merge_examples";
+export type SyncMergeExisting = "skip" | "merge_examples" | "replace_existing";
 
 export async function syncImport(
   deckId: string,

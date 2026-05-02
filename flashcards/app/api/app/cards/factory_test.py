@@ -531,6 +531,41 @@ def test_vocab_front_example_empty_when_all_fragments(factory: CardFactory) -> N
     assert m.front["example"] == ""
 
 
+def test_import_notes_appear_on_card_back(factory: CardFactory) -> None:
+    out = factory.generate_for_note(
+        deck_name="Deck",
+        source_type="vocabulary",
+        level="N5",
+        note_key="w|r|m",
+        fields={
+            "word": "試す",
+            "meaning": "to try",
+            "reading_kana": "ためす",
+            "notes": "Transitive\nSame family as 試験",
+        },
+    )
+    spec = next(s for s in out if s.card_type == CardType.VOCAB_MEANING_RECALL)
+    assert spec.back.get("notes") == "Transitive\nSame family as 試験"
+
+
+def test_grammar_labels_and_notes_on_back_and_tags(factory: CardFactory) -> None:
+    out = factory.generate_for_note(
+        deck_name="Deck",
+        source_type="grammar",
+        level="N5",
+        note_key="だ",
+        fields={
+            "japanese_expression": "だ",
+            "english_meaning": "to be",
+            "labels": ["core"],
+            "notes": "Copula",
+        },
+    )
+    spec = out[0]
+    assert "label:core" in spec.tags
+    assert spec.back.get("notes") == "Copula"
+
+
 def test_vocab_labels_emitted_as_label_tags(factory: CardFactory) -> None:
     out = factory.generate_for_note(
         deck_name="Deck",

@@ -4,7 +4,7 @@ import type { Deck } from "../api";
 import type { DeckCardsResponse } from "../api";
 import type { HealthResponse } from "../api";
 
-export type TabId = "study" | "import" | "decks" | "examples" | "metrics" | "leeches";
+export type TabId = "study" | "import" | "examples" | "metrics" | "leeches";
 
 export type AppContextValue = {
   tab: TabId;

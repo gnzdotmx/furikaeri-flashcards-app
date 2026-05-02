@@ -272,6 +272,13 @@ class CardRepository(BaseRepository):
         ).fetchall()
         return [dict(r) for r in rows]
 
+    def get_card_by_id(self, card_id: str) -> dict | None:
+        row = self._conn.execute(
+            "SELECT id, note_id, deck_id, card_type FROM cards WHERE id = ? LIMIT 1;",
+            (card_id,),
+        ).fetchone()
+        return dict(row) if row else None
+
     def get_leeches(self, *, deck_id: str, user_id: str, limit: int = 200) -> list[dict]:
         """Cards with leech_flag = 1 for this deck and user; includes front/back and lapse count."""
         rows = self._conn.execute(

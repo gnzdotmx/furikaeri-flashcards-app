@@ -1,107 +1,107 @@
-rank,word,reading_kana,reading_romaji,part_of_speech,meaning,labels,example_1,example_2,example_3
-1,明くる,あくる,akuru,Pre-noun adjectival,"next (day, morning, etc.); following",jlpt_n1,"空が広がった。
+rank,word,reading_kana,reading_romaji,part_of_speech,meaning,labels,notes,example_1,example_2,example_3
+1,明くる,あくる,akuru,Pre-noun adjectival,"next (day, morning, etc.); following",jlpt_n1,,"空が広がった。
 
 On the day after the typhoon had passed, an expansive blue sky appeared in the morning.",,
-2,読者,どくしゃ,dokusha,Noun,reader,jlpt_n1,"にわたって共感を呼ぶ音楽を作ることは難しい。
+2,読者,どくしゃ,dokusha,Noun,reader,jlpt_n1,,"にわたって共感を呼ぶ音楽を作ることは難しい。
 
 In today’s world where people’s interests are varied and diverse, it is difficult to create music that resonates across a wide range of generations.","の文がある。英訳と日本語の原文を対照してみると、視点が
 
 One of the most frequently cited examples of difficulties in translation is witnessed in the opening sentence of Kawabata Yasunari’s novel Snow Country. The differences in perspectives become apparent when contrasting the Japanese original text with its translated English text. In the original Japanese text, the reader is interpreted as being on the same train as the protagonist whereas in the translated English text, the reader is observing from outside the train.","のに共感する読者が多いという作家がいる。どんなところに
 
 Some authors’ writing has timeless appeal which continues to resonate with readers many years after the author’s death. What is it about their writing that continues to attract readers regardless of the passage of time?"
-3,本の,ほんの,honno,Pre-noun adjectival,mere; only; just; slight​,jlpt_n1,"である。つまり、小麦の消費の
+3,本の,ほんの,honno,Pre-noun adjectival,mere; only; just; slight​,jlpt_n1,,"である。つまり、小麦の消費の
 
 Japan's self-sufficiency rate for wheat is about 15%. This means that the majority of wheat consumed is dependent on imports from other countries.","中指5本指手話兄表す
 
 The middle finger is the longest of the five fingers and represents the older brother in sign language.","のイチョウの木が並んでいる。
 
 The ginkgo trees lining the outer garden of Meiji Shrine are famous, with 146 ginkgo trees in a row."
-4,実の,じつの,jitsu,Pre-noun adjectival,"true; real; blood-related; biological (father, etc.)",jlpt_n1,"をにぎわしている。
+4,実の,じつの,jitsu,Pre-noun adjectival,"true; real; blood-related; biological (father, etc.)",jlpt_n1,,"をにぎわしている。
 
 News of a bureaucrat, who is believed to have tampered with documents and attempted to conceal the fact that he was involved in taking bribes, has been all over the newspapers.","はならない。
 
 Only facts should be included in the résumé and no false statements should be listed.","その事実を受け入れることができなかったそうだ。
 
 My mother learned the secret of her birth, that she was not related by blood to the people she thought were her real parents, and for a long time she could not accept this fact."
-5,聞き取り,ききとり,kikitori,Noun,listening comprehension; hearing what others say,jlpt_n1,"の声を聞き取り、ホームページで発信していくことにした。
+5,聞き取り,ききとり,kikitori,Noun,listening comprehension; hearing what others say,jlpt_n1,,"の声を聞き取り、ホームページで発信していくことにした。
 
 In order to raise public awareness of the current state of healthcare workers, we have decided to listen to their real opinions and post them on our website.","がきつく、説明が聞き取りにくかった。
 
 I joined a sightseeing tour to visit ruins at my destination; however, the local guide’s English accent was so thick that it was difficult for me to understand his explanations.","疲れを感じた。
 
 The first time I attended an online conference, I felt indescribably tired afterwards because the audio was difficult to hear, and I also felt the strain of being watched constantly."
-6,購買,こうばい,koubai,"Noun, Verb, Suru verb",procurement; purchase; buying,jlpt_n1,"をしているものが多く、消費者の購買意欲をかき立てるものになっている。
+6,購買,こうばい,koubai,"Noun, Verb, Suru verb",procurement; purchase; buying,jlpt_n1,,"をしているものが多く、消費者の購買意欲をかき立てるものになっている。
 
 Many fast food commercials are presented in a way that whets the appetite, thereby stimulating consumer demand.","購買部の者に会われたほうがいいと思います
 
 I think you should probably see someone from Purchasing.","購買部にとって重要な人材になられると思います
 
 She will be an asset to the Purchasing Department."
-7,購読,こうどく,koudoku,"Noun, Verb, Suru verb","buying and reading (book, magazine, etc.); subscribing (newspaper)",jlpt_n1,"を運ぶ必要はなくなる。
+7,購読,こうどく,koudoku,"Noun, Verb, Suru verb","buying and reading (book, magazine, etc.); subscribing (newspaper)",jlpt_n1,,"を運ぶ必要はなくなる。
 
 If you like a particular magazine, you can have it delivered to you by subscription, which enables you to avoid visiting a bookstore..","ことが挙げられる。
 
 One of the reasons why the number of people subscribing to newspapers has declined is that people can obtain the latest news and buzz on any topic anytime, anywhere with their smartphones.","もいる。
 
 While some people prefer to spread out the printed newspaper and read it leisurely at home, others prefer using the electronic newspaper subscription services provided by various newspaper companies to quickly gather information on their mobile devices even while on the go."
-8,購入,こうにゅう,kounyuu,"Noun, Verb, Suru verb",purchase; buy,jlpt_n1,"カメラを購入することにした。
+8,購入,こうにゅう,kounyuu,"Noun, Verb, Suru verb",purchase; buy,jlpt_n1,,"カメラを購入することにした。
 
 With the birth of our first son, my wife and I decided to purchase a state-of-the-art single lens reflex camera.","にメールでご連絡いたします。」という
 
 When I ordered an item on the Internet, I received a message displayed on the screen: “We will check the availability of the item and contact you by email within two days.”","の購入に必要なため、市役所に印鑑登録証明書を取りに行った。
 
 I went to city hall to pick up my proof of personal seal registration because I needed it to purchase a car."
-9,小売,こうり,kouri,"Noun, Verb, Suru verb",retail,jlpt_n1,"と考えるところも出てきた。
+9,小売,こうり,kouri,"Noun, Verb, Suru verb",retail,jlpt_n1,,"と考えるところも出てきた。
 
 Some local retailers have begun to think about the way to coexist and prosper with the giant, mass merchandisers, rather than just blindly competing with them.","の経営を圧迫することになりかねない。
 
 For retail stores that do not generate a large volume of sales, such as a privately owned bookstore or a stationery store, shoplifting and other forms of loss can severely impact the businesses’ viability. As such, it is worth remembering that shoplifting is a crime.","もある。
 
 Retail trade involves the business of selling products directly to consumers. Some businesses, such as department stores and supermarkets, handle a wide range of products, while others, such as an electronics retail store and clothing store, manage specialized products."
-10,前売り,まえうり,maeuri,Noun,advance sale; booking,jlpt_n1,"前売り券をここで取り扱っていますか
+10,前売り,まえうり,maeuri,Noun,advance sale; booking,jlpt_n1,,"前売り券をここで取り扱っていますか
 
 Do you sell advance tickets here?","予約は全て前売りである
 
 All the seats are sold in advance.","多くの切符は前売りされている
 
 A number of tickets are sold in advance."
-11,主なる,おもなる,omonaru,Pre-noun adjectival,main; principal; important,jlpt_n1,,,
-12,新築,しんちく,shinchiku,"Noun, Verb, Suru verb",new building; new construction,jlpt_n1,"市庁舎行う施行する請負業者入札行われた
+11,主なる,おもなる,omonaru,Pre-noun adjectival,main; principal; important,jlpt_n1,,,,
+12,新築,しんちく,shinchiku,"Noun, Verb, Suru verb",new building; new construction,jlpt_n1,,"市庁舎行う施行する請負業者入札行われた
 
 A bidding process was held to select a contractor to build the new city hall building.","のところなので住所だけで住まいが見つけられず、きょろきょろと探し回ってしまった。
 
 I wanted to attend my friend’s housewarming celebration; however, it was my very first time visiting them, and I could not find the house with only the address. I ended up looking around for it.","を購入した。
 
 We purchased a newly built house in the neighboring town. Although it is a short-distance move, we have a lot of stuff, so preparations for a move are tough with this and that."
-13,新人,しんじん,shinjin,Noun,new face; newcomer; rookie; fresh recruit,jlpt_n1,"の名前が挙がっている。
+13,新人,しんじん,shinjin,Noun,new face; newcomer; rookie; fresh recruit,jlpt_n1,,"の名前が挙がっている。
 
 For this year’s literary award, the youngest new author in its history has been nominated.","なってしまった。
 
 The success of the new players has overshadowed the contribution of the veterans.","休みをとることもできなかった。入社
 
 When I was just beginning my career, I was obsessed with the idea that I had to work hard every day, and it was difficult for me to even take rest breaks. Now, in my fifth year with the company, I am able to take a break at a café and relax enough to be refreshed."
-14,新婚,しんこん,shinkon,"Noun, Verb, Suru verb",newly-wed; newly married,jlpt_n1,"新婚夫婦仲睦まじい
+14,新婚,しんこん,shinkon,"Noun, Verb, Suru verb",newly-wed; newly married,jlpt_n1,,"新婚夫婦仲睦まじい
 
 No matter how many years it has been since they married, my father and mother love each other as if they were newlyweds.","から生活を始めた。
 
 Shortly after the war, my parents started life as newlyweds in a small, rented house, which they furnished with bedding, a chest of drawers, a low dining table and other furniture.","だ。
 
 Today is our first wedding anniversary. The day has come for me to uncork the bottle of my favorite wine that I bought on our honeymoon, we planned that we would drink it together in a year’s time."
-15,とんだ,,tonda,"Pre-noun adjectival, Adverb",unthinkable; unimaginable; very,jlpt_n1,"の指示がわかりにくかったら、きちんと確認することだ。
+15,とんだ,,tonda,"Pre-noun adjectival, Adverb",unthinkable; unimaginable; very,jlpt_n1,,"の指示がわかりにくかったら、きちんと確認することだ。
 
 If you have difficulty understanding your supervisor’s instructions, before going any further, check with him or her, because if you proceed with your work unclear of what is expected from you, it could lead to a terrible misunderstanding.","は、簡単でシンプルな問題からひねった問題までバラエティに富んだなぞなぞを出してくる。
 
 My son, who loves riddles, comes up with a wide variety of them, from easy and simple problems to difficult ones.","素晴らしく富んだ気候のお陰で合衆国はほとんどのあらゆる種類のスポーツの天国になっている
 
 The United States is a paradise for almost every kind of sports, thanks to its wonderfully varied climate."
-16,売り出し,うりだし,uridashi,Noun,(bargain) sale,jlpt_n1,"に高いらしい。一度使用しただけで
+16,売り出し,うりだし,uridashi,Noun,(bargain) sale,jlpt_n1,,"に高いらしい。一度使用しただけで
 
 After extensive research, a major cosmetics company has launched a new lotion that is said to have far superior moisturizing effects than conventional products. The catchphrase of the new lotion claims, “After just one use, the skin regains its firmness from the inside out and becomes as soft as a baby’s skin.”","大売り出しは今日から３日間続く
 
 The bargain sale will run for three days, beginning today.","開店大売り出し
 
 Grand opening sale."
-17,売り出す,うりだす,uridasu,"Verb, Godan verb, Transitive verb",to put on the market; to put on sale; to begin selling,jlpt_n1,"に高いらしい。一度使用しただけで
+17,売り出す,うりだす,uridasu,"Verb, Godan verb, Transitive verb",to put on the market; to put on sale; to begin selling,jlpt_n1,,"に高いらしい。一度使用しただけで
 
 After extensive research, a major cosmetics company has launched a new lotion that is said to have far superior moisturizing effects than conventional products. The catchphrase of the new lotion claims, “After just one use, the skin regains its firmness from the inside out and becomes as soft as a baby’s skin.”","東京で新型の車が売り出された
 

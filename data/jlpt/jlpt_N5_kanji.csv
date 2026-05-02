@@ -1,289 +1,289 @@
-rank,kanji,onyomi,kunyomi,meaning,labels,example_1,example_2
-1,日,"nichi, jitsu ニチ, ジツ","hi, -bi, -ka ひ, -び, -か","day, sun, Japan, counter for days",jlpt_n5,"毎日、日本語を勉強します。
+rank,kanji,onyomi,kunyomi,meaning,labels,notes,example_1,example_2
+1,日,"nichi, jitsu ニチ, ジツ","hi, -bi, -ka ひ, -び, -か","day, sun, Japan, counter for days",jlpt_n5,,"毎日、日本語を勉強します。
 mainichi nihongo o benkyou shimasu.
 I study Japanese everyday.","ある日、私は彼に会った。
 aru hi, watashi wa kare ni atta.
 One day I met him."
-2,一,ichi イチ,hito(tsu) ひと(つ),one,jlpt_n5,"一人で学校へ行きます。
+2,一,ichi イチ,hito(tsu) ひと(つ),one,jlpt_n5,,"一人で学校へ行きます。
 hitori de gakkou he ikimasu.
 I go to school alone.","たい焼き一匹ください。
 taiyaki ippiki kudasai.
 One taiyaki please."
-3,国,koku コク,kuni くに,country,jlpt_n5,"あなたはどこの国から来ましたか？
+3,国,koku コク,kuni くに,country,jlpt_n5,,"あなたはどこの国から来ましたか？
 anata wa doko no kuni kara kimashita ka?
 What country did you come from?","彼は外国に長年住んでいた。
 kare wa gaikoku ni naganen sundeita.
 He lived abroad for many years."
-4,人,"jin, nin ジン、 ニン",hito ひと,person,jlpt_n5,"私はアメリカ人です。
+4,人,"jin, nin ジン、 ニン",hito ひと,person,jlpt_n5,,"私はアメリカ人です。
 watashi wa amerikajin desu.
 I am American.","私の兄は人気がある。
 watashi no ani wa ninki ga aru.
 My older brother is popular."
-5,年,nen ネン,toshi とし,"year, counter for years",jlpt_n5,"お年はいくつですか？
+5,年,nen ネン,toshi とし,"year, counter for years",jlpt_n5,,"お年はいくつですか？
 otoshi wa ikutsu desu ka?
 How old are you?","去年日本へ行きました。
 kyonen nihon he ikimashita.
 I went to Japan last year."
-6,大,"dai, tai ダイ、 タイ",oo(kii) おお(きい),"large, big",jlpt_n5,"あなたのことが大好きだ。
+6,大,"dai, tai ダイ、 タイ",oo(kii) おお(きい),"large, big",jlpt_n5,,"あなたのことが大好きだ。
 anata no koto ga daisuki da.
 I love you! (or like you a lot)","このハンバーガーは大きいですね。
 kono hanbaagaa wa ookii desune.
 This hamburger is huge."
-7,十,juu ジュウ,"tou, to とお、 と","ten, 10",jlpt_n5,"今日は十四日です。
+7,十,juu ジュウ,"tou, to とお、 と","ten, 10",jlpt_n5,,"今日は十四日です。
 kyou wa juuyon nichi desu.
 Today is the 14th.","来月二十歳になります。
 raigetsu hatachi ni narimasu.
 I turn 20 next month."
-8,二,"ni, ji ニ、 ジ",futa(tsu) ふた(つ),"two, 2",jlpt_n5,"水を二つください！
+8,二,"ni, ji ニ、 ジ",futa(tsu) ふた(つ),"two, 2",jlpt_n5,,"水を二つください！
 mizu o futatsu kudasai!
 2 waters please!","二月はとても寒いです。
 ni gatsu wa totemo samui desu.
 February is very cold."
-9,本,hon ホン,moto もと,"book, present, true, counter for long cylindrical things",jlpt_n5,,
-10,中,chuu チュウ,"naka, uchi, ata(ru) なか、 うち、 あた(る)","in, inside, middle, mean, center",jlpt_n5,"中国に行ったことがありますか？
+9,本,hon ホン,moto もと,"book, present, true, counter for long cylindrical things",jlpt_n5,,,
+10,中,chuu チュウ,"naka, uchi, ata(ru) なか、 うち、 あた(る)","in, inside, middle, mean, center",jlpt_n5,,"中国に行ったことがありますか？
 chuugoku ni itta koto ga arimasu ka?
 Have you ever been to China before?","今は家の中にいますよ。
 ima wa ie no naka ni imasu yo.
 I'm inside the house right now."
-11,長,chou チョウ,"naga(i), osa なが(い)、 おさ","long, leader, superior, senior",jlpt_n5,,
-12,出,"shutsu, sui シュツ、 スイ","de(ru), da(su), i(deru) で(る)、 だ(す)、 い(でる)","exit, leave, go out",jlpt_n5,"あなたはどこの出身ですか。
+11,長,chou チョウ,"naga(i), osa なが(い)、 おさ","long, leader, superior, senior",jlpt_n5,,,
+12,出,"shutsu, sui シュツ、 スイ","de(ru), da(su), i(deru) で(る)、 だ(す)、 い(でる)","exit, leave, go out",jlpt_n5,,"あなたはどこの出身ですか。
 Where are you from?","かれが出張に行く。
 kare ga shuchcou ni iku.
 He's going on a business trip."
-13,三,san サン,mi(tsu) み(つ),"three, 3",jlpt_n5,,
-14,時,ji ジ,"toki, doki とき、 -どき","time, hour",jlpt_n5,,
-15,行,"kou, gyou, an コウ、 ギョウ、 アン","i(ku), yu(ku), okona(u) い(く)、 ゆ(く)、 おこな(う)","going, journey, carry out, line, row",jlpt_n5,,
-16,見,ken ケン,"mi(ru), mi(seru) み(る)、 み(せる)","see, hopes, chances, idea, opinion, look at, visible",jlpt_n5,"この映画を見たことありますか？
+13,三,san サン,mi(tsu) み(つ),"three, 3",jlpt_n5,,,
+14,時,ji ジ,"toki, doki とき、 -どき","time, hour",jlpt_n5,,,
+15,行,"kou, gyou, an コウ、 ギョウ、 アン","i(ku), yu(ku), okona(u) い(く)、 ゆ(く)、 おこな(う)","going, journey, carry out, line, row",jlpt_n5,,,
+16,見,ken ケン,"mi(ru), mi(seru) み(る)、 み(せる)","see, hopes, chances, idea, opinion, look at, visible",jlpt_n5,,"この映画を見たことありますか？
 kono eiga o mita koto arimasu ka?
 Have you seen this movie before?","家から学校が見える。
 ie kara gakkou ga mieru.
 I can see my school from my house."
-17,月,"getsu, gatsu ゲツ、 ガツ",tsuki つき,"month, moon",jlpt_n5,,
-18,分,"bun, fun, bu ブン、 フン、 ブ",wa(keru) わ(ける),"part, minute of time, understand",jlpt_n5,"日本語分かりません。
+17,月,"getsu, gatsu ゲツ、 ガツ",tsuki つき,"month, moon",jlpt_n5,,,
+18,分,"bun, fun, bu ブン、 フン、 ブ",wa(keru) わ(ける),"part, minute of time, understand",jlpt_n5,,"日本語分かりません。
 nihongo wakarimasen.
 I don't understand Japanese.","今日は気分はどうですか？
 kyou wa kibun wa dou desu ka?
 How are you feeling today?"
-19,後,"go, kou ゴ、 コウ","nochi, ushi(ro), ato のち、 うし(ろ)、 あと","behind, back, later",jlpt_n5,"後で電話します。
+19,後,"go, kou ゴ、 コウ","nochi, ushi(ro), ato のち、 うし(ろ)、 あと","behind, back, later",jlpt_n5,,"後で電話します。
 ato de denwa shimasu.
 I'll give you a call later.","金曜日の午後に会いましょう。
 kinyoubi no gogo ni aimashou.
 Let's meet Friday morning."
-20,前,zen ゼン,mae まえ,"in front, before",jlpt_n5,"私の名前はジョンです。
+20,前,zen ゼン,mae まえ,"in front, before",jlpt_n5,,"私の名前はジョンです。
 watashi no namae wa jon desu.
 My name is John.","駅前で会いましょう。
 ekimae de aimashou.
 Let's meet in front of the station."
-21,生,"sei, shou セイ、 ショウ","i(kiru), u(mu), o(u), ha(eru), nama い(きる)、 う(む)、 お(う)、 は(える)、 なま","life, genuine, birth",jlpt_n5,"私は9月に生まれました。
+21,生,"sei, shou セイ、 ショウ","i(kiru), u(mu), o(u), ha(eru), nama い(きる)、 う(む)、 お(う)、 は(える)、 なま","life, genuine, birth",jlpt_n5,,"私は9月に生まれました。
 watashi wa kugatsu ni umaremashita.
 I was born in September.","あなたも学生ですか？
 anata mo gakusei desu ka?
 Are you also a student?"
-22,五,go ゴ,itsu(tsu) いつ(つ),"five, 5",jlpt_n5,,
-23,間,"kan, ken カン、 ケン","aida, ma, ai あいだ、 ま、 あい","interval, space",jlpt_n5,,
-24,上,"jou, shou, shan ジョウ、 ショウ、 シャン","ue, uwa, kami, a(geru), nobo(ru), tatematsu(ru) うえ、 うわ-、 かみ、 あ(げる)、 のぼ(る)、 たてまつ(る)","above, up",jlpt_n5,"彼は上をむいて空を見ていた。
+22,五,go ゴ,itsu(tsu) いつ(つ),"five, 5",jlpt_n5,,,
+23,間,"kan, ken カン、 ケン","aida, ma, ai あいだ、 ま、 あい","interval, space",jlpt_n5,,,
+24,上,"jou, shou, shan ジョウ、 ショウ、 シャン","ue, uwa, kami, a(geru), nobo(ru), tatematsu(ru) うえ、 うわ-、 かみ、 あ(げる)、 のぼ(る)、 たてまつ(る)","above, up",jlpt_n5,,"彼は上をむいて空を見ていた。
 kare wa ue o muite sora o miteita.
 He was looking up towards the sky.","電車はスピードを上げた。
 densha wa supiido o ageta.
 The train picked up speed."
-25,東,tou トウ,higashi ひがし,east,jlpt_n5,"風が東に変わった。
+25,東,tou トウ,higashi ひがし,east,jlpt_n5,,"風が東に変わった。
 Kaze ga higashi ni kawatta","東京に住んでいます。
 toukyou ni sundeimasu.
 I live in Tokyo."
-26,四,shi シ,"yo(tsu), yon よ(つ)、 よん","four, 4",jlpt_n5,,
-27,今,"kon, kin コン、 キン",ima いま,now; the present,jlpt_n5,,
-28,金,"kin, kon, gon キン、 コン、 ゴン","kane, kana, gane かね、 かな-、 -がね",gold,jlpt_n5,"金曜日は空いていますか？
+26,四,shi シ,"yo(tsu), yon よ(つ)、 よん","four, 4",jlpt_n5,,,
+27,今,"kon, kin コン、 キン",ima いま,now; the present,jlpt_n5,,,
+28,金,"kin, kon, gon キン、 コン、 ゴン","kane, kana, gane かね、 かな-、 -がね",gold,jlpt_n5,,"金曜日は空いていますか？
 kinyoubi wa aiteimasu ka?
 Are you free on Friday?","お金がないから何もできない。
 okane ga nai kara nanimo dekinai.
 I can't do anything because I have no money."
-29,九,"kyuu, ku キュウ、 ク",kokono(tsu) ここの(つ),"nine, 9",jlpt_n5,,
-30,入,nyuu ニュウ,"i(ru), hai(ru) い(る)、はい(る)","enter, insert",jlpt_n5,"明日は大学の入学式です。
+29,九,"kyuu, ku キュウ、 ク",kokono(tsu) ここの(つ),"nine, 9",jlpt_n5,,,
+30,入,nyuu ニュウ,"i(ru), hai(ru) い(る)、はい(る)","enter, insert",jlpt_n5,,"明日は大学の入学式です。
 ashita wa daigaku no nyuugaku shiki desu.
 Tomorrow is my university's entrance ceremony.","この入口はわかりにくいです。
 kono iriguchi wa wakarinikui desu.
 This entrance is a bit difficult to see/find."
-31,学,gaku ガク,mana(bu) まな(ぶ),"study, learning, science",jlpt_n5,"来年から大学に入ります。
+31,学,gaku ガク,mana(bu) まな(ぶ),"study, learning, science",jlpt_n5,,"来年から大学に入ります。
 rainen kara daigaku ni hairimasu.
 I start University next year.","弟はまだ中学生です。
 otouto wa mada chuugakusei desu.
 My younger brother is still a middle school student."
-32,高,kou コウ,taka(i) たか(い),"tall, high, expensive",jlpt_n5,"私はとても高い熱があった。
+32,高,kou コウ,taka(i) たか(い),"tall, high, expensive",jlpt_n5,,"私はとても高い熱があった。
 watashi wa totemo takai netsu ga atta.
 I had a very high fever.","大学より高校のほうが楽しかった。
 daigaku yori koukkou no hou ga tanoshikatta.
 High school was more fun for me than university."
-33,円,en エン,maru(i) まる(い),"circle, yen, round",jlpt_n5,"百円ありますか？
+33,円,en エン,maru(i) まる(い),"circle, yen, round",jlpt_n5,,"百円ありますか？
 hyaku en arimasu ka?
 Do you have 100 yen?","このシャツは3千円です。
 kono shatsu wa sanzen en desu.
 This shirt is 3,000 yen."
-34,子,"shi, su, tsu シ、 ス、 ツ","ko, ne こ、 ね",child,jlpt_n5,"子どもが欲しいですか？
+34,子,"shi, su, tsu シ、 ス、 ツ","ko, ne こ、 ね",child,jlpt_n5,,"子どもが欲しいですか？
 kodomo ga hoshii desuka?
 Do you want to have kids?","今日は息子の誕生日です。
 kyou wa musuko no tanjoubi desu.
 Today is my son's birthday."
-35,外,"gai, ge ガイ、 ゲ","soto, hoka, hazu-, to- そと、 ほか、 はず(す)、 と-",outside,jlpt_n5,,
-36,八,hachi ハチ,"ya(tsu), you や(つ)、 よう","eight, 8",jlpt_n5,,
-37,六,roku ロク,"mu(tsu), mui む(つ)、 むい","six, 6",jlpt_n5,"六月には雨が多い。
+35,外,"gai, ge ガイ、 ゲ","soto, hoka, hazu-, to- そと、 ほか、 はず(す)、 と-",outside,jlpt_n5,,,
+36,八,hachi ハチ,"ya(tsu), you や(つ)、 よう","eight, 8",jlpt_n5,,,
+37,六,roku ロク,"mu(tsu), mui む(つ)、 むい","six, 6",jlpt_n5,,"六月には雨が多い。
 roku gatsu ni wa ame ga ooi.
 There's a lot of rain in June.","私の誕生日は九月六日です。
 watashi no tanjoubi wa kugatsu muika desu.
 My birthday is on September 6th."
-38,下,"ka, ge カ、 ゲ","shita, shimo, moto, sa(geru), kuda(ru), o(rosu) した、 しも、 もと、 さ(げる)、 くだ(る)、 お(ろす)","below, down, descend, give, low, inferior",jlpt_n5,"テーブルの下に犬がいます。
+38,下,"ka, ge カ、 ゲ","shita, shimo, moto, sa(geru), kuda(ru), o(rosu) した、 しも、 もと、 さ(げる)、 くだ(る)、 お(ろす)","below, down, descend, give, low, inferior",jlpt_n5,,"テーブルの下に犬がいます。
 teeburu no shita ni inu ga imasu.
 There's a dog below the table.","毎日地下鉄で仕事に行きます。
 mainichi chikatetsu de shigoto ni ikimasu.
 I go to work everyday by subway."
-39,来,"rai, tai ライ、 タイ","kuru, kitaru, ki, ko く.る、 きた.る、 き、 こ","come, due, next, cause, become",jlpt_n5,"来週海に行かない？
+39,来,"rai, tai ライ、 タイ","kuru, kitaru, ki, ko く.る、 きた.る、 き、 こ","come, due, next, cause, become",jlpt_n5,,"来週海に行かない？
 raishuu umi ni ikanai?
 Do you want to go to the beach next week?","私も来ていいですか？
 watashi mo kite ii desu ka?
 Is it OK if I come too?"
-40,気,"ki, ke キ、 ケ",iki いき,"spirit, mind, air, atmosphere, mood",jlpt_n5,,
-41,小,shou ショウ,"chii(sai), ko-, o-, sa- ちい(さい)、 こ-、 お-、 さ-","little, small",jlpt_n5,,
-42,七,shichi シチ,"nana(tsu), nano なな(つ)、 なの","seven, 7",jlpt_n5,"私は七月に生まれた。
+40,気,"ki, ke キ、 ケ",iki いき,"spirit, mind, air, atmosphere, mood",jlpt_n5,,,
+41,小,shou ショウ,"chii(sai), ko-, o-, sa- ちい(さい)、 こ-、 お-、 さ-","little, small",jlpt_n5,,,
+42,七,shichi シチ,"nana(tsu), nano なな(つ)、 なの","seven, 7",jlpt_n5,,"私は七月に生まれた。
 watashi wa shichi gatsu ni umareta.
 I was born in July.","一週間は七日だ。
 isshuu kan wa nanoka da.
 Seven days make up a week."
-43,山,"san, sen サン、 セン",yama やま,mountain,jlpt_n5,"私はその山に登ってみたい。
+43,山,"san, sen サン、 セン",yama やま,mountain,jlpt_n5,,"私はその山に登ってみたい。
 watashi wa sono yama ni nobotte mitai.
 I want to try to climb that mountain.","私たちは昨年その山に登った。
 watashitachi wa sakunen sono yama ni nobotta.
 We climbed that mountain last year."
-44,話,wa ワ,"hana(su), hanashi はな(す)、 はなし","tale, talk",jlpt_n5,,
-45,女,jo ジョ,"onnna, me おんな、 め","woman, female",jlpt_n5,,
-46,北,hoku ホク,kita きた,north,jlpt_n5,"彼女の地元はベトナムの北の方です。
+44,話,wa ワ,"hana(su), hanashi はな(す)、 はなし","tale, talk",jlpt_n5,,,
+45,女,jo ジョ,"onnna, me おんな、 め","woman, female",jlpt_n5,,,
+46,北,hoku ホク,kita きた,north,jlpt_n5,,"彼女の地元はベトナムの北の方です。
 kanojo no jimoto wa betonamu no kita nohou desu.
 Her hometown is in northern Vietnam.","北海道へ行ったことがありますか？
 hokkaidou he itta koto ga arimasu ka?
 Have you ever been to Hokkaido?"
-47,午,go ゴ,uma うま,"noon, sign of the horse",jlpt_n5,,
-48,百,"hyaku, byaku ヒャク、 ビャク",momo もも,hundred,jlpt_n5,,
-49,書,sho ショ,kaku か(く),write,jlpt_n5,"ここにお名前を書いてください。
+47,午,go ゴ,uma うま,"noon, sign of the horse",jlpt_n5,,,
+48,百,"hyaku, byaku ヒャク、 ビャク",momo もも,hundred,jlpt_n5,,,
+49,書,sho ショ,kaku か(く),write,jlpt_n5,,"ここにお名前を書いてください。
 koko ni onamae o kaite kudasai.
 Please write your name here.","読書が好きです。
 dokusho ga suki desu.
 I like reading."
-50,先,sen セン,"saki, ma(zu) さき、 ま(ず)","before, ahead, previous, future, precedence",jlpt_n5,,
-51,名,"mei, myou メイ、 ミョウ",na な,"name, noted, distinguished, reputation",jlpt_n5,"あなたの名前は何ですか？
+50,先,sen セン,"saki, ma(zu) さき、 ま(ず)","before, ahead, previous, future, precedence",jlpt_n5,,,
+51,名,"mei, myou メイ、 ミョウ",na な,"name, noted, distinguished, reputation",jlpt_n5,,"あなたの名前は何ですか？
 anata no namae wa nandesuka?
 What is your name?","あの人は有名人だよ！
 ano hito wa yuumeijin da yo!
 That person is really famous!"
-52,川,sen セン,kawa かわ,"river, stream",jlpt_n5,,
-53,千,sen セン,chi ち,thousand,jlpt_n5,"今は千円しか持ってない。
+52,川,sen セン,kawa かわ,"river, stream",jlpt_n5,,,
+53,千,sen セン,chi ち,thousand,jlpt_n5,,"今は千円しか持ってない。
 ima wa sen en shika motteinai.
 I only have 1,000 yen right now.","このTシャツは３千円です。
 ko no T shatsu wa sanzen en desu."
-54,水,sui スイ,mizu みず,water,jlpt_n5,"水が欲しい。
+54,水,sui スイ,mizu みず,water,jlpt_n5,,"水が欲しい。
 mizu ga hoshii.
 I want some water.","今週の水曜日は空いていますか？
 konshuu no suiyoubi wa aiteimasu ka?
 Are you free this Wednesday?"
-55,半,han ハン,naka(ba) なか(ば),"half, middle, odd number, semi-",jlpt_n5,"今は1時半です。
+55,半,han ハン,naka(ba) なか(ば),"half, middle, odd number, semi-",jlpt_n5,,"今は1時半です。
 ima wa ichi ji han desu.
 It's 1:30 right now.","やっと半分終わった。
 yatto hanbun owatta.
 I'm finally halfway finished."
-56,男,"dan, nan ダン、 ナン","otoko, o おとこ、 お",male; man,jlpt_n5,"あの男性はだれですか？
+56,男,"dan, nan ダン、 ナン","otoko, o おとこ、 お",male; man,jlpt_n5,,"あの男性はだれですか？
 ano dansei wa dare desu ka?
 Who is that man?","赤ちゃんは男の子です。
 akachan wa otoko no ko desu.
 The baby is a boy!"
-57,西,"sei, sai セイ、 サイ",nishi にし,west,jlpt_n5,,
-58,電,den デン,,electricity; electric powered,jlpt_n5,"その電気を消してもいいですか？
+57,西,"sei, sai セイ、 サイ",nishi にし,west,jlpt_n5,,,
+58,電,den デン,,electricity; electric powered,jlpt_n5,,"その電気を消してもいいですか？
 sono denki o keshitemo ii desu ka?
 Is it OK if I turn off that light?","田中さんに電話してください。
 tanaka san ni denwa shite kudasai.
 Please call Tanaka-san."
-59,校,kou コウ,,"school, exam",jlpt_n5,"あなたは高校生ですか？
+59,校,kou コウ,,"school, exam",jlpt_n5,,"あなたは高校生ですか？
 anata wa koukousei desu ka?
 Are you a high school student?","私は中学校の時サッカーを始めました。
 watashi wa chuugakkou no toki sakkaa o hajimemashita.
 I started playing soccer in my middle school days."
-60,語,go ゴ,kata(ru) かた(る),"word, speech, language",jlpt_n5,"日本語が学びたいです。
+60,語,go ゴ,kata(ru) かた(る),"word, speech, language",jlpt_n5,,"日本語が学びたいです。
 nihongo o manabi tai desu.
 I want to learn Japanese.","私はこの単語を使ったことがない。
 watashi wa kono tango o tsukatta koto ga nai.
 I've never used this word before."
-61,土,"do, to ド、 ト",tsuchi つち,"soil, earth, ground",jlpt_n5,,
-62,木,"boku, moku ボク、 モク","ki, ko き、 こ-","tree, wood",jlpt_n5,"木曜日にかんじのクラスがあります。
+61,土,"do, to ド、 ト",tsuchi つち,"soil, earth, ground",jlpt_n5,,,
+62,木,"boku, moku ボク、 モク","ki, ko き、 こ-","tree, wood",jlpt_n5,,"木曜日にかんじのクラスがあります。
 mokuyoubi ni kanji no kurasu ga arimasu.
 I have kanji class on Thursday.","この公園にたくさんの木がありますね。
 kono kouen ni takusan no ki ga arimasu ne.
 There's a lot of trees in this park, eh."
-63,聞,"bun, mon ブン、 モン",ki(ku) き(く),to hear; to listen; to ask,jlpt_n5,,
-64,食,"shoku, jiki ショク、 ジキ","k(u), ta(beru), ha(mu) く(う)、 た(べる)、 は(む)","eat, food",jlpt_n5,"今朝何を食べましたか？
+63,聞,"bun, mon ブン、 モン",ki(ku) き(く),to hear; to listen; to ask,jlpt_n5,,,
+64,食,"shoku, jiki ショク、 ジキ","k(u), ta(beru), ha(mu) く(う)、 た(べる)、 は(む)","eat, food",jlpt_n5,,"今朝何を食べましたか？
 kesa nani o tabemashita ka?
 What did you eat this morning?","スーパーで食料品を買いに行きます。
 suupaa de shokuryouhin o kai ni ikimasu.
 I'm going to the store to buy some groceries."
-65,車,sha シャ,kuruma くるま,"car, wheel",jlpt_n5,"車を持っていますか？
+65,車,sha シャ,kuruma くるま,"car, wheel",jlpt_n5,,"車を持っていますか？
 kuruma wo motteimasu ka?
 Do you have a car?","父は新しい車を買いました。
 chichi wa atarashii kuruma wo kaimashita.
 My father bought a new car."
-66,何,ka カ,"nani, nan なに、 なん",what,jlpt_n5,"何でですか？
+66,何,ka カ,"nani, nan なに、 なん",what,jlpt_n5,,"何でですか？
 nande desu ka?
 Why is that?","子どもは何才ですか？
 kodomo wa nansai desu ka?
 How old is your child?"
-67,南,"nan, na ナン、 ナ",minami みなみ,south,jlpt_n5,"風が南に変わった。
+67,南,"nan, na ナン、 ナ",minami みなみ,south,jlpt_n5,,"風が南に変わった。
 kaze ga minami ni kawatta.
 The wind shifted to the South.","その鳥たちは南方から来ています。
 sono toritachi wa nanbou kara kiteimasu.
 Those birds are coming from the South."
-68,万,"man, ban マン、 バン",,"ten thousand, 10,000",jlpt_n5,"１万円は１００ドルと近いです。
+68,万,"man, ban マン、 バン",,"ten thousand, 10,000",jlpt_n5,,"１万円は１００ドルと近いです。
 ichiman en wa hyaku doru to chikai desu.
 10,000 yen is very close in value to 100 dollars.","私の月収は25万円です。
 watashi no gesshuu wa nijuugo man en desu.
 My monthly salary is 250,000 yen (about $2,500)."
-69,毎,mai マイ,goto(ni) ごと(に),every,jlpt_n5,"私は毎週ヨガをしています。
+69,毎,mai マイ,goto(ni) ごと(に),every,jlpt_n5,,"私は毎週ヨガをしています。
 watashi wa maishuu yoga o shiteimasu.
 I do yoga every week.","毎週水曜日は忙しいです。
 maishuu suiyoubi wa isogashii desu.
 I'm busy every Wednesday."
-70,白,"haku, byaku ハク、 ビャク",shiro(i) しろ(い),white,jlpt_n5,"私の犬たちは白い。
+70,白,"haku, byaku ハク、 ビャク",shiro(i) しろ(い),white,jlpt_n5,,"私の犬たちは白い。
 watashi no inutachi wa shiroi.
 My dogs are white.","白い猫を飼っています。
 shiroi neko o katteimasu.
 I have a white cat."
-71,天,ten テン,amatsu あまつ,"heavens, sky, imperial",jlpt_n5,,
-72,母,bo ボ,"haha, kaa はは、 かあ",mother,jlpt_n5,"明日は母の日です。
+71,天,ten テン,amatsu あまつ,"heavens, sky, imperial",jlpt_n5,,,
+72,母,bo ボ,"haha, kaa はは、 かあ",mother,jlpt_n5,,"明日は母の日です。
 ashita wa haha no hi desu.
 Tomorrow is mother's day.","今日は私のお母さんの誕生日です。
 kyou wa watashi no okaasan no tanjoubi desu.
 Today is my mother's birthday."
-73,火,ka カ,"hi, bi, ho ひ、 -び、 ほ-",fire,jlpt_n5,"火曜日にスーパーに行きます。
+73,火,ka カ,"hi, bi, ho ひ、 -び、 ほ-",fire,jlpt_n5,,"火曜日にスーパーに行きます。
 kayoubi ni suupaa ni ikimasu.
 I'm going to the supermarket on Tuesday.","冬は火事が多い。
 fuyu wa kaji ga ooi.
 We often have fires in winter."
-74,右,"u, yuu ウ、 ユウ",migi みぎ,right (direction),jlpt_n5,"質問があれば右手をあげて下さい。
+74,右,"u, yuu ウ、 ユウ",migi みぎ,right (direction),jlpt_n5,,"質問があれば右手をあげて下さい。
 shitsumon ga areba migite o agete kudasai.
 If you have any questions please raise your right hand.","その信号を右に曲がってください。
 sono shingou o migi ni magatte kudasai.
 Please turn right at that intersection."
-75,読,"doku, toku, tou ドク、 トク、 トウ",yo(mu) よ(む),to read,jlpt_n5,,
-76,友,yuu ユウ,tomo とも,friend,jlpt_n5,"友だちになってくれてありがとう。
+75,読,"doku, toku, tou ドク、 トク、 トウ",yo(mu) よ(む),to read,jlpt_n5,,,
+76,友,yuu ユウ,tomo とも,friend,jlpt_n5,,"友だちになってくれてありがとう。
 tomodachi ni natte kurete arigatou.
 Thanks for being friends with me.","友だちを待ってるだけ。
 tomodachi o matteiru dake.
 I'm just waiting for a friend."
-77,左,"sa, sha サ、 シャ",hidari ひだり,left,jlpt_n5,,
-78,休,kyuu キュウ,yasu(mu) やす(む),"rest, day off, retire, sleep",jlpt_n5,"私は明日お休みです。
+77,左,"sa, sha サ、 シャ",hidari ひだり,left,jlpt_n5,,,
+78,休,kyuu キュウ,yasu(mu) やす(む),"rest, day off, retire, sleep",jlpt_n5,,"私は明日お休みです。
 watashi wa ashita oyasumi desu.
 I have the day off tomorrow.","来週休みます。
 raishuu yasumimasu.
 I will take off next week."
-79,父,fu フ,"chichi, tou ちち、 とう",father,jlpt_n5,"父は元気です。
+79,父,fu フ,"chichi, tou ちち、 とう",father,jlpt_n5,,"父は元気です。
 chichi wa genki desu.
 My father is in good health.","仕事が終わったら、お父さんはすぐ寝ます。
 shigoto ga owattara, otousan wa sugu nemasu.
 My father goes to sleep as soon as he gets back from work."
-80,雨,u ウ,"ame, ama あめ、 あま",rain,jlpt_n5,"明日は雨が降る。
+80,雨,u ウ,"ame, ama あめ、 あま",rain,jlpt_n5,,"明日は雨が降る。
 ashita wa ame ga furu.
 It's going to rain tomorrow.","昨日は大雨でした。
 kinou wa ooame deshita.

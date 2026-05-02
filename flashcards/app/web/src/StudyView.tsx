@@ -1,6 +1,6 @@
-import React, { useEffect, useRef, useState } from "react";
+import React, { useCallback, useEffect, useRef, useState } from "react";
 import type { Deck } from "./api";
-import { fetchDeckLabels } from "./api";
+import { deleteCardStudyNote, fetchCardStudyNote, fetchDeckLabels, putCardStudyNote } from "./api";
 import type { StudyCardCurrent } from "./studyCardUtils";
 import { StudyCard } from "./StudyCard";
 import { useStudy } from "./context/StudyContext";
@@ -64,6 +64,87 @@ export function StudyView() {
   const [liveAnnouncement, setLiveAnnouncement] = useState("");
   const hadSessionRef = useRef(false);
   const studyCardRegionRef = useRef<HTMLDivElement>(null);
+
+  const activeCardId =
+    session && current && current.kind !== "done" ? current.card.id : null;
+  const [studyNoteBody, setStudyNoteBody] = useState<string | null>(null);
+  const [studyNoteLoading, setStudyNoteLoading] = useState(false);
+  const [studyNoteError, setStudyNoteError] = useState<string | null>(null);
+  const [studyNoteSaving, setStudyNoteSaving] = useState(false);
+
+  const reloadStudyNote = useCallback(() => {
+    if (!activeCardId) return Promise.resolve();
+    setStudyNoteLoading(true);
+    setStudyNoteError(null);
+    return fetchCardStudyNote(activeCardId)
+      .then((r) => {
+        setStudyNoteBody(r.body);
+      })
+      .catch((e: unknown) => {
+        setStudyNoteError(e instanceof Error ? e.message : "Could not load note");
+      })
+      .finally(() => {
+        setStudyNoteLoading(false);
+      });
+  }, [activeCardId]);
+
+  useEffect(() => {
+    if (!activeCardId) {
+      setStudyNoteBody(null);
+      setStudyNoteError(null);
+      setStudyNoteLoading(false);
+      return;
+    }
+    let cancelled = false;
+    setStudyNoteLoading(true);
+    setStudyNoteError(null);
+    fetchCardStudyNote(activeCardId)
+      .then((r) => {
+        if (!cancelled) setStudyNoteBody(r.body);
+      })
+      .catch((e: unknown) => {
+        if (!cancelled) setStudyNoteError(e instanceof Error ? e.message : "Could not load note");
+      })
+      .finally(() => {
+        if (!cancelled) setStudyNoteLoading(false);
+      });
+    return () => {
+      cancelled = true;
+    };
+  }, [activeCardId]);
+
+  const saveStudyNote = useCallback(
+    async (body: string) => {
+      if (!activeCardId) return;
+      setStudyNoteSaving(true);
+      setStudyNoteError(null);
+      try {
+        const r = await putCardStudyNote(activeCardId, body);
+        setStudyNoteBody(r.body);
+      } catch (e: unknown) {
+        setStudyNoteError(e instanceof Error ? e.message : "Could not save note");
+        throw e;
+      } finally {
+        setStudyNoteSaving(false);
+      }
+    },
+    [activeCardId]
+  );
+
+  const deleteStudyNote = useCallback(async () => {
+    if (!activeCardId) return;
+    setStudyNoteSaving(true);
+    setStudyNoteError(null);
+    try {
+      await deleteCardStudyNote(activeCardId);
+      setStudyNoteBody(null);
+    } catch (e: unknown) {
+      setStudyNoteError(e instanceof Error ? e.message : "Could not delete note");
+      throw e;
+    } finally {
+      setStudyNoteSaving(false);
+    }
+  }, [activeCardId]);
 
   useEffect(() => {
     const v = userSettings?.daily_goal_reviews;
@@ -355,7 +436,7 @@ export function StudyView() {
           <div className="emptyTitle">No decks</div>
           <div className="emptySubtitle">Import a CSV to get started.</div>
           <div className="row" style={{ marginTop: 10, flexDirection: "row" }}>
-            <button className="button buttonPrimary" onClick={() => setTab("import")}>Import</button>
+            <button className="button buttonPrimary" onClick={() => setTab("import")}>Decks</button>
             <button className="button buttonSecondary" onClick={onRefreshDecks} disabled={busy}>Refresh</button>
           </div>
         </div>
@@ -479,6 +560,17 @@ export function StudyView() {
             onFuriganaChange={onFuriganaChange}
             studyFromExamples={studyFromExamples}
             onStudyFromExamplesChange={setStudyFromExamples}
+            studyNote={{
+              body: studyNoteBody,
+              loading: studyNoteLoading,
+              error: studyNoteError,
+              saving: studyNoteSaving,
+              onReload: () => {
+                void reloadStudyNote();
+              },
+              onSave: saveStudyNote,
+              onDelete: deleteStudyNote,
+            }}
           />
           </div>
         )}

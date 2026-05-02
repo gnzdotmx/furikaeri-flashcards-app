@@ -10,6 +10,17 @@ export async function fetchDecks(): Promise<Deck[]> {
   return body.decks;
 }
 
+export async function deleteDeck(deckId: string): Promise<{ deck_id: string; deleted: boolean }> {
+  const res = await fetch(`/api/decks/${encodeURIComponent(deckId)}`, {
+    method: "DELETE",
+    headers: authHeaders(),
+    credentials: "include",
+  });
+  const body = await res.json();
+  if (!res.ok) throw new Error((body as { detail?: string })?.detail ?? `delete deck failed: ${res.status}`);
+  return body as { deck_id: string; deleted: boolean };
+}
+
 export type DeckCardsResponse = {
   cards: Array<{
     id: string;

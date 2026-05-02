@@ -33,6 +33,25 @@ def _first_example_line_for_display(examples: list[str] | None, min_chars: int =
     return ""
 
 
+def _label_tags_from_fields(fields: dict[str, Any]) -> list[str]:
+    labels_field = fields.get("labels")
+    if isinstance(labels_field, list):
+        labels_src = labels_field
+    elif labels_field:
+        labels_src = str(labels_field).split(",")
+    else:
+        labels_src = []
+    return [f"label:{norm_text(str(lb))}" for lb in labels_src if str(lb).strip()]
+
+
+def _import_note_for_back(fields: dict[str, Any]) -> str:
+    """Free-text deck note from CSV `notes` column (optional)."""
+    v = fields.get("notes")
+    if v is None:
+        return ""
+    return str(v).strip()
+
+
 def _split_example(example_block: str) -> dict[str, str]:
     """Split multiline example into jp, romaji, en."""
     lines = [line.strip() for line in (example_block or "").split("\n") if line.strip()]
@@ -77,6 +96,16 @@ class CardFactory:
         structure = str(fields.get("grammar_structure", "") or "").strip()
         examples = fields.get("examples") if isinstance(fields.get("examples"), list) else []
         ex0 = _first_example(examples)
+        label_tags = _label_tags_from_fields(fields)
+        note = _import_note_for_back(fields)
+        back: dict[str, Any] = {
+            "meaning": meaning,
+            "structure": structure,
+            "examples": examples[:5],
+            "expression": expr,
+        }
+        if note:
+            back["notes"] = note
 
         # Single card per grammar point: front = example only, back = meaning + structure + examples
         ct = CardType.GRAMMAR_MEANING_RECOGNITION
@@ -84,9 +113,9 @@ class CardFactory:
             CardSpec(
                 card_id=stable_card_id(deck_name, "grammar", level, expr, ct),
                 card_type=ct,
-                tags=_tags_base("grammar", level, ct),
+                tags=_tags_base("grammar", level, ct) + label_tags,
                 front={"expression": expr, "example": ex0},
-                back={"meaning": meaning, "structure": structure, "examples": examples[:5], "expression": expr},
+                back=back,
             )
         ]
 
@@ -98,6 +127,20 @@ class CardFactory:
         examples = fields.get("examples") if isinstance(fields.get("examples"), list) else []
         ex0 = _first_example(examples)
         ex0_parts = _split_example(ex0)
+        label_tags = _label_tags_from_fields(fields)
+        note = _import_note_for_back(fields)
+
+        def _kanji_back_reading() -> dict[str, Any]:
+            b: dict[str, Any] = {"onyomi": onyomi, "kunyomi": kunyomi, "meaning": meaning, "examples": examples[:5]}
+            if note:
+                b["notes"] = note
+            return b
+
+        def _kanji_back_meaning() -> dict[str, Any]:
+            b: dict[str, Any] = {"meaning": meaning, "onyomi": onyomi, "kunyomi": kunyomi, "examples": examples[:5]}
+            if note:
+                b["notes"] = note
+            return b
 
         specs: list[CardSpec] = []
 
@@ -106,9 +149,9 @@ class CardFactory:
             CardSpec(
                 card_id=stable_card_id(deck_name, "kanji", level, kanji, ct),
                 card_type=ct,
-                tags=_tags_base("kanji", level, ct),
+                tags=_tags_base("kanji", level, ct) + label_tags,
                 front={"kanji": kanji, "prompt": "Recall readings (onyomi/kunyomi)."},
-                back={"onyomi": onyomi, "kunyomi": kunyomi, "meaning": meaning, "examples": examples[:5]},
+                back=_kanji_back_reading(),
             )
         )
 
@@ -117,26 +160,33 @@ class CardFactory:
             CardSpec(
                 card_id=stable_card_id(deck_name, "kanji", level, kanji, ct),
                 card_type=ct,
-                tags=_tags_base("kanji", level, ct),
+                tags=_tags_base("kanji", level, ct) + label_tags,
                 front={"kanji": kanji, "prompt": "Recall meaning."},
-                back={"meaning": meaning, "onyomi": onyomi, "kunyomi": kunyomi, "examples": examples[:5]},
+                back=_kanji_back_meaning(),
             )
         )
 
         # Optional usage card if we have an example sentence.
         if ex0_parts.get("jp"):
             ct = CardType.KANJI_USAGE
+            usage_back: dict[str, Any] = {
+                "sentence_en": ex0_parts.get("en", ""),
+                "sentence_romaji": ex0_parts.get("romaji", ""),
+                "meaning": meaning,
+            }
+            if note:
+                usage_back["notes"] = note
             specs.append(
                 CardSpec(
                     card_id=stable_card_id(deck_name, "kanji", level, kanji, ct),
                     card_type=ct,
-                    tags=_tags_base("kanji", level, ct) + ["mode:usage"],
+                    tags=_tags_base("kanji", level, ct) + ["mode:usage"] + label_tags,
                     front={
                         "prompt": "Read and understand the sentence.",
                         "sentence_jp": ex0_parts["jp"],
                         "target": kanji,
                     },
-                    back={"sentence_en": ex0_parts.get("en", ""), "sentence_romaji": ex0_parts.get("romaji", ""), "meaning": meaning},
+                    back=usage_back,
                 )
             )
 
@@ -160,15 +210,8 @@ class CardFactory:
         if pos.isdigit():
             pos = ""
 
-        # Optional labels field -> label:* tags
-        labels_field = fields.get("labels")
-        if isinstance(labels_field, list):
-            labels_src = labels_field
-        elif labels_field:
-            labels_src = str(labels_field).split(",")
-        else:
-            labels_src = []
-        label_tags = [f"label:{norm_text(str(lb))}" for lb in labels_src if str(lb).strip()]
+        label_tags = _label_tags_from_fields(fields)
+        note = _import_note_for_back(fields)
         # Never put "rank" in front/back templates
         # Front: word at top, first example below (same structure as grammar). Back: word, reading, meaning, examples.
         back_base: dict[str, Any] = {
@@ -177,6 +220,8 @@ class CardFactory:
             "meaning": meaning,
             "examples": examples_capped,
         }
+        if note:
+            back_base["notes"] = note
         front_base: dict[str, Any] = {
             "word": word,
             "reading_kana": reading_kana,

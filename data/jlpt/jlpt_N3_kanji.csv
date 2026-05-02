@@ -1,214 +1,214 @@
-rank,kanji,onyomi,kunyomi,meaning,labels,example_1,example_2
-1,政,sei セイ,matsurigoto まつりごと,"politics, government",jlpt_n3,,
-2,議,gi ギ,,"deliberation, consultation, debate",jlpt_n3,,
-3,民,min ミン,tami たみ,"people, nation, subjects",jlpt_n3,,
-4,連,ren レン,"tsura(naru), tsu(reru) つら(なる)、つ(れる)","take along, lead, join, connect",jlpt_n3,"彼の連絡先を知らない。
+rank,kanji,onyomi,kunyomi,meaning,labels,notes,example_1,example_2
+1,政,sei セイ,matsurigoto まつりごと,"politics, government",jlpt_n3,,,
+2,議,gi ギ,,"deliberation, consultation, debate",jlpt_n3,,,
+3,民,min ミン,tami たみ,"people, nation, subjects",jlpt_n3,,,
+4,連,ren レン,"tsura(naru), tsu(reru) つら(なる)、つ(れる)","take along, lead, join, connect",jlpt_n3,,"彼の連絡先を知らない。
 kare no renrakusaki o shiranai..
 I don't know his contact information.","今日まで10日連続勤務だ。
 Kyou made 10 nichi renzoku kinmu da."
-5,対,"tai, tsui タイ、 ツイ",,"opposite, even, equal, versus, anti-, compare",jlpt_n3,"それは反対の意味です。
+5,対,"tai, tsui タイ、 ツイ",,"opposite, even, equal, versus, anti-, compare",jlpt_n3,,"それは反対の意味です。
 sore wa hantai no imi desu.
 That has the opposite meaning.","彼女の応対は丁寧で正確だった。
 kanojo no outai wa teinei de seikaku datta.
 Her response was polite and accurate."
-6,部,bu ブ,,"section, bureau, dept, class, copy, part, portion",jlpt_n3,"仕事を全部、私がやる。
+6,部,bu ブ,,"section, bureau, dept, class, copy, part, portion",jlpt_n3,,"仕事を全部、私がやる。
 shigoto o zenbu, watashi ga yaru.
 I will do all of the work.","私は気になる部分を見つけた。
 watashi wa ki ni naru bubun o mitsuketa.
 I found some parts that I am concerned about."
-7,合,"gou, ga, ka ゴウ、 ガッ、 カッ","a(u), ai あ(う)、あい","fit, suit, join, 0.1",jlpt_n3,"会合の場所はどこですか。
+7,合,"gou, ga, ka ゴウ、 ガッ、 カッ","a(u), ai あ(う)、あい","fit, suit, join, 0.1",jlpt_n3,,"会合の場所はどこですか。
 kaigou no basho wa doko desuka ?
 Where will we meet?","待合室に５人の患者がいる。
 machiaishitsu ni 5 nin no kanja ga iru.
 There are five patients in the waiting room."
-8,市,shi シ,ichi いち,"market, city, town",jlpt_n3,,
-9,内,nai ナイ,uchi うち,"inside, within, between, among, house, home",jlpt_n3,"家内は私より少々年上だ。
+8,市,shi シ,ichi いち,"market, city, town",jlpt_n3,,,
+9,内,nai ナイ,uchi うち,"inside, within, between, among, house, home",jlpt_n3,,"家内は私より少々年上だ。
 kanai wa watashi yori shoushou toshi ue da.
 My wife is a little older than I am.","私は日本国内をよく旅行する。
 watashi wa nihon kokunai o yoku ryokou suru.
 I travel a lot domestically in Japan."
-10,相,"sou, shou ソウ、 ショウ",ai あい,"inter-, mutual, together, each other, minister of state",jlpt_n3,"彼は話すに足る相手だ。
+10,相,"sou, shou ソウ、 ショウ",ai あい,"inter-, mutual, together, each other, minister of state",jlpt_n3,,"彼は話すに足る相手だ。
 kare wa hanasu ni taru aite da.
 He is somebody one can do business with.","私は首相にインタビューした。
 watashi wa shushou ni intabyuu shita.
 I interviewed the Prime Minister."
-11,定,"tei, jou テイ、 ジョウ",sada(meru) さだ(める),"determine, fix, establish, decide",jlpt_n3,"来週に中国に行く予定です。
+11,定,"tei, jou テイ、 ジョウ",sada(meru) さだ(める),"determine, fix, establish, decide",jlpt_n3,,"来週に中国に行く予定です。
 raishuu ni chuugoku ni iku yotei desu.
 I am planning to go to China next week.","あなたの生活は安定するでしょう。
 anata no seikatsu wa antei suru deshou.
 Your life is probably stable."
-12,回,kai カイ,mawa(su) まわ(す),"-times, round, revolve, counter",jlpt_n3,,
-13,選,sen セン,era(bu) えら(ぶ),"elect, select, choose, prefer",jlpt_n3,,
-14,米,"bei, mai, meetoru ベイ、 マイ、 メエトル",kome こめ,"rice, USA, meter",jlpt_n3,,
-15,実,jitsu ジツ,"mi, mino(ru) み、みの(る)","reality, truth",jlpt_n3,"私は教育実習を終えた。
+12,回,kai カイ,mawa(su) まわ(す),"-times, round, revolve, counter",jlpt_n3,,,
+13,選,sen セン,era(bu) えら(ぶ),"elect, select, choose, prefer",jlpt_n3,,,
+14,米,"bei, mai, meetoru ベイ、 マイ、 メエトル",kome こめ,"rice, USA, meter",jlpt_n3,,,
+15,実,jitsu ジツ,"mi, mino(ru) み、みの(る)","reality, truth",jlpt_n3,,"私は教育実習を終えた。
 watashi wa kyouiku jisshuu o oeta.
 I finished my teaching training.","これは実験の時の写真です。
 kore wa jikken no toki no shashin desu.
 This is a photo from the time of the experiment."
-16,関,kan カン,"seki, kaka(waru) せき、 かか(わる)","connection, barrier, gateway, involve, concerning",jlpt_n3,,
-17,決,ketsu ケツ,ki(meru) き(める),"decide, fix, agree upon, appoint",jlpt_n3,"私の疑問は解決されました。
+16,関,kan カン,"seki, kaka(waru) せき、 かか(わる)","connection, barrier, gateway, involve, concerning",jlpt_n3,,,
+17,決,ketsu ケツ,ki(meru) き(める),"decide, fix, agree upon, appoint",jlpt_n3,,"私の疑問は解決されました。
 watashi no gimon wa kaiketsu saremashita.
 My doubt was resolved.","君の決断は正しいと思う。
 kimi no ketsudan wa tadashii to omou.
 I think your decision is correct."
-18,全,zen ゼン,"matta(ku), sube(te) まった(く)、 すべ(て)","whole, entire, all, complete, fulfill",jlpt_n3,,
-19,表,hyou ヒョウ,"omote, arawa(su) おもて、 あらわ(す)","surface, table, chart, diagram",jlpt_n3,"嬉しいことに、スピーチ大会の代表に選ばれた。
+18,全,zen ゼン,"matta(ku), sube(te) まった(く)、 すべ(て)","whole, entire, all, complete, fulfill",jlpt_n3,,,
+19,表,hyou ヒョウ,"omote, arawa(su) おもて、 あらわ(す)","surface, table, chart, diagram",jlpt_n3,,"嬉しいことに、スピーチ大会の代表に選ばれた。
 ureshii koto ni, supiichi taikai no daihyou ni erabareta.
 I was chosen to be a representative in the speech contest!","コインの一方は「表」で、もう一方は「裏」と呼ばれる。
 koin no ippou wa 'omote' de, mou ippou wa 'ura' to yobareru.
 One side of a coin is called 'heads' and the other side is called 'tails'."
-20,戦,sen セン,"ikusa, tataka(u) いくさ、 たたか(う)","war, battle, match",jlpt_n3,,
-21,経,kei ケイ,"he(ru), ta(tsu) へ(る)、 た(つ)","longitude, pass thru, expire, warp",jlpt_n3,,
-22,最,sai サイ,motto(mo) もっと(も),"utmost, most, extreme",jlpt_n3,,
-23,現,gen ゲン,"arawa(reru), utsu(tsu) あらわ(れる)、 うつ(つ)","present, existing, actual",jlpt_n3,"この建物は現代的に見える。
+20,戦,sen セン,"ikusa, tataka(u) いくさ、 たたか(う)","war, battle, match",jlpt_n3,,,
+21,経,kei ケイ,"he(ru), ta(tsu) へ(る)、 た(つ)","longitude, pass thru, expire, warp",jlpt_n3,,,
+22,最,sai サイ,motto(mo) もっと(も),"utmost, most, extreme",jlpt_n3,,,
+23,現,gen ゲン,"arawa(reru), utsu(tsu) あらわ(れる)、 うつ(つ)","present, existing, actual",jlpt_n3,,"この建物は現代的に見える。
 kono tatemono wa gendaiteki ni mieru.
 This building looks modern.","僕たちは現在キャンプ中です。
 bokutachi wa genzai kyanpuchuu desu.
 We are currently camping."
-24,調,chou チョウ,"shira(beru), tono(u) しら(べる)、ととの(う)","tune, tone, meter, prepare, investigate",jlpt_n3,,
-25,化,"ka, ke カ、 ケ","ba(keru), fu(keru) ば(ける)、 ふ(ける)","change, take the form of, influence, enchant, delude, -ization",jlpt_n3,,
-26,当,tou トウ,a(taru) あ(たる),"hit, right, appropriate",jlpt_n3,,
-27,約,yaku ヤク,tsuzu(maru) つづ(まる),"promise, approximately, shrink",jlpt_n3,,
-28,首,shu シュ,kubi くび,neck,jlpt_n3,"彼女は手首の骨を折りました。
+24,調,chou チョウ,"shira(beru), tono(u) しら(べる)、ととの(う)","tune, tone, meter, prepare, investigate",jlpt_n3,,,
+25,化,"ka, ke カ、 ケ","ba(keru), fu(keru) ば(ける)、 ふ(ける)","change, take the form of, influence, enchant, delude, -ization",jlpt_n3,,,
+26,当,tou トウ,a(taru) あ(たる),"hit, right, appropriate",jlpt_n3,,,
+27,約,yaku ヤク,tsuzu(maru) つづ(まる),"promise, approximately, shrink",jlpt_n3,,,
+28,首,shu シュ,kubi くび,neck,jlpt_n3,,"彼女は手首の骨を折りました。
 kanojo wa tekubi no hone o orimashita.
 She broke her wrist.","その国の首都は赤道下にある。
 Sono kuni no shuto wa sekidou ka ni aru."
-29,法,hou ホウ,nori のり,"method, law, rule, principle, model, system",jlpt_n3,,
-30,性,"sei, shou セイ、 ショウ",,"sex, gender, nature",jlpt_n3,,
-31,的,teki テキ,,"mark, target, object, adjective ending",jlpt_n3,"これは一般的な寿司屋です。
+29,法,hou ホウ,nori のり,"method, law, rule, principle, model, system",jlpt_n3,,,
+30,性,"sei, shou セイ、 ショウ",,"sex, gender, nature",jlpt_n3,,,
+31,的,teki テキ,,"mark, target, object, adjective ending",jlpt_n3,,"これは一般的な寿司屋です。
 kore wa ippanteki na sushiya desu.
 This is a typical sushi restaurant.","韓国料理は一般的に辛いです。
 kankoku ryouri wa ippanteki ni karai desu.
 Korean food is generally spicy."
-32,要,you ヨウ,"i(ru), kaname い(る)、 かなめ","need, main point, essence, pivot",jlpt_n3,,
-33,制,sei セイ,,"system, law, rule",jlpt_n3,,
-34,治,"ji, chi ジ、チ","nasa(meru), nao(ru) おさ(める)、なお(る)","reign, cure, heal",jlpt_n3,,
-35,務,mu ム,tsuto(meru) つと(める),"task, duties",jlpt_n3,,
-36,成,"sei, jou セイ、 ジョウ",na(ru) な(る),"turn into, become, get, grow, elapse",jlpt_n3,,
-37,期,"ki, go キ、 ゴ",,"period, time, date, term",jlpt_n3,,
-38,取,shu シュ,to(ru) と(る),"take, fetch",jlpt_n3,,
-39,都,"to, tsu ト、ツ",miyako みやこ,"metropolis, capital",jlpt_n3,"日本の首都は東京です。
+32,要,you ヨウ,"i(ru), kaname い(る)、 かなめ","need, main point, essence, pivot",jlpt_n3,,,
+33,制,sei セイ,,"system, law, rule",jlpt_n3,,,
+34,治,"ji, chi ジ、チ","nasa(meru), nao(ru) おさ(める)、なお(る)","reign, cure, heal",jlpt_n3,,,
+35,務,mu ム,tsuto(meru) つと(める),"task, duties",jlpt_n3,,,
+36,成,"sei, jou セイ、 ジョウ",na(ru) な(る),"turn into, become, get, grow, elapse",jlpt_n3,,,
+37,期,"ki, go キ、 ゴ",,"period, time, date, term",jlpt_n3,,,
+38,取,shu シュ,to(ru) と(る),"take, fetch",jlpt_n3,,,
+39,都,"to, tsu ト、ツ",miyako みやこ,"metropolis, capital",jlpt_n3,,"日本の首都は東京です。
 nihon no shuto wa toukyou desu.
 The capital of Japan is Tokyo.","この電車は京都へ行きますか。
 kono densha wa Kyouto e ikimasu ka."
-40,和,"wa, o ワ、オ","yawa(ragu), nago(mu) やわ(らぐ)、なご(む)","harmony, Japanese style, peace",jlpt_n3,"私は和食をよく作ります。
+40,和,"wa, o ワ、オ","yawa(ragu), nago(mu) やわ(らぐ)、なご(む)","harmony, Japanese style, peace",jlpt_n3,,"私は和食をよく作ります。
 watashi wa washoku o yoku tsukurimasu.
 I often make Japanese food.","僕は洋服より和服の方が好きだ。
 boku wa youfuku yori wafuku no hou ga suki da.
 I like Japanese clothes better than foreign."
-41,機,ki キ,hata はた,"machine, airplane, opportunity",jlpt_n3,,
-42,平,"hei, byou ヘイ、ビョウ","tai(ra), hira たい(ら)、ひら","even, flat, peace",jlpt_n3,"あの山の頂上は平らだ。
+41,機,ki キ,hata はた,"machine, airplane, opportunity",jlpt_n3,,,
+42,平,"hei, byou ヘイ、ビョウ","tai(ra), hira たい(ら)、ひら","even, flat, peace",jlpt_n3,,"あの山の頂上は平らだ。
 ano yama no choujou wa taira da.
 The top of that mountain is flat.","私たちは平和を守りたいです。
 watashitachi wa heiwa o mamoritai desu.
 We want to protect the peace."
-43,加,ka カ,kuwa(eru) くわ(える),"add, addition, increase, join",jlpt_n3,,
-44,受,ju ジュ,u(keru) う(ける),"accept, undergo, answer (phone), take",jlpt_n3,,
-45,続,zoku ゾク,tsuzuku つづ(く),"continue, series, sequel",jlpt_n3,,
-46,進,shin シン,susu(mu) すす(む),"advance, proceed",jlpt_n3,"彼は英語が進んでいる。
+43,加,ka カ,kuwa(eru) くわ(える),"add, addition, increase, join",jlpt_n3,,,
+44,受,ju ジュ,u(keru) う(ける),"accept, undergo, answer (phone), take",jlpt_n3,,,
+45,続,zoku ゾク,tsuzuku つづ(く),"continue, series, sequel",jlpt_n3,,,
+46,進,shin シン,susu(mu) すす(む),"advance, proceed",jlpt_n3,,"彼は英語が進んでいる。
 kare wa eigo ga susunde iru.
 He is forward in English.","日本の高齢化は進んでいる。
 nihon no koureika wa susunde iru.
 The aging of Japan's population is advancing."
-47,数,suu スウ,"kazu, kazo(eru) かず、 かぞ(える)","number, strength, fate, law, figures",jlpt_n3,,
-48,記,ki キ,shiru(su) しる(す),"scribe, account, narrative",jlpt_n3,,
-49,初,sho ショ,"haji(me), hatsu はじ(め)、はつ","first time, beginning",jlpt_n3,"それは初めての海外旅行でした。
+47,数,suu スウ,"kazu, kazo(eru) かず、 かぞ(える)","number, strength, fate, law, figures",jlpt_n3,,,
+48,記,ki キ,shiru(su) しる(す),"scribe, account, narrative",jlpt_n3,,,
+49,初,sho ショ,"haji(me), hatsu はじ(め)、はつ","first time, beginning",jlpt_n3,,"それは初めての海外旅行でした。
 sore wa hajimete no kaigai ryokou deshita.
 It was my first trip abroad.","あなたの初恋は何歳の時ですか。
 anata no hatsukoi wa nansai no toki desuka.
 At what age did you have your first love?"
-50,指,shi シ,"yubi, sa(su) ゆび、さ(す)","finger, point to, indicate",jlpt_n3,,
-51,権,ken ケン,,"authority, power, rights",jlpt_n3,,
-52,支,shi シ,sasa(eru) ささ(える),"branch, support, sustain",jlpt_n3,,
-53,産,san サン,"u(mu), mu(su) う(む)、 む(す)","products, bear, give birth",jlpt_n3,,
-54,点,ten テン,tsu(keru) つ(ける),"spot, point, mark",jlpt_n3,,
-55,報,hou ホウ,mukku(iru) むく(いる),"report, news, reward",jlpt_n3,"この情報は正しいですか。
+50,指,shi シ,"yubi, sa(su) ゆび、さ(す)","finger, point to, indicate",jlpt_n3,,,
+51,権,ken ケン,,"authority, power, rights",jlpt_n3,,,
+52,支,shi シ,sasa(eru) ささ(える),"branch, support, sustain",jlpt_n3,,,
+53,産,san サン,"u(mu), mu(su) う(む)、 む(す)","products, bear, give birth",jlpt_n3,,,
+54,点,ten テン,tsu(keru) つ(ける),"spot, point, mark",jlpt_n3,,,
+55,報,hou ホウ,mukku(iru) むく(いる),"report, news, reward",jlpt_n3,,"この情報は正しいですか。
 kono jouhou wa tadashii desuka.
 Is this information correct?","彼の報告を理解できなかった。
 kare no houkoku o rikai dekinakatta.
 I couldn't understand his report."
-56,済,"sai, sei サイ、セイ",su(mu) す(む),"settle, relieve, finish",jlpt_n3,,
-57,活,katsu カツ,,living,jlpt_n3,"日本での生活はどうでしたか。
+56,済,"sai, sei サイ、セイ",su(mu) す(む),"settle, relieve, finish",jlpt_n3,,,
+57,活,katsu カツ,,living,jlpt_n3,,"日本での生活はどうでしたか。
 nihon de no seikatsu wa dou deshita ka.
 How was living in Japan?","あなたの生活はとても楽しそうです。
 anata no seikatsu wa totemo tanoshisou desu.
 Your life looks very fun."
-58,原,gen ゲン,hara はら,"original, primitive, field",jlpt_n3,,
-59,共,kyou キョウ,tomo とも,"together, both, neither",jlpt_n3,,
-60,得,toku トク,e(ru) え(る),"gain, get, find, earn, acquire, can, may, able to, profit",jlpt_n3,,
-61,解,"kai, ge カイ、ゲ","to(ku), hodo(ku) と(く)、ほど(く)","unravel, explanation",jlpt_n3,,
-62,交,kou コウ,"maji(waru), ma(zeru), ka(wasu) まじ(わる)、 ま(ぜる)、 か(わす)","mingle, mixing, association, coming & going",jlpt_n3,"最近、外交関係がよくない。
+58,原,gen ゲン,hara はら,"original, primitive, field",jlpt_n3,,,
+59,共,kyou キョウ,tomo とも,"together, both, neither",jlpt_n3,,,
+60,得,toku トク,e(ru) え(る),"gain, get, find, earn, acquire, can, may, able to, profit",jlpt_n3,,,
+61,解,"kai, ge カイ、ゲ","to(ku), hodo(ku) と(く)、ほど(く)","unravel, explanation",jlpt_n3,,,
+62,交,kou コウ,"maji(waru), ma(zeru), ka(wasu) まじ(わる)、 ま(ぜる)、 か(わす)","mingle, mixing, association, coming & going",jlpt_n3,,"最近、外交関係がよくない。
 saikin, gaikou kankei ga yokunai.
 Lately, diplomatic relations have not been good.","私の父は交番で働いています。
 watashi no chichi wa kouban de hataraite imasu.
 My father works in a police box."
-63,資,shi シ,,"assets, resources, capital, funds, data, be conducive to",jlpt_n3,,
-64,予,"yo, sha ヨ、 シャ",arakaji(me) あらかじ(め),"beforehand, previous, myself, I",jlpt_n3,,
-65,向,kou コウ,"mu(ku), muka(i) む(く)、むか(い)","facing, beyond",jlpt_n3,,
-66,際,sai サイ,kiwa きわ,"occasion, time",jlpt_n3,,
-67,勝,shou ショウ,"ka(tsu), masa(ru) か(つ)、 まさ(る)","victory, win",jlpt_n3,,
-68,面,men メン,"omo, omote, tsura おも、おもて、つら","mask, face, features, surface",jlpt_n3,,
-69,告,koku コク,tsu(geru) つ(げる),"revelation, inform",jlpt_n3,,
-70,反,han ハン,so(ru) そ(る),anti-,jlpt_n3,,
-71,判,han ハン,,"judgement, signature",jlpt_n3,,
-72,認,nin ニン,"mito(meru), shitata(meru) みと(める)、したた(める)","acknowledge, witness, recognize",jlpt_n3,,
-73,参,san サン,mai(ru) まい(る),"going, coming, participate",jlpt_n3,,
-74,利,ri リ,ki(ku) き(く),"profit, advantage, benefit",jlpt_n3,,
-75,組,so ソ,"ku(mu), kumi く(む)、くみ","association, assemble, unite",jlpt_n3,,
-76,信,shin シン,,"faith, truth, trust",jlpt_n3,"彼女はいつも自分の信念を守る。
+63,資,shi シ,,"assets, resources, capital, funds, data, be conducive to",jlpt_n3,,,
+64,予,"yo, sha ヨ、 シャ",arakaji(me) あらかじ(め),"beforehand, previous, myself, I",jlpt_n3,,,
+65,向,kou コウ,"mu(ku), muka(i) む(く)、むか(い)","facing, beyond",jlpt_n3,,,
+66,際,sai サイ,kiwa きわ,"occasion, time",jlpt_n3,,,
+67,勝,shou ショウ,"ka(tsu), masa(ru) か(つ)、 まさ(る)","victory, win",jlpt_n3,,,
+68,面,men メン,"omo, omote, tsura おも、おもて、つら","mask, face, features, surface",jlpt_n3,,,
+69,告,koku コク,tsu(geru) つ(げる),"revelation, inform",jlpt_n3,,,
+70,反,han ハン,so(ru) そ(る),anti-,jlpt_n3,,,
+71,判,han ハン,,"judgement, signature",jlpt_n3,,,
+72,認,nin ニン,"mito(meru), shitata(meru) みと(める)、したた(める)","acknowledge, witness, recognize",jlpt_n3,,,
+73,参,san サン,mai(ru) まい(る),"going, coming, participate",jlpt_n3,,,
+74,利,ri リ,ki(ku) き(く),"profit, advantage, benefit",jlpt_n3,,,
+75,組,so ソ,"ku(mu), kumi く(む)、くみ","association, assemble, unite",jlpt_n3,,,
+76,信,shin シン,,"faith, truth, trust",jlpt_n3,,"彼女はいつも自分の信念を守る。
 kanojo wa itsumo jibun no shinnen o mamoru.
 She always keeps her beliefs.","あなたは家族からの信頼を失う。
 anata wa kazoku kara no shinrai o ushinau.
 You lose the trust of your family."
-77,在,zai ザイ,a(ru) あ(る),"exist, outskirts",jlpt_n3,,
-78,件,ken ケン,kudan くだん,"affair, case, matter",jlpt_n3,,
-79,側,soku ソク,"gawa, soba がわ、そば","side, lean, oppose",jlpt_n3,,
-80,任,nin ニン,maka(seru) まか(せる),"responsibility, duty",jlpt_n3,,
-81,引,in イン,hi(ku) ひ(く),"pull, tug, jerk",jlpt_n3,"私は東京に引っ越すつもりです。
+77,在,zai ザイ,a(ru) あ(る),"exist, outskirts",jlpt_n3,,,
+78,件,ken ケン,kudan くだん,"affair, case, matter",jlpt_n3,,,
+79,側,soku ソク,"gawa, soba がわ、そば","side, lean, oppose",jlpt_n3,,,
+80,任,nin ニン,maka(seru) まか(せる),"responsibility, duty",jlpt_n3,,,
+81,引,in イン,hi(ku) ひ(く),"pull, tug, jerk",jlpt_n3,,"私は東京に引っ越すつもりです。
 watashi wa toukyou ni hikkosu tsumori desu.
 I intend to move to Tokyo.","彼はクラスメートの足を引っ張っている。
 kare wa kurasumeeto no ashi o hippatte iru.
 He is pulling the leg of his classmates."
-82,求,kyuu キュウ,moto(meru) もと(める),"request, want, demand",jlpt_n3,,
-83,所,sho ショ,tokoro ところ,"place, extent",jlpt_n3,,
-84,次,"ji, shi ジ、シ","tsu(gu), tsugi つ(ぐ)、つぎ","next, order",jlpt_n3,,
-85,昨,saku サク,,"yesterday, previous",jlpt_n3,"昨日は何をしましたか？
+82,求,kyuu キュウ,moto(meru) もと(める),"request, want, demand",jlpt_n3,,,
+83,所,sho ショ,tokoro ところ,"place, extent",jlpt_n3,,,
+84,次,"ji, shi ジ、シ","tsu(gu), tsugi つ(ぐ)、つぎ","next, order",jlpt_n3,,,
+85,昨,saku サク,,"yesterday, previous",jlpt_n3,,"昨日は何をしましたか？
 kinou wa nani wo shimashita ka?
 What did you do yesterday?","昨日から今まで寝ていません。
 kinou kara ima made neteimasen.
 I haven't slept from yesterday until now."
-86,論,ron ロン,agetsura(u) あげつら(う),"argument, discourse",jlpt_n3,,
-87,官,kan カン,,"bureaucrat, the government, organ",jlpt_n3,,
-88,増,zou ゾウ,"ma(su), fu(eru) ま(す)、 ふ(える)","increase, add",jlpt_n3,,
-89,係,kei ケイ,"kaka(ru), kakari かか(る)、かかり","person in charge, connection",jlpt_n3,"私たちの関係が悪化している。
+86,論,ron ロン,agetsura(u) あげつら(う),"argument, discourse",jlpt_n3,,,
+87,官,kan カン,,"bureaucrat, the government, organ",jlpt_n3,,,
+88,増,zou ゾウ,"ma(su), fu(eru) ま(す)、 ふ(える)","increase, add",jlpt_n3,,,
+89,係,kei ケイ,"kaka(ru), kakari かか(る)、かかり","person in charge, connection",jlpt_n3,,"私たちの関係が悪化している。
 watashitachi no kankei ga akka shite iru.
 Our relationship is getting worse.","私の父は渋谷駅の係員です。
 watashi no chichi wa shibuya eki no kakariin desu.
 My father is a attendant at Shibuya station."
-90,感,kan カン,,"emotion, feeling, sensation",jlpt_n3,,
-91,情,"jou, sei ジョウ、セイ",nasa(ke) なさ(け),"feelings, emotion, passion",jlpt_n3,,
-92,投,tou トウ,na(geru) な(げる),"throw, discard",jlpt_n3,"私は大金を株に投資した。
+90,感,kan カン,,"emotion, feeling, sensation",jlpt_n3,,,
+91,情,"jou, sei ジョウ、セイ",nasa(ke) なさ(け),"feelings, emotion, passion",jlpt_n3,,,
+92,投,tou トウ,na(geru) な(げる),"throw, discard",jlpt_n3,,"私は大金を株に投資した。
 watashi wa taikin o kabu ni toushi shita.
 I invested a lot of money in stocks.","彼は釣り糸を湖に投げた。
 kare wa tsuriito o mizuumi ni nageta.
 He threw a fishing line into the lake."
-93,示,"ji, shi ジ、シ",shime(su) しめ(す),"show, indicate, display",jlpt_n3,,
-94,変,hen ヘン,ka(waru) か(わる),"unusual, change, strange",jlpt_n3,,
-95,打,da ダ,"u(tsu), bu(tsu) う(つ)、ぶ(つ)","strike, hit, knock",jlpt_n3,,
-96,直,"choku, jiki チョク、 ジキ","tada(chini), su(gu) ただ(ちに)、 す(ぐ)","straightaway, honesty, frankness, fix, repair",jlpt_n3,"あなたはそれをもう一度見直しなさい。
+93,示,"ji, shi ジ、シ",shime(su) しめ(す),"show, indicate, display",jlpt_n3,,,
+94,変,hen ヘン,ka(waru) か(わる),"unusual, change, strange",jlpt_n3,,,
+95,打,da ダ,"u(tsu), bu(tsu) う(つ)、ぶ(つ)","strike, hit, knock",jlpt_n3,,,
+96,直,"choku, jiki チョク、 ジキ","tada(chini), su(gu) ただ(ちに)、 す(ぐ)","straightaway, honesty, frankness, fix, repair",jlpt_n3,,"あなたはそれをもう一度見直しなさい。
 anata wa sore o mou ichido minaoshi nasai.
 Reconsider that once more.","私は怒らないから正直に言ってください。
 watashi wa okoranai kara shoujiki ni itte kudasai.
 I am not upset so please speak honestly."
-97,両,ryou リョウ,,both,jlpt_n3,"私の友人は両手で書けます。
+97,両,ryou リョウ,,both,jlpt_n3,,"私の友人は両手で書けます。
 watashi no yuujin wa ryoute de kakemasu.
 My friend can write with both hands.","桜が道路の両側に植えられている。
 sakura ga douro no ryougawa ni uerarete iru.
 Cherry blossoms are planted on both sides of the road."
-98,式,shiki シキ,,"style, ceremony",jlpt_n3,"彼はそれを小説の形式で表した。
+98,式,shiki シキ,,"style, ceremony",jlpt_n3,,"彼はそれを小説の形式で表した。
 kare wa sore o shousetsu no keishiki de arawashita.
 He expressed it in the form of a novel.","私は先月に結婚式を挙げました。
 watashi wa sengetsu ni kekkonshiki o agemashita.
 I held a wedding ceremony last month."
-99,確,kaku カク,tashi(ka) たし(か),"assurance, firm, confirm",jlpt_n3,,
-100,果,ka カ,ha(tasu) は(たす),"fruit, reward, carry out, achieve, complete",jlpt_n3,,
+99,確,kaku カク,tashi(ka) たし(か),"assurance, firm, confirm",jlpt_n3,,,
+100,果,ka カ,ha(tasu) は(たす),"fruit, reward, carry out, achieve, complete",jlpt_n3,,,

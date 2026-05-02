@@ -16,6 +16,7 @@ def _merge_examples(existing_fields: dict, new_fields: dict) -> dict:
     """Merge examples arrays, dedupe, keep order."""
     out = dict(existing_fields)
     new = dict(new_fields)
+    preserved_notes = str(out.get("notes") or "").strip()
 
     ex1 = existing_fields.get("examples") if isinstance(existing_fields.get("examples"), list) else []
     ex2 = new_fields.get("examples") if isinstance(new_fields.get("examples"), list) else []
@@ -34,6 +35,9 @@ def _merge_examples(existing_fields: dict, new_fields: dict) -> dict:
     out.update(new)
     if merged:
         out["examples"] = merged
+    # Incoming CSV often includes notes="" when the cell is blank; do not wipe an existing deck note.
+    if not str(out.get("notes") or "").strip() and preserved_notes:
+        out["notes"] = preserved_notes
     return out
 
 
@@ -162,16 +166,16 @@ def sync_items_into_deck(
     level: str,
     source_type: str,
     items: list[ImportItem],
-    merge_existing: str = "skip",  # skip | merge_examples
+    merge_existing: str = "skip",  # skip | merge_examples | replace_existing
 ) -> dict:
-    """Sync items into existing deck; merge_existing: skip | merge_examples."""
+    """Sync items into existing deck; merge_existing: skip | merge_examples | replace_existing."""
     level = norm_text(level)
     if not level or len(level) > 16:
         raise ValueError("level invalid or too long")
     if source_type not in ("grammar", "kanji", "vocabulary"):
         raise ValueError("source_type must be grammar|kanji|vocabulary")
-    if merge_existing not in ("skip", "merge_examples"):
-        raise ValueError("merge_existing must be skip|merge_examples")
+    if merge_existing not in ("skip", "merge_examples", "replace_existing"):
+        raise ValueError("merge_existing must be skip|merge_examples|replace_existing")
 
     decks = DeckRepository(conn)
     deck = decks.get_deck(deck_id)
@@ -197,15 +201,19 @@ def sync_items_into_deck(
             if merge_existing == "skip":
                 skipped += 1
                 continue
-            # merge_examples: merge examples and upsert
-            try:
-                existing_fields = json.loads(existing["fields_json"])
-                fields = _merge_examples(existing_fields, item.fields)
-            except Exception:
-                logger.warning(
-                    "Sync merge examples failed for note (using new fields)",
-                    extra={"source_type": item.source_type, "level": item.level},
-                )
+            if merge_existing == "merge_examples":
+                # merge_examples: merge examples and preserve existing notes when incoming notes are blank.
+                try:
+                    existing_fields = json.loads(existing["fields_json"])
+                    fields = _merge_examples(existing_fields, item.fields)
+                except Exception:
+                    logger.warning(
+                        "Sync merge examples failed for note (using new fields)",
+                        extra={"source_type": item.source_type, "level": item.level},
+                    )
+                    fields = item.fields
+            else:
+                # replace_existing: write incoming CSV fields as-is.
                 fields = item.fields
             source_url = item.source_url or existing.get("source_url")
         else:

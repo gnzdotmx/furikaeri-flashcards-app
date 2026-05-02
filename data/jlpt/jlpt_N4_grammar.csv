@@ -1,10 +1,10 @@
-japanese_expression,english_meaning,grammar_structure,labels,example_1,example_2,example_3,example_4,example_5
+japanese_expression,english_meaning,grammar_structure,labels,notes,example_1,example_2,example_3,example_4,example_5
 間(aida),while; during; between ~,"Meaning 意味 while; during; between ~
 example sentences
 vocabulary list
 related grammar
 Level: JLPT N4
-How to use 使い方 Verb (dictionary form) 間 Noun + の Related Kanji 漢字 N5 Kanji: 間 (kan, aida) interval, space",jlpt_n4,"昨日は、家にいる間、ずっとテレビを見ていました。
+How to use 使い方 Verb (dictionary form) 間 Noun + の Related Kanji 漢字 N5 Kanji: 間 (kan, aida) interval, space",jlpt_n4,,"昨日は、家にいる間、ずっとテレビを見ていました。
 kinou wa, ie ni iru aida, zutto terebi o miteimashita.
 Yesterday, while I was home I watched TV the entire time.","日本にいる間は、毎日日本語を話すつもりです。
 nihon ni iru aida wa, mainichi nihongo o hanasu tsumori desu.
@@ -21,7 +21,7 @@ vocabulary list
 related grammar
 Level: JLPT N4
 Tags: Japanese adverbs
-How to use 使い方 Verb (casual, non-past) 間に Noun + の な-adjective + な い-adjective Related Kanji 漢字 N5 Kanji: 間 (kan, aida) interval, space",jlpt_n4,"夜の間に火事が起こった。
+How to use 使い方 Verb (casual, non-past) 間に Noun + の な-adjective + な い-adjective Related Kanji 漢字 N5 Kanji: 間 (kan, aida) interval, space",jlpt_n4,,"夜の間に火事が起こった。
 yoru no aida ni kaji ga okotta.
 A fire broke out during the night.","知らない間に寝ていた。
 shiranai aida ni neteita.
@@ -38,7 +38,7 @@ vocabulary list
 related grammar
 Level: JLPT N4
 Tags: ～ない , Japanese adverbs , negative expressions
-How to use 使い方 あまり い-adjective + い くない な-adjective + な じゃない Verb (ない form)",jlpt_n4,"私はあまり運動しない。
+How to use 使い方 あまり い-adjective + い くない な-adjective + な じゃない Verb (ない form)",jlpt_n4,,"私はあまり運動しない。
 watashi wa amari undou shinai.
 I don't really exercise.","日本語があまり分からない。
 nihongo ga amari wakaranai.
@@ -55,7 +55,7 @@ vocabulary list
 related grammar
 Level: JLPT N4
 Tags: Japanese adverbs
-How to use 使い方 Verb (た form) 後で あとで Noun + の Related Kanji 漢字 N5 Kanji: 後 (go, ato) behind, later",jlpt_n4,"図書館で宿題をしたあとで、帰ります。
+How to use 使い方 Verb (た form) 後で あとで Noun + の Related Kanji 漢字 N5 Kanji: 後 (go, ato) behind, later",jlpt_n4,,"図書館で宿題をしたあとで、帰ります。
 toshokan de shukudai o shita ato de, kaerimasu.
 I will head home after I finish my homework at the library.","晩ご飯の後でアイスを食べた。
 bangohan no ato de aisu o tabeta
@@ -72,7 +72,7 @@ vocabulary list
 related grammar
 Level: JLPT N4
 Tags: Japanese particles , ば conditional form
-How to use 使い方 special formatting rules (see below)",jlpt_n4,"このボタンを押せば、ドアが開きます。
+How to use 使い方 special formatting rules (see below)",jlpt_n4,,"このボタンを押せば、ドアが開きます。
 kono botan o oseba, doa ga hirakimasu.
 If you push this button, the door will open.","あなたが行けば、わたしも行くよ。
 anata ga ikeba, watashi mo iku yo.
@@ -88,7 +88,7 @@ example sentences
 vocabulary list
 related grammar
 Level: JLPT N4
-How to use 使い方 Verb (casual) 場合は ばあいは Noun + の な-adjective + な い-adjective Related Kanji 漢字 N4 Kanji: 場 (jou, ba) location N3 Kanji: 合 (gou, au) fit",jlpt_n4,"パスワードを忘れた場合は、こちらからご連絡ください。
+How to use 使い方 Verb (casual) 場合は ばあいは Noun + の な-adjective + な い-adjective Related Kanji 漢字 N4 Kanji: 場 (jou, ba) location N3 Kanji: 合 (gou, au) fit",jlpt_n4,,"パスワードを忘れた場合は、こちらからご連絡ください。
 pasuwaado o wasureta baai wa, kochira kara gorenraku kudasai.
 If you forget your password, please contact us here.","火事の場合は、119をかけます。
 kaji no baai wa, 119 o kakemasu.
@@ -105,7 +105,7 @@ vocabulary list
 related grammar
 Level: JLPT N4
 Tags: Japanese particles , ばかり expressions
-How to use 使い方 Noun ばかり Verb (て form)",jlpt_n4,"娘はテレビばかり見ている。
+How to use 使い方 Noun ばかり Verb (て form)",jlpt_n4,,"娘はテレビばかり見ている。
 musume wa terebi bakari miteiru.
 My daughter does nothing but watch TV.","彼はお金ばかり考えている。
 kare wa o kane bakari kangaiteiru.
@@ -121,7 +121,7 @@ example sentences
 vocabulary list
 related grammar
 Level: JLPT N4
-How to use 使い方 Verb (casual) だけで Noun",jlpt_n4,"あなたに会うだけで元気になる。
+How to use 使い方 Verb (casual) だけで Noun",jlpt_n4,,"あなたに会うだけで元気になる。
 anata ni au dake de genki ni naru.
 I get energetic from just meeting you.","あなたの写真を見るだけでうれしい。
 anata no shashin o miru dake de ureshii.
@@ -138,7 +138,7 @@ vocabulary list
 related grammar
 Level: JLPT N4
 Tags: stem form grammar
-How to use 使い方 Verb ます (stem form) 出す だす Related Kanji 漢字 N5 Kanji: 出 (shutsu, deru) exit",jlpt_n4,"雨が急に降り出した。
+How to use 使い方 Verb ます (stem form) 出す だす Related Kanji 漢字 N5 Kanji: 出 (shutsu, deru) exit",jlpt_n4,,"雨が急に降り出した。
 ame ga kyuu ni furi dashita.
 It suddenly started raining.","彼は店から飛び出した。
 kare wa mise kara tobi dashita.
@@ -155,7 +155,7 @@ vocabulary list
 related grammar
 Level: JLPT N4
 Tags: Japanese particles
-How to use 使い方 Noun でも",jlpt_n4,"水でも飲みますか？
+How to use 使い方 Noun でも",jlpt_n4,,"水でも飲みますか？
 mizu demo nomimasu ka?
 Would you care for some water or something to drink?","牛丼でもしましょうか？
 gyuudon demo shimashou ka?
@@ -172,7 +172,7 @@ vocabulary list
 related grammar
 Level: JLPT N4
 Tags: ～か , ～ない
-How to use 使い方 phrase ではないか ではありませんか",jlpt_n4,"トムではないか。
+How to use 使い方 phrase ではないか ではありませんか",jlpt_n4,,"トムではないか。
 tomu dewa nai ka.
 Well if it isn't Tom?","何ときれいではないか。
 nanto kirei dewa nai ka.
@@ -188,7 +188,7 @@ example sentences
 vocabulary list
 related grammar
 Level: JLPT N4
-How to use 使い方 Noun がする がします がしている",jlpt_n4,"甘い味がする。
+How to use 使い方 Noun がする がします がしている",jlpt_n4,,"甘い味がする。
 amai aji ga suru.
 It has a sweet taste.","人の声がする。
 hito no koe ga suru.
@@ -205,7 +205,7 @@ vocabulary list
 related grammar
 Level: JLPT N4
 Tags: suffix
-How to use 使い方 な-adjective がる がっている がった がらないで い-adjective い",jlpt_n4,"怖がらないでください。
+How to use 使い方 な-adjective がる がっている がった がらないで い-adjective い",jlpt_n4,,"怖がらないでください。
 kowa garanai de kudasai.
 Please don't feel scared.","彼は死ぬのを怖がっている。
 kare wa shinu no o kowa gatteiru.
@@ -222,7 +222,7 @@ vocabulary list
 related grammar
 Level: JLPT N4
 Tags: stem form grammar
-How to use 使い方 Verb ます (stem form) はじめる はじめた はじめている Related Kanji 漢字 N4 Kanji: 始 (shi, hajimeru) begin",jlpt_n4,"食べ始める。
+How to use 使い方 Verb ます (stem form) はじめる はじめた はじめている Related Kanji 漢字 N4 Kanji: 始 (shi, hajimeru) begin",jlpt_n4,,"食べ始める。
 tabe hajimeru.
 To begin eating.","雨が降り始めた。
 ame ga furi hajimeta.
@@ -238,7 +238,7 @@ example sentences
 vocabulary list
 related grammar
 Level: JLPT N4
-How to use 使い方 Verb (dictionary form) はずだ Noun + の な-adjective + な い-adjective",jlpt_n4,"あなたなら分かるはずだ。
+How to use 使い方 Verb (dictionary form) はずだ Noun + の な-adjective + な い-adjective",jlpt_n4,,"あなたなら分かるはずだ。
 anata nara wakaru hazu da.
 You should know this.","彼は今学校にいるはずだ。
 kare wa ima gakkou ni iru hazu da.
@@ -254,7 +254,7 @@ example sentences
 vocabulary list
 related grammar
 Level: JLPT N4
-How to use 使い方 Verb (dictionary form) はずがない はずがありません Noun + の な-adjective + な い-adjective",jlpt_n4,"そんなはずがない。
+How to use 使い方 Verb (dictionary form) はずがない はずがありません Noun + の な-adjective + な い-adjective",jlpt_n4,,"そんなはずがない。
 sonna hazu ga nai.
 That can't be true.","彼女の話は本当のはずがない。
 kanojo no hanashi wa hontou no hazu ga nai.
@@ -271,7 +271,7 @@ vocabulary list
 related grammar
 Level: JLPT N4
 Tags: よう expressions
-How to use 使い方 see conjugation rules below...",jlpt_n4,"今日から自転車で出勤しよう。
+How to use 使い方 see conjugation rules below...",jlpt_n4,,"今日から自転車で出勤しよう。
 kyou kara jitensha de shukkin shiyou.
 Let's start commuting by bicycle from today!","もう11時だ。早く寝よう。
 mou 11 ji da. hayaku neyou.
@@ -287,7 +287,7 @@ example sentences
 vocabulary list
 related grammar
 Level: JLPT N4
-How to use 使い方 いる (changes to) 来る (changes to) 行く (changes to) いらっしゃる Verb (て form) + いらっしゃる",jlpt_n4,"質問のある方はいらっしゃいませんか。
+How to use 使い方 いる (changes to) 来る (changes to) 行く (changes to) いらっしゃる Verb (て form) + いらっしゃる",jlpt_n4,,"質問のある方はいらっしゃいませんか。
 shitsumon no aru kata wa irasshaimasen ka.
 Does anyone have any questions?","校長先生は図書館にいらっしゃいます。
 kouchou sensei wa toshokan ni irasshaimasu.
@@ -303,7 +303,7 @@ example sentences
 vocabulary list
 related grammar
 Level: JLPT N4
-How to use 使い方 する (changes to) いたす します (changes to) いたします お/ご + Verb ます (stem) いたします",jlpt_n4,"失礼いたします。
+How to use 使い方 する (changes to) いたす します (changes to) いたします お/ご + Verb ます (stem) いたします",jlpt_n4,,"失礼いたします。
 shitsurei itashimasu.
 Excuse me.","この仕事は私がいたします。
 kono shigoto wa watashi ga itashimasu.
@@ -320,7 +320,7 @@ vocabulary list
 related grammar
 Level: JLPT N4
 Tags: ～か , ～ない
-How to use 使い方 phrase じゃないか",jlpt_n4,"行こうじゃないか。
+How to use 使い方 phrase じゃないか",jlpt_n4,,"行こうじゃないか。
 ikou janai ka.
 Let's go, shall we?","ダメじゃないか。
 dame janai ka.
@@ -337,7 +337,7 @@ vocabulary list
 related grammar
 Level: JLPT N4
 Tags: ～か , Japanese adverbs
-How to use 使い方 Verb (casual form) かどうか Noun な-adjective い-adjective",jlpt_n4,"明日晴れるかどうか知らない。
+How to use 使い方 Verb (casual form) かどうか Noun な-adjective い-adjective",jlpt_n4,,"明日晴れるかどうか知らない。
 ashita hareru ka dou ka shiranai.
 I don't know if the weather will be clear or not tomorrow.","それが正しいかどうかわからない。
 sore ga tadashii ka dou ka wakaranai.
@@ -354,7 +354,7 @@ vocabulary list
 related grammar
 Level: JLPT N4
 Tags: ～か , feminine Japanese , Japanese particles
-How to use 使い方 phrase かしら",jlpt_n4,"本当かしら。
+How to use 使い方 phrase かしら",jlpt_n4,,"本当かしら。
 hontou ka shira.
 I wonder if that's true.","どこへ行ったかしら。
 doko e itta ka shira.
@@ -371,7 +371,7 @@ vocabulary list
 related grammar
 Level: JLPT N4
 Tags: ～か , Japanese particles
-How to use 使い方 Sentence かい",jlpt_n4,"歩けるかい？
+How to use 使い方 Sentence かい",jlpt_n4,,"歩けるかい？
 arukeru kai?
 Can you walk?","コーヒーいるかい？
 koohii iru kai?
@@ -388,7 +388,7 @@ vocabulary list
 related grammar
 Level: JLPT N4
 Tags: ～ない
-How to use 使い方 Verb (casual form) かも かもしれない かもしれません Noun な-adjective い-adjective",jlpt_n4,"難しいかも。
+How to use 使い方 Verb (casual form) かも かもしれない かもしれません Noun な-adjective い-adjective",jlpt_n4,,"難しいかも。
 muzukashii kamo.
 This might be a bit difficult.","そうかもしれない。
 sou kamo shirenai.
@@ -405,7 +405,7 @@ vocabulary list
 related grammar
 Level: JLPT N4
 Tags: ～か , Japanese particles
-How to use 使い方 Verb (casual form) かな Noun な-adjective い-adjective",jlpt_n4,"彼女は元気かな。
+How to use 使い方 Verb (casual form) かな Noun な-adjective い-adjective",jlpt_n4,,"彼女は元気かな。
 kanojo wa genki kana.
 I wonder if she's doing well.","雨が降るかな。
 ame ga furu kana.
@@ -422,7 +422,7 @@ vocabulary list
 related grammar
 Level: JLPT N4
 Tags: から expressions
-How to use 使い方 Noun + から 作る 作られる (passive form) 作られている Noun + で Related Kanji 漢字 N4 Kanji: 作 (saku, tsukuru) make",jlpt_n4,"ワインはブドウから作る。
+How to use 使い方 Noun + から 作る 作られる (passive form) 作られている Noun + で Related Kanji 漢字 N4 Kanji: 作 (saku, tsukuru) make",jlpt_n4,,"ワインはブドウから作る。
 wain wa budou kara tsukuru.
 Wine is made from grapes.","紙は木から作られる。
 kami wa ki kara tsukurareru.
@@ -439,7 +439,7 @@ vocabulary list
 related grammar
 Level: JLPT N4
 Tags: Japanese adverbs
-How to use 使い方 きっと event action",jlpt_n4,"明日はきっと雨でしょう。
+How to use 使い方 きっと event action",jlpt_n4,,"明日はきっと雨でしょう。
 ashita wa kitto ame deshou.
 It will likely rain tomorrow.","彼女はきっと来るよ。
 kanojo wa kitto kuru yo.
@@ -455,7 +455,7 @@ example sentences
 vocabulary list
 related grammar
 Level: JLPT N4
-How to use 使い方 Noun (time) ごろ (around; about) Verb (casual) ころ (when) Noun + の Adjective Related Kanji 漢字 N1 Kanji: 頃 (kei, kyou, koro, goro, shibara(ku)) Meaning: time, about, toward",jlpt_n4,"夜の8時ごろ、うちに来てもらえるか？
+How to use 使い方 Noun (time) ごろ (around; about) Verb (casual) ころ (when) Noun + の Adjective Related Kanji 漢字 N1 Kanji: 頃 (kei, kyou, koro, goro, shibara(ku)) Meaning: time, about, toward",jlpt_n4,,"夜の8時ごろ、うちに来てもらえるか？
 yoru no hachiji goro, uchi ni kite moraeru ka？
 Can you come by my place around eight p.m.?","私はこのころとても忙しいのです。
 watashi wa kono koro totemo isogashii no desu.
@@ -472,7 +472,7 @@ vocabulary list
 related grammar
 Level: JLPT N4
 Tags: こと expressions
-How to use 使い方 Verb (casual, non-past) こと",jlpt_n4,"本を読むことが好きです。
+How to use 使い方 Verb (casual, non-past) こと",jlpt_n4,,"本を読むことが好きです。
 hon o yomu koto ga suki desu.
 I like to read books.","私は料理を作ることが下手です。
 watashi wa ryouri o tsukuru koto ga heta desu.
@@ -489,7 +489,7 @@ vocabulary list
 related grammar
 Level: JLPT N4
 Tags: こと expressions
-How to use 使い方 Verb (casual, non-past) ことがある こともある ことがあります こともあります",jlpt_n4,"たまに彼女と一緒にテニスをしに行くことがある。
+How to use 使い方 Verb (casual, non-past) ことがある こともある ことがあります こともあります",jlpt_n4,,"たまに彼女と一緒にテニスをしに行くことがある。
 tamani kanojo to isshoni tenisu o shini iku koto ga aru.
 Sometimes I go to play tennis with my girlfriend.","たまに自転車で通勤することがある。
 tamani jitensha de tsuukin suru koto ga aru.
@@ -506,7 +506,7 @@ vocabulary list
 related grammar
 Level: JLPT N4
 Tags: こと expressions
-How to use 使い方 Verb (dictionary form) ことができる ことができない ことができます ことができません",jlpt_n4,"私は日本語を話すことができる。
+How to use 使い方 Verb (dictionary form) ことができる ことができない ことができます ことができません",jlpt_n4,,"私は日本語を話すことができる。
 watashi wa nihongo o hanasu koto ga dekiru.
 I can speak Japanese.","彼女は歌うことができる。
 kanojo wa utau koto ga dekiru.
@@ -523,7 +523,7 @@ vocabulary list
 related grammar
 Level: JLPT N4
 Tags: こと expressions
-How to use 使い方 Verb (dictionary form) Verb (ない form) ことになる",jlpt_n4,"入学式は4月1日に行うことになりました。
+How to use 使い方 Verb (dictionary form) Verb (ない form) ことになる",jlpt_n4,,"入学式は4月1日に行うことになりました。
 nyuugakushiki wa shigatsu tsuitachi ni okonau koto ni narimashita.
 The entrance ceremony will be held on April 1st.","私の母が入院することになった。
 watashi no haha ga nyuuin suru koto ni natta.
@@ -540,7 +540,7 @@ vocabulary list
 related grammar
 Level: JLPT N4
 Tags: こと expressions
-How to use 使い方 Verb (dictionary form) Verb )ない form) ことにする ことにします ことにしている ことにしています",jlpt_n4,"これから毎日ランニングをすることにする。
+How to use 使い方 Verb (dictionary form) Verb )ない form) ことにする ことにします ことにしている ことにしています",jlpt_n4,,"これから毎日ランニングをすることにする。
 kore kara mainichi ranningu o suru koto ni suru.
 I've decided to go running every day from now on.","タバコをやめることにした。
 tabako o yameru koto ni shita.
@@ -557,7 +557,7 @@ vocabulary list
 related grammar
 Level: JLPT N4
 Tags: Japanese adverbs
-How to use 使い方 い-adjective い くする くします くして",jlpt_n4,"音楽でもっと良くする。
+How to use 使い方 い-adjective い くする くします くして",jlpt_n4,,"音楽でもっと良くする。
 ongaku de motto yoku suru.
 Make it better with music.","あと５００円安くしてくれたら、買いますよ。
 ato go hyaku en yasuku shite kure tara, kaimasu yo.
@@ -574,7 +574,7 @@ vocabulary list
 related grammar
 Level: JLPT N4
 Tags: Japanese adverbs
-How to use 使い方 急に Phrase Related Kanji 漢字 N4 Kanji: 急 (kyuu, isogu) hurry",jlpt_n4,"急に雨が降り始めました。
+How to use 使い方 急に Phrase Related Kanji 漢字 N4 Kanji: 急 (kyuu, isogu) hurry",jlpt_n4,,"急に雨が降り始めました。
 kyuu ni ame ga furi hajimemashita.
 It suddenly started raining.","雨は急にやんだ。
 ame wa kyuu ni yanda.
@@ -591,7 +591,7 @@ vocabulary list
 related grammar
 Level: JLPT N4
 Tags: without
-How to use 使い方 Noun + の まま Verb (た form) Verb (ない form) な-adjective + な い-adjective",jlpt_n4,"この町は昔のまま変わっていない。
+How to use 使い方 Noun + の まま Verb (た form) Verb (ない form) な-adjective + な い-adjective",jlpt_n4,,"この町は昔のまま変わっていない。
 kono machi mukashi no mama kawatteinai.
 This town hasn't changed at all.","この野菜は、生のままで食べてもおいしいですよ。
 kono yasai wa, nama no mama de tabetemo oishii desu yo.
@@ -608,7 +608,7 @@ vocabulary list
 related grammar
 Level: JLPT N4
 Tags: Japanese conjunctions
-How to use 使い方 Noun-1 又は または Noun-2 Related Kanji 漢字 N1 Kanji: 又 (yuu, mata, mata-, mata(no-)) Meaning: or again, furthermore, on the other hand",jlpt_n4,"コーヒーまたはお茶からお選びください。
+How to use 使い方 Noun-1 又は または Noun-2 Related Kanji 漢字 N1 Kanji: 又 (yuu, mata, mata-, mata(no-)) Meaning: or again, furthermore, on the other hand",jlpt_n4,,"コーヒーまたはお茶からお選びください。
 koohii matawa ocha kara o erabi kudasai.
 Please choose from either coffee or tea.","日本語または英語で話せます。
 nihongo matawa eigo de hanasemasu.
@@ -624,7 +624,7 @@ example sentences
 vocabulary list
 related grammar
 Level: JLPT N4
-How to use 使い方 Verb (casual) みたい（だ） Noun + （だった） な-adjective + （だった） い-adjective",jlpt_n4,"夢みたいだ。
+How to use 使い方 Verb (casual) みたい（だ） Noun + （だった） な-adjective + （だった） い-adjective",jlpt_n4,,"夢みたいだ。
 yume mitai da.
 It's like a dream come true.","外は、夏みたいだよ。
 soto wa, natsu mitai da yo.
@@ -640,7 +640,7 @@ example sentences
 vocabulary list
 related grammar
 Level: JLPT N4
-How to use 使い方 Noun みたいな + Noun Verb (casual form)",jlpt_n4,"私は、今日みたいな日が好きだ。
+How to use 使い方 Noun みたいな + Noun Verb (casual form)",jlpt_n4,,"私は、今日みたいな日が好きだ。
 watashi wa, kyou mitai na hi ga suki da.
 I like days like today.","私たちは家族みたいなものだ。
 watashi tachi wa kazoku mitai na mono da.
@@ -657,7 +657,7 @@ vocabulary list
 related grammar
 Level: JLPT N4
 Tags: Japanese adverbs
-How to use 使い方 Verb (casual) みたいに + Verb / Adjective Noun",jlpt_n4,"子どもみたいに遊んだ。
+How to use 使い方 Verb (casual) みたいに + Verb / Adjective Noun",jlpt_n4,,"子どもみたいに遊んだ。
 kodomo mitai ni asonda.
 I played like a kid.","私はお母さんみたいになりたい。
 watashi wa okaasan mitai ni naritai.
@@ -674,7 +674,7 @@ vocabulary list
 related grammar
 Level: JLPT N4
 Tags: Japanese particles
-How to use 使い方 Verb (dictionary form) な",jlpt_n4,"晩ごはんの前にデザートを食べるな。
+How to use 使い方 Verb (dictionary form) な",jlpt_n4,,"晩ごはんの前にデザートを食べるな。
 bangohan no mae ni dezaato o taberu na.
 Don't eat dessert before dinner!","ここは危ないから来るな！
 koko wa abunai kara kuru na!
@@ -691,7 +691,7 @@ vocabulary list
 related grammar
 Level: JLPT N4
 Tags: Japanese particles
-How to use 使い方 Noun など",jlpt_n4,"私は小説や映画などが好きです。
+How to use 使い方 Noun など",jlpt_n4,,"私は小説や映画などが好きです。
 watashi wa shousetsu ya eiga nado ga suki desu.
 I like things like novels, movies, and so on.","私はノート、ペンなどが必要だ。
 watashi wa nooto, pen nado ga hitsuyou da.
@@ -708,7 +708,7 @@ vocabulary list
 related grammar
 Level: JLPT N4
 Tags: Japanese particles , stem form grammar
-How to use 使い方 Verb ます (stem form) ながら + [B]",jlpt_n4,"話を聞きながらメモします。
+How to use 使い方 Verb ます (stem form) ながら + [B]",jlpt_n4,,"話を聞きながらメモします。
 hanashi o kikinagara memo shimasu.
 I took notes while listening to the story.","歩きながら話しましょう。
 aruki nagara hanashimashou.
@@ -725,7 +725,7 @@ vocabulary list
 related grammar
 Level: JLPT N4
 Tags: ～ない , expressing must do
-How to use 使い方 Verb (ない form) な い ければいけない ければいけません",jlpt_n4,"早く寝なければいけない。
+How to use 使い方 Verb (ない form) な い ければいけない ければいけません",jlpt_n4,,"早く寝なければいけない。
 hayaku nenakereba ikenai.
 I have to go to sleep early.","私も頑張らなければいけない。
 watashi mo ganbaranakereba ikenai.
@@ -742,7 +742,7 @@ vocabulary list
 related grammar
 Level: JLPT N4
 Tags: ～ない , expressing must do
-How to use 使い方 Verb (ない form) な い ければならない ければなりません",jlpt_n4,"薬を飲まなければなりません。
+How to use 使い方 Verb (ない form) な い ければならない ければなりません",jlpt_n4,,"薬を飲まなければなりません。
 kusuri o noma nakereba narimasen.
 I/you need to take my/your medicine.","宿題をしなければならない。
 shukudai o shi nakereba naranai.
@@ -759,7 +759,7 @@ vocabulary list
 related grammar
 Level: JLPT N4
 Tags: auxiliary , Japanese conjunctions , Japanese particles
-How to use 使い方 Verb (casual form) + (の) なら Noun な-adjective + (の) い-adjective + (の)",jlpt_n4,"もし違うなら。
+How to use 使い方 Verb (casual form) + (の) なら Noun な-adjective + (の) い-adjective + (の)",jlpt_n4,,"もし違うなら。
 moshi chigau nara.
 What if you're wrong?","それなら問題ありません。
 sore nara mondai arimasen.
@@ -776,7 +776,7 @@ vocabulary list
 related grammar
 Level: JLPT N4
 Tags: command form expressions
-How to use 使い方 Verb ます (stem form) なさい な (conversation)",jlpt_n4,"まず、質問に答えなさい。
+How to use 使い方 Verb ます (stem form) なさい な (conversation)",jlpt_n4,,"まず、質問に答えなさい。
 mazu, shitsumon ni kotaenasai.
 First, answer my question.","明日、学校に行くから、早く寝なさい！
 ashita, gakkou ni iku kara, hayaku ne nasai!
@@ -793,7 +793,7 @@ vocabulary list
 related grammar
 Level: JLPT N4
 Tags: honorific expressions
-How to use 使い方 する (changes to) なさる します (changes to) なさいます して (changes to) なさって",jlpt_n4,"それからどうなさいました？
+How to use 使い方 する (changes to) なさる します (changes to) なさいます して (changes to) なさって",jlpt_n4,,"それからどうなさいました？
 sore kara dou nasai mashita?
 What happened after that?","お飲み物は何になさいますか？
 onomimono wa nani ni nasaimasu ka.
@@ -809,7 +809,7 @@ example sentences
 vocabulary list
 related grammar
 Level: JLPT N4
-How to use 使い方 Verb (casual) + こと に気がつく に気がついた Noun Related Kanji 漢字 N5 Kanji: 気 (ki) spirit, air",jlpt_n4,"彼女は電車の中にカサを忘れたことに気がついた。
+How to use 使い方 Verb (casual) + こと に気がつく に気がついた Noun Related Kanji 漢字 N5 Kanji: 気 (ki) spirit, air",jlpt_n4,,"彼女は電車の中にカサを忘れたことに気がついた。
 kanojo wa densha no naka ni kasa o wasureta koto ni ki ga tsuita.
 She realized she had left her umbrella inside the train.","私はタクシーを降りる時、財布がないことに気がついた。
 watashi wa takushii o oriru toki, saifu ga nai koto ni ki ga tsuita.
@@ -825,7 +825,7 @@ example sentences
 vocabulary list
 related grammar
 Level: JLPT N4
-How to use 使い方 Verb (て form) 見える みえる Verb (casual, non-past) + ように Noun +（のよう）に な-adjective + に い-adjective + い く",jlpt_n4,"同じに見える。
+How to use 使い方 Verb (て form) 見える みえる Verb (casual, non-past) + ように Noun +（のよう）に な-adjective + に い-adjective + い く",jlpt_n4,,"同じに見える。
 onaji ni mieru.
 They look the same.","彼はアメリカ人に見える。
 kare wa amerika jin ni mieru.
@@ -841,7 +841,7 @@ example sentences
 vocabulary list
 related grammar
 Level: JLPT N4
-How to use 使い方 な-adjective な にする にします にして にした",jlpt_n4,"もう少し、静かにしてください。
+How to use 使い方 な-adjective な にする にします にして にした",jlpt_n4,,"もう少し、静かにしてください。
 mou sukoshi, shizukani shite kudasai.
 Please be a bit more quiet.","この写真を大切にする。
 kono shashin o taisetsu ni suru.
@@ -858,7 +858,7 @@ vocabulary list
 related grammar
 Level: JLPT N4
 Tags: stem form grammar , suffix
-How to use 使い方 Verb ます (stem form) にくい",jlpt_n4,"この質問には答えにくいです。
+How to use 使い方 Verb ます (stem form) にくい",jlpt_n4,,"この質問には答えにくいです。
 kono shitsumon niwa kotaenikui desu.
 This question is difficult to answer.","この本は字が小さくて読みにくいです。
 kono hon wa ji ga chiisakute yomi nikui desu.
@@ -875,7 +875,7 @@ vocabulary list
 related grammar
 Level: JLPT N4
 Tags: Japanese adverbs
-How to use 使い方 Noun の中で",jlpt_n4,"心の中ではこれを分かっていた。
+How to use 使い方 Noun の中で",jlpt_n4,,"心の中ではこれを分かっていた。
 kokoro no naka de kore o wakatteita.
 I know this in my heart.","病院の中で、待ちますか。
 byouin no naka de, machimasu ka?
@@ -892,7 +892,7 @@ vocabulary list
 related grammar
 Level: JLPT N4
 Tags: Japanese conjunctions , Japanese particles
-How to use 使い方 Verb (casual form) のに Noun + な な-adjective + な い-adjective",jlpt_n4,"まだ20時なのに、とても眠い。
+How to use 使い方 Verb (casual form) のに Noun + な な-adjective + な い-adjective",jlpt_n4,,"まだ20時なのに、とても眠い。
 mada 20 ji nano ni, totemo nemui.
 I'm really tired even though it's still only 8PM.","なぜ、彼らは冬なのに泳ぐのでしょうか？
 naze, karera wa fuyu na noni oyogu no deshou ka.
@@ -909,7 +909,7 @@ vocabulary list
 related grammar
 Level: JLPT N4
 Tags: Japanese particles
-How to use 使い方 Verb (dictionary form) のに",jlpt_n4,"始めるのに遅すぎることはない。
+How to use 使い方 Verb (dictionary form) のに",jlpt_n4,,"始めるのに遅すぎることはない。
 hajimeru no ni ososugiru koto wa nai.
 It's never too late to start.","家に帰るのに3時間かかりました。
 ie ni kaeru noni sanjikan kakarimashita.
@@ -926,7 +926,7 @@ vocabulary list
 related grammar
 Level: JLPT N4
 Tags: Japanese particles
-How to use 使い方 Verb (casual) のは ～だ ～です Noun + な な-adjective + な い-adjective",jlpt_n4,"毎日、新しい単語を覚えるのは大変です。
+How to use 使い方 Verb (casual) のは ～だ ～です Noun + な な-adjective + な い-adjective",jlpt_n4,,"毎日、新しい単語を覚えるのは大変です。
 mainichi, atarashii tango o oboeru nowa taihen desu.
 It is difficult to memorize new vocabulary every day.","私たちは結婚を決めたのは子どもができたからです。
 watashi tachi wa kekkon o kimeta nowa kodomo ga dekita kara desu.
@@ -943,7 +943,7 @@ vocabulary list
 related grammar
 Level: JLPT N4
 Tags: honorific expressions , stem form grammar
-How to use 使い方 お + Verb ます (stem form) ください お/ご + Noun (action)",jlpt_n4,"ここでお待ちください。
+How to use 使い方 お + Verb ます (stem form) ください お/ご + Noun (action)",jlpt_n4,,"ここでお待ちください。
 koko de omachi kudasai.
 Please wait here.","ここにお名前をお書きください。
 koko ni onamae o okaki kudasai.
@@ -960,7 +960,7 @@ vocabulary list
 related grammar
 Level: JLPT N4
 Tags: honorific expressions , stem form grammar
-How to use 使い方 お + Verb ます (stem form) になる になります お/ご + Noun",jlpt_n4,"何をお飲みになりますか。
+How to use 使い方 お + Verb ます (stem form) になる になります お/ご + Noun",jlpt_n4,,"何をお飲みになりますか。
 nani o onomi ni narimasu ka.
 What would you like to have to drink?","お座りになりませんか。
 osuwari ni narimasen ka?
@@ -977,7 +977,7 @@ vocabulary list
 related grammar
 Level: JLPT N4
 Tags: suffix
-How to use 使い方 Noun (measurable) おきに",jlpt_n4,"電車は5分おきに走っています。
+How to use 使い方 Noun (measurable) おきに",jlpt_n4,,"電車は5分おきに走っています。
 densha wa 5 fun oki ni hashitteimasu.
 The trains run every five minutes.","このバスは15分おきに出ている
 kono basu wa 15 fun okini dete iru.
@@ -994,7 +994,7 @@ vocabulary list
 related grammar
 Level: JLPT N4
 Tags: stem form grammar
-How to use 使い方 Verb ます (stem form) 終わる 終わらない 終わった etc.. Related Kanji 漢字 N4 Kanji: 終 (shuu, owaru) end, finish",jlpt_n4,"みんなが朝食を食べ終わるまで待ちましょう。
+How to use 使い方 Verb ます (stem form) 終わる 終わらない 終わった etc.. Related Kanji 漢字 N4 Kanji: 終 (shuu, owaru) end, finish",jlpt_n4,,"みんなが朝食を食べ終わるまで待ちましょう。
 minnna ga choushoku o tabe owaru made machimashou.
 Let's wait until everyone has finished eating breakfast.","そのゲームをやり終わるまでに5時間くらいかかる。
 sono geemu o yari owaru made ni 5 jikan kurai kakaru.
@@ -1011,7 +1011,7 @@ vocabulary list
 related grammar
 Level: JLPT N4
 Tags: suffix
-How to use 使い方 Verb (casual form) らしい らしく らしくない Noun な-adjective い-adjective",jlpt_n4,"雨らしい。
+How to use 使い方 Verb (casual form) らしい らしく らしくない Noun な-adjective い-adjective",jlpt_n4,,"雨らしい。
 ame rashii.
 It looks like rain / looks like it's gonna rain.","男らしい。
 otoko rashii.
@@ -1028,7 +1028,7 @@ vocabulary list
 related grammar
 Level: JLPT N4
 Tags: suffix
-How to use 使い方 な-adjective さ い-adjective + い",jlpt_n4,"背の高さはどれぐらいですか？
+How to use 使い方 な-adjective さ い-adjective + い",jlpt_n4,,"背の高さはどれぐらいですか？
 se no takasa wa dore gurai desu ka?
 How tall are you?","私は、ワサビの辛さが大好きです。
 watashi wa, wasabi no karasa ga daisuki desu.
@@ -1044,7 +1044,7 @@ example sentences
 vocabulary list
 related grammar
 Level: JLPT N4
-How to use 使い方 さっき Sentence",jlpt_n4,"さっきまで天気がよかったですが、今は大雨です。
+How to use 使い方 さっき Sentence",jlpt_n4,,"さっきまで天気がよかったですが、今は大雨です。
 sakki made tenki ga yokatta desu ga, ima wa ooame desu.
 The weather was fine just a moment ago, but now there's heavy rain..","さっき起きたばかりで、まだ眠いです。
 sakki okita bakari de, mada nemui desu.
@@ -1060,7 +1060,7 @@ example sentences
 vocabulary list
 related grammar
 Level: JLPT N4
-How to use 使い方 Verb (causative form させ る ) られる くる こさせられる やる やらせられる",jlpt_n4,"仕事を辞めさせられた。
+How to use 使い方 Verb (causative form させ る ) られる くる こさせられる やる やらせられる",jlpt_n4,,"仕事を辞めさせられた。
 shigoto o yame saserareta.
 I was forced to quit my job.","息子は退学させられた。
 musuko wa taigaku saserareta.
@@ -1076,7 +1076,7 @@ example sentences
 vocabulary list
 related grammar
 Level: JLPT N4
-How to use 使い方 Ru-verb る -> させる U-verb (ない form) ない -> せる する させる やる やらせる くる こさせる",jlpt_n4,"母は私に自分の部屋を片付けさせた。
+How to use 使い方 Ru-verb る -> させる U-verb (ない form) ない -> せる する させる やる やらせる くる こさせる",jlpt_n4,,"母は私に自分の部屋を片付けさせた。
 haha wa watashi ni jibun no heya o katadzuke saseta.
 My mother made me clean up my own room.","この仕事は部下にやらせます。
 kono shigoto wa buka ni yarasemasu.
@@ -1092,7 +1092,7 @@ example sentences
 vocabulary list
 related grammar
 Level: JLPT N4
-How to use 使い方 Verb (causative て form) ください",jlpt_n4,"質問させてください。
+How to use 使い方 Verb (causative て form) ください",jlpt_n4,,"質問させてください。
 shitsumon sasete kudasai.
 Please allow me to ask you a question.","私のことをあなたに話させてください。
 watashi no koto o anata ni hanasasete kudasai.
@@ -1109,7 +1109,7 @@ vocabulary list
 related grammar
 Level: JLPT N4
 Tags: Japanese conjunctions , Japanese particles
-How to use 使い方 Verb (casual) し Noun + だ な-adjective + だ い-adjective",jlpt_n4,"このコートは色がきれいだし、好きなデザインだし。買いたいですよ。
+How to use 使い方 Verb (casual) し Noun + だ な-adjective + だ い-adjective",jlpt_n4,,"このコートは色がきれいだし、好きなデザインだし。買いたいですよ。
 kono kooto wa iro ga kirei da shi, sukina dezain da shi. kaitai desu yo.
 This coat has a beautiful color and I like the design. I really want to buy it.","今日は週末だったし、天気が良かったので、公園は人が多かったです。
 kyou wa shuumatsu datta shi, tenki ga yokatta node, kouen wa hito ga ookatta desu.
@@ -1126,7 +1126,7 @@ vocabulary list
 related grammar
 Level: JLPT N4
 Tags: Japanese adverbs
-How to use 使い方 そんなに Verb な-adjective い-adjective",jlpt_n4,"昨日はそんなに忙しくなかった。
+How to use 使い方 そんなに Verb な-adjective い-adjective",jlpt_n4,,"昨日はそんなに忙しくなかった。
 kinou wa sonna ni isogashiku nakatta.
 Yesterday was not so busy.","日本語はそんなに難しくないよ。
 nihongo wa sonna ni muzukashi kunai yo.
@@ -1143,7 +1143,7 @@ vocabulary list
 related grammar
 Level: JLPT N4
 Tags: Japanese conjunctions
-How to use 使い方 Phrase 1 それでも Phrase 2",jlpt_n4,"それでもいいですか？
+How to use 使い方 Phrase 1 それでも Phrase 2",jlpt_n4,,"それでもいいですか？
 sore demo ii desu ka?
 Is that still OK with you?","それでもあなたのことが好き。
 sore demo anata no koto ga suki.
@@ -1160,7 +1160,7 @@ vocabulary list
 related grammar
 Level: JLPT N4
 Tags: stem form grammar , suffix
-How to use 使い方 Verb ます (stem form) そうに + Noun/Verb そうな + Noun/Verb な-adjective + だ い-adjective + い",jlpt_n4,"楽しそうに見える。
+How to use 使い方 Verb ます (stem form) そうに + Noun/Verb そうな + Noun/Verb な-adjective + だ い-adjective + い",jlpt_n4,,"楽しそうに見える。
 tanoshi sou ni mieru.
 You look like you are having fun.","楽しそうに見えた。
 tanoshi sou ni mieta.
@@ -1177,7 +1177,7 @@ vocabulary list
 related grammar
 Level: JLPT N4
 Tags: ところ expressions
-How to use 使い方 Verb (た form) ところ",jlpt_n4,"今起きたところです。
+How to use 使い方 Verb (た form) ところ",jlpt_n4,,"今起きたところです。
 ima okita tokoro desu.
 I just woke up.","昼ごはんを食べたところです。
 hirugohan o tabeta tokoro desu.
@@ -1193,13 +1193,13 @@ example sentences
 vocabulary list
 related grammar
 Level: JLPT N4
-How to use 使い方 see rules below",jlpt_n4,,,,,
+How to use 使い方 see rules below",jlpt_n4,,,,,,
 たがる(tagaru),wants to do ~ (third person),"Meaning 意味 wants to do ~ (third person)
 example sentences
 vocabulary list
 related grammar
 Level: JLPT N4
-How to use 使い方 Verb (たい form) た い がる がっている がった がらない",jlpt_n4,"その子が家に帰りたがっている。
+How to use 使い方 Verb (たい form) た い がる がっている がった がらない",jlpt_n4,,"その子が家に帰りたがっている。
 sono ko ga ie ni kaeri tagatteiru.
 That kid seems like he wants to go home.","木村さんが、あなたに会いたがっていましたよ。
 kimura-san ga, anata ni ai tagatte imashita yo.
@@ -1216,7 +1216,7 @@ vocabulary list
 related grammar
 Level: JLPT N4
 Tags: Japanese conjunctions , Japanese particles
-How to use 使い方 Verb (た form) ら Noun + だった な-adjective + だった い-adjective + い かった",jlpt_n4,"お金があったら、旅行します。
+How to use 使い方 Verb (た form) ら Noun + だった な-adjective + だった い-adjective + い かった",jlpt_n4,,"お金があったら、旅行します。
 okane ga attara, ryokou shimasu.
 If I had money, I would go travel.","一口食べたら、きっと好きになるよ。
 hitokuchi tabetara, kitto suki ni naru yo.
@@ -1233,7 +1233,7 @@ vocabulary list
 related grammar
 Level: JLPT N4
 Tags: Japanese conjunctions
-How to use 使い方 Verb (た form) らいいですか",jlpt_n4,"どうしたらいいですか？
+How to use 使い方 Verb (た form) らいいですか",jlpt_n4,,"どうしたらいいですか？
 dou shitara ii desu ka?
 What should I do?","どこに行ったらいいですか。
 doko ni ittara ii desu ka.
@@ -1250,7 +1250,7 @@ vocabulary list
 related grammar
 Level: JLPT N4
 Tags: auxiliary , Japanese conjunctions , Japanese particles
-How to use 使い方 Verb (て form) Noun +で (usually bad things) な-adjective + で い-adjective + い くて",jlpt_n4,"最近は忙しくてあまり運動をしていない。
+How to use 使い方 Verb (て form) Noun +で (usually bad things) な-adjective + で い-adjective + い くて",jlpt_n4,,"最近は忙しくてあまり運動をしていない。
 saikin wa isogashi kute amari undou o shiteinai.
 Lately, I've been busy and so I haven't been working out.","自転車のカギをなくして、家まで歩いて帰った。
 jitensha no kagi o nakushite, ie made aruite kaetta.
@@ -1266,7 +1266,7 @@ example sentences
 vocabulary list
 related grammar
 Level: JLPT N4
-How to use 使い方 Verb (て form) あげる あげた あげない あげます",jlpt_n4,"母にセーターを買ってあげた。
+How to use 使い方 Verb (て form) あげる あげた あげない あげます",jlpt_n4,,"母にセーターを買ってあげた。
 haha ni seetaa o katte ageta.
 I bought my mother a sweater.","いいよ，僕がやってあげるよ。
 iiyo, boku ga yatte ageru yo.
@@ -1282,7 +1282,7 @@ example sentences
 vocabulary list
 related grammar
 Level: JLPT N4
-How to use 使い方 Verb (て form) ほしい 欲しい Verb (ないで form) Related Kanji 漢字 N3 Kanji: 欲 (yoku, hoshii) Meaning: longing, greed, passion",jlpt_n4,"日本語を教えてほしいです。
+How to use 使い方 Verb (て form) ほしい 欲しい Verb (ないで form) Related Kanji 漢字 N3 Kanji: 欲 (yoku, hoshii) Meaning: longing, greed, passion",jlpt_n4,,"日本語を教えてほしいです。
 nihongo o oshiete hoshii desu.
 I want you to teach me Japanese.","先生には、もっとゆっくり話してほしいです。
 sensei ni wa, motto yukkuri hanashite hoshii desu.
@@ -1298,7 +1298,7 @@ example sentences
 vocabulary list
 related grammar
 Level: JLPT N4
-How to use 使い方 Verb (て form) いく いきます いった いきました",jlpt_n4,"歩いていく。
+How to use 使い方 Verb (て form) いく いきます いった いきました",jlpt_n4,,"歩いていく。
 aruite iku.
 to walk / to go by walking / to start walking","彼は毎日駅まで歩いていきます。
 kare wa mainichi eki made aruite ikimasu.
@@ -1314,7 +1314,7 @@ example sentences
 vocabulary list
 related grammar
 Level: JLPT N4
-How to use 使い方 Verb (て form) いた いました",jlpt_n4,"彼女はオレンジを食べていた。
+How to use 使い方 Verb (て form) いた いました",jlpt_n4,,"彼女はオレンジを食べていた。
 kanojo wa orenji o tabeteita.
 She was eating an orange.","今日は家でゆっくりしていました。
 kyou wa ie de yukkuri shiteimashita.
@@ -1331,7 +1331,7 @@ vocabulary list
 related grammar
 Level: JLPT N4
 Tags: ～か
-How to use 使い方 Verb (て form) いただけませんか",jlpt_n4,"写真を取っていただけませんか。
+How to use 使い方 Verb (て form) いただけませんか",jlpt_n4,,"写真を取っていただけませんか。
 shashin o totte itadake masen ka.
 Could you take a picture please?","ちょっと待っていただけませんか。
 chotto matte itadake masen ka?
@@ -1347,7 +1347,7 @@ example sentences
 vocabulary list
 related grammar
 Level: JLPT N4
-How to use 使い方 Verb (て form) くれる くれます くれない くれた くれました",jlpt_n4,"手伝ってくれる？
+How to use 使い方 Verb (て form) くれる くれます くれない くれた くれました",jlpt_n4,,"手伝ってくれる？
 tetsudatte kureru?
 Will you help me?","彼ならやってくれる。
 kare nara yatte kureru.
@@ -1363,7 +1363,7 @@ example sentences
 vocabulary list
 related grammar
 Level: JLPT N4
-How to use 使い方 Verb (て form) くる きた きます きました",jlpt_n4,"見えてくる。
+How to use 使い方 Verb (て form) くる きた きます きました",jlpt_n4,,"見えてくる。
 miete kuru
 To come into view (to start coming into view/ to continue coming into view)","雨が降ってきた。
 ame ga futte kita.
@@ -1379,7 +1379,7 @@ example sentences
 vocabulary list
 related grammar
 Level: JLPT N4
-How to use 使い方 Verb (て form) みる みます みたい",jlpt_n4,"やってみる！
+How to use 使い方 Verb (て form) みる みます みたい",jlpt_n4,,"やってみる！
 yatte miru!
 I'll give it a shot! / Here goes nothing!","これを使ってみる。
 kore o tsukatte miru.
@@ -1395,7 +1395,7 @@ example sentences
 vocabulary list
 related grammar
 Level: JLPT N4
-How to use 使い方 Verb (て form) もらう もらいます もらいたい もらわない もらいません",jlpt_n4,"彼に来てもらう。
+How to use 使い方 Verb (て form) もらう もらいます もらいたい もらわない もらいません",jlpt_n4,,"彼に来てもらう。
 kare ni kite morau.
 I will have him come.","先生に作文を直してもらう。
 sensei ni sakubun o naoshite morau.
@@ -1411,7 +1411,7 @@ example sentences
 vocabulary list
 related grammar
 Level: JLPT N4
-How to use 使い方 Verb (て form) おく おきます おいて",jlpt_n4,"お弁当を作っておいたよ。
+How to use 使い方 Verb (て form) おく おきます おいて",jlpt_n4,,"お弁当を作っておいたよ。
 obentou o tsukutte oita yo.
 I made your bento (lunch box) already.","出かける前に何か食べておこう。
 dekakeru mae ni nanika tabete okou.
@@ -1427,7 +1427,7 @@ example sentences
 vocabulary list
 related grammar
 Level: JLPT N4
-How to use 使い方 Verb (て form) しまう しまいます しまった Verb (て form) ちゃう ちゃった Verb (で form) じゃう じゃった",jlpt_n4,"仕事は全部終わってしまいました。
+How to use 使い方 Verb (て form) しまう しまいます しまった Verb (て form) ちゃう ちゃった Verb (で form) じゃう じゃった",jlpt_n4,,"仕事は全部終わってしまいました。
 shigoto wa zenbu owatte shimai mashita.
 I've finished with all of my work.","疲れが出たので、寝ちゃった。
 tsukare ga deta node, nechatta.
@@ -1443,7 +1443,7 @@ example sentences
 vocabulary list
 related grammar
 Level: JLPT N4
-How to use 使い方 Verb (て form) すみません",jlpt_n4,"遅れてすみません。
+How to use 使い方 Verb (て form) すみません",jlpt_n4,,"遅れてすみません。
 okurete sumimasen.
 I'm sorry for being late.","心配をかけてすみません。
 shinpai o kakete sumimasen.
@@ -1459,7 +1459,7 @@ example sentences
 vocabulary list
 related grammar
 Level: JLPT N4
-How to use 使い方 Verb (て form) よかった",jlpt_n4,"行ってよかった！
+How to use 使い方 Verb (て form) よかった",jlpt_n4,,"行ってよかった！
 itte yokatta!
 I'm glad I went!","これを買ってよかった。
 kore o katte yokatta.
@@ -1476,7 +1476,7 @@ vocabulary list
 related grammar
 Level: JLPT N4
 Tags: Japanese particles , ても expressions
-How to use 使い方 Verb (て form) も Noun + で な-adjective + で い-adjective + い くて",jlpt_n4,"たくさん食べても、お腹が空きます。
+How to use 使い方 Verb (て form) も Noun + で な-adjective + で い-adjective + い くて",jlpt_n4,,"たくさん食べても、お腹が空きます。
 takusan tabetemo, onaka ga sukimasu.
 Even if I eat a lot, I still feel hungry.","日曜日でも、働きます。
 nichiyoubi demo, hatarakimasu.
@@ -1493,7 +1493,7 @@ vocabulary list
 related grammar
 Level: JLPT N4
 Tags: Japanese conjunctions , Japanese particles
-How to use 使い方 Verb (dictionary / ない form) と Noun + だ な-adjective + だ い-adjective + い",jlpt_n4,"ラーメンを毎日食べると太りますよ。
+How to use 使い方 Verb (dictionary / ない form) と Noun + だ な-adjective + だ い-adjective + い",jlpt_n4,,"ラーメンを毎日食べると太りますよ。
 raamen o mainichi taberu to futorimasu yo.
 If you eat ramen everyday, you're gonna gain weight.","寝る前に甘い物を食べると虫歯になります。
 neru mae ni amai mono o taberu to mushiba ni narimasu.
@@ -1510,7 +1510,7 @@ vocabulary list
 related grammar
 Level: JLPT N4
 Tags: Japanese conjunctions
-How to use 使い方 phrase と言ってもいい といっても",jlpt_n4,"それはよい買い物だったといってもいいでしょう。
+How to use 使い方 phrase と言ってもいい といっても",jlpt_n4,,"それはよい買い物だったといってもいいでしょう。
 sore wa yoi kaimono to ittemo ii deshou.
 I'd say it was a good buy.","彼はやさしいが，だまされやすいといってもいい。
 kare wa yasashii ga, damasare yasui to ittemo ii.
@@ -1527,7 +1527,7 @@ vocabulary list
 related grammar
 Level: JLPT N4
 Tags: Japanese particles
-How to use 使い方 Noun と言う という と言います といいます Phrase",jlpt_n4,"この犬はバディーという名前です。
+How to use 使い方 Noun と言う という と言います といいます Phrase",jlpt_n4,,"この犬はバディーという名前です。
 kono inu wa badii to iu namae desu.
 This dog is called ""Buddy"".","昨日、トムという人に会いました。
 kinou, tomu to iu hito ni aimashita.
@@ -1544,7 +1544,7 @@ vocabulary list
 related grammar
 Level: JLPT N4
 Tags: こと expressions
-How to use 使い方 Verb (casual) ということ Noun + だ な-adjective + だ い-adjective",jlpt_n4,"あなたが私の声が好きだということがとても嬉しいです。
+How to use 使い方 Verb (casual) ということ Noun + だ な-adjective + だ い-adjective",jlpt_n4,,"あなたが私の声が好きだということがとても嬉しいです。
 anata ga watashi no koe ga suki da to iu koto ga totemo ureshii desu.
 I'm so glad you like my voice.","あなたが会社をやめるということは本当ですか。
 anata ga kaisha o yameru to iu koto wa hontou desuka?
@@ -1560,7 +1560,7 @@ example sentences
 vocabulary list
 related grammar
 Level: JLPT N4
-How to use 使い方 Verb (casual, past) と言われている Noun + だ Adjective (standard, past) Related Kanji 漢字 N4 Kanji: 言 (gen, koto) say",jlpt_n4,"彼は天才だと言われている。
+How to use 使い方 Verb (casual, past) と言われている Noun + だ Adjective (standard, past) Related Kanji 漢字 N4 Kanji: 言 (gen, koto) say",jlpt_n4,,"彼は天才だと言われている。
 kare wa tensai da to iwareteiru.
 He is said to be a genius.","彼は来月に退職すると言われている。
 kare wa raigetsu ni taishoku suru to iwarete iru.
@@ -1576,7 +1576,7 @@ example sentences
 vocabulary list
 related grammar
 Level: JLPT N4
-How to use 使い方 Verb と思う と思います と思わない と思いません Noun + だ な-adjective + だ い-adjective",jlpt_n4,"きれいだと思わない？
+How to use 使い方 Verb と思う と思います と思わない と思いません Noun + だ な-adjective + だ い-adjective",jlpt_n4,,"きれいだと思わない？
 kirei da to omowanai?
 Don't you think it's beautiful?","それはかなりむずかしいと思います。
 sore wa kanari muzukashii da to omoimasu.
@@ -1593,7 +1593,7 @@ vocabulary list
 related grammar
 Level: JLPT N4
 Tags: Japanese conjunctions , Japanese particles
-How to use 使い方 Verb (dictionary form) + とか Verb (dictionary form) + とか Noun + とか Noun + とか",jlpt_n4,"趣味とかありますか？
+How to use 使い方 Verb (dictionary form) + とか Verb (dictionary form) + とか Noun + とか Noun + とか",jlpt_n4,,"趣味とかありますか？
 shumi toka arimasu ka?
 Do you have any hobbies (or anything else you do)","私はおすしとかラーメンとか日本料理が好きです。
 watashi wa osushi to ka raamen to ka nihon ryouri ga daisuki desu.
@@ -1610,7 +1610,7 @@ vocabulary list
 related grammar
 Level: JLPT N4
 Tags: suffix , ところ expressions
-How to use 使い方 Verb (casual, non-past) ところ",jlpt_n4,"今、出かけるところです。
+How to use 使い方 Verb (casual, non-past) ところ",jlpt_n4,,"今、出かけるところです。
 ima, dekakeru tokoro desu.
 I am just about to leave.","これから料理を作るところです。
 kore kara ryouri o tsukuru tokoro desu.
@@ -1626,7 +1626,7 @@ vocabulary list
 related grammar
 Level: JLPT N4
 Tags: stem form grammar
-How to use 使い方 Verb (ます stem) ます 続ける 続けている 続けた Related Kanji 漢字 N3 Kanji: 続 (zoku, tsuzuku) continue",jlpt_n4,"昨日から雨が降り続けている。
+How to use 使い方 Verb (ます stem) ます 続ける 続けている 続けた Related Kanji 漢字 N3 Kanji: 続 (zoku, tsuzuku) continue",jlpt_n4,,"昨日から雨が降り続けている。
 kinou kara ame ga furi tsuzukete iru.
 It's been raining nonstop since yesterday.","父からもらった自転車を今も使い続けています。
 chichi kara moratta jitensha o ima mo tsukai tsuzukete imasu.
@@ -1643,7 +1643,7 @@ vocabulary list
 related grammar
 Level: JLPT N4
 Tags: Japanese particles
-How to use 使い方 Noun って っていう",jlpt_n4,"これはたい焼きっていう食べ物だよ。
+How to use 使い方 Noun って っていう",jlpt_n4,,"これはたい焼きっていう食べ物だよ。
 kore wa taiyaki tte iu tabe mono da yo.
 This is a food called ""taiyaki"".","コストコってスーパーに行ったことがありますか。
 kosutoko tte suupaa ni itta koto ga arimasu ka?
@@ -1660,7 +1660,7 @@ vocabulary list
 related grammar
 Level: JLPT N4
 Tags: stem form grammar
-How to use 使い方 Verb ます (stem form) やすい",jlpt_n4,"日本語は分かりやすいです。
+How to use 使い方 Verb ます (stem form) やすい",jlpt_n4,,"日本語は分かりやすいです。
 nihongo wa wakari yasui desu.
 Japanese is easy to understand.","先生の声が聞きやすいです。
 sensei no koe ga kiki yasui desu.
@@ -1677,7 +1677,7 @@ vocabulary list
 related grammar
 Level: JLPT N4
 Tags: Japanese adverbs
-How to use 使い方 やっと phrase",jlpt_n4,"やっとレポートを書き上げた。
+How to use 使い方 やっと phrase",jlpt_n4,,"やっとレポートを書き上げた。
 yatto repooto o kaki ageta.
 I finally finished writing my report.","私はやっと家に帰ることが出来る。
 watashi wa yatto ie ni kaeru koto ga dekiru.
@@ -1693,7 +1693,7 @@ vocabulary list
 related grammar
 Level: JLPT N4
 Tags: Japanese adverbs , Japanese particles
-How to use 使い方 [A]より[B] OR より + adjective",jlpt_n4,"今日は昨日より暑いです。
+How to use 使い方 [A]より[B] OR より + adjective",jlpt_n4,,"今日は昨日より暑いです。
 kyou wa kinou yori atsui desu.
 Today is more hot than yesterday.","最近、円はドルより安い。
 saikin, en wa doru yoru yasui.
@@ -1710,7 +1710,7 @@ vocabulary list
 related grammar
 Level: JLPT N4
 Tags: auxiliary , suffix , よう expressions
-How to use 使い方 Verb (casual) ようだ Noun + の な-adjective + な い-adjective",jlpt_n4,"雨のようだ。
+How to use 使い方 Verb (casual) ようだ Noun + の な-adjective + な い-adjective",jlpt_n4,,"雨のようだ。
 ame no you da.
 It looks like rain..","そのようだ。
 sono you da.
@@ -1727,7 +1727,7 @@ vocabulary list
 related grammar
 Level: JLPT N4
 Tags: よう expressions
-How to use 使い方 Verb (casual) ように ような Noun + の",jlpt_n4,"犬のように働いている。
+How to use 使い方 Verb (casual) ように ような Noun + の",jlpt_n4,,"犬のように働いている。
 inu no you ni hataraiteiru.
 I'm working like a dog","その二人は燃えるような愛がありますね。
 sono futari wa moeru you na ai ga arimasune.
@@ -1744,7 +1744,7 @@ vocabulary list
 related grammar
 Level: JLPT N4
 Tags: よう expressions
-How to use 使い方 Verb (dictionary form) ようになる Verb (ない form)",jlpt_n4,"大きくなったら分かるようになるよ。
+How to use 使い方 Verb (dictionary form) ようになる Verb (ない form)",jlpt_n4,,"大きくなったら分かるようになるよ。
 ookiku nattara wakaru you ni naru yo.
 When you get older, you'll understand.","毎日練習すれば、泳げるようになります。
 mainichi renshuu sureba, oyogeru youni narimasu.
@@ -1761,7 +1761,7 @@ vocabulary list
 related grammar
 Level: JLPT N4
 Tags: よう expressions
-How to use 使い方 Verb (dictionary form) ようにする ようにします ようにしている ようにしています Verb (ない form)",jlpt_n4,"明日早く起きるようにする。
+How to use 使い方 Verb (dictionary form) ようにする ようにします ようにしている ようにしています Verb (ない form)",jlpt_n4,,"明日早く起きるようにする。
 ashita hayaku okiru you ni suru.
 I'll try to wake up early tomorrow.","それを忘れないようにする。
 sore o wasurenai you ni suru.
@@ -1778,7 +1778,7 @@ vocabulary list
 related grammar
 Level: JLPT N4
 Tags: Japanese adverbs
-How to use 使い方 ぜひ 是非 Phrase Related Kanji 漢字 N1 Kanji: 是 (ze, shi, kore, kono, koko) Meaning: just so, this, right, justice",jlpt_n4,"私はぜひそこで働きたい。
+How to use 使い方 ぜひ 是非 Phrase Related Kanji 漢字 N1 Kanji: 是 (ze, shi, kore, kono, koko) Meaning: just so, this, right, justice",jlpt_n4,,"私はぜひそこで働きたい。
 watashi wa zehi soko de hatarakitai.
 I would really like to work there.","ぜひ、今度うちへ遊びに来てください。
 zehi, kondo uchi e asobi ni kite kudasai.
@@ -1795,7 +1795,7 @@ vocabulary list
 related grammar
 Level: JLPT N4
 Tags: stem form grammar
-How to use 使い方 Verb (ます stem) ます づらい",jlpt_n4,"この質問には答えづらいです。
+How to use 使い方 Verb (ます stem) ます づらい",jlpt_n4,,"この質問には答えづらいです。
 kono shitsumon niwa kotae zurai desu.
 This question is difficult to answer.","この本は字が小さくて読みづらいです。
 kono hon wa ji ga chiisakute yomi zurai desu.

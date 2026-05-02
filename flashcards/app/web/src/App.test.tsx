@@ -67,14 +67,13 @@ describe("App", () => {
     expect(studyButton).toHaveAttribute("aria-current", "page");
   });
 
-  it("renders tab navigation with Study, Import, Decks, Search, Metrics, Leeches when authenticated", async () => {
+  it("renders tab navigation with Study, Decks, Search, Metrics, Leeches when authenticated", async () => {
     renderAuthenticatedApp();
     await waitFor(() => {
       expect(screen.getByRole("navigation", { name: /primary/i })).toBeInTheDocument();
     });
     const nav = screen.getByRole("navigation", { name: /primary/i });
     expect(within(nav).getByRole("button", { name: /^study$/i })).toBeInTheDocument();
-    expect(within(nav).getByRole("button", { name: /^import$/i })).toBeInTheDocument();
     expect(within(nav).getByRole("button", { name: /^decks$/i })).toBeInTheDocument();
     expect(within(nav).getByRole("button", { name: /^search$/i })).toBeInTheDocument();
     expect(within(nav).getByRole("button", { name: /^metrics$/i })).toBeInTheDocument();
@@ -161,18 +160,19 @@ describe("App", () => {
       expect(within(nav).getByRole("button", { name: /study/i })).toBeInTheDocument();
     });
 
-    fireEvent.click(within(nav).getByRole("button", { name: /import/i }));
-    expect(await screen.findByText(/Bring in CSVs for grammar, vocabulary, and kanji/i)).toBeInTheDocument();
-    expect(screen.getByText(/^Grammar$/)).toBeInTheDocument();
-    expect(screen.getAllByText(/CSV header:/i).length).toBeGreaterThanOrEqual(3);
-    expect(screen.getByText(/^Vocabulary$/)).toBeInTheDocument();
-    expect(screen.getByText(/rank, word, reading_kana, reading_romaji, part_of_speech, meaning, example_1, example_2/)).toBeInTheDocument();
-    expect(screen.getByText(/^Kanji$/)).toBeInTheDocument();
-    expect(screen.getByText(/rank, kanji, onyomi, kunyomi, meaning, example_1, example_2/)).toBeInTheDocument();
+    fireEvent.click(within(nav).getByRole("button", { name: /^decks$/i }));
+    expect(
+      await screen.findByText(/Import grammar, vocabulary, and kanji from CSV, or export a deck/i)
+    ).toBeInTheDocument();
+    expect(screen.getByLabelText(/choose grammar csv/i)).toBeInTheDocument();
+    expect(screen.getAllByText(/CSV header:/i).length).toBeGreaterThanOrEqual(1);
+    expect(screen.queryByLabelText(/choose vocabulary csv/i)).not.toBeInTheDocument();
+    expect(screen.queryByLabelText(/choose kanji csv/i)).not.toBeInTheDocument();
+    expect(
+      screen.getByText(/japanese_expression, english_meaning, grammar_structure, labels, notes, example_1/i)
+    ).toBeInTheDocument();
+    expect(screen.getByText(/Export to CSV/)).toBeInTheDocument();
     expect(screen.getByText(/Reimport \/ Sync/)).toBeInTheDocument();
-
-    fireEvent.click(within(nav).getByRole("button", { name: /decks/i }));
-    expect(await screen.findByText(/manage decks and exports/i)).toBeInTheDocument();
 
     fireEvent.click(within(nav).getByRole("button", { name: /metrics/i }));
     expect(await screen.findByText("Metrics")).toBeInTheDocument();

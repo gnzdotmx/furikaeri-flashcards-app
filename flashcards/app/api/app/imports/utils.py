@@ -34,6 +34,17 @@ def norm_text(s: str) -> str:
     return s.strip()
 
 
+def normalize_notes_cell(value: str | None) -> str:
+    """
+    Normalize optional CSV notes: NFKC + strip ends only (preserves newlines within the cell).
+    Used for the `notes` column; unlike norm_text, internal line breaks are kept.
+    """
+    if value is None:
+        return ""
+    s = unicodedata.normalize("NFKC", str(value))
+    return s.strip()
+
+
 def decode_upload(data: bytes) -> io.StringIO:
     """Decode UTF-8 (with BOM) to StringIO for csv reader."""
     try:

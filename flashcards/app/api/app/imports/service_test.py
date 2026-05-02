@@ -224,6 +224,103 @@ def test_import_items_merge_examples() -> None:
         os.remove(path)
 
 
+def test_import_items_merge_examples_preserves_notes_when_incoming_blank() -> None:
+    """Blank notes in CSV must not erase an existing deck note (merge uses out.update)."""
+    path = _temp_db()
+    try:
+        ensure_db(path)
+        run_migrations(path)
+        with connection(path) as conn:
+            from app.repositories.notes import NoteRepository
+
+            notes = NoteRepository(conn)
+            items1 = [
+                ImportItem(
+                    source_type="grammar",
+                    level="N5",
+                    key="だ",
+                    fields={
+                        "japanese_expression": "だ",
+                        "english_meaning": "to be",
+                        "grammar_structure": "",
+                        "examples": ["ex1"],
+                        "notes": "Keep this memo",
+                    },
+                ),
+            ]
+            import_items_into_deck(conn=conn, level="N5", deck_name="D", source_type="grammar", items=items1, merge_policy="overwrite")
+            items2 = [
+                ImportItem(
+                    source_type="grammar",
+                    level="N5",
+                    key="だ",
+                    fields={
+                        "japanese_expression": "だ",
+                        "english_meaning": "to be",
+                        "grammar_structure": "",
+                        "examples": ["ex2", "ex1"],
+                        "notes": "",
+                    },
+                ),
+            ]
+            import_items_into_deck(conn=conn, level="N5", deck_name="D", source_type="grammar", items=items2, merge_policy="merge_examples")
+            row = notes.get_note_by_key(source_type="grammar", level="N5", key="だ")
+            import json
+
+            merged = json.loads(row["fields_json"])
+            assert merged.get("notes") == "Keep this memo"
+    finally:
+        os.remove(path)
+
+
+def test_import_items_merge_examples_overwrites_notes_when_incoming_nonempty() -> None:
+    path = _temp_db()
+    try:
+        ensure_db(path)
+        run_migrations(path)
+        with connection(path) as conn:
+            from app.repositories.notes import NoteRepository
+
+            notes = NoteRepository(conn)
+            items1 = [
+                ImportItem(
+                    source_type="grammar",
+                    level="N5",
+                    key="だ",
+                    fields={
+                        "japanese_expression": "だ",
+                        "english_meaning": "to be",
+                        "grammar_structure": "",
+                        "examples": [],
+                        "notes": "Old",
+                    },
+                ),
+            ]
+            import_items_into_deck(conn=conn, level="N5", deck_name="D", source_type="grammar", items=items1, merge_policy="overwrite")
+            items2 = [
+                ImportItem(
+                    source_type="grammar",
+                    level="N5",
+                    key="だ",
+                    fields={
+                        "japanese_expression": "だ",
+                        "english_meaning": "to be",
+                        "grammar_structure": "",
+                        "examples": [],
+                        "notes": "New text",
+                    },
+                ),
+            ]
+            import_items_into_deck(conn=conn, level="N5", deck_name="D", source_type="grammar", items=items2, merge_policy="merge_examples")
+            row = notes.get_note_by_key(source_type="grammar", level="N5", key="だ")
+            import json
+
+            merged = json.loads(row["fields_json"])
+            assert merged.get("notes") == "New text"
+    finally:
+        os.remove(path)
+
+
 def test_import_items_merge_examples_malformed_json_overwrites() -> None:
     path = _temp_db()
     try:
@@ -356,5 +453,141 @@ def test_sync_items_merge_examples() -> None:
             import json as _json
             merged = _json.loads(row["fields_json"])
             assert "ex1" in merged.get("examples", []) and "ex2" in merged.get("examples", [])
+    finally:
+        os.remove(path)
+
+
+def test_sync_items_merge_examples_preserves_notes_when_incoming_blank() -> None:
+    path = _temp_db()
+    try:
+        ensure_db(path)
+        run_migrations(path)
+        with connection(path) as conn:
+            from app.repositories.notes import NoteRepository
+
+            notes = NoteRepository(conn)
+            result = import_items_into_deck(
+                conn=conn,
+                level="N5",
+                deck_name="D",
+                source_type="grammar",
+                items=[
+                    ImportItem(
+                        source_type="grammar",
+                        level="N5",
+                        key="だ",
+                        fields={
+                            "japanese_expression": "だ",
+                            "english_meaning": "to be",
+                            "grammar_structure": "",
+                            "examples": ["a"],
+                            "notes": "Memo",
+                        },
+                    )
+                ],
+                merge_policy="overwrite",
+            )
+            deck_id = result["deck_id"]
+            conn.commit()
+            sync_items_into_deck(
+                conn=conn,
+                deck_id=deck_id,
+                level="N5",
+                source_type="grammar",
+                items=[
+                    ImportItem(
+                        source_type="grammar",
+                        level="N5",
+                        key="だ",
+                        fields={
+                            "japanese_expression": "だ",
+                            "english_meaning": "to be",
+                            "grammar_structure": "",
+                            "examples": ["b", "a"],
+                            "notes": "",
+                        },
+                    )
+                ],
+                merge_existing="merge_examples",
+            )
+            row = notes.get_note_by_key(source_type="grammar", level="N5", key="だ")
+            import json as _json
+
+            merged = _json.loads(row["fields_json"])
+            assert merged.get("notes") == "Memo"
+    finally:
+        os.remove(path)
+
+
+def test_sync_items_replace_existing_overwrites_fields_exactly() -> None:
+    """Sync with replace_existing: existing note fields are replaced by incoming CSV-mapped fields."""
+    path = _temp_db()
+    try:
+        ensure_db(path)
+        run_migrations(path)
+        with connection(path) as conn:
+            from app.repositories.notes import NoteRepository
+
+            notes = NoteRepository(conn)
+            result = import_items_into_deck(
+                conn=conn,
+                level="N5",
+                deck_name="D",
+                source_type="grammar",
+                items=[
+                    ImportItem(
+                        source_type="grammar",
+                        level="N5",
+                        key="だ",
+                        fields={
+                            "japanese_expression": "だ",
+                            "english_meaning": "to be",
+                            "grammar_structure": "old-structure",
+                            "examples": ["old-ex-1", "old-ex-2"],
+                            "labels": ["old-label"],
+                            "notes": "Old note",
+                        },
+                    )
+                ],
+                merge_policy="overwrite",
+            )
+            deck_id = result["deck_id"]
+            conn.commit()
+
+            result2 = sync_items_into_deck(
+                conn=conn,
+                deck_id=deck_id,
+                level="N5",
+                source_type="grammar",
+                items=[
+                    ImportItem(
+                        source_type="grammar",
+                        level="N5",
+                        key="だ",
+                        fields={
+                            "japanese_expression": "だ",
+                            "english_meaning": "is",
+                            "grammar_structure": "new-structure",
+                            "examples": ["new-ex-only"],
+                            "labels": ["new-label-a", "new-label-b"],
+                            "notes": "",
+                        },
+                    )
+                ],
+                merge_existing="replace_existing",
+            )
+            assert result2["updated_notes"] == 1
+            assert result2["skipped"] == 0
+
+            row = notes.get_note_by_key(source_type="grammar", level="N5", key="だ")
+            import json as _json
+
+            replaced = _json.loads(row["fields_json"])
+            assert replaced.get("english_meaning") == "is"
+            assert replaced.get("grammar_structure") == "new-structure"
+            assert replaced.get("examples") == ["new-ex-only"]
+            assert replaced.get("labels") == ["new-label-a", "new-label-b"]
+            # replace_existing should not preserve old notes when incoming note is blank.
+            assert replaced.get("notes", None) == ""
     finally:
         os.remove(path)

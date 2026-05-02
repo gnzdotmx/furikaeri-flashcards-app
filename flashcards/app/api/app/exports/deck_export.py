@@ -1,6 +1,13 @@
 """
 Export deck cards in the same CSV format as import (vocabulary, grammar, kanji).
 One row per note; format matches the corresponding import adapter so round-trip is lossless.
+
+Storage (SQLite):
+- Deck CSV column `notes` (shown as "Deck note" when studying): `notes.fields_json` -> key "notes",
+  and a copy on each generated card's `back_template` JSON -> "notes".
+- Per-card "My note" (study UI): `card_study_notes` (user_id, card_id, body). When export_user_id
+  is set, distinct My note bodies for cards of that note are appended into the exported `notes` cell
+  so backup/round-trip does not lose personal text.
 """
 
 import json
@@ -9,13 +16,87 @@ from typing import Any
 from ..repositories.notes import NoteRepository
 from .csv_export import sanitize_csv_cell, write_csv
 
-# Vocabulary: rank, word, reading_kana, reading_romaji, part_of_speech, meaning, example_1..N
+
+def _notes_cell_for_export(fields: dict[str, Any], back_fallback: dict[str, Any] | None) -> str:
+    """Deck CSV `notes` from note fields, or from card back_template if fields were cleared by an old merge."""
+    for src in (fields, back_fallback):
+        if not src:
+            continue
+        v = src.get("notes")
+        if v is None:
+            continue
+        s = str(v).strip()
+        if s:
+            return s
+    return ""
+
+
+def _study_notes_by_card_id(conn: Any, user_id: str, deck_id: str) -> dict[str, str]:
+    rows = conn.execute(
+        """
+        SELECT csn.card_id AS card_id, csn.body AS body
+        FROM card_study_notes AS csn
+        INNER JOIN cards AS c ON c.id = csn.card_id
+        WHERE csn.user_id = ? AND c.deck_id = ?;
+        """,
+        (user_id, deck_id),
+    ).fetchall()
+    return {str(r["card_id"]): str(r["body"]) for r in rows}
+
+
+def _study_bodies_for_note(study_by_card: dict[str, str], card_rows: list[dict[str, Any]], note_id: str) -> list[str]:
+    bodies: list[str] = []
+    seen: set[str] = set()
+    for c in card_rows:
+        if (c.get("note_id") or "") != note_id:
+            continue
+        cid = c.get("id")
+        if not cid:
+            continue
+        body = study_by_card.get(str(cid))
+        if not body:
+            continue
+        t = str(body).strip()
+        if t and t not in seen:
+            seen.add(t)
+            bodies.append(t)
+    return bodies
+
+
+def _compose_csv_notes_cell(deck_notes: str, study_bodies: list[str]) -> str:
+    """Single CSV `notes` field: imported deck note plus distinct per-card study notes for this note."""
+    parts: list[str] = []
+    d = (deck_notes or "").strip()
+    if d:
+        parts.append(d)
+    seen = set(parts)
+    for raw in study_bodies:
+        s = str(raw or "").strip()
+        if s and s not in seen:
+            seen.add(s)
+            parts.append(s)
+    return "\n\n".join(parts)
+
+
+def _labels_cell_from_fields(fields: dict[str, Any]) -> str:
+    labels = fields.get("labels")
+    if isinstance(labels, list):
+        parts = [str(x).strip() for x in labels if x is not None and str(x).strip()]
+        return ";".join(parts)
+    if labels:
+        return str(labels).strip()
+    return ""
+
+
+# Vocabulary: rank, word, reading_kana, reading_romaji, part_of_speech, labels, notes, meaning, example_1..N
 VOCAB_FIELDNAMES = [
     "rank",
     "word",
     "reading_kana",
     "reading_romaji",
     "part_of_speech",
+    "labels",
+    "notes",
     "meaning",
     "example_1",
     "example_2",
@@ -24,11 +105,13 @@ VOCAB_FIELDNAMES = [
     "example_5",
 ]
 
-# Grammar: japanese_expression, english_meaning, grammar_structure, example_1..N
+# Grammar: japanese_expression, english_meaning, grammar_structure, labels, notes, example_1..N
 GRAMMAR_FIELDNAMES = [
     "japanese_expression",
     "english_meaning",
     "grammar_structure",
+    "labels",
+    "notes",
     "example_1",
     "example_2",
     "example_3",
@@ -36,13 +119,15 @@ GRAMMAR_FIELDNAMES = [
     "example_5",
 ]
 
-# Kanji: rank, kanji, onyomi, kunyomi, meaning, example_1..N
+# Kanji: rank, kanji, onyomi, kunyomi, meaning, labels, notes, example_1..N
 KANJI_FIELDNAMES = [
     "rank",
     "kanji",
     "onyomi",
     "kunyomi",
     "meaning",
+    "labels",
+    "notes",
     "example_1",
     "example_2",
     "example_3",
@@ -70,7 +155,13 @@ def _safe_json(s: str | None) -> dict[str, Any] | None:
         return None
 
 
-def _vocab_row_from_note_fields(rank: int, fields: dict[str, Any]) -> dict[str, str]:
+def _vocab_row_from_note_fields(
+    rank: int,
+    fields: dict[str, Any],
+    *,
+    back_fallback: dict[str, Any] | None = None,
+    notes_for_csv: str | None = None,
+) -> dict[str, str]:
     examples = fields.get("examples")
     if not isinstance(examples, list):
         examples = []
@@ -80,6 +171,8 @@ def _vocab_row_from_note_fields(rank: int, fields: dict[str, Any]) -> dict[str, 
         "reading_kana": (fields.get("reading_kana") or "").strip(),
         "reading_romaji": (fields.get("reading_romaji") or "").strip(),
         "part_of_speech": (fields.get("part_of_speech") or "").strip(),
+        "labels": _labels_cell_from_fields(fields),
+        "notes": notes_for_csv if notes_for_csv is not None else _notes_cell_for_export(fields, back_fallback),
         "meaning": (fields.get("meaning") or fields.get("english_word") or "").strip(),
     }
     for i in range(1, 6):
@@ -91,7 +184,12 @@ def _vocab_row_from_note_fields(rank: int, fields: dict[str, Any]) -> dict[str, 
     return row
 
 
-def _grammar_row_from_note_fields(fields: dict[str, Any]) -> dict[str, str]:
+def _grammar_row_from_note_fields(
+    fields: dict[str, Any],
+    *,
+    back_fallback: dict[str, Any] | None = None,
+    notes_for_csv: str | None = None,
+) -> dict[str, str]:
     examples = fields.get("examples")
     if not isinstance(examples, list):
         examples = []
@@ -99,6 +197,8 @@ def _grammar_row_from_note_fields(fields: dict[str, Any]) -> dict[str, str]:
         "japanese_expression": (fields.get("japanese_expression") or "").strip(),
         "english_meaning": (fields.get("english_meaning") or "").strip(),
         "grammar_structure": (fields.get("grammar_structure") or "").strip(),
+        "labels": _labels_cell_from_fields(fields),
+        "notes": notes_for_csv if notes_for_csv is not None else _notes_cell_for_export(fields, back_fallback),
     }
     for i in range(1, 6):
         row[f"example_{i}"] = ""
@@ -107,7 +207,13 @@ def _grammar_row_from_note_fields(fields: dict[str, Any]) -> dict[str, str]:
     return row
 
 
-def _kanji_row_from_note_fields(rank: int, fields: dict[str, Any]) -> dict[str, str]:
+def _kanji_row_from_note_fields(
+    rank: int,
+    fields: dict[str, Any],
+    *,
+    back_fallback: dict[str, Any] | None = None,
+    notes_for_csv: str | None = None,
+) -> dict[str, str]:
     examples = fields.get("examples")
     if not isinstance(examples, list):
         examples = []
@@ -122,6 +228,8 @@ def _kanji_row_from_note_fields(rank: int, fields: dict[str, Any]) -> dict[str, 
         "onyomi": (fields.get("onyomi") or "").strip(),
         "kunyomi": (fields.get("kunyomi") or "").strip(),
         "meaning": (fields.get("meaning") or "").strip(),
+        "labels": _labels_cell_from_fields(fields),
+        "notes": notes_for_csv if notes_for_csv is not None else _notes_cell_for_export(fields, back_fallback),
     }
     for i in range(1, 6):
         row[f"example_{i}"] = ""
@@ -131,7 +239,7 @@ def _kanji_row_from_note_fields(rank: int, fields: dict[str, Any]) -> dict[str, 
     return row
 
 
-def _vocab_row_from_card_back(rank: int, back: dict[str, Any]) -> dict[str, str]:
+def _vocab_row_from_card_back(rank: int, back: dict[str, Any], *, notes_for_csv: str | None = None) -> dict[str, str]:
     """Build vocab export row from card back_template JSON (fallback when note missing)."""
     examples = back.get("examples")
     if not isinstance(examples, list):
@@ -142,6 +250,8 @@ def _vocab_row_from_card_back(rank: int, back: dict[str, Any]) -> dict[str, str]
         "reading_kana": (back.get("reading_kana") or "").strip(),
         "reading_romaji": "",
         "part_of_speech": "",
+        "labels": "",
+        "notes": notes_for_csv if notes_for_csv is not None else _notes_cell_for_export(back, None),
         "meaning": (back.get("meaning") or "").strip(),
     }
     for i in range(1, 6):
@@ -163,12 +273,14 @@ def _infer_source_type_from_card_type(card_type: str) -> str | None:
     return None
 
 
-def export_deck_csv(conn: Any, deck_id: str) -> tuple[str, list[str]]:
+def export_deck_csv(conn: Any, deck_id: str, *, export_user_id: str | None = None) -> tuple[str, list[str]]:
     """
     Export deck cards in the same format as import (one row per note).
     Returns (csv_text, fieldnames_used).
     Uses note.source_type and note.fields_json when available; otherwise infers from card_type
     and parses back_template (fallback).
+    If export_user_id is set, that user's card_study_notes for cards in this deck are merged into
+    the CSV `notes` column (after the deck note from fields/back).
     """
     # Cards with note_id, ordered by created_at so we have stable note order
     raw_cards = conn.execute(
@@ -181,6 +293,10 @@ def export_deck_csv(conn: Any, deck_id: str) -> tuple[str, list[str]]:
         (deck_id,),
     ).fetchall()
     card_rows = [dict(r) for r in raw_cards]
+
+    study_by_card: dict[str, str] = {}
+    if export_user_id:
+        study_by_card = _study_notes_by_card_id(conn, export_user_id, deck_id)
 
     notes_repo = NoteRepository(conn)
     seen_note_ids: set[str] = set()
@@ -224,12 +340,20 @@ def export_deck_csv(conn: Any, deck_id: str) -> tuple[str, list[str]]:
         st = (note.get("source_type") or "").strip()
         fields_json = note.get("fields_json")
         fields = _safe_json(fields_json) if fields_json else None
+        first_card = next((c for c in card_rows if (c.get("note_id") or "") == note_id), None)
+        back_fb = _safe_json(first_card.get("back_template") or "") if first_card else None
+        study_bodies = _study_bodies_for_note(study_by_card, card_rows, note_id)
+        deck_notes_part = _notes_cell_for_export(fields, back_fb) if fields else ""
+        if not fields and first_card:
+            back_only = _safe_json(first_card.get("back_template") or "")
+            deck_notes_part = _notes_cell_for_export(back_only or {}, None) if back_only else ""
+        notes_for_csv = _compose_csv_notes_cell(deck_notes_part, study_bodies)
 
         if fields and st == "vocabulary":
             if fieldnames and source_type_used != "vocabulary":
                 continue
             source_type_used = "vocabulary"
-            row = _vocab_row_from_note_fields(rank, fields)
+            row = _vocab_row_from_note_fields(rank, fields, back_fallback=back_fb, notes_for_csv=notes_for_csv)
             if not fieldnames:
                 fieldnames = list(VOCAB_FIELDNAMES)
             rows.append(row)
@@ -237,7 +361,7 @@ def export_deck_csv(conn: Any, deck_id: str) -> tuple[str, list[str]]:
             if fieldnames and source_type_used != "grammar":
                 continue
             source_type_used = "grammar"
-            row = _grammar_row_from_note_fields(fields)
+            row = _grammar_row_from_note_fields(fields, back_fallback=back_fb, notes_for_csv=notes_for_csv)
             if not fieldnames:
                 fieldnames = list(GRAMMAR_FIELDNAMES)
             rows.append(row)
@@ -245,7 +369,7 @@ def export_deck_csv(conn: Any, deck_id: str) -> tuple[str, list[str]]:
             if fieldnames and source_type_used != "kanji":
                 continue
             source_type_used = "kanji"
-            row = _kanji_row_from_note_fields(rank, fields)
+            row = _kanji_row_from_note_fields(rank, fields, back_fallback=back_fb, notes_for_csv=notes_for_csv)
             if not fieldnames:
                 fieldnames = list(KANJI_FIELDNAMES)
             rows.append(row)
@@ -253,13 +377,12 @@ def export_deck_csv(conn: Any, deck_id: str) -> tuple[str, list[str]]:
             # Note without usable source_type/fields: try first card for this note as fallback
             if fieldnames and source_type_used != "vocabulary":
                 continue
-            first_card = next((c for c in card_rows if (c.get("note_id") or "") == note_id), None)
             if first_card:
                 back = _safe_json(first_card.get("back_template") or "")
                 inferred = _infer_source_type_from_card_type(first_card.get("card_type") or "")
                 if back and inferred == "vocabulary" and back.get("word") and back.get("meaning") is not None:
                     source_type_used = "vocabulary"
-                    row = _vocab_row_from_card_back(rank, back)
+                    row = _vocab_row_from_card_back(rank, back, notes_for_csv=notes_for_csv)
                     if not fieldnames:
                         fieldnames = list(VOCAB_FIELDNAMES)
                     rows.append(row)

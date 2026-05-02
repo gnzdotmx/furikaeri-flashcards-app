@@ -50,7 +50,7 @@ export type StudyContextValue = {
   onFuriganaChange: (mode: FuriganaMode) => void;
   onRevealToggle: () => void;
   onRefreshDecks: () => Promise<void>;
-  setTab: (tab: "study" | "import" | "decks" | "examples" | "metrics" | "debug") => void;
+  setTab: (tab: "study" | "import" | "examples" | "metrics" | "debug") => void;
   catchUpMode: boolean;
   setCatchUpMode: (v: boolean) => void;
   includeListening: boolean;
@@ -79,5 +79,5 @@ export type StudyProviderProps = {
   onLoadDeckCards: (deckId: string) => Promise<unknown>;
   userSettings: { daily_goal_reviews: number | null } | null;
   setUserSettings: React.Dispatch<React.SetStateAction<{ daily_goal_reviews: number | null } | null>>;
-  setTab: (tab: "study" | "import" | "decks" | "examples" | "metrics" | "debug") => void;
+  setTab: (tab: "study" | "import" | "examples" | "metrics" | "debug") => void;
 };

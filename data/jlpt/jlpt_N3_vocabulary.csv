@@ -1,1342 +1,1342 @@
-rank,word,reading_kana,reading_romaji,part_of_speech,meaning,labels,example_1,example_2,example_3
-1,明かり,あかり,akari,Noun,light; illumination; glow; gleam,jlpt_n3,"明かりがつく。
+rank,word,reading_kana,reading_romaji,part_of_speech,meaning,labels,notes,example_1,example_2,example_3
+1,明かり,あかり,akari,Noun,light; illumination; glow; gleam,jlpt_n3,,"明かりがつく。
 akari ga tsuku.
 The light turns on.","暗い部屋に明かりをともした。
 kurai heya ni akari o tomoshita.
 I turned on the light in the dark room.","蛍光灯の明かりで本を読む。
 keikoutou no akari de hon o yomu.
 I read by fluorescent light."
-2,明ける,あける,akeru,"Verb, Ichidan verb, Transitive verb","to dawn,to become daylight",jlpt_n3,"ようやく夜が明けて長い夜が終わった
+2,明ける,あける,akeru,"Verb, Ichidan verb, Transitive verb","to dawn,to become daylight",jlpt_n3,,"ようやく夜が明けて長い夜が終わった
 
 Finally dawn broke; the long night had ended.","きた。
 
 I saw dawn breaking after staying up all night, studying for an exam.","恋を打ち明ける
 
 Declare one's love."
-3,明らか,あきらか,akiraka,"Adjective, な-adjective",clear; obvious,jlpt_n3,"悪魔の話は子供には怖い。
+3,明らか,あきらか,akiraka,"Adjective, な-adjective",clear; obvious,jlpt_n3,,"悪魔の話は子供には怖い。
 akuma no hanashi wa kodomo ni wa kowai.
 Devil stories are scary for children.","彼は悪魔のような目をしていた。
 kare wa akuma no you na me o shite ita.
 He had eyes like a devil.","悪魔を退治する物語。
 akuma o taiji suru monogatari.
 A story about defeating a demon."
-4,悪魔,あくま,akuma,Noun,devil; demon; fiend; Satan,jlpt_n3,"が悪かった。
+4,悪魔,あくま,akuma,Noun,devil; demon; fiend; Satan,jlpt_n3,,"が悪かった。
 
 The forest was dim, foggy, and creepy, as if demons lived there.","女は悪魔の宴へと向かう
 
 She rides to the black sabbath.","魔女集会で悪魔を召喚する
 
 Her coven conjures the demons."
-5,暗記,あんき,anki,"Noun, Verb, Suru verb",memorization; learning by heart,jlpt_n3,"新たな一年が始まった。
+5,暗記,あんき,anki,"Noun, Verb, Suru verb",memorization; learning by heart,jlpt_n3,,"新たな一年が始まった。
 arata na ichinen ga hajimatta.
 A new year has begun.","新たな挑戦に挑む。
 arata na chousen ni idomu.
 I'll take on a new challenge.","新たな発見があった。
 arata na hakken ga atta.
 There was a new discovery."
-6,新た,あらた,arata,"Noun, Adjective, な-adjective",new; fresh; novel,jlpt_n3,"有らゆる手段を尽くす。
+6,新た,あらた,arata,"Noun, Adjective, な-adjective",new; fresh; novel,jlpt_n3,,"有らゆる手段を尽くす。
 arayuru shudan o tsukusu.
 I'll try every possible means.","有らゆる分野で活躍する。
 arayuru bunya de katsuyaku suru.
 To be active in every field.","有らゆる可能性を考える。
 arayuru kanousei o kangaeru.
 Consider every possibility."
-7,有らゆる,あらゆる,arayuru,Pre-noun adjectival,all; every​,jlpt_n3,"明日は同窓会の集まりがある。
+7,有らゆる,あらゆる,arayuru,Pre-noun adjectival,all; every​,jlpt_n3,,"明日は同窓会の集まりがある。
 ashita wa dousoukai no atsumari ga aru.
 There's an alumni gathering tomorrow.","集まりの場所を決めよう。
 atsumari no basho o kimemashou.
 Let's decide where to meet.","週末に友達の集まりがある。
 shuumatsu ni tomodachi no atsumari ga aru.
 There's a friends' get-together on the weekend."
-8,集まり,あつまり,atsumari,Noun,gathering; meeting; assembly; collection; attendance,jlpt_n3,"この部分がよく分からない。
+8,集まり,あつまり,atsumari,Noun,gathering; meeting; assembly; collection; attendance,jlpt_n3,,"この部分がよく分からない。
 kono bubun ga yoku wakaranai.
 I don't understand this part well.","壊れた部分を直す。
 kowareta bubun o naosu.
 Fix the broken part.","重要な部分に線を引く。
 juuyou na bubun ni sen o hiku.
 Underline the important parts."
-9,部分,ぶぶん,bubun,Noun,portion; section; part,jlpt_n3,"私の分はもう食べた。
+9,部分,ぶぶん,bubun,Noun,portion; section; part,jlpt_n3,,"私の分はもう食べた。
 watashi no bun wa mou tabeta.
 I already ate my share.","三人分の料理を作る。
 sannin bun no ryouri o tsukuru.
 I'll make food for three people.","今日の分の仕事が終わった。
 kyou no bun no shigoto ga owatta.
 I finished today's share of work."
-10,分,ぶん,bun,"Noun, Suffix",part; segment; share; ration,jlpt_n3,"古代文明の遺跡を訪れた。
+10,分,ぶん,bun,"Noun, Suffix",part; segment; share; ration,jlpt_n3,,"古代文明の遺跡を訪れた。
 kodai bunmei no iseki o otozureta.
 I visited the ruins of an ancient civilization.","文明の発達は目覚ましい。
 bunmei no hattatsu wa mezamashii.
 The development of civilization is remarkable.","現代文明は便利だ。
 gendai bunmei wa benri da.
 Modern civilization is convenient."
-11,文明,ぶんめい,bunmei,Noun,civilization; culture,jlpt_n3,"データを分析する。
+11,文明,ぶんめい,bunmei,Noun,civilization; culture,jlpt_n3,,"データを分析する。
 deeta o bunseki suru.
 Analyze the data.","分析の結果を報告する。
 bunseki no kekka o houkoku suru.
 Report the analysis results.","原因を分析した。
 gen'in o bunseki shita.
 I analyzed the cause."
-12,分析,ぶんせき,bunseki,"Noun, Verb, Suru verb",analysis,jlpt_n3,"得意な分野を伸ばす。
+12,分析,ぶんせき,bunseki,"Noun, Verb, Suru verb",analysis,jlpt_n3,,"得意な分野を伸ばす。
 tokui na bunya o nobasu.
 Develop your strong areas.","この分野の専門家だ。
 kono bunya no senmonka da.
 He's an expert in this field.","様々な分野で活躍している。
 samazama na bunya de katsuyaku shite iru.
 He's active in various fields."
-13,分野,ぶんや,bunya,Noun,field; sphere; realm; division; branch,jlpt_n3,"父親は会社員です。
+13,分野,ぶんや,bunya,Noun,field; sphere; realm; division; branch,jlpt_n3,,"父親は会社員です。
 chichioya wa kaishain desu.
 My father is a company employee.","父親に相談する。
 chichioya ni soudan suru.
 I'll consult my father.","父親の日にはプレゼントを贈る。
 chichioya no hi ni wa purezento o okuru.
 I give a present on Father's Day."
-14,父親,ちちおや,chichioya,Noun,father,jlpt_n3,"地平線に太陽が沈む。
+14,父親,ちちおや,chichioya,Noun,father,jlpt_n3,,"地平線に太陽が沈む。
 chiheisen ni taiyou ga shizumu.
 The sun sets on the horizon.","地平線まで続く道。
 chiheisen made tsuzuku michi.
 A road that continues to the horizon.","地平線が美しい。
 chiheisen ga utsukushii.
 The horizon is beautiful."
-15,地平線,ちへいせん,chiheisen,Noun,horizon (related to land)​,jlpt_n3,"社会的な地位が上がった。
+15,地平線,ちへいせん,chiheisen,Noun,horizon (related to land)​,jlpt_n3,,"社会的な地位が上がった。
 shakaiteki na chii ga agatta.
 My social status has risen.","地位と収入は比例しない。
 chii to shuunyuu wa hirei shinai.
 Status and income don't always correlate.","彼は高い地位についている。
 kare wa takai chii ni tsuite iru.
 He holds a high position."
-16,地位,ちい,chii,Noun,(social) position; status,jlpt_n3,"長期の休みを取る。
+16,地位,ちい,chii,Noun,(social) position; status,jlpt_n3,,"長期の休みを取る。
 chouki no yasumi o toru.
 Take a long vacation.","長期計画を立てる。
 chouki keikaku o tateru.
 Make a long-term plan.","長期留学を考えている。
 chouki ryuugaku o kangaete iru.
 I'm thinking about long-term study abroad."
-17,長期,ちょうき,chouki,Noun,long-term,jlpt_n3,"仕事中は電話に出られない。
+17,長期,ちょうき,chouki,Noun,long-term,jlpt_n3,,"仕事中は電話に出られない。
 shigoto chuu wa denwa ni derarenai.
 I can't answer the phone while working.","会議中のため席を外せない。
 kaigi chuu no tame seki o hazusenai.
 I can't leave my seat because the meeting is in progress.","食事中に話さない。
 shokuji chuu ni hanasanai.
 Don't talk while eating."
-18,中,ちゅう,chuu,"Noun, Prefix, Suffix",during; while; medium; middle,jlpt_n3,"中学時代の友達だ。
+18,中,ちゅう,chuu,"Noun, Prefix, Suffix",during; while; medium; middle,jlpt_n3,,"中学時代の友達だ。
 chuugaku jidai no tomodachi da.
 He's a friend from junior high school.","娘は中学二年生です。
 musume wa chuugaku ninensei desu.
 My daughter is in her second year of junior high.","中学の卒業式に出席した。
 chuugaku no sotsugyoushiki ni shusseki shita.
 I attended the junior high graduation ceremony."
-19,中学,ちゅうがく,chuugaku,Noun,junior high school; middle school,jlpt_n3,"昼食は何にしますか。
+19,中学,ちゅうがく,chuugaku,Noun,junior high school; middle school,jlpt_n3,,"昼食は何にしますか。
 chuushoku wa nani ni shimasu ka.
 What would you like for lunch?","昼食を一緒に食べよう。
 chuushoku o issho ni tabeyou.
 Let's have lunch together.","昼食の時間は12時からだ。
 chuushoku no jikan wa juuniji kara da.
 Lunch break is from 12 o'clock."
-20,昼食,ちゅうしょく,chuushoku,Noun,lunch; midday meal,jlpt_n3,"大部分の人が賛成した。
+20,昼食,ちゅうしょく,chuushoku,Noun,lunch; midday meal,jlpt_n3,,"大部分の人が賛成した。
 daibubun no hito ga sansei shita.
 Most people agreed.","仕事は大部分終わった。
 shigoto wa daibubun owatta.
 Most of the work is done.","費用の大部分は交通費だ。
 hiyou no daibubun wa koutsuuhi da.
 Most of the cost is transportation."
-21,大部分,だいぶぶん,daibubun,Noun,most part; greater part; majority,jlpt_n3,"ここで遊んでは駄目だ。
+21,大部分,だいぶぶん,daibubun,Noun,most part; greater part; majority,jlpt_n3,,"ここで遊んでは駄目だ。
 koko de asonde wa dame da.
 You must not play here.","駄目元で頼んでみる。
 dame moto de tanonde miru.
 I'll ask just in case; nothing to lose.","もう駄目かもしれない。
 mou dame kamo shirenai.
 It might already be too late."
-22,駄目,だめ,dame,"Noun, Adjective, な-adjective",no good; cannot,jlpt_n3,"男子トイレは右側です。
+22,駄目,だめ,dame,"Noun, Adjective, な-adjective",no good; cannot,jlpt_n3,,"男子トイレは右側です。
 danshi toire wa migi gawa desu.
 The men's room is on the right.","男子三人、女子二人です。
 danshi sannin, joshi futari desu.
 Three boys and two girls.","男子校に通っている。
 danshikou ni kayotte iru.
 He goes to an all-boys school."
-23,男子,だんし,danshi,Noun,youth; young man,jlpt_n3,"偶然の出会いが人生を変えた。
+23,男子,だんし,danshi,Noun,youth; young man,jlpt_n3,,"偶然の出会いが人生を変えた。
 guuzen no deai ga jinsei o kaeta.
 A chance encounter changed my life.","出会いの場を作る。
 deai no ba o tsukuru.
 Create opportunities to meet people.","素敵な出会いに感謝している。
 suteki na deai ni kansha shite iru.
 I'm grateful for wonderful encounters."
-24,出会い,であい,deai,Noun,meeting; rendezvous; encounter,jlpt_n3,"駅で昔の友達に出会った。
+24,出会い,であい,deai,Noun,meeting; rendezvous; encounter,jlpt_n3,,"駅で昔の友達に出会った。
 eki de mukashi no tomodachi ni deatta.
 I ran into an old friend at the station.","良い本に出会えた。
 yoi hon ni deaeta.
 I found a good book.","毎日新しい人に出会う。
 mainichi atarashii hito ni deau.
 I meet new people every day."
-25,出会う,であう,deau,Verb,to meet (by chance); to come across; to run across; to encounter,jlpt_n3,"休日は読書を楽しむ。
+25,出会う,であう,deau,Verb,to meet (by chance); to come across; to run across; to encounter,jlpt_n3,,"休日は読書を楽しむ。
 kyuujitsu wa dokusho o tanoshimu.
 I enjoy reading on my days off.","読書が趣味です。
 dokusho ga shumi desu.
 Reading is my hobby.","寝る前に読書する。
 neru mae ni dokusho suru.
 I read before going to bed."
-26,読書,どくしょ,dokusho,"Noun, Verb, Suru verb",reading,jlpt_n3,"努力は必ず報われる。
+26,読書,どくしょ,dokusho,"Noun, Verb, Suru verb",reading,jlpt_n3,,"努力は必ず報われる。
 doryoku wa kanarazu mukuwareru.
 Effort is always rewarded.","毎日努力している。
 mainichi doryoku shite iru.
 I'm making an effort every day.","努力の成果が出た。
 doryoku no seika ga deta.
 The results of my efforts showed."
-27,努力,どりょく,doryoku,"Noun, Verb, Suru verb",effort; exertion; endeavor; hard work; striving,jlpt_n3,"同一の条件で比較する。
+27,努力,どりょく,doryoku,"Noun, Verb, Suru verb",effort; exertion; endeavor; hard work; striving,jlpt_n3,,"同一の条件で比較する。
 douitsu no jouken de hikaku suru.
 Compare under the same conditions.","同一人物かどうか確認する。
 douitsu jinbutsu ka dou ka kakunin suru.
 Confirm whether it's the same person.","同一日に二つの会議がある。
 douitsu nichi ni futatsu no kaigi ga aru.
 There are two meetings on the same day."
-28,同一,どういつ,douitsu,"Adjective, な-adjective",identical; same; one and the same; equal,jlpt_n3,"百円玉を三枚ください。
+28,同一,どういつ,douitsu,"Adjective, な-adjective",identical; same; one and the same; equal,jlpt_n3,,"百円玉を三枚ください。
 hyaku en dama o san mai kudasai.
 Three 100-yen coins, please.","円高が続いている。
 endaka ga tsuzuite iru.
 The yen remains strong.","千円でお釣りはありますか。
 sen en de otsuri wa arimasu ka.
 Do you have change for 1000 yen?"
-29,円,えん,en,Noun,yen; Japanese monetary unit; circle,jlpt_n3,"不利な条件で交渉した。
+29,円,えん,en,Noun,yen; Japanese monetary unit; circle,jlpt_n3,,"不利な条件で交渉した。
 furi na jouken de koushou shita.
 I negotiated under unfavorable conditions.","不利な立場に立たされた。
 furi na tachiba ni tatasareta.
 I was put in a disadvantageous position.","天候が不利に働いた。
 tenkou ga furi ni hataraita.
 The weather worked against us."
-30,不利,ふり,furi,"Noun, Adjective, な-adjective",disadvantage; handicap; unfavorable position,jlpt_n3,"睡眠不足で体調が悪い。
+30,不利,ふり,furi,"Noun, Adjective, な-adjective",disadvantage; handicap; unfavorable position,jlpt_n3,,"睡眠不足で体調が悪い。
 suimin fusoku de taichou ga warui.
 I feel unwell from lack of sleep.","経験不足を補う。
 keiken fusoku o oginau.
 Make up for lack of experience.","人手が不足している。
 hitode ga fusoku shite iru.
 We're short of staff."
-31,不足,ふそく,fusoku,"Noun, Adjective, な-adjective, Verb, Suru verb",insufficiency; shortage; deficiency; lack; dearth,jlpt_n3,"再び日本を訪れたい。
+31,不足,ふそく,fusoku,"Noun, Adjective, な-adjective, Verb, Suru verb",insufficiency; shortage; deficiency; lack; dearth,jlpt_n3,,"再び日本を訪れたい。
 futatabi nihon o otozuretaitai.
 I want to visit Japan again.","再び挑戦する。
 futatabi chousen suru.
 I'll try again.","再び会える日を楽しみにしている。
 futatabi aeru hi o tanoshimi ni shite iru.
 I'm looking forward to seeing you again."
-32,再び,ふたたび,futatabi,Adverb,again; once more; a second time,jlpt_n3,"外交問題について話し合う。
+32,再び,ふたたび,futatabi,Adverb,again; once more; a second time,jlpt_n3,,"外交問題について話し合う。
 gaikou mondai ni tsuite hanashiau.
 Discuss diplomatic issues.","外交官になりたい。
 gaikoukan ni naritai.
 I want to become a diplomat.","両国の外交関係が改善した。
 ryoukoku no gaikou kankei ga kaizen shita.
 Diplomatic relations between the two countries improved."
-33,外交,がいこう,gaikou,Noun,diplomacy,jlpt_n3,"今日は外出しない。
+33,外交,がいこう,gaikou,Noun,diplomacy,jlpt_n3,,"今日は外出しない。
 kyou wa gaishutsu shinai.
 I won't go out today.","外出先で雨に降られた。
 gaishutsu saki de ame ni furareta.
 I got caught in the rain while out.","外出する時は鍵をかけて。
 gaishutsu suru toki wa kagi o kakete.
 Lock the door when you go out."
-34,外出,がいしゅつ,gaishutsu,"Noun, Verb, Suru verb","going out; outing; leaving (one's home, office, etc.)",jlpt_n3,"新学期が始まった。
+34,外出,がいしゅつ,gaishutsu,"Noun, Verb, Suru verb","going out; outing; leaving (one's home, office, etc.)",jlpt_n3,,"新学期が始まった。
 shin gakki ga hajimatta.
 The new term has started.","今学期の成績は良かった。
 kon gakki no seiseki wa yokatta.
 My grades were good this term.","学期末に試験がある。
 gakki matsu ni shiken ga aru.
 There are exams at the end of the term."
-35,学期,がっき,gakki,Noun,school term; semester,jlpt_n3,"経済学を専攻している。
+35,学期,がっき,gakki,Noun,school term; semester,jlpt_n3,,"経済学を専攻している。
 keizaigaku o senkou shite iru.
 I'm majoring in economics.","日本文学が好きだ。
 nihon bungaku ga suki da.
 I like Japanese literature.","工学の博士号を取った。
 kougaku no hakasegou o totta.
 I got a doctorate in engineering."
-36,学,がく,gaku,"Noun, Suffix",learning; education; study of,jlpt_n3,"学問には終わりがない。
+36,学,がく,gaku,"Noun, Suffix",learning; education; study of,jlpt_n3,,"学問には終わりがない。
 gakumon ni wa owari ga nai.
 There is no end to learning.","学問の自由を守る。
 gakumon no jiyuu o mamoru.
 Protect academic freedom.","本気で学問に打ち込む。
 honki de gakumon ni uchikomu.
 Devote oneself seriously to study."
-37,学問,がくもん,gakumon,"Noun, Verb, Suru verb",scholarship; study; learning,jlpt_n3,"彼は有名な学者だ。
+37,学問,がくもん,gakumon,"Noun, Verb, Suru verb",scholarship; study; learning,jlpt_n3,,"彼は有名な学者だ。
 kare wa yuumei na gakusha da.
 He is a famous scholar.","学者の意見を聞く。
 gakusha no iken o kiku.
 Listen to the opinions of scholars.","学者として研究を続ける。
 gakusha toshite kenkyuu o tsuzukeru.
 Continue research as a scholar."
-38,学者,がくしゃ,gakusha,Noun,scholar,jlpt_n3,"毎日英語を学習している。
+38,学者,がくしゃ,gakusha,Noun,scholar,jlpt_n3,,"毎日英語を学習している。
 mainichi eigo o gakushuu shite iru.
 I study English every day.","学習意欲が高い。
 gakushuu iyoku ga takai.
 He has a strong desire to learn.","オンラインで学習する。
 onrain de gakushuu suru.
 Study online."
-39,学習,がくしゅう,gakushuu,"Noun, Verb, Suru verb",study; learning; tutorial,jlpt_n3,"会議の議長を務める。
+39,学習,がくしゅう,gakushuu,"Noun, Verb, Suru verb",study; learning; tutorial,jlpt_n3,,"会議の議長を務める。
 kaigi no gichou o tsutomeru.
 Serve as chair of the meeting.","議長が発言を求めた。
 gichou ga hatsugen o motometa.
 The chair called for comments.","議長に選ばれた。
 gichou ni erabareta.
 I was elected chairperson."
-40,議長,ぎちょう,gichou,Noun,chairman; president; moderator,jlpt_n3,"議会で法案が可決された。
+40,議長,ぎちょう,gichou,Noun,chairman; president; moderator,jlpt_n3,,"議会で法案が可決された。
 gikai de houan ga kaketsu sareta.
 The bill was passed in parliament.","議会の答弁を聞く。
 gikai no touben o kiku.
 Listen to the parliamentary response.","来月議会が開かれる。
 raigetsu gikai ga hirakareru.
 Parliament will convene next month."
-41,議会,ぎかい,gikai,Noun,congress; parliament; diet; legislative assembly,jlpt_n3,"語学が得意だ。
+41,議会,ぎかい,gikai,Noun,congress; parliament; diet; legislative assembly,jlpt_n3,,"語学が得意だ。
 gogaku ga tokui da.
 I'm good at languages.","語学留学をした。
 gogaku ryuugaku o shita.
 I studied abroad for language learning.","語学力を伸ばしたい。
 gogakuryoku o nobashitai.
 I want to improve my language skills."
-42,語学,ごがく,gogaku,Noun,study of foreign languages; linguistics,jlpt_n3,"激しい雨が降っている。
+42,語学,ごがく,gogaku,Noun,study of foreign languages; linguistics,jlpt_n3,,"激しい雨が降っている。
 hageshii ame ga futte iru.
 It's raining heavily.","激しい議論が交わされた。
 hageshii giron ga kawasareta.
 A heated debate took place.","激しい痛みが走った。
 hageshii itami ga hashitta.
 A sharp pain shot through."
-43,激しい,はげしい,hageshii,"Adjective, い-adjective",violent; extreme; intense,jlpt_n3,"母親に手伝ってもらう。
+43,激しい,はげしい,hageshii,"Adjective, い-adjective",violent; extreme; intense,jlpt_n3,,"母親に手伝ってもらう。
 hahaoya ni tetsudatte morau.
 Get help from my mother.","母親の日には感謝を伝える。
 hahaoya no hi ni wa kansha o tsutaeru.
 Express gratitude on Mother's Day.","母親似の顔だね。
 hahaoya ni no kao da ne.
 You look like your mother."
-44,母親,ははおや,hahaoya,Noun,mother,jlpt_n3,"週末に博物館へ行った。
+44,母親,ははおや,hahaoya,Noun,mother,jlpt_n3,,"週末に博物館へ行った。
 shuumatsu ni hakubutsukan e itta.
 I went to the museum on the weekend.","博物館の入場料はいくらですか。
 hakubutsukan no nyuujou ryou wa ikura desu ka.
 How much is the museum admission?","歴史博物館で勉強する。
 rekishi hakubutsukan de benkyou suru.
 Study at the history museum."
-45,博物館,はくぶつかん,hakubutsukan,Noun,museum,jlpt_n3,"新商品の販売が始まった。
+45,博物館,はくぶつかん,hakubutsukan,Noun,museum,jlpt_n3,,"新商品の販売が始まった。
 shin shouhin no hanbai ga hajimatta.
 Sales of the new product have started.","ネットで販売している。
 netto de hanbai shite iru.
 We sell online.","販売員に質問する。
 hanbaiin ni shitsumon suru.
 Ask the salesperson a question."
-46,販売,はんばい,hanbai,"Noun, Verb, Suru verb",sales; selling; marketing,jlpt_n3,"偉大な発明だ。
+46,販売,はんばい,hanbai,"Noun, Verb, Suru verb",sales; selling; marketing,jlpt_n3,,"偉大な発明だ。
 idai na hatsumei da.
 It's a great invention.","エジソンは電球を発明した。
 ejison wa denkyuu o hatsumei shita.
 Edison invented the light bulb.","発明により生活が便利になった。
 hatsumei ni yori seikatsu ga benri ni natta.
 Life became more convenient thanks to the invention."
-47,発明,はつめい,hatsumei,"Noun, Adjective, な-adjective, Verb, Suru verb",invention,jlpt_n3,"眼鏡を外す。
+47,発明,はつめい,hatsumei,"Noun, Adjective, な-adjective, Verb, Suru verb",invention,jlpt_n3,,"眼鏡を外す。
 megane o hazusu.
 Take off my glasses.","ボタンが外れた。
 botan ga hazureta.
 The button came off.","チャンスを外した。
 chansu o hazushita.
 I missed the chance."
-48,外す,はずす,hazusu,"Verb, Godan verb, Transitive verb",to remove; to undo; to drop; to miss,jlpt_n3,"品のある振る舞いをする。
+48,外す,はずす,hazusu,"Verb, Godan verb, Transitive verb",to remove; to undo; to drop; to miss,jlpt_n3,,"品のある振る舞いをする。
 hin no aru furumai o suru.
 Behave with elegance.","この品は在庫切れです。
 kono hin wa zaiko kire desu.
 This item is out of stock.","品揃えが豊富だ。
 hinzoroe ga houfu da.
 There's a wide variety of goods."
-49,品,ひん,hin,Noun,"elegance, article",jlpt_n3,"一言お願いがあります。
+49,品,ひん,hin,Noun,"elegance, article",jlpt_n3,,"一言お願いがあります。
 hitokoto onegai ga arimasu.
 I have one thing to ask.","一言も言わずに帰った。
 hitokoto mo iwazu ni kaetta.
 He left without saying a word.","一言で言うと難しい。
 hitokoto de iu to muzukashii.
 It's hard to put in a word."
-50,一言,ひとこと,hitokoto,"Noun, Verb, Suru verb",single word; a few words; brief comment,jlpt_n3,"一人一人が責任を持つ。
+50,一言,ひとこと,hitokoto,"Noun, Verb, Suru verb",single word; a few words; brief comment,jlpt_n3,,"一人一人が責任を持つ。
 hitorihitori ga sekinin o motsu.
 Each person takes responsibility.","一人一人の意見を聞く。
 hitorihitori no iken o kiku.
 Listen to each person's opinion.","一人一人違う。
 hitorihitori chigau.
 Everyone is different."
-51,一人一人,ひとりひとり,hitorihitori,"Noun, Suffix",one by one; each; one at a time,jlpt_n3,"本物の革の財布だ。
+51,一人一人,ひとりひとり,hitorihitori,"Noun, Suffix",one by one; each; one at a time,jlpt_n3,,"本物の革の財布だ。
 honmono no kawa no saifu da.
 It's a genuine leather wallet.","本物と偽物を見分ける。
 honmono to nisemono o miwakeru.
 Tell the real from the fake.","本物の芸術品だ。
 honmono no geijutsuhin da.
 It's a real work of art."
-52,本物,ほんもの,honmono,Noun,genuine article; real thing; real deal​,jlpt_n3,"本人に確認する。
+52,本物,ほんもの,honmono,Noun,genuine article; real thing; real deal​,jlpt_n3,,"本人に確認する。
 honnin ni kakunin suru.
 Confirm with the person themselves.","本人が来たら伝えてください。
 honnin ga kitara tsutaete kudasai.
 Please tell them when the person arrives.","本人の意思を尊重する。
 honnin no ishi o sonchou suru.
 Respect the person's own wishes."
-53,本人,ほんにん,honnin,Noun,the person in question; the person themselves; said person,jlpt_n3,"意見が一致した。
+53,本人,ほんにん,honnin,Noun,the person in question; the person themselves; said person,jlpt_n3,,"意見が一致した。
 iken ga icchi shita.
 We agreed.","二人の証言は一致している。
 futari no shougen wa icchi shite iru.
 The two testimonies match.","目標で一致する。
 mokuhyou de icchi suru.
 We're in agreement on the goal."
-54,一致,いっち,icchi,"Noun, Verb, Suru verb",agreement; union; match​; coincidence,jlpt_n3,"一時は危なかった。
+54,一致,いっち,icchi,"Noun, Verb, Suru verb",agreement; union; match​; coincidence,jlpt_n3,,"一時は危なかった。
 ichiji wa abunakatta.
 For a moment it was dangerous.","一時預かりで頼む。
 ichiji azukari de tanomu.
 I'd like to leave it temporarily.","一時的に止める。
 ichijiteki ni tomeru.
 Stop temporarily."
-55,一時,いちじ,ichiji,Noun,one o'clock,jlpt_n3,"意外と簡単だった。
+55,一時,いちじ,ichiji,Noun,one o'clock,jlpt_n3,,"意外と簡単だった。
 igai to kantan datta.
 It was surprisingly easy.","意外な結果になった。
 igai na kekka ni natta.
 It turned out to be an unexpected result.","意外に美味しい。
 igai ni oishii.
 It's surprisingly delicious."
-56,意外,いがい,igai,"Adjective, な-adjective, Adverb",unexpected; surprising,jlpt_n3,"一家で旅行する。
+56,意外,いがい,igai,"Adjective, な-adjective, Adverb",unexpected; surprising,jlpt_n3,,"一家で旅行する。
 ikka de ryokou suru.
 Travel as a family.","一家そろって食事する。
 ikka sotte shokuji suru.
 The whole family eats together.","一家の大黒柱だ。
 ikka no daikokubashira da.
 He's the breadwinner of the family."
-57,一家,いっか,ikka,Noun,a family; a household; a home; one's family; whole family,jlpt_n3,"今に分かる。
+57,一家,いっか,ikka,Noun,a family; a household; a home; one's family; whole family,jlpt_n3,,"今に分かる。
 imani wakaru.
 You'll understand soon.","今に成功してみせる。
 imani seikou shite miseru.
 I'll show you I can succeed.","今に後悔するよ。
 imani koukai suru yo.
 You'll regret it one day."
-58,今に,いまに,imani,Adverb,before long; even now,jlpt_n3,"今にも雨が降りそうだ。
+58,今に,いまに,imani,Adverb,before long; even now,jlpt_n3,,"今にも雨が降りそうだ。
 imanimo ame ga furi sou da.
 It looks like it's going to rain any moment.","今にも壊れそうだ。
 imanimo koware sou da.
 It looks like it's about to break.","今にも泣き出しそうだった。
 imanimo naki dashi sou datta.
 She looked like she was about to burst into tears."
-59,今にも,いまにも,imanimo,Adverb,at any moment; at any minute; on the verge of,jlpt_n3,"一般の人には分からない。
+59,今にも,いまにも,imanimo,Adverb,at any moment; at any minute; on the verge of,jlpt_n3,,"一般の人には分からない。
 ippan no hito ni wa wakaranai.
 Ordinary people wouldn't understand.","一般公開は来月だ。
 ippan koukai wa raigetsu da.
 It opens to the public next month.","一般論で言えばそうだ。
 ippanron de ieba sou da.
 Generally speaking, that's right."
-60,一般,いっぱん,ippan,"Noun, Adjective, な-adjective",general; universal; ordinary; average; common,jlpt_n3,"一方、反対意見もある。
+60,一般,いっぱん,ippan,"Noun, Adjective, な-adjective",general; universal; ordinary; average; common,jlpt_n3,,"一方、反対意見もある。
 ippou, hantai iken mo aru.
 On the other hand, there are opposing views.","一方通行の道だ。
 ippou tsuukou no michi da.
 It's a one-way street.","兄は勉強家、一方弟はスポーツが得意だ。
 ani wa benkyouka, ippou otouto wa supootsu ga tokui da.
 My brother is studious, while my younger brother is good at sports."
-61,一方,いっぽう,ippou,Noun,one (esp. of two); one way; the other direction; although,jlpt_n3,"一生忘れない。
+61,一方,いっぽう,ippou,Noun,one (esp. of two); one way; the other direction; although,jlpt_n3,,"一生忘れない。
 isshou wasurenai.
 I'll never forget it.","一生懸命頑張る。
 isshoukenmei ganbaru.
 I'll do my best.","一生の思い出になった。
 isshou no omoide ni natta.
 It became a lifelong memory."
-62,一生,いっしょう,isshou,Noun,whole life; a lifetime; a generation,jlpt_n3,"一種の才能だ。
+62,一生,いっしょう,isshou,Noun,whole life; a lifetime; a generation,jlpt_n3,,"一種の才能だ。
 isshu no sainou da.
 It's a kind of talent.","一種のショックだった。
 isshu no shokku datta.
 It was a kind of shock.","一種独特の香りがする。
 isshu dokutoku no kaori ga suru.
 It has a unique kind of fragrance."
-63,一種,いっしゅ,isshu,"Noun, Adverb",species; kind; variety,jlpt_n3,"一瞬で消えた。
+63,一種,いっしゅ,isshu,"Noun, Adverb",species; kind; variety,jlpt_n3,,"一瞬で消えた。
 isshun de kieta.
 It disappeared in an instant.","一瞬たりとも油断できない。
 isshun taritomo yudan dekinai.
 I can't let my guard down for even a moment.","一瞬何が起きたか分からなかった。
 isshun nani ga okita ka wakaranakatta.
 For a moment I didn't know what had happened."
-64,一瞬,いっしゅん,isshun,Noun,instant; moment; for an instant,jlpt_n3,"一層努力する。
+64,一瞬,いっしゅん,isshun,Noun,instant; moment; for an instant,jlpt_n3,,"一層努力する。
 issou doryoku suru.
 I'll make even more effort.","雨が一層激しくなった。
 ame ga issou hageshiku natta.
 The rain got even heavier.","一層のご自愛を。
 issou no gojiai o.
 Please take even better care of yourself."
-65,一層,いっそう,issou,"Noun, Adverb",much more; still more; all the more; single layer; sooner; preferably​,jlpt_n3,"一体どうしたんだ。
+65,一層,いっそう,issou,"Noun, Adverb",much more; still more; all the more; single layer; sooner; preferably​,jlpt_n3,,"一体どうしたんだ。
 ittai dou shita n da.
 What in the world happened?","一体何があった。
 ittai nani ga atta.
 What on earth happened?","一体誰がやった。
 ittai dare ga yatta.
 Who in the world did it?"
-66,一体,いったい,ittai,"Noun, Adverb",(what) the heck; (why) in the world,jlpt_n3,"所謂ベストセラーだ。
+66,一体,いったい,ittai,"Noun, Adverb",(what) the heck; (why) in the world,jlpt_n3,,"所謂ベストセラーだ。
 iwayuru besutoseraa da.
 It's what they call a bestseller.","所謂常識というもの。
 iwayuru joushiki to iu mono.
 What is called common sense.","所謂一流の店だ。
 iwayuru ichiryuu no mise da.
 It's what you'd call a first-class store."
-67,所謂,いわゆる,iwayuru,Pre-noun adjectival,what is called; as it is called; the so-called; so to speak​,jlpt_n3,"邪魔しないで。
+67,所謂,いわゆる,iwayuru,Pre-noun adjectival,what is called; as it is called; the so-called; so to speak​,jlpt_n3,,"邪魔しないで。
 jama shinai de.
 Don't get in the way.","お邪魔します。
 o jama shimasu.
 Sorry to bother you. (when entering)","邪魔な物をどける。
 jama na mono o dokeru.
 Move the obstructing things aside."
-68,邪魔,じゃま,jama,"Noun, Adjective, な-adjective, Suru verb",hindrance,jlpt_n3,"化学の授業がある。
+68,邪魔,じゃま,jama,"Noun, Adjective, な-adjective, Suru verb",hindrance,jlpt_n3,,"化学の授業がある。
 kagaku no jugyou ga aru.
 I have a chemistry class.","化学反応を観察する。
 kagaku hannou o kansatsu suru.
 Observe the chemical reaction.","化学が苦手だ。
 kagaku ga nigate da.
 I'm not good at chemistry."
-69,化学,かがく,kagaku,Noun,chemistry,jlpt_n3,"同窓会に出席する。
+69,化学,かがく,kagaku,Noun,chemistry,jlpt_n3,,"同窓会に出席する。
 dousoukai ni shusseki suru.
 Attend the alumni meeting.","会を開く。
 kai o hiraku.
 Hold a meeting.","会のメンバーになる。
 kai no menbaa ni naru.
 Become a member of the association."
-70,会,かい,kai,"Noun, Suffix",meeting; assembly; party; association; club,jlpt_n3,"会員証を提示する。
+70,会,かい,kai,"Noun, Suffix",meeting; assembly; party; association; club,jlpt_n3,,"会員証を提示する。
 kaiinshou o teiji suru.
 Show my membership card.","会員登録をする。
 kaiin touroku o suru.
 Register as a member.","会員限定のサービスだ。
 kaiin gentei no saabisu da.
 It's a members-only service."
-71,会員,かいいん,kai'in,Noun,member,jlpt_n3,"海外旅行に行く。
+71,会員,かいいん,kai'in,Noun,member,jlpt_n3,,"海外旅行に行く。
 kaigai ryokou ni iku.
 Go on an overseas trip.","海外から輸入する。
 kaigai kara yunyuu suru.
 Import from abroad.","海外のニュースを見る。
 kaigai no nyuusu o miru.
 Watch overseas news."
-72,海外,かいがい,kaigai,"Noun, Adjective",foreign; abroad; overseas,jlpt_n3,"会合に参加する。
+72,海外,かいがい,kaigai,"Noun, Adjective",foreign; abroad; overseas,jlpt_n3,,"会合に参加する。
 kaigou ni sanka suru.
 Participate in the meeting.","明日会合がある。
 ashita kaigou ga aru.
 There's a meeting tomorrow.","会合の日程を決める。
 kaigou no nittei o kimeru.
 Set the meeting schedule."
-73,会合,かいごう,kaigou,"Noun, Verb, Suru verb",meeting; assembly; gathering; association,jlpt_n3,"会計をお願いします。
+73,会合,かいごう,kaigou,"Noun, Verb, Suru verb",meeting; assembly; gathering; association,jlpt_n3,,"会計をお願いします。
 kaikei o onegai shimasu.
 Check, please.","会計係を呼ぶ。
 kaikei gakari o yobu.
 Call the person in charge of the bill.","会社の会計を担当する。
 kaisha no kaikei o tantou suru.
 Handle the company's accounts."
-74,会計,かいけい,kaikei,Noun,finance; account; treasurer; bill,jlpt_n3,"営業開始は九時だ。
+74,会計,かいけい,kaikei,Noun,finance; account; treasurer; bill,jlpt_n3,,"営業開始は九時だ。
 eigyou kaishi wa kuji da.
 We open at 9 o'clock.","開始のベルが鳴った。
 kaishi no beru ga natta.
 The starting bell rang.","会議を開始する。
 kaigi o kaishi suru.
 Start the meeting."
-75,開始,かいし,kaishi,"Noun, Verb, Suru verb",start; commencement; beginning; initiation​,jlpt_n3,"好きな科目は数学だ。
+75,開始,かいし,kaishi,"Noun, Verb, Suru verb",start; commencement; beginning; initiation​,jlpt_n3,,"好きな科目は数学だ。
 suki na kamoku wa suugaku da.
 My favorite subject is math.","必修科目を取る。
 hisshuu kamoku o toru.
 Take the required courses.","科目選択は来週だ。
 kamoku sentaku wa raishuu da.
 Course selection is next week."
-76,科目,かもく,kamoku,Noun,(school) subject; curriculum; course,jlpt_n3,"権利を主張する。
+76,科目,かもく,kamoku,Noun,(school) subject; curriculum; course,jlpt_n3,,"権利を主張する。
 kenri o shuchou suru.
 Assert one's rights.","選挙権は国民の権利だ。
 senkyoken wa kokumin no kenri da.
 The right to vote is a citizen's right.","権利と義務は表裏一体だ。
 kenri to gimu wa hyouri ittai da.
 Rights and duties are two sides of the same coin."
-77,権利,けんり,kenri,Noun,right; privilege,jlpt_n3,"基本に戻って練習する。
+77,権利,けんり,kenri,Noun,right; privilege,jlpt_n3,,"基本に戻って練習する。
 kihon ni modotte renshuu suru.
 Go back to basics and practice.","基本が大切だ。
 kihon ga taisetsu da.
 The basics are important.","基本給はいくらですか。
 kihonkyuu wa ikura desu ka.
 What's the base salary?"
-78,基本,きほん,kihon,Noun,basics; fundamentals; basis; foundation,jlpt_n3,"新聞の記事を読む。
+78,基本,きほん,kihon,Noun,basics; fundamentals; basis; foundation,jlpt_n3,,"新聞の記事を読む。
 shinbun no kiji o yomu.
 Read the newspaper article.","面白い記事を見つけた。
 omoshiroi kiji o mitsuketa.
 I found an interesting article.","記事の内容を確認する。
 kiji no naiyou o kakunin suru.
 Check the content of the article."
-79,記事,きじ,kiji,Noun,article; news story; report; account,jlpt_n3,"風邪気味だ。
+79,記事,きじ,kiji,Noun,article; news story; report; account,jlpt_n3,,"風邪気味だ。
 kaze gimi da.
 I feel a bit under the weather.","疲れ気味なので早く寝る。
 tsukare gimi na node hayaku neru.
 I'll go to bed early since I'm feeling tired.","緊張気味の顔をしている。
 kinchou gimi no kao o shite iru.
 He looks a bit nervous."
-80,気味,きみ,kimi,Noun,sensation; feeling​; tendency,jlpt_n3,"卒業記念に写真を撮った。
+80,気味,きみ,kimi,Noun,sensation; feeling​; tendency,jlpt_n3,,"卒業記念に写真を撮った。
 sotsugyou kinen ni shashin o totta.
 Took a photo as a graduation memento.","記念品をいただいた。
 kinenhin o itadaita.
 I received a commemorative gift.","記念日を祝う。
 kinenbi o iwau.
 Celebrate the anniversary."
-81,記念,きねん,kinen,"Noun, Verb, Suru verb",commemoration; celebration; honoring the memory of something,jlpt_n3,"この店を気に入った。
+81,記念,きねん,kinen,"Noun, Verb, Suru verb",commemoration; celebration; honoring the memory of something,jlpt_n3,,"この店を気に入った。
 kono mise o ki ni itta.
 I've taken a liking to this store.","気に入った服を買う。
 ki ni itta fuku o kau.
 Buy clothes I like.","上司に気に入られている。
 joushi ni ki ni irareta iru.
 I'm in my boss's good graces."
-82,気に入る,きにいる,kiniiru,"Verb, Godan verb, Expression",to like; to take a liking to,jlpt_n3,"用紙に記入する。
+82,気に入る,きにいる,kiniiru,"Verb, Godan verb, Expression",to like; to take a liking to,jlpt_n3,,"用紙に記入する。
 youshi ni kinyuu suru.
 Fill in the form.","記入漏れがないか確認する。
 kinyuu more ga nai ka kakunin suru.
 Check that nothing was left blank.","名前を記入してください。
 namae o kinyuu shite kudasai.
 Please write your name."
-83,記入,きにゅう,kinyuu,"Noun, Verb, Suru verb",entry; filling in; filling out,jlpt_n3,"記憶が曖昧だ。
+83,記入,きにゅう,kinyuu,"Noun, Verb, Suru verb",entry; filling in; filling out,jlpt_n3,,"記憶が曖昧だ。
 kioku ga aimai da.
 My memory is vague.","子供の頃の記憶が残っている。
 kodomo no koro no kioku ga nokotte iru.
 I still have memories from childhood.","記憶力を鍛える。
 kiokuryoku o kitaeru.
 Train my memory."
-84,記憶,きおく,kioku,"Noun, Verb, Suru verb",memory; recollection; remembrance,jlpt_n3,"記者会見が開かれた。
+84,記憶,きおく,kioku,"Noun, Verb, Suru verb",memory; recollection; remembrance,jlpt_n3,,"記者会見が開かれた。
 kisha kaiken ga hirakareta.
 A press conference was held.","新聞記者になりたい。
 shinbun kisha ni naritai.
 I want to become a newspaper reporter.","記者が質問を浴びせた。
 kisha ga shitsumon o abiseta.
 Reporters bombarded with questions."
-85,記者,きしゃ,kisha,Noun,reporter; journalist,jlpt_n3,"期待に応えたい。
+85,記者,きしゃ,kisha,Noun,reporter; journalist,jlpt_n3,,"期待に応えたい。
 kitai ni kotaetai.
 I want to live up to expectations.","期待を裏切られた。
 kitai o uragirareta.
 My expectations were betrayed.","期待通りだった。
 kitai doori datta.
 It was as expected."
-86,期待,きたい,kitai,"Noun, Verb, Suru verb",expectation; anticipation; hope,jlpt_n3,"国家の安全を守る。
+86,期待,きたい,kitai,"Noun, Verb, Suru verb",expectation; anticipation; hope,jlpt_n3,,"国家の安全を守る。
 kokka no anzen o mamoru.
 Protect national security.","国家試験に合格した。
 kokka shiken ni goukaku shita.
 I passed the national exam.","国家間の交渉。
 kokkakan no koushou.
 Negotiations between nations."
-87,国家,こっか,kokka,Noun,state; country; nation,jlpt_n3,"国会で審議されている。
+87,国家,こっか,kokka,Noun,state; country; nation,jlpt_n3,,"国会で審議されている。
 kokkai de shingi sarete iru.
 It's being deliberated in the Diet.","国会議員に当選した。
 kokkai giin ni tousen shita.
 I was elected to the Diet.","国会の閉会中だ。
 kokkai no heikaichuu da.
 The Diet is in recess."
-88,国会,こっかい,kokkai,Noun,National Diet; legislative assembly of Japan; parliament; congress,jlpt_n3,"国境を越える。
+88,国会,こっかい,kokkai,Noun,National Diet; legislative assembly of Japan; parliament; congress,jlpt_n3,,"国境を越える。
 kokkyou o koeru.
 Cross the border.","国境の町を訪れた。
 kokkyou no machi o otozureta.
 I visited a border town.","国境問題が起きている。
 kokkyou mondai ga okite iru.
 There's a border dispute."
-89,国境,こっきょう,kokkyou,Noun,national border,jlpt_n3,"国語の授業が好きだ。
+89,国境,こっきょう,kokkyou,Noun,national border,jlpt_n3,,"国語の授業が好きだ。
 kokugo no jugyou ga suki da.
 I like Japanese language class.","国語辞典を引く。
 kokugo jiten o hiku.
 Look it up in the Japanese dictionary.","国語力をつける。
 kokugoryoku o tsukeru.
 Build Japanese language skills."
-90,国語,こくご,kokugo,Noun,national language,jlpt_n3,"国民の義務を果たす。
+90,国語,こくご,kokugo,Noun,national language,jlpt_n3,,"国民の義務を果たす。
 kokumin no gimu o hatasu.
 Fulfill one's duties as a citizen.","国民の祝日だ。
 kokumin no shukujitsu da.
 It's a national holiday.","国民全体の利益を考える。
 kokumin zentai no rieki o kangaeru.
 Consider the benefit of all citizens."
-91,国民,こくみん,kokumin,Noun,people (of a country); nation; citizen; national,jlpt_n3,"今後ともよろしく。
+91,国民,こくみん,kokumin,Noun,people (of a country); nation; citizen; national,jlpt_n3,,"今後ともよろしく。
 kongo tomo yoroshiku.
 I look forward to working with you from now on.","今後の予定を決める。
 kongo no yotei o kimeru.
 Decide on future plans.","今後は気をつける。
 kongo wa ki o tsukeru.
 I'll be more careful from now on."
-92,今後,こんご,kongo,"Noun, Adverbial Noun",from now on; hereafter,jlpt_n3,"今回だけ特別に。
+92,今後,こんご,kongo,"Noun, Adverbial Noun",from now on; hereafter,jlpt_n3,,"今回だけ特別に。
 konkai dake tokubetsu ni.
 Just this once, as an exception.","今回の試験は難しかった。
 konkai no shiken wa muzukashikatta.
 This time's exam was difficult.","今回で三回目だ。
 konkai de sankai me da.
 This is the third time."
-93,今回,こんかい,konkai,"Noun, Adverbial Noun",now; this time; lately,jlpt_n3,"今日はいい天気だ。
+93,今回,こんかい,konkai,"Noun, Adverbial Noun",now; this time; lately,jlpt_n3,,"今日はいい天気だ。
 konnichi wa ii tenki da.
 The weather is nice today.","今日中に終わらせる。
 kyou juu ni owaraseru.
 I'll finish it by the end of today.","今日の予定は？
 kyou no yotei wa?
 What's on for today?"
-94,今日,こんにち,konnichi,Expression,today; this day,jlpt_n3,"氷の上で転んだ。
+94,今日,こんにち,konnichi,Expression,today; this day,jlpt_n3,,"氷の上で転んだ。
 kouri no ue de koronda.
 I slipped on the ice.","転ばないように気をつける。
 korobanai you ni ki o tsukeru.
 Be careful not to fall.","石に躓いて転んだ。
 ishi ni tsumazuite koronda.
 I tripped on a stone and fell."
-95,転ぶ,ころぶ,korobu,"Verb, Godan verb, Intransitive verb",to fall down; to fall over,jlpt_n3,"高速道路を走る。
+95,転ぶ,ころぶ,korobu,"Verb, Godan verb, Intransitive verb",to fall down; to fall over,jlpt_n3,,"高速道路を走る。
 kousoku douro o hashiru.
 Drive on the highway.","高速で移動する。
 kousoku de idou suru.
 Travel at high speed.","新幹線は高速だ。
 shinkansen wa kousoku da.
 The shinkansen is high-speed."
-96,高速,こうそく,kousoku,"Noun, Adjective, な-adjective",high-speed; rapid; express,jlpt_n3,"防災訓練に参加する。
+96,高速,こうそく,kousoku,"Noun, Adjective, な-adjective",high-speed; rapid; express,jlpt_n3,,"防災訓練に参加する。
 bousai kunren ni sanka suru.
 Participate in disaster drills.","毎日訓練している。
 mainichi kunren shite iru.
 I train every day.","訓練の成果が出た。
 kunren no seika ga deta.
 The training paid off."
-97,訓練,くんれん,kunren,"Noun, Verb, Suru verb",training; drill; practice; discipline,jlpt_n3,"教科書を開く。
+97,訓練,くんれん,kunren,"Noun, Verb, Suru verb",training; drill; practice; discipline,jlpt_n3,,"教科書を開く。
 kyoukasho o hiraku.
 Open the textbook.","教科書の三十ページだ。
 kyoukasho no sanjuu peeji da.
 It's on page 30 of the textbook.","新しい教科書をもらった。
 atarashii kyoukasho o moratta.
 I received a new textbook."
-98,教科書,きょうかしょ,kyoukasho,Noun,textbook; coursebook; schoolbook,jlpt_n3,"ご協力ありがとうございます。
+98,教科書,きょうかしょ,kyoukasho,Noun,textbook; coursebook; schoolbook,jlpt_n3,,"ご協力ありがとうございます。
 go kyouryoku arigatou gozaimasu.
 Thank you for your cooperation.","皆で協力して頑張る。
 minna de kyouryoku shite ganbaru.
 We'll work together and do our best.","協力して問題を解決した。
 kyouryoku shite mondai o kaiketsu shita.
 We solved the problem together."
-99,協力,きょうりょく,kyouryoku,"Noun, Verb, Suru verb",cooperation; collaboration,jlpt_n3,"強力な味方だ。
+99,協力,きょうりょく,kyouryoku,"Noun, Verb, Suru verb",cooperation; collaboration,jlpt_n3,,"強力な味方だ。
 kyouryoku na mikata da.
 He's a powerful ally.","強力な洗剤を使う。
 kyouryoku na senzai o tsukau.
 Use strong detergent.","強力なサポートがある。
 kyouryoku na sapooto ga aru.
 I have strong support."
-100,強力,きょうりょく,kyouryoku,"Noun, Adjective, な-adjective",powerful; strong,jlpt_n3,"急激な変化が起きた。
+100,強力,きょうりょく,kyouryoku,"Noun, Adjective, な-adjective",powerful; strong,jlpt_n3,,"急激な変化が起きた。
 kyuugeki na henka ga okita.
 A sudden change occurred.","急激に体重が減った。
 kyuugeki ni taijuu ga hetta.
 I lost weight rapidly.","急激な温度上昇。
 kyuugeki na ondo joushou.
 A rapid rise in temperature."
-101,急激,きゅうげき,kyuugeki,"Adjective, な-adjective",sudden; abrupt; rapid; sharp; drastic; radical,jlpt_n3,"急に雨が降り出した。
+101,急激,きゅうげき,kyuugeki,"Adjective, な-adjective",sudden; abrupt; rapid; sharp; drastic; radical,jlpt_n3,,"急に雨が降り出した。
 kyuuni ame ga furidashita.
 It suddenly started raining.","急に思い出した。
 kyuuni omoidashita.
 I suddenly remembered.","急に用事ができた。
 kyuuni youji ga dekita.
 Something came up suddenly."
-102,急に,きゅうに,kyuuni,Adverb,swiftly; rapidly; quickly; immediately; hastily,jlpt_n3,"スポンジが水を吸収する。
+102,急に,きゅうに,kyuuni,Adverb,swiftly; rapidly; quickly; immediately; hastily,jlpt_n3,,"スポンジが水を吸収する。
 suponji ga mizu o kyuushuu suru.
 The sponge absorbs water.","新しい知識を吸収する。
 atarashii chishiki o kyuushuu suru.
 Absorb new knowledge.","吸収が早い。
 kyuushuu ga hayai.
 He learns quickly."
-103,吸収,きゅうしゅう,kyuushuu,"Noun, Verb, Suru verb",absorption; suction; attraction,jlpt_n3,"急速に成長している。
+103,吸収,きゅうしゅう,kyuushuu,"Noun, Verb, Suru verb",absorption; suction; attraction,jlpt_n3,,"急速に成長している。
 kyuusoku ni seichou shite iru.
 It's growing rapidly.","急速に広がった。
 kyuusoku ni hirogatta.
 It spread rapidly.","急速な発展を遂げた。
 kyuusoku na hatten o togeta.
 It achieved rapid development."
-104,急速,きゅうそく,kyuusoku,"Noun, Adjective, な-adjective",rapid (e.g. progress),jlpt_n3,"真面目に勉強する。
+104,急速,きゅうそく,kyuusoku,"Noun, Adjective, な-adjective",rapid (e.g. progress),jlpt_n3,,"真面目に勉強する。
 majime ni benkyou suru.
 Study seriously.","彼は真面目な人だ。
 kare wa majime na hito da.
 He's a serious person.","真面目に働いている。
 majime ni hataraite iru.
 He works diligently."
-105,真面目,まじめ,majime,"Noun, Adjective, な-adjective",serious; earnest,jlpt_n3,"顔が真っ赤になった。
+105,真面目,まじめ,majime,"Noun, Adjective, な-adjective",serious; earnest,jlpt_n3,,"顔が真っ赤になった。
 kao ga makka ni natta.
 My face turned bright red.","真っ赤なりんご。
 makka na ringo.
 A bright red apple.","真っ赤な夕焼けだ。
 makka na yuuyake da.
 It's a deep red sunset."
-106,真っ赤,まっか,makka,"Noun, Adjective, な-adjective",bright red; deep red; flushed (of face),jlpt_n3,"日本語を学んでいる。
+106,真っ赤,まっか,makka,"Noun, Adjective, な-adjective",bright red; deep red; flushed (of face),jlpt_n3,,"日本語を学んでいる。
 nihongo o manande iru.
 I'm learning Japanese.","失敗から学ぶ。
 shippai kara manabu.
 Learn from failure.","人生で大切なことを学んだ。
 jinsei de taisetsu na koto o mananda.
 I learned important things in life."
-107,学ぶ,まなぶ,manabu,"Verb, Godan verb, Transitive verb",to study (in depth); to learn; to take lessons in,jlpt_n3,"万一大雨なら中止だ。
+107,学ぶ,まなぶ,manabu,"Verb, Godan verb, Transitive verb",to study (in depth); to learn; to take lessons in,jlpt_n3,,"万一大雨なら中止だ。
 manichi ooame nara chuushi da.
 In case of heavy rain, it's cancelled.","万一に備えて保険に入る。
 manichi ni sonaete hoken ni hairu.
 Get insurance just in case.","万一の時の連絡先。
 manichi no toki no renrakusaki.
 Emergency contact information."
-108,万一,まんいち,manichi,"Noun, Adverb",emergency; unlikely event​; by some chance; by some possibility,jlpt_n3,"結果に満足している。
+108,万一,まんいち,manichi,"Noun, Adverb",emergency; unlikely event​; by some chance; by some possibility,jlpt_n3,,"結果に満足している。
 kekka ni manzoku shite iru.
 I'm satisfied with the result.","満足のいく出来だった。
 manzoku no iku dekida datta.
 It was a satisfactory result.","お腹がいっぱいで満足だ。
 onaka ga ippai de manzoku da.
 I'm full and satisfied."
-109,満足,まんぞく,manzoku,"Noun, Adjective, な-adjective, Verb, Suru verb",satisfaction; contentment;​ sufficient; enough,jlpt_n3,"明確な説明を求める。
+109,満足,まんぞく,manzoku,"Noun, Adjective, な-adjective, Verb, Suru verb",satisfaction; contentment;​ sufficient; enough,jlpt_n3,,"明確な説明を求める。
 meikaku na setsumei o motomeru.
 I want a clear explanation.","理由が明確になった。
 riyuu ga meikaku ni natta.
 The reason became clear.","明確に区別する。
 meikaku ni kubetsu suru.
 Clearly distinguish."
-110,明確,めいかく,meikaku,"Adjective, な-adjective",clear; precise; definite; distinct,jlpt_n3,"飯を炊く。
+110,明確,めいかく,meikaku,"Adjective, な-adjective",clear; precise; definite; distinct,jlpt_n3,,"飯を炊く。
 meshi o taku.
 Cook rice.","飯の支度をする。
 meshi no shitaku o suru.
 Prepare the meal.","美味しい飯を食べた。
 oishii meshi o tabeta.
 I had a delicious meal."
-111,飯,めし,meshi,Noun,cooked rice; meal,jlpt_n3,"君は味方だよね。
+111,飯,めし,meshi,Noun,cooked rice; meal,jlpt_n3,,"君は味方だよね。
 kimi wa mikata da yo ne.
 You're on my side, right?","味方につける。
 mikata ni tsukeru.
 Get someone on your side.","味方が多い。
 mikata ga ooi.
 There are many allies."
-112,味方,みかた,mikata,"Noun, Verb, Suru verb",friend; ally; supporter; taking sides with; supporting,jlpt_n3,"この町には魅力がある。
+112,味方,みかた,mikata,"Noun, Verb, Suru verb",friend; ally; supporter; taking sides with; supporting,jlpt_n3,,"この町には魅力がある。
 kono machi ni wa miryoku ga aru.
 This town has charm.","彼女は魅力たっぷりだ。
 kanojo wa miryoku tappuri da.
 She's full of charm.","仕事の魅力を伝える。
 shigoto no miryoku o tsutaeru.
 Convey the appeal of the job."
-113,魅力,みりょく,miryoku,Noun,charm; fascination; glamour; attraction; appeal,jlpt_n3,"木曜日に会いましょう。
+113,魅力,みりょく,miryoku,Noun,charm; fascination; glamour; attraction; appeal,jlpt_n3,,"木曜日に会いましょう。
 mokuyoubi ni aimashou.
 Let's meet on Thursday.","毎週木曜が休みだ。
 maishuu mokuyou ga yasumi da.
 Every Thursday is my day off.","木曜の午後なら空いている。
 mokuyou no gogo nara aite iru.
 I'm free Thursday afternoon."
-114,木曜,もくよう,mokuyou,"Noun, Adverbial Noun",Thursday,jlpt_n3,"三月半ばに帰国する。
+114,木曜,もくよう,mokuyou,"Noun, Adverbial Noun",Thursday,jlpt_n3,,"三月半ばに帰国する。
 sangatsu nakaba ni kikoku suru.
 I'll return to Japan in mid-March.","仕事が半ばで止まった。
 shigoto ga nakaba de tomatta.
 The work stopped halfway.","人生の半ばを過ぎた。
 jinsei no nakaba o sugita.
 I've passed the midpoint of my life."
-115,半ば,なかば,nakaba,"Noun, Adverbial Noun, Suffix, Adverbial noun",middle; half; semi; halfway; partly,jlpt_n3,"熱心に練習している。
+115,半ば,なかば,nakaba,"Noun, Adverbial Noun, Suffix, Adverbial noun",middle; half; semi; halfway; partly,jlpt_n3,,"熱心に練習している。
 nesshin ni renshuu shite iru.
 He's practicing enthusiastically.","熱心なファンだ。
 nesshin na fan da.
 He's an enthusiastic fan.","熱心に説明してくれた。
 nesshin ni setsumei shite kureta.
 He explained enthusiastically."
-116,熱心,ねっしん,nesshin,"Noun, Adjective, な-adjective",enthusiastic; eager,jlpt_n3,"日本に住んでいる。
+116,熱心,ねっしん,nesshin,"Noun, Adjective, な-adjective",enthusiastic; eager,jlpt_n3,,"日本に住んでいる。
 nihon ni sunde iru.
 I live in Japan.","日本料理が好きだ。
 nihon ryouri ga suki da.
 I like Japanese food.","来月日本へ行く。
 raigetsu nihon e iku.
 I'm going to Japan next month."
-117,日本,にほん,nihon,Noun,Japan,jlpt_n3,"能力を伸ばす。
+117,日本,にほん,nihon,Noun,Japan,jlpt_n3,,"能力を伸ばす。
 nouryoku o nobasu.
 Develop one's ability.","語学能力が高い。
 gogaku nouryoku ga takai.
 He has high language ability.","能力に応じて役割を決める。
 nouryoku ni oujite yakuwari o kimeru.
 Assign roles according to ability."
-118,能力,のうりょく,nouryoku,Noun,ability; faculty,jlpt_n3,"入場料は千円です。
+118,能力,のうりょく,nouryoku,Noun,ability; faculty,jlpt_n3,,"入場料は千円です。
 nyuujou ryou wa sen en desu.
 The admission fee is 1000 yen.","入場無料のイベントだ。
 nyuujou muryou no ibento da.
 It's a free admission event.","入場券を見せてください。
 nyuujouken o misete kudasai.
 Please show your admission ticket."
-119,入場,にゅうじょう,nyuujou,"Noun, Verb, Suru verb",entrance; admission; entering,jlpt_n3,"お昼にしましょう。
+119,入場,にゅうじょう,nyuujou,"Noun, Verb, Suru verb",entrance; admission; entering,jlpt_n3,,"お昼にしましょう。
 o hiru ni shimashou.
 Let's have lunch.","お昼休みは一時間だ。
 o hiru yasumi wa ichi jikan da.
 Lunch break is one hour.","お昼は何にしますか。
 o hiru wa nani ni shimasu ka.
 What would you like for lunch?"
-120,お昼,おひる,ohiru,Noun,lunch; midday; daytime,jlpt_n3,"箱に収める。
+120,お昼,おひる,ohiru,Noun,lunch; midday; daytime,jlpt_n3,,"箱に収める。
 hako ni osameru.
 Put it in the box.","怒りを収める。
 ikari o osameru.
 Calm one's anger.","成果を収めた。
 seika o osameta.
 Achieved results."
-121,収める,おさめる,osameru,"Verb, Ichidan verb, Transitive verb",to supply; to dedicate; to make an offering; to pay,jlpt_n3,"三日連続で雨だ。
+121,収める,おさめる,osameru,"Verb, Ichidan verb, Transitive verb",to supply; to dedicate; to make an offering; to pay,jlpt_n3,,"三日連続で雨だ。
 mikka renzoku de ame da.
 It's been raining for three days in a row.","連続ドラマを見る。
 renzoku dorama o miru.
 Watch a drama series.","連続して働いた。
 renzoku shite hataraita.
 I worked without a break."
-122,連続,れんぞく,renzoku,"Noun, Verb, Suru verb",continuation; succession; series,jlpt_n3,"利益が出た。
+122,連続,れんぞく,renzoku,"Noun, Verb, Suru verb",continuation; succession; series,jlpt_n3,,"利益が出た。
 rieki ga deta.
 We made a profit.","相互の利益を考える。
 sougo no rieki o kangaeru.
 Consider mutual benefit.","利益を還元する。
 rieki o kangen suru.
 Return the profits."
-123,利益,りえき,rieki,"Noun, Verb, Suru verb",profit; gains; benefit,jlpt_n3,"利口な子だ。
+123,利益,りえき,rieki,"Noun, Verb, Suru verb",profit; gains; benefit,jlpt_n3,,"利口な子だ。
 rikou na ko da.
 He's a clever child.","利口に振る舞う。
 rikou ni furumau.
 Act wisely.","犬が利口に芸を覚えた。
 inu ga rikou ni gei o oboeta.
 The dog cleverly learned the trick."
-124,利口,りこう,rikou,"Noun, Adjective, な-adjective",clever; intelligent; wise; bright; sharp,jlpt_n3,"アメリカに留学する。
+124,利口,りこう,rikou,"Noun, Adjective, な-adjective",clever; intelligent; wise; bright; sharp,jlpt_n3,,"アメリカに留学する。
 amerika ni ryuugaku suru.
 Study abroad in America.","留学経験がある。
 ryuugaku keiken ga aru.
 I have study-abroad experience.","留学の準備をしている。
 ryuugaku no junbi o shite iru.
 I'm preparing to study abroad."
-125,留学,りゅうがく,ryuugaku,"Noun, Verb, Suru verb",studying abroad,jlpt_n3,"彼の作品が好きだ。
+125,留学,りゅうがく,ryuugaku,"Noun, Verb, Suru verb",studying abroad,jlpt_n3,,"彼の作品が好きだ。
 kare no sakuhin ga suki da.
 I like his works.","卒業作品を制作する。
 sotsugyou sakuhin o seisaku suru.
 Create a graduation work.","この作品は名作だ。
 kono sakuhin wa meisaku da.
 This work is a masterpiece."
-126,作品,さくひん,sakuhin,Noun,work of art; performance,jlpt_n3,"左右を確認する。
+126,作品,さくひん,sakuhin,Noun,work of art; performance,jlpt_n3,,"左右を確認する。
 sayuu o kakunin suru.
 Check left and right.","左右に振る。
 sayuu ni furu.
 Swing left and right.","意見が左右に分かれた。
 iken ga sayuu ni wakareta.
 Opinions were divided."
-127,左右,さゆう,sayuu,"Noun, Verb, Suru verb",left and right,jlpt_n3,"子供の成長が嬉しい。
+127,左右,さゆう,sayuu,"Noun, Verb, Suru verb",left and right,jlpt_n3,,"子供の成長が嬉しい。
 kodomo no seichou ga ureshii.
 I'm happy to see my child grow.","経済が成長している。
 keizai ga seichou shite iru.
 The economy is growing.","成長著しい。
 seichou ichijirushii.
 Growth is remarkable."
-128,成長,せいちょう,seichou,"Noun, Verb, Suru verb",growth; development; growing up; becoming an adult,jlpt_n3,"新製品が発売された。
+128,成長,せいちょう,seichou,"Noun, Verb, Suru verb",growth; development; growing up; becoming an adult,jlpt_n3,,"新製品が発売された。
 shin seihin ga hatsubai sareta.
 A new product was released.","国産製品を選ぶ。
 kokusan seihin o erabu.
 Choose domestic products.","製品の説明書を読む。
 seihin no setsumeisho o yomu.
 Read the product manual."
-129,製品,せいひん,seihin,Noun,manufactured goods; finished goods; product,jlpt_n3,"青年は意気込みがすごい。
+129,製品,せいひん,seihin,Noun,manufactured goods; finished goods; product,jlpt_n3,,"青年は意気込みがすごい。
 seinen wa ikigomi ga sugoi.
 The young man is very motivated.","青年海外協力隊に参加した。
 seinen kaigai kyouryokutai ni sanka shita.
 I joined the Japan Overseas Cooperation Volunteers.","青年会議所のメンバーだ。
 seinen kaigisho no menbaa da.
 He's a member of the junior chamber."
-130,青年,せいねん,seinen,Noun,youth; young man,jlpt_n3,"刺激的な映画だった。
+130,青年,せいねん,seinen,Noun,youth; young man,jlpt_n3,,"刺激的な映画だった。
 shigeki teki na eiga datta.
 It was a stimulating film.","味に刺激がある。
 aji ni shigeki ga aru.
 The taste has a kick.","良い刺激を受けた。
 yoi shigeki o uketa.
 I received good stimulation."
-131,刺激,しげき,shigeki,"Noun, Verb, Suru verb",stimulus; impetus; incentive; encouragement; motivation; provocation; excitement; thrill,jlpt_n3,"資本金を増やす。
+131,刺激,しげき,shigeki,"Noun, Verb, Suru verb",stimulus; impetus; incentive; encouragement; motivation; provocation; excitement; thrill,jlpt_n3,,"資本金を増やす。
 shihonkin o fuyasu.
 Increase the capital.","資本主義経済。
 shihon shugi keizai.
 Capitalist economy.","必要な資本を集める。
 hitsuyou na shihon o atsumeru.
 Raise the necessary capital."
-132,資本,しほん,shihon,Noun,funds; capital,jlpt_n3,"品が良い。
+132,資本,しほん,shihon,Noun,funds; capital,jlpt_n3,,"品が良い。
 shina ga ii.
 It's good quality.","品切れです。
 shinagire desu.
 We're out of stock.","品ぞろえが豊富だ。
 shinazoroe ga houfu da.
 There's a wide selection."
-133,品,しな,shina,Noun,article; item; thing; goods; stock; quality,jlpt_n3,"身長を測る。
+133,品,しな,shina,Noun,article; item; thing; goods; stock; quality,jlpt_n3,,"身長を測る。
 shinchou o hakaru.
 Measure height.","身長が伸びた。
 shinchou ga nobita.
 I've grown taller.","身長は百七十センチだ。
 shinchou wa hyaku nanajuu senchi da.
 My height is 170 cm."
-134,身長,しんちょう,shinchou,Noun,body height; stature,jlpt_n3,"大学に進学する。
+134,身長,しんちょう,shinchou,Noun,body height; stature,jlpt_n3,,"大学に進学する。
 daigaku ni shingaku suru.
 Go on to university.","進学率が上がった。
 shingakuritsu ga agatta.
 The advancement rate has increased.","進学先を決める。
 shingaku saki o kimeru.
 Decide where to continue studying."
-135,進学,しんがく,shingaku,"Noun, Verb, Suru verb",entering a higher-level school (often university),jlpt_n3,"新鮮な野菜を買う。
+135,進学,しんがく,shingaku,"Noun, Verb, Suru verb",entering a higher-level school (often university),jlpt_n3,,"新鮮な野菜を買う。
 shinsen na yasai o kau.
 Buy fresh vegetables.","新鮮な空気を吸う。
 shinsen na kuuki o suu.
 Breathe fresh air.","新鮮な魚が食べたい。
 shinsen na sakana ga tabetai.
 I want to eat fresh fish."
-136,新鮮,しんせん,shinsen,"Adjective, な-adjective",fresh,jlpt_n3,"支店に転勤した。
+136,新鮮,しんせん,shinsen,"Adjective, な-adjective",fresh,jlpt_n3,,"支店に転勤した。
 shiten ni tenkin shita.
 I was transferred to a branch office.","支店長に報告する。
 shitenchou ni houkoku suru.
 Report to the branch manager.","全国に支店がある。
 zenkoku ni shiten ga aru.
 There are branches nationwide."
-137,支店,してん,shiten,Noun,branch office; branch store​,jlpt_n3,"使用前に説明を読む。
+137,支店,してん,shiten,Noun,branch office; branch store​,jlpt_n3,,"使用前に説明を読む。
 shiyou mae ni setsumei o yomu.
 Read the instructions before use.","使用禁止だ。
 shiyou kinshi da.
 Use is prohibited.","この機械の使用法を教えて。
 kono kikai no shiyouhou o oshiete.
 Teach me how to use this machine."
-138,使用,しよう,shiyou,"Noun, Verb, Suru verb",use; application; employment; utilization.,jlpt_n3,"食品の賞味期限を確認する。
+138,使用,しよう,shiyou,"Noun, Verb, Suru verb",use; application; employment; utilization.,jlpt_n3,,"食品の賞味期限を確認する。
 shokuhin no shoumi kigen o kakunin suru.
 Check the food's expiration date.","食品スーパーで買い物する。
 shokuhin suupaa de kaimono suru.
 Shop at the grocery store.","食品添加物に気をつける。
 shokuhin tenkabutsu ni ki o tsukeru.
 Be careful about food additives."
-139,食品,しょくひん,shokuhin,Noun,food; food products,jlpt_n3,"書物を読むのが好きだ。
+139,食品,しょくひん,shokuhin,Noun,food; food products,jlpt_n3,,"書物を読むのが好きだ。
 shomotsu o yomu no ga suki da.
 I like reading books.","貴重な書物を所蔵している。
 kichou na shomotsu o shozou shite iru.
 We have valuable books in our collection.","昔の書物を研究する。
 mukashi no shomotsu o kenkyuu suru.
 Study old books."
-140,書物,しょもつ,shomotsu,Noun,book; volume,jlpt_n3,"書類にサインする。
+140,書物,しょもつ,shomotsu,Noun,book; volume,jlpt_n3,,"書類にサインする。
 shorui ni sain suru.
 Sign the documents.","書類を提出する。
 shorui o teishutsu suru.
 Submit the documents.","書類の整理をする。
 shorui no seiri o suru.
 Organize the documents."
-141,書類,しょるい,shorui,Noun,document; official papers,jlpt_n3,"書斎で仕事をする。
+141,書類,しょるい,shorui,Noun,document; official papers,jlpt_n3,,"書斎で仕事をする。
 shosai de shigoto o suru.
 Work in the study.","書斎には本がたくさんある。
 shosai ni wa hon ga takusan aru.
 There are many books in the study.","静かな書斎が欲しい。
 shizuka na shosai ga hoshii.
 I want a quiet study."
-142,書斎,しょさい,shosai,Noun,study; library; den; home office; reading room,jlpt_n3,"商売が繁盛している。
+142,書斎,しょさい,shosai,Noun,study; library; den; home office; reading room,jlpt_n3,,"商売が繁盛している。
 shoubai ga hanjou shite iru.
 Business is thriving.","商売のやり方を学ぶ。
 shoubai no yarikata o manabu.
 Learn how to do business.","商売柄早起きだ。
 shoubai gara hayaoki da.
 I get up early because of my business."
-143,商売,しょうばい,shoubai,Noun,trade; business; commerce; transaction; occupation,jlpt_n3,"奨学金を申請した。
+143,商売,しょうばい,shoubai,Noun,trade; business; commerce; transaction; occupation,jlpt_n3,,"奨学金を申請した。
 shougakukin o shinsei shita.
 I applied for a scholarship.","奨学金をもらって大学に通う。
 shougakukin o moratte daigaku ni kayou.
 I attend university with a scholarship.","奨学金の条件を満たす。
 shougakukin no jouken o mitasu.
 Meet the scholarship requirements."
-144,奨学金,しょうがくきん,shougakukin,Noun,scholarship; stipend; student loan,jlpt_n3,"正午に待ち合わせる。
+144,奨学金,しょうがくきん,shougakukin,Noun,scholarship; stipend; student loan,jlpt_n3,,"正午に待ち合わせる。
 shougo ni machiawaseru.
 Let's meet at noon.","正午のニュースを見る。
 shougo no nyuusu o miru.
 Watch the noon news.","正午過ぎに到着した。
 shougo sugi ni touchaku shita.
 I arrived after noon."
-145,正午,しょうご,shougo,"Noun, Adverbial Noun",midday,jlpt_n3,"新商品を開発した。
+145,正午,しょうご,shougo,"Noun, Adverbial Noun",midday,jlpt_n3,,"新商品を開発した。
 shin shouhin o kaihatsu shita.
 We developed a new product.","商品の説明を受ける。
 shouhin no setsumei o ukeru.
 Receive a product explanation.","この商品は人気だ。
 kono shouhin wa ninki da.
 This product is popular."
-146,商品,しょうひん,shouhin,Noun,commodity; article of commerce; goods; stock; merchandise,jlpt_n3,"少女が花を持っていた。
+146,商品,しょうひん,shouhin,Noun,commodity; article of commerce; goods; stock; merchandise,jlpt_n3,,"少女が花を持っていた。
 shoujo ga hana o motte ita.
 The girl was holding flowers.","少女向けの雑誌。
 shoujo muke no zasshi.
 A magazine for girls.","少女時代の思い出。
 shoujo jidai no omoide.
 Memories from my girlhood."
-147,少女,しょうじょ,shoujo,Noun,little girl; maiden; young lady,jlpt_n3,"身分証明書を見せてください。
+147,少女,しょうじょ,shoujo,Noun,little girl; maiden; young lady,jlpt_n3,,"身分証明書を見せてください。
 mibun shoumeisho o misete kudasai.
 Please show your ID.","無実を証明した。
 mujitsu o shoumei shita.
 I proved my innocence.","証明書を発行する。
 shoumeisho o hakkou suru.
 Issue a certificate."
-148,証明,しょうめい,shoumei,"Noun, Verb, Suru verb",proof; verification; certification,jlpt_n3,"少年が道で遊んでいた。
+148,証明,しょうめい,shoumei,"Noun, Verb, Suru verb",proof; verification; certification,jlpt_n3,,"少年が道で遊んでいた。
 shounen ga michi de asonde ita.
 A boy was playing in the street.","少年時代は田舎で過ごした。
 shounen jidai wa inaka de sugoshita.
 I spent my boyhood in the countryside.","少年漫画が好きだ。
 shounen manga ga suki da.
 I like shonen manga."
-149,少年,しょうねん,shounen,Noun,boy; juvenile; young boy; youth; lad,jlpt_n3,"少々お待ちください。
+149,少年,しょうねん,shounen,Noun,boy; juvenile; young boy; youth; lad,jlpt_n3,,"少々お待ちください。
 shoushou o machi kudasai.
 Please wait a moment.","少々辛い。
 shoushou karai.
 It's a bit spicy.","少々かかります。
 shoushou kakarimasu.
 It will take a little while."
-150,少々,しょうしょう,shoushou,"Noun, Adverbial Noun",just a minute; small quantity,jlpt_n3,"パーティーに招待された。
+150,少々,しょうしょう,shoushou,"Noun, Adverbial Noun",just a minute; small quantity,jlpt_n3,,"パーティーに招待された。
 paatii ni shoutai sareta.
 I was invited to the party.","招待状が届いた。
 shoutaijou ga todoita.
 I received an invitation.","招待してくれてありがとう。
 shoutai shite kurete arigatou.
 Thank you for inviting me."
-151,招待,しょうたい,shoutai,"Noun, Verb, Suru verb",invitation,jlpt_n3,"週に三回ジムに行く。
+151,招待,しょうたい,shoutai,"Noun, Verb, Suru verb",invitation,jlpt_n3,,"週に三回ジムに行く。
 shuu ni sankai jimu ni iku.
 I go to the gym three times a week.","来週会いましょう。
 raishuu aimashou.
 Let's meet next week.","今週は忙しい。
 konshuu wa isogashii.
 I'm busy this week."
-152,週,しゅう,shuu,"Noun, Suffix",week,jlpt_n3,"集中して勉強する。
+152,週,しゅう,shuu,"Noun, Suffix",week,jlpt_n3,,"集中して勉強する。
 shuuchuu shite benkyou suru.
 Study with concentration.","集中力が続かない。
 shuuchuuryoku ga tsuzukanai.
 I can't maintain concentration.","仕事に集中する。
 shigoto ni shuuchuu suru.
 Focus on work."
-153,集中,しゅうちゅう,shuuchuu,"Noun, Verb, Suru verb",concentration; focusing; centralization; integration,jlpt_n3,"集団で行動する。
+153,集中,しゅうちゅう,shuuchuu,"Noun, Verb, Suru verb",concentration; focusing; centralization; integration,jlpt_n3,,"集団で行動する。
 shuudan de koudou suru.
 Act as a group.","集団生活に慣れる。
 shuudan seikatsu ni nareru.
 Get used to group life.","集団登校する。
 shuudan toukou suru.
 Walk to school in a group."
-154,集団,しゅうだん,shuudan,Noun,group; mass,jlpt_n3,"収穫の秋だ。
+154,集団,しゅうだん,shuudan,Noun,group; mass,jlpt_n3,,"収穫の秋だ。
 shuukaku no aki da.
 It's harvest autumn.","今年は収穫が多かった。
 kotoshi wa shuukaku ga ookatta.
 We had a good harvest this year.","収穫した野菜を食べる。
 shuukaku shita yasai o taberu.
 Eat the harvested vegetables."
-155,収穫,しゅうかく,shuukaku,"Noun, Verb, Suru verb",harvest; crop; fruits (of one's labors),jlpt_n3,"二週間の休みを取る。
+155,収穫,しゅうかく,shuukaku,"Noun, Verb, Suru verb",harvest; crop; fruits (of one's labors),jlpt_n3,,"二週間の休みを取る。
 ni shuukan no yasumi o toru.
 Take a two-week vacation.","一週間で仕上げる。
 isshuukan de shiageru.
 Finish it in a week.","週間予報をチェックする。
 shuukan yohou o chiekku suru.
 Check the weekly forecast."
-156,週間,しゅうかん,shuukan,Noun,week,jlpt_n3,"週刊誌を買う。
+156,週間,しゅうかん,shuukan,Noun,week,jlpt_n3,,"週刊誌を買う。
 shuukanshi o kau.
 Buy a weekly magazine.","週刊誌の記事を読む。
 shuukanshi no kiji o yomu.
 Read the weekly magazine article.","週刊で発行されている。
 shuukan de hakkou sarete iru.
 It's published weekly."
-157,週刊,しゅうかん,shuukan,Noun,weekly publication,jlpt_n3,"収入が増えた。
+157,週刊,しゅうかん,shuukan,Noun,weekly publication,jlpt_n3,,"収入が増えた。
 shuunyuu ga fueta.
 My income increased.","月収入は三十万円だ。
 gekkyuu shuunyuu wa sanjuu man en da.
 My monthly income is 300,000 yen.","収入と支出のバランスを取る。
 shuunyuu to shishutsu no baransu o toru.
 Balance income and expenses."
-158,収入,しゅうにゅう,shuunyuu,Noun,income; receipts; revenue; salary,jlpt_n3,"速度を落として運転する。
+158,収入,しゅうにゅう,shuunyuu,Noun,income; receipts; revenue; salary,jlpt_n3,,"速度を落として運転する。
 sokudo o otoshite unten suru.
 Drive at a reduced speed.","作業の速度が上がった。
 sagyou no sokudo ga agatta.
 Work speed has increased.","速度制限を守る。
 sokudo seigen o mamoru.
 Observe the speed limit."
-159,速度,そくど,sokudo,Noun,speed; velocity; pace; rate,jlpt_n3,"少しも眠くない。
+159,速度,そくど,sokudo,Noun,speed; velocity; pace; rate,jlpt_n3,,"少しも眠くない。
 sukoshimo nemukunai.
 I'm not sleepy at all.","少しも変わっていない。
 sukoshimo kawatte inai.
 It hasn't changed at all.","少しも理解できなかった。
 sukoshimo rikai dekinakatta.
 I couldn't understand it at all."
-160,少しも,すこしも,sukoshimo,Adverb,anything of; not one bit (with negative sentence),jlpt_n3,"大半の人が賛成した。
+160,少しも,すこしも,sukoshimo,Adverb,anything of; not one bit (with negative sentence),jlpt_n3,,"大半の人が賛成した。
 taihan no hito ga sansei shita.
 The majority agreed.","仕事の大半が終わった。
 shigoto no taihan ga owatta.
 Most of the work is done.","一日の大半を仕事に費やす。
 ichinichi no taihan o shigoto ni tsuiyasu.
 Spend most of the day on work."
-161,大半,たいはん,taihan,"Noun, Adverbial Noun",majority; more than half; most; largely; mainly,jlpt_n3,"スポーツ大会に出る。
+161,大半,たいはん,taihan,"Noun, Adverbial Noun",majority; more than half; most; largely; mainly,jlpt_n3,,"スポーツ大会に出る。
 supootsu taikai ni deru.
 Participate in the sports meet.","大会で優勝した。
 taikai de yuushou shita.
 I won the tournament.","全国大会を目指す。
 zenkoku taikai o mezasu.
 Aim for the national competition."
-162,大会,たいかい,taikai,Noun,convention; rally; conference; tournament;,jlpt_n3,"大した問題ではない。
+162,大会,たいかい,taikai,Noun,convention; rally; conference; tournament;,jlpt_n3,,"大した問題ではない。
 taishita mondai de wa nai.
 It's not a big problem.","大したことはない。
 taishita koto wa nai.
 It's nothing much.","大した金額だ。
 taishita kingaku da.
 It's a considerable amount."
-163,大した,たいした,taishita,Pre-noun adjectival,considerable; great; important; significant; a big deal,jlpt_n3,"単なる噂だ。
+163,大した,たいした,taishita,Pre-noun adjectival,considerable; great; important; significant; a big deal,jlpt_n3,,"単なる噂だ。
 tannaru uwasa da.
 It's just a rumor.","単なる偶然だ。
 tannaru guuzen da.
 It's mere coincidence.","単なる言い訳に過ぎない。
 tannaru iiwake ni suginai.
 It's nothing but an excuse."
-164,単なる,たんなる,tannaru,Pre-noun adjectival,mere; simple; sheer,jlpt_n3,"多少の差はある。
+164,単なる,たんなる,tannaru,Pre-noun adjectival,mere; simple; sheer,jlpt_n3,,"多少の差はある。
 tashou no sa wa aru.
 There's some difference.","多少遅れても大丈夫だ。
 tashou okurete mo daijoubu da.
 It's okay if we're a bit late.","多少なりとも役に立てたい。
 tashou naritomo yaku ni tatetai.
 I want to be of some help."
-165,多少,たしょう,tashou,"Noun, Adverb",more or less; somewhat; a little; a few; some,jlpt_n3,"手品を見せる。
+165,多少,たしょう,tashou,"Noun, Adverb",more or less; somewhat; a little; a few; some,jlpt_n3,,"手品を見せる。
 tejina o miseru.
 Show a magic trick.","手品が得意だ。
 tejina ga tokui da.
 I'm good at magic tricks.","子供に手品を教える。
 kodomo ni tejina o oshieru.
 Teach the children magic tricks."
-166,手品,てじな,tejina,Noun,magic trick; illusion,jlpt_n3,"哲学を学んでいる。
+166,手品,てじな,tejina,Noun,magic trick; illusion,jlpt_n3,,"哲学を学んでいる。
 tetsugaku o manande iru.
 I'm studying philosophy.","人生哲学を持っている。
 jinsei tetsugaku o motte iru.
 He has a life philosophy.","哲学的な問いだ。
 tetsugaku teki na toi da.
 It's a philosophical question."
-167,哲学,てつがく,tetsugaku,Noun,philosophy,jlpt_n3,"試験前に徹夜した。
+167,哲学,てつがく,tetsugaku,Noun,philosophy,jlpt_n3,,"試験前に徹夜した。
 shiken mae ni tetsuya shita.
 I pulled an all-nighter before the exam.","徹夜で仕事を終わらせた。
 tetsuya de shigoto o owaraseta.
 I finished the work by staying up all night.","徹夜は体に悪い。
 tetsuya wa karada ni warui.
 Staying up all night is bad for your health."
-168,徹夜,てつや,tetsuya,"Noun, Verb, Suru verb",staying up all night,jlpt_n3,"土地を買った。
+168,徹夜,てつや,tetsuya,"Noun, Verb, Suru verb",staying up all night,jlpt_n3,,"土地を買った。
 tochi o katta.
 I bought land.","この土地は肥えている。
 kono tochi wa koete iru.
 This land is fertile.","土地の値段が上がった。
 tochi no nedan ga agatta.
 Land prices have risen."
-169,土地,とち,tochi,Noun,plot of land; lot; soil,jlpt_n3,"都会の生活に憧れる。
+169,土地,とち,tochi,Noun,plot of land; lot; soil,jlpt_n3,,"都会の生活に憧れる。
 tokai no seikatsu ni akogareru.
 I long for city life.","都会育ちだ。
 tokai sodachi da.
 I was raised in the city.","都会は便利だが騒がしい。
 tokai wa benri da ga sawagashii.
 The city is convenient but noisy."
-170,都会,とかい,tokai,Noun,(big) city,jlpt_n3,"ボタンが取れた。
+170,都会,とかい,tokai,Noun,(big) city,jlpt_n3,,"ボタンが取れた。
 botan ga toreta.
 The button came off.","休みが取れない。
 yasumi ga torenai.
 I can't get time off.","良い席が取れた。
 yoi seki ga toreta.
 I got a good seat."
-171,取れる,とれる,toreru,"Verb, Ichidan verb, Intransitive verb, Transitive verb",to come off; to be removed; to be obtainable,jlpt_n3,"話題を取り上げる。
+171,取れる,とれる,toreru,"Verb, Ichidan verb, Intransitive verb, Transitive verb",to come off; to be removed; to be obtainable,jlpt_n3,,"話題を取り上げる。
 wadai o toriageru.
 Take up a topic.","落ちた物を取り上げる。
 ochita mono o toriageru.
 Pick up the dropped item.","電話を取り上げる。
 denwa o toriageru.
 Answer the phone."
-172,取り上げる,とりあげる,toriageru,"Verb, Ichidan verb, Transitive verb",to pick up,jlpt_n3,"図書室で勉強する。
+172,取り上げる,とりあげる,toriageru,"Verb, Ichidan verb, Transitive verb",to pick up,jlpt_n3,,"図書室で勉強する。
 tosho shitsu de benkyou suru.
 Study in the library.","図書カードを発行する。
 tosho kaado o hakkou suru.
 Issue a library card.","図書の貸し出しは無料だ。
 tosho no kashidashi wa muryou da.
 Book lending is free."
-173,図書,としょ,tosho,Noun,books,jlpt_n3,"電車で通学している。
+173,図書,としょ,tosho,Noun,books,jlpt_n3,,"電車で通学している。
 densha de tsuugaku shite iru.
 I commute to school by train.","通学路を歩く。
 tsuugakuro o aruku.
 Walk the route to school.","通学に一時間かかる。
 tsuugaku ni ichi jikan kakaru.
 It takes an hour to get to school."
-174,通学,つうがく,tsuugaku,"Noun, Verb, Suru verb",commuting to school; school commute,jlpt_n3,"手紙を受け取った。
+174,通学,つうがく,tsuugaku,"Noun, Verb, Suru verb",commuting to school; school commute,jlpt_n3,,"手紙を受け取った。
 tegami o uketotta.
 I received a letter.","意味を正しく受け取る。
 imi o tadashiku uketoru.
 Understand the meaning correctly.","荷物を受け取りに来た。
 nimotsu o uketori ni kita.
 I came to pick up the package."
-175,受け取る,うけとる,uketoru,"Verb, Godan verb, Transitive verb",to receive; to understand,jlpt_n3,"料理が上手い。
+175,受け取る,うけとる,uketoru,"Verb, Godan verb, Transitive verb",to receive; to understand,jlpt_n3,,"料理が上手い。
 ryouri ga umai.
 He's good at cooking.","上手いことを言う。
 umai koto o iu.
 Say something clever.","この店のラーメンは上手い。
 kono mise no raamen wa umai.
 This shop's ramen is delicious."
-176,上手い,うまい,umai,"Adjective, い-adjective",skillful; delicious,jlpt_n3,"車の運転ができる。
+176,上手い,うまい,umai,"Adjective, い-adjective",skillful; delicious,jlpt_n3,,"車の運転ができる。
 kuruma no unten ga dekiru.
 I can drive a car.","飲酒運転は絶対にダメだ。
 inshu unten wa zettai ni dame da.
 Drunk driving is absolutely not allowed.","運転免許を取った。
 unten menkyo o totta.
 I got my driver's license."
-177,運転,うんてん,unten,"Noun, Verb, Suru verb",operation; driving,jlpt_n3,"この商品はよく売れる。
+177,運転,うんてん,unten,"Noun, Verb, Suru verb",operation; driving,jlpt_n3,,"この商品はよく売れる。
 kono shouhin wa yoku ureru.
 This product sells well.","本がベストセラーで売れた。
 hon ga besutoseraa de ureta.
 The book sold as a bestseller.","早く売り切れた。
 hayaku urikireta.
 It sold out quickly."
-178,売れる,うれる,ureru,"Verb, Ichidan verb, Intransitive verb",to sell (well),jlpt_n3,"ケーキを四つに分ける。
+178,売れる,うれる,ureru,"Verb, Ichidan verb, Intransitive verb",to sell (well),jlpt_n3,,"ケーキを四つに分ける。
 keeki o yottsu ni wakeru.
 Divide the cake into four.","兄弟で分けて食べる。
 kyoudai de wakete taberu.
 Share and eat with my siblings.","ゴミを分別する。
 gomi o bunbetsu suru.
 Sort the garbage."
-179,分ける,わける,wakeru,"Verb, Ichidan verb, Transitive verb",to divide; to split; to part; to separate,jlpt_n3,"人の悪口を言わない。
+179,分ける,わける,wakeru,"Verb, Ichidan verb, Transitive verb",to divide; to split; to part; to separate,jlpt_n3,,"人の悪口を言わない。
 hito no waruguchi o iwanai.
 Don't speak ill of others.","悪口を言われた。
 waruguchi o iwareta.
 Someone said bad things about me.","悪口は聞かないようにする。
 waruguchi wa kikanai you ni suru.
 I try not to listen to gossip."
-180,悪口,わるぐち,waruguchi,"Noun, Verb, Suru verb",slander; bad-mouthing; abuse; insult; speaking ill (of),jlpt_n3,"夜明け前に出発した。
+180,悪口,わるぐち,waruguchi,"Noun, Verb, Suru verb",slander; bad-mouthing; abuse; insult; speaking ill (of),jlpt_n3,,"夜明け前に出発した。
 yoake mae ni shuppatsu shita.
 We left before dawn.","夜明けが美しかった。
 yoake ga utsukushikatta.
 The dawn was beautiful.","夜明けまで働いた。
 yoake made hataraita.
 I worked until dawn."
-181,夜明け,よあけ,yoake,Noun,dawn; daybreak,jlpt_n3,"余分な物は捨てる。
+181,夜明け,よあけ,yoake,Noun,dawn; daybreak,jlpt_n3,,"余分な物は捨てる。
 yobun na mono wa suteru.
 Throw away unnecessary things.","余分に作っておいた。
 yobun ni tsukutte oita.
 I made some extra.","余分なお金を貯金する。
 yobun na okane o chokin suru.
 Save extra money."
-182,余分,よぶん,yobun,Noun,extra; excess; surplus,jlpt_n3,"漢字の読みを確認する。
+182,余分,よぶん,yobun,Noun,extra; excess; surplus,jlpt_n3,,"漢字の読みを確認する。
 kanji no yomi o kakunin suru.
 Check the reading of the kanji.","読みが難しい名前だ。
 yomi ga muzukashii namae da.
 It's a name that's hard to read.","正しい読み方を覚える。
 tadashii yomikata o oboeru.
 Learn the correct reading."
-183,読み,よみ,yomi,Noun,"reading (of a kanji, situation, etc)",jlpt_n3,"夜中に目が覚めた。
+183,読み,よみ,yomi,Noun,"reading (of a kanji, situation, etc)",jlpt_n3,,"夜中に目が覚めた。
 yonaka ni me ga sameta.
 I woke up in the middle of the night.","夜中まで起きていた。
 yonaka made okite ita.
 I was up until midnight.","夜中の二時に着いた。
 yonaka no ni ji ni tsuita.
 I arrived at 2 a.m."
-184,夜中,よなか,yonaka,"Noun, Adverbial Noun",middle of the night; dead of night,jlpt_n3,"こちらで宜しいですか。
+184,夜中,よなか,yonaka,"Noun, Adverbial Noun",middle of the night; dead of night,jlpt_n3,,"こちらで宜しいですか。
 kochira de yoroshii desu ka.
 Is it all right here?","宜しければどうぞ。
 yoroshikereba douzo.
 Please go ahead if you don't mind.","明日で宜しい。
 ashita de yoroshii.
 Tomorrow is fine."
-185,宜しい,よろしい,yoroshii,"Adjective, い-adjective",(respectful) OK; all right,jlpt_n3,"彼が唯一の証人だ。
+185,宜しい,よろしい,yoroshii,"Adjective, い-adjective",(respectful) OK; all right,jlpt_n3,,"彼が唯一の証人だ。
 kare ga yuiitsu no shounin da.
 He's the only witness.","唯一の希望だ。
 yuiitsu no kibou da.
 It's my only hope.","唯一無二の存在だ。
 yuiitsu muni no sonzai da.
 It's a unique existence."
-186,唯一,ゆいいつ,yuiitsu,"Noun, Adverbial Noun",only; sole; unique,jlpt_n3,"海外から輸入する。
+186,唯一,ゆいいつ,yuiitsu,"Noun, Adverbial Noun",only; sole; unique,jlpt_n3,,"海外から輸入する。
 kaigai kara yunyuu suru.
 Import from overseas.","輸入品が増えた。
 yunyuuhin ga fueta.
 Imported goods have increased.","輸入関税がかかる。
 yunyuu kanzei ga kakaru.
 Import duties apply."
-187,輸入,ゆにゅう,yunyuu,"Noun, Verb, Suru verb",import; importation; introduction,jlpt_n3,"日本は車を輸出している。
+187,輸入,ゆにゅう,yunyuu,"Noun, Verb, Suru verb",import; importation; introduction,jlpt_n3,,"日本は車を輸出している。
 nihon wa kuruma o yushutsu shite iru.
 Japan exports cars.","輸出が伸びている。
 yushutsu ga nobite iru.
 Exports are growing.","輸出業を営んでいる。
 yushutsu gyou o eite iru.
 We're in the export business."
-188,輸出,ゆしゅつ,yushutsu,"Noun, Verb, Suru verb",export; exportation​,jlpt_n3,"夕べはよく眠れた。
+188,輸出,ゆしゅつ,yushutsu,"Noun, Verb, Suru verb",export; exportation​,jlpt_n3,,"夕べはよく眠れた。
 yuube wa yoku nemureta.
 I slept well last night.","夕べのニュースを見た。
 yuube no nyuusu o mita.
 I watched last night's news.","夕べの約束を忘れないで。
 yuube no yakusoku o wasurenaide.
 Don't forget last night's promise."
-189,夕べ,ゆうべ,yuube,"Noun, Adverbial Noun",evening / last night; yesterday evening,jlpt_n3,"有利な条件で契約した。
+189,夕べ,ゆうべ,yuube,"Noun, Adverbial Noun",evening / last night; yesterday evening,jlpt_n3,,"有利な条件で契約した。
 yuuri na jouken de keiyaku shita.
 I signed under favorable conditions.","有利な立場に立つ。
 yuuri na tachiba ni tatsu.
 Be in an advantageous position.","天候が有利に働いた。
 tenkou ga yuuri ni hataraita.
 The weather worked in our favor."
-190,有利,ゆうり,yuuri,"Noun, な-adjective",advantageous; favorable; profitable,jlpt_n3,"全国から集まった。
+190,有利,ゆうり,yuuri,"Noun, な-adjective",advantageous; favorable; profitable,jlpt_n3,,"全国から集まった。
 zenkoku kara atsumatta.
 People gathered from all over the country.","全国放送で流れた。
 zenkoku housou de nagareta.
 It was broadcast nationwide.","全国大会に出場する。
 zenkoku taikai ni shutsujou suru.
 Compete in the national tournament."
-191,全国,ぜんこく,zenkoku,Noun,the whole country,jlpt_n3,"随分寒くなった。
+191,全国,ぜんこく,zenkoku,Noun,the whole country,jlpt_n3,,"随分寒くなった。
 zuibun samuku natta.
 It's gotten quite cold.","随分待った。
 zuibun matta.
 I waited quite a while.","随分と上手になった。
 zuibun to jouzu ni natta.
 You've gotten much better."
-192,随分,ずいぶん,zuibun,"Adjective, な-adjective, Adverb",very; extremely; surprisingly; considerably; awfully,jlpt_n3,"理解してもらうのがずいぶん難しいと思いました
+192,随分,ずいぶん,zuibun,"Adjective, な-adjective, Adverb",very; extremely; surprisingly; considerably; awfully,jlpt_n3,,"理解してもらうのがずいぶん難しいと思いました
 
 I found it rather difficult to make myself understood.","彼女は随分前に家族と縁を切った
 

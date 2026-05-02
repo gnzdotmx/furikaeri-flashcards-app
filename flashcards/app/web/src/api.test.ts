@@ -1,9 +1,12 @@
-import { describe, expect, it, vi } from "vitest";
+import { describe, expect, it, vi, beforeEach, afterEach } from "vitest";
 import {
   startSession,
   fetchMetrics,
   answerCard,
   nextCard,
+  deleteDeck,
+  downloadDeckImportFormatCsv,
+  setAuthToken,
 } from "./api";
 
 describe("startSession", () => {
@@ -162,6 +165,113 @@ describe("nextCard", () => {
     );
     const res = await nextCard("session1");
     expect(res.kind).toBe("done");
+    vi.unstubAllGlobals();
+  });
+});
+
+describe("downloadDeckImportFormatCsv", () => {
+  beforeEach(() => {
+    setAuthToken("test-token");
+  });
+
+  afterEach(() => {
+    setAuthToken(null);
+    vi.unstubAllGlobals();
+    vi.restoreAllMocks();
+  });
+
+  it("fetches with Bearer and credentials, then triggers anchor download", async () => {
+    const blob = new Blob(["a,b"], { type: "text/csv" });
+    vi.stubGlobal(
+      "fetch",
+      vi.fn(() =>
+        Promise.resolve({
+          ok: true,
+          headers: new Headers({
+            "content-type": "text/csv",
+            "Content-Disposition": 'attachment; filename="exp.csv"',
+          }),
+          blob: () => Promise.resolve(blob),
+        } as Response)
+      )
+    );
+    const objectUrl = "blob:mock-url";
+    const createObjectURL = vi.fn(() => objectUrl);
+    const revokeObjectURL = vi.fn();
+    Object.defineProperty(globalThis.URL, "createObjectURL", {
+      value: createObjectURL,
+      configurable: true,
+      writable: true,
+    });
+    Object.defineProperty(globalThis.URL, "revokeObjectURL", {
+      value: revokeObjectURL,
+      configurable: true,
+      writable: true,
+    });
+
+    const anchors: HTMLAnchorElement[] = [];
+    const origCreate = document.createElement.bind(document);
+    vi.spyOn(document, "createElement").mockImplementation((tag: string, options?: unknown) => {
+      const el = origCreate(tag, options as never);
+      if (tag === "a") anchors.push(el as HTMLAnchorElement);
+      return el;
+    });
+    const clickSpy = vi.spyOn(HTMLAnchorElement.prototype, "click").mockImplementation(() => {});
+
+    await downloadDeckImportFormatCsv("deck-id-here", "My Deck");
+
+    expect(fetch).toHaveBeenCalledWith(
+      "/api/exports/decks/deck-id-here/cards.csv",
+      expect.objectContaining({
+        credentials: "include",
+        headers: { Authorization: "Bearer test-token" },
+      })
+    );
+    expect(anchors.length).toBe(1);
+    expect(anchors[0].download).toBe("exp.csv");
+    expect(anchors[0].href).toBe(objectUrl);
+    expect(clickSpy).toHaveBeenCalled();
+  });
+
+  it("throws with JSON detail on error response", async () => {
+    vi.stubGlobal(
+      "fetch",
+      vi.fn(() =>
+        Promise.resolve({
+          ok: false,
+          status: 404,
+          headers: new Headers({ "content-type": "application/json" }),
+          json: () => Promise.resolve({ detail: "not found" }),
+        } as Response)
+      )
+    );
+    await expect(downloadDeckImportFormatCsv("missing", undefined)).rejects.toThrow("not found");
+  });
+});
+
+describe("deleteDeck", () => {
+  it("calls DELETE /api/decks/{deck_id} with auth + credentials", async () => {
+    setAuthToken("test-token");
+    vi.stubGlobal(
+      "fetch",
+      vi.fn(() =>
+        Promise.resolve({
+          ok: true,
+          json: () => Promise.resolve({ deck_id: "d1", deleted: true }),
+        } as Response)
+      )
+    );
+    const res = await deleteDeck("d1");
+    expect(fetch).toHaveBeenCalledWith(
+      "/api/decks/d1",
+      expect.objectContaining({
+        method: "DELETE",
+        credentials: "include",
+        headers: { Authorization: "Bearer test-token" },
+      })
+    );
+    expect(res.deleted).toBe(true);
+    setAuthToken(null);
     vi.unstubAllGlobals();
   });
 });

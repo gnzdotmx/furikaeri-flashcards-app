@@ -25,6 +25,9 @@ wheels/
 .installed.cfg
 *.egg
 
+# Test files
+.ruff_cache/
+
 # Virtual environments
 .venv/
 venv/
@@ -73,3 +76,7 @@ Thumbs.db
 # Logs
 *.log
 logs/
+
+# Temporary files
+*.tmp
+*.tmp_pydeps

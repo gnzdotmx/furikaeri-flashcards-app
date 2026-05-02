@@ -271,6 +271,21 @@ body {
   padding: 14px;
 }
 
+.importSection {
+  border-left: 6px solid rgba(var(--accent-rgb), 0.65);
+  padding-left: 18px; /* visually aligns content after the accent stripe */
+}
+
+.exportSection {
+  border-left: 6px solid rgba(var(--warn-rgb), 0.65);
+  padding-left: 18px;
+}
+
+.syncSection {
+  border-left: 6px solid rgba(var(--ok-rgb), 0.65);
+  padding-left: 18px;
+}
+
 .panelSubTitle {
   font-weight: 700;
   margin-bottom: 8px;
@@ -552,6 +567,80 @@ select.input {
   gap: 12px;
 }
 
+.studyCardNote {
+  margin-top: 4px;
+  padding: 14px 16px;
+  border: 1px solid var(--panel-border);
+  border-radius: 14px;
+  background: rgba(255, 255, 255, 0.04);
+}
+
+.studyCardNoteHeader {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px 12px;
+  margin-bottom: 10px;
+}
+
+.studyCardNoteTitle {
+  font-weight: 700;
+  font-size: 0.95rem;
+  color: rgba(255, 255, 255, 0.88);
+}
+
+.studyCardNoteStatus {
+  font-size: 0.85rem;
+}
+
+.studyCardNoteError {
+  display: inline-flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.85rem;
+  color: var(--danger);
+}
+
+.studyCardNoteRetry {
+  padding: 4px 10px;
+  font-size: 0.8rem;
+}
+
+.studyCardNoteTextarea {
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  min-height: 100px;
+  resize: vertical;
+  font-family: inherit;
+  line-height: 1.45;
+}
+
+.studyCardNoteBody {
+  margin: 0 0 10px;
+  white-space: pre-wrap;
+  word-break: break-word;
+  font-family: inherit;
+  font-size: 0.92rem;
+  line-height: 1.5;
+  color: var(--text);
+  max-height: 200px;
+  overflow-y: auto;
+}
+
+.studyCardNoteActions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  align-items: center;
+}
+
+.studyCardNoteCounter {
+  margin-top: 6px;
+  font-size: 0.8rem;
+}
+
 .studyTop {
   display: flex;
   gap: 10px;
@@ -634,6 +723,24 @@ select.input {
   border: 1px solid rgba(255, 255, 255, 0.10);
   border-radius: 12px;
   background: rgba(255, 255, 255, 0.04);
+}
+
+.deckCsvNoteBlock {
+  margin-top: 12px;
+  padding: 10px 12px;
+  border: 1px solid rgba(var(--accent-rgb), 0.28);
+  border-radius: 12px;
+  background: rgba(var(--accent-rgb), 0.08);
+}
+
+.deckCsvNoteBody {
+  margin: 6px 0 0;
+  white-space: pre-wrap;
+  word-break: break-word;
+  font-family: inherit;
+  font-size: 0.9rem;
+  line-height: 1.45;
+  color: var(--text);
 }
 
 .mark {

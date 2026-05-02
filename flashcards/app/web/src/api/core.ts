@@ -11,6 +11,9 @@ export function authHeaders(): Record<string, string> {
 }
 
 export function isDev(): boolean {
-  const meta = import.meta as { env?: { DEV?: boolean } };
-  return typeof meta !== "undefined" && !!meta?.env?.DEV;
+  const meta = import.meta as { env?: { DEV?: boolean; MODE?: string } };
+  if (typeof meta === "undefined" || !meta.env) return false;
+  // Vitest runs with DEV true; avoid noisy client debug logs during npm test.
+  if (meta.env.MODE === "test") return false;
+  return !!meta.env.DEV;
 }

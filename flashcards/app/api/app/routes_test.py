@@ -3,6 +3,7 @@
 import io
 import os
 import tempfile
+import uuid
 from pathlib import Path
 import pytest
 
@@ -134,10 +135,12 @@ def test_routes_package_exposes_expected_paths():
         "/sessions/{session_id}/next",
         "/sessions/{session_id}/answer",
         "/decks",
+        "/decks/{deck_id}",
         "/decks/{deck_id}/cards",
         "/decks/{deck_id}/leeches",
         "/decks/{deck_id}/labels",
         "/cards/{card_id}/suspend",
+        "/cards/{card_id}/study-note",
         "/search/examples",
         "/notes",
         "/exports/decks/{deck_id}/cards.csv",
@@ -172,6 +175,34 @@ def test_api_decks_list() -> None:
     assert res.status_code == 200
     data = res.json()
     assert "decks" in data
+
+
+def test_api_delete_deck_success() -> None:
+    from app.db import connection
+    from app.repositories.decks import DeckRepository
+
+    for client, db_path in _test_client_same_db():
+        with connection(db_path) as conn:
+            deck_id = DeckRepository(conn).create_deck(name="Delete Me", description="")
+            conn.commit()
+        res = client.delete(f"/api/decks/{deck_id}")
+        assert res.status_code == 200
+        assert res.json()["deleted"] is True
+        with connection(db_path) as conn:
+            assert DeckRepository(conn).get_deck(deck_id) is None
+        break
+
+
+def test_api_delete_deck_not_found() -> None:
+    client = _test_client_with_auth()
+    res = client.delete("/api/decks/nonexistent-deck-id")
+    assert res.status_code == 404
+
+
+def test_api_delete_deck_id_too_long() -> None:
+    client = _test_client_with_auth()
+    res = client.delete("/api/decks/" + "x" * 81)
+    assert res.status_code == 400
 
 
 def test_api_deck_cards_empty() -> None:
@@ -250,6 +281,66 @@ def test_api_notes_level_too_long() -> None:
     client = _test_client_with_auth()
     res = client.get("/api/notes?level=" + "x" * 17)
     assert res.status_code == 400
+
+
+# --- Card study notes (per-user; separate from content `notes` table) ---
+
+
+def test_api_card_study_note_requires_auth() -> None:
+    client = _test_client()
+    res = client.get("/api/cards/any-card-id/study-note")
+    assert res.status_code == 401
+
+
+def test_api_card_study_note_crud() -> None:
+    from app.db import connection
+    from app.repositories.cards import CardRepository
+    from app.repositories.decks import DeckRepository
+    from app.repositories.notes import NoteRepository
+
+    for client, db_path in _test_client_same_db():
+        with connection(db_path) as conn:
+            deck_id = DeckRepository(conn).create_deck(name="NoteDeck", description="")
+            note_id = NoteRepository(conn).upsert_note(
+                source_type="grammar", level="N5", key="expr", fields_json="{}"
+            )
+            card_id = CardRepository(conn).upsert_card(
+                note_id=note_id, deck_id=deck_id, card_type="grammar_meaning_recognition"
+            )
+            conn.commit()
+        break
+
+    r0 = client.get(f"/api/cards/{card_id}/study-note")
+    assert r0.status_code == 200
+    assert r0.json()["body"] is None
+
+    r_bad = client.put(f"/api/cards/{card_id}/study-note", json={"body": "   "})
+    assert r_bad.status_code == 400
+
+    r1 = client.put(f"/api/cards/{card_id}/study-note", json={"body": "  hello  "})
+    assert r1.status_code == 200
+    assert r1.json()["body"] == "hello"
+
+    r2 = client.get(f"/api/cards/{card_id}/study-note")
+    assert r2.status_code == 200
+    assert r2.json()["body"] == "hello"
+
+    r3 = client.delete(f"/api/cards/{card_id}/study-note")
+    assert r3.status_code == 200
+
+    r4 = client.get(f"/api/cards/{card_id}/study-note")
+    assert r4.status_code == 200
+    assert r4.json()["body"] is None
+
+    r5 = client.delete(f"/api/cards/{card_id}/study-note")
+    assert r5.status_code == 404
+
+
+def test_api_card_study_note_unknown_card() -> None:
+    client = _test_client_with_auth()
+    fake_id = str(uuid.uuid4())
+    res = client.put(f"/api/cards/{fake_id}/study-note", json={"body": "x"})
+    assert res.status_code == 404
 
 
 # --- Sessions ---
@@ -841,6 +932,29 @@ def test_api_sync_import_deck_not_found() -> None:
     )
     assert res.status_code == 400
     assert "deck" in (res.json().get("detail") or "").lower()
+
+
+def test_api_sync_import_replace_existing_updates_existing_note() -> None:
+    client = _test_client_with_auth()
+    csv1 = b"japanese_expression,english_meaning,labels,notes,example_1\nword1,old meaning,old,old note,old ex\n"
+    res1 = client.post(
+        "/api/imports/grammar",
+        data={"level": "N5", "deck_name": "Sync Replace Test"},
+        files={"file": ("g.csv", io.BytesIO(csv1), "text/csv")},
+    )
+    assert res1.status_code == 200
+    deck_id = res1.json()["deck_id"]
+    csv2 = b"japanese_expression,english_meaning,labels,notes,example_1\nword1,new meaning,new-a;new-b,,new ex\n"
+    res2 = client.post(
+        "/api/imports/sync",
+        data={"deck_id": deck_id, "level": "N5", "source_type": "grammar", "format": "default", "merge_existing": "replace_existing"},
+        files={"file": ("g2.csv", io.BytesIO(csv2), "text/csv")},
+    )
+    assert res2.status_code == 200
+    data = res2.json()
+    assert data["ok"] is True
+    assert (data["updated_notes"] + data["created_notes"]) == 1
+    assert data["skipped"] == 0
 
 
 def test_api_sync_import_invalid_source_type() -> None:
